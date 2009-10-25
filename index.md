@@ -14,6 +14,11 @@ overlaycx: 25px
 overlaycy: 10px
 ---
 
+<div class="advertisement">
+    <div class="release-notice">Not yet released!</div>
+    <p class="release-explanation">You may want to subscribe to <a href="http://blog.binaryage.com">the blog</a>.<br>I will be posting there info about my progress. Promise!</p>
+</div>
+
 ## Features
 
 #### Let's teach Finder new tricks!
@@ -22,15 +27,17 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 
 Goals of this project:
 
-* Solve that .DS_Store problem
+* Solve that pesky .DS_Store problem
 * Add dual panel mode (like Norton Commander)
-* Make Finder available system-wide on hot-key (like <a href="http://visor.binaryage.com">Visor for OSX</a>)
+* Make Finder available system-wide on hot-key (like <a href="http://visor.binaryage.com">Visor</a>)
+* Cooperation mode with Terminal.app
+* Better git integration!
 * And more!
 
 ## FAQ
 
-#### When do you release first version?
-> Working on it. But have no ETA yet, I'm sorry.
+#### When we can expect first version?
+> Working on it. But have no ETA yet, I'm sorry I cannot promise any date.
 
 ## History
 
