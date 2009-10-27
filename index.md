@@ -1,9 +1,9 @@
 ---
-title: PowerFinder
-subtitle: Finder.app enhancements for Mac power users
+title: PowerFinder = Finder enhancements for power users
+product_title: PowerFinder
+subtitle: Finder.app enhancements for power users
 layout: product
 icon: /shared/img/powerfinder-icon.png
-donate:
 subdownload: 
 subdownloadlink:
 mainshot: /shared/img/powerfinder-mainshot.png
@@ -12,9 +12,12 @@ overlaysx: 1032px
 overlaysy: 683px
 overlaycx: 25px
 overlaycy: 10px
+facebook: 1
+retweet: 1
+digg: 1
 ---
 
-<div class="advertisement">
+<div class="more-box more-box-align">
     <div class="release-notice">Not yet released!</div>
     <p class="release-explanation">You may want to subscribe to <a href="http://blog.binaryage.com">the blog</a>.<br>I will be posting there info about my progress. Promise!</p>
 </div>
