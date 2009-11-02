@@ -1,7 +1,7 @@
 ---
-title: TotalFinder = Finder enhancements for total users
+title: TotalFinder = Finder enhancements for power users
 product_title: TotalFinder
-subtitle: Finder.app enhancements for total users
+subtitle: Finder.app enhancements for power users
 layout: product
 icon: /shared/img/totalfinder-icon.png
 subdownload: 
