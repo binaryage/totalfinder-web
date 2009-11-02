@@ -32,7 +32,7 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 
 * Solve that pesky .DS_Store problem
 * Add dual panel mode (like Norton Commander)
-* Make Finder available system-wide on hot-key (like <a href="http://visor.binaryage.com">Visor</a>)
+* Make Finder available system-wide on hot-key (like [Visor](http://visor.binaryage.com))
 * Cooperation mode with Terminal.app
 * User friendly [MacFUSE](http://code.google.com/p/macfuse/) support
 * Better git/svn/mercurial integration?
