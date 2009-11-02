@@ -1,13 +1,13 @@
 ---
-title: PowerFinder = Finder enhancements for power users
-product_title: PowerFinder
-subtitle: Finder.app enhancements for power users
+title: TotalFinder = Finder enhancements for total users
+product_title: TotalFinder
+subtitle: Finder.app enhancements for total users
 layout: product
-icon: /shared/img/powerfinder-icon.png
+icon: /shared/img/totalfinder-icon.png
 subdownload: 
 subdownloadlink:
-mainshot: /shared/img/powerfinder-mainshot.png
-mainshotfull: /shared/img/powerfinder-mainshot-full.png
+mainshot: /shared/img/totalfinder-mainshot.png
+mainshotfull: /shared/img/totalfinder-mainshot-full.png
 overlaysx: 1032px
 overlaysy: 683px
 overlaycx: 25px
@@ -24,17 +24,18 @@ digg: 1
 
 ## Features
 
-#### Let's teach Finder new tricks!
+#### Motto: Let's teach Finder new tricks!
 
 It is finally possible under Snow Leopard with <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a>.
 
-Goals of this project:
+### The goals of this project:
 
 * Solve that pesky .DS_Store problem
 * Add dual panel mode (like Norton Commander)
 * Make Finder available system-wide on hot-key (like <a href="http://visor.binaryage.com">Visor</a>)
 * Cooperation mode with Terminal.app
-* Better git integration!
+* User friendly [MacFUSE](http://code.google.com/p/macfuse/) support
+* Better git/svn/mercurial integration?
 * And more!
 
 ## FAQ
