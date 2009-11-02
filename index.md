@@ -22,6 +22,7 @@ digg: 1
     <p class="release-explanation">You may want to subscribe to <a href="http://blog.binaryage.com">the blog</a>.<br>I will be posting there info about my progress. Promise!</p>
 </div>
 
+
 ## Features
 
 #### Motto: Let's teach Finder new tricks!
