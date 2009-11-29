@@ -14,7 +14,6 @@ overlaycx: 25px
 overlaycy: 10px
 facebook: 1
 retweet: 1
-digg: 1
 ---
 
 <div class="more-box more-box-align">
@@ -31,10 +30,10 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 
 ### The goals of this project:
 
-* Solve that pesky .DS_Store problem
-* Add dual panel mode (like Norton Commander)
 * Make Finder available system-wide on hot-key (like [Visor](http://visor.binaryage.com))
+* Solve that pesky .DS_Store problem
 * Cooperation mode with Terminal.app
+* Add dual panel mode (like Norton Commander)
 * User friendly [MacFUSE](http://code.google.com/p/macfuse/) support
 * Better git/svn/mercurial integration?
 * And more!
@@ -42,8 +41,14 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 ## FAQ
 
 #### When we can expect first version?
-> Working on it. But have no ETA yet, I'm sorry I cannot promise any date.
+> Working on it. But have no ETA yet, I'm sorry I cannot promise any date. Now it looks dual-panel feature won't arrive for Christmas. We will see ...
 
 ## History
 
-  * not yet released to the public
+  * 29.11.2009 - TotalFinder 0.2 (alpha)
+    * initial support for .DS_Store redirection
+    * Visor-like Finder - going from bottom
+    * better packaging
+    
+  * 27.11.2009 - TotalFinder 0.1 (internal release)
+    * initial version
