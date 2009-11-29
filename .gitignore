@@ -4,3 +4,12 @@ dryapp
 gae
 tmp
 src
+agent/
+assistant/
+bin/
+build/
+echelon/
+echotest/
+plugin/
+tcplognke/
+test/
