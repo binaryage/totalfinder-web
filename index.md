@@ -45,10 +45,7 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 
 ## History
 
-  * 29.11.2009 - TotalFinder 0.2 (alpha)
-    * initial support for .DS_Store redirection
-    * Visor-like Finder - going from bottom
-    * better packaging
+<iframe src="https://dl.getdropbox.com/u/559047/tf/changelog.html" width="100%" height="600" frameborder="0" align="baseline" scrolling="no">
     
-  * 27.11.2009 - TotalFinder 0.1 (internal release)
-    * initial version
+</iframe>
+ 
