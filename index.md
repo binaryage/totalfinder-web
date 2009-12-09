@@ -21,7 +21,6 @@ retweet: 1
     <p class="release-explanation">You may want to subscribe to <a href="http://blog.binaryage.com">the blog</a>.<br>I will be posting there info about my progress. Promise!</p>
 </div>
 
-
 ## Features
 
 #### Motto: Let's teach Finder new tricks!
@@ -41,7 +40,7 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 ## FAQ
 
 #### When we can expect first version?
-> Working on it. But have no ETA yet, I'm sorry I cannot promise any date. Now it looks dual-panel feature won't arrive for Christmas. We will see ...
+> Working on it. Releasing alpha versions for early adopters on <a href="http://blog.binaryage.com">the blog</a>. Help me test the early TotalFinder!
 
 ## History
 
