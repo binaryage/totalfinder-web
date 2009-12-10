@@ -45,8 +45,7 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 > Working on it. Releasing alpha versions for early adopters on <a href="http://blog.binaryage.com">the blog</a>. It has still rough edges. I need you to help me test it. Thank you!
 
 #### Are you going to sell this?
-> Yes. I already gave pretty much <a href="http://binaryage.com">quality stuff</a> away for free. And this is too cool to be seen on everyone's desktops, right? 
-I've spent endless nights on this. So tell your girlfriend to buy you one so you don't have to disassemble Finder on your own. And in the meantime pray I don't get hired by Apple.
+> Yes. I already gave pretty much <a href="http://binaryage.com">quality stuff</a> away for free. And this is too cool to be seen on everyone's desktops, right? I've spent endless nights on this. So tell your girlfriend to buy you one so you don't have to disassemble Finder on your own. And in the meantime pray I don't get hired by Apple.
 
 #### Should I stay tuned?
 > Definitely!
