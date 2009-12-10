@@ -37,7 +37,7 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 * Enable a cooperation mode with Terminal.app (for command-line lovers)
 * Add user friendly [MacFUSE](http://code.google.com/p/macfuse/) support
 * And what about better git/svn/mercurial integration?
-* <a href="http://getsatisfaction.com/binaryage/products/binaryage_totalfinder">And more satisfaction!</a>
+* [And more satisfaction!](http://getsatisfaction.com/binaryage/products/binaryage_totalfinder)
 
 ## FAQ
 
