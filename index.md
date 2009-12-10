@@ -17,30 +17,39 @@ retweet: 1
 ---
 
 <div class="more-box more-box-align">
-    <div class="release-notice">Not yet released!</div>
-    <p class="release-explanation">You may want to subscribe to <a href="http://blog.binaryage.com">the blog</a>.<br>I will be posting there info about my progress. Promise!</p>
+    <div class="release-notice" style="font-size: 18px">Do not install this on your mom's Mac!</div>
+    <p class="release-explanation">But if you have your own mac you may want to <a href="http://blog.binaryage.com">give it a try</a>.</p>
 </div>
 
 ## Features
 
-#### Motto: Let's teach Finder new tricks!
+#### Motto: <strike>Let's teach Finder new tricks!</strike> No, make Finder rock!
 
 It is finally possible under Snow Leopard with <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a>.
 
 ### The goals of this project:
 
-* Make Finder available system-wide on hot-key (like [Visor](http://visor.binaryage.com))
-* Solve that pesky .DS_Store problem
-* Cooperation mode with Terminal.app
-* Add dual panel mode (like Norton Commander)
-* User friendly [MacFUSE](http://code.google.com/p/macfuse/) support
-* Better git/svn/mercurial integration?
-* And more!
+* Make Finder available system-wide on a hot-key (like [Visor](http://visor.binaryage.com))
+* Stop creating .DS_Store litter (and make the world a better place)
+* Show the folders always on top (and make me happy)
+* Add a better keyboard shortcuts (for keyboard-oriented freaks like me)
+* Add a dual panel mode (like in good old Norton Commander)
+* Enable a cooperation mode with Terminal.app (for command-line lovers)
+* Add user friendly [MacFUSE](http://code.google.com/p/macfuse/) support
+* And what about better git/svn/mercurial integration?
+* <a href="http://getsatisfaction.com/binaryage/products/binaryage_totalfinder">And more satisfaction!</a>
 
 ## FAQ
 
 #### When we can expect first version?
-> Working on it. Releasing alpha versions for early adopters on <a href="http://blog.binaryage.com">the blog</a>. Help me test the early TotalFinder!
+> Working on it. Releasing alpha versions for early adopters on <a href="http://blog.binaryage.com">the blog</a>. It has still rough edges. I need you to help me test it. Thank you!
+
+#### Are you going to sell this?
+> Yes. I already gave pretty much <a href="http://binaryage.com">quality stuff</a> away for free. And this is too cool to be seen on everyone's desktops, right? 
+I've spent endless nights on this. So tell your girlfriend to buy you one so you don't have to disassemble Finder on your own. And in the meantime pray I don't get hired by Apple.
+
+#### Should I stay tuned?
+> Definitely!
 
 ## History
 
