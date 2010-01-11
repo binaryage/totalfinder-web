@@ -4,8 +4,8 @@ product_title: TotalFinder
 subtitle: Finder.app enhancements for power users
 layout: product
 icon: /shared/img/totalfinder-icon.png
-subdownload: Download v0.6
-subdownloadlink: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.dmg
+downloadtitle: Download v0.6
+download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.dmg
 mainshot: /shared/img/totalfinder-mainshot.png
 mainshotfull: /shared/img/totalfinder-mainshot-full.png
 overlaysx: 1032px
@@ -27,11 +27,15 @@ retweet: 1
 
 It is finally possible under Snow Leopard with <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a>.
 
-### The goals of this project:
+### New features:
 
 * Make Finder available system-wide on a hot-key (like [Visor](http://visor.binaryage.com))
-* Stop creating .DS_Store litter (and make the world a better place)
-* Show the folders always on top (and make me happy)
+* Add TABS like in Google Chrome! ([read more](http://blog.binaryage.com/totalfinder-with-tabs))
+* Stop creating .DS_Store litter ([read more](http://blog.binaryage.com/totalfinder-alpha))
+* Show the folders always on top ([read more](http://blog.binaryage.com/i-can-haz-folders-on-top))
+
+### Future goals:
+
 * Add a better keyboard shortcuts (for keyboard-oriented freaks like me)
 * Add a dual panel mode (like in good old Norton Commander)
 * Enable a cooperation mode with Terminal.app (for command-line lovers)
@@ -41,18 +45,26 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 
 ## FAQ
 
-#### When we can expect first version?
-> Working on it. Releasing alpha versions for early adopters on <a href="http://blog.binaryage.com">the blog</a>. It has still rough edges. I need you to help me test it. Thank you!
+#### When we can expect the first version?
+> Hey, look for download button in the top part of the page. Still in ALPHA though.
+
+#### I'm afraid of installing any SIMBL plugins. Aren't they evil?
+> SIMBL plugin is a program which is able to patch other application **during runtime**. TotalFinder will never overwrite your Finder.app or touch anything inside. Uninstalling basically means removing TotalFinder.bundle from SIMBL folder. SIMBL plugins have same privileges as other (classic) desktop applications. You have to trust the authors that they will not screw your computer. You have to trust me, I'm quite a nice guy. By the way Finder.app runs under user's rights, not under Administrator's privileges, so it is a classic OSX app.
+
+#### What about Apple Updates of Finder.app or OSX upgrades?
+> Right, there is always a risk that application breaks during OS update or upgrade (be it SIMBL or not). With SIMBL that risk is much higher because it hooks into other app's internals. If you want TotalFinder features you have to go and live more dangerously. Anyway, I'm trying to make TotalFinder as robust as possible by checking Finder.app shape before overriding it's functionality. Anyway, you have always option to uninstall TotalFinder and return back to your original unaltered Finder.app when something goes wrong. I will do my best to keep TotalFinder compatible with Apple's updates. Believe it or not, I'm using this software on daily basis so I can spot problems very quickly :-)
+
+#### How do I uninstall TotalFinder?
+> Download TotalFinder, open DMG and execute `Uninstall.scpt` applescript. You may check the source code so you can see it is not doing anything evil to your machine.
 
 #### Are you going to sell this?
-> Yes. I already gave pretty much <a href="http://binaryage.com">quality stuff</a> away for free. And this is too cool to be seen on everyone's desktops, right? I've spent endless nights on this. So tell your girlfriend to buy you one so you don't have to disassemble Finder on your own. And in the meantime pray I don't get hired by Apple.
+> Yes, in the future. I need to buy a third mac!
 
-#### Should I stay tuned?
-> Definitely!
+#### I'm willing to pay you 20EUR if you open-source it. Would it be possible?
+> Not anytime soon. I love open-source, but this is not the type of a project suitable as an open-source product. Donations for open-source tools haven't worked for me very well in the past. But I'm open for discussion.
 
 ## History
 
-<iframe src="https://dl.getdropbox.com/u/559047/tf/changelog.html" width="100%" height="600" frameborder="0" align="baseline" scrolling="no">
+<iframe src="https://dl.getdropbox.com/u/559047/tf/changelog.html" width="100%" height="1000" frameborder="0" align="baseline" scrolling="no">
     
 </iframe>
- 
