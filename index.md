@@ -18,7 +18,7 @@ retweet: 1
 
 <div class="more-box more-box-align">
     <div class="release-notice" style="font-size: 18px">Still in ALPHA, but cool!</div>
-    <p class="release-explanation">Read more about latest release <a href="http://blog.binaryage.com">on the blog</a>.</p>
+    <p class="release-explanation">Read more about latest releases <a href="http://blog.binaryage.com">on the blog</a>.</p>
 </div>
 
 ## Features
