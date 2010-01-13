@@ -1,5 +1,5 @@
 ---
-title: TotalFinder: brings tabs to your native Finder and more!
+title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 subtitle: brings tabs to your native Finder and more!
 layout: product
