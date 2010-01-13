@@ -4,8 +4,8 @@ product_title: TotalFinder
 subtitle: Finder.app enhancements for power users
 layout: product
 icon: /shared/img/totalfinder-icon.png
-downloadtitle: Download v0.6.2
-download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.2.dmg
+downloadtitle: Download v0.6.3
+download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.3.dmg
 mainshot: /shared/img/totalfinder-mainshot.png
 mainshotfull: /shared/img/totalfinder-mainshot-full.png
 overlaysx: 1032px
