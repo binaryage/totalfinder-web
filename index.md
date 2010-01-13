@@ -1,7 +1,7 @@
 ---
-title: TotalFinder = Finder enhancements for power users
+title: TotalFinder: brings tabs to your native Finder and more!
 product_title: TotalFinder
-subtitle: Finder.app enhancements for power users
+subtitle: brings tabs to your native Finder and more!
 layout: product
 icon: /shared/img/totalfinder-icon.png
 downloadtitle: Download v0.6.3
