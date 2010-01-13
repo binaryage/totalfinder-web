@@ -4,8 +4,8 @@ product_title: TotalFinder
 subtitle: Finder.app enhancements for power users
 layout: product
 icon: /shared/img/totalfinder-icon.png
-downloadtitle: Download v0.6
-download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.dmg
+downloadtitle: Download v0.6.1
+download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.1.dmg
 mainshot: /shared/img/totalfinder-mainshot.png
 mainshotfull: /shared/img/totalfinder-mainshot-full.png
 overlaysx: 1032px
@@ -17,7 +17,7 @@ retweet: 1
 ---
 
 <div class="more-box more-box-align">
-    <div class="release-notice" style="font-size: 18px">Still in ALPHA, but cool!</div>
+    <div class="release-notice" style="font-size: 18px">Still in ALPHA, but cool! Snow Leopard only!</div>
     <p class="release-explanation">Read more about latest releases <a href="http://blog.binaryage.com">on the blog</a>.</p>
 </div>
 
