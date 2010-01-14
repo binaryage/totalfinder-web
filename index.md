@@ -4,8 +4,8 @@ product_title: TotalFinder
 subtitle: brings tabs to your native Finder and more!
 layout: product
 icon: /shared/img/totalfinder-icon.png
-downloadtitle: Download v0.6.3
-download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.3.dmg
+downloadtitle: Download v0.6.4
+download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.4.dmg
 mainshot: /shared/img/totalfinder-mainshot.png
 mainshotfull: /shared/img/totalfinder-mainshot-full.png
 overlaysx: 1032px
@@ -65,6 +65,6 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 
 ## History
 
-<iframe src="https://dl.getdropbox.com/u/559047/tf/changelog.html" width="100%" height="1000" frameborder="0" align="baseline" scrolling="no">
+<iframe src="https://dl.getdropbox.com/u/559047/tf/changelog.html" width="100%" height="1200" frameborder="0" align="baseline" scrolling="no">
     
 </iframe>
