@@ -4,8 +4,8 @@ product_title: TotalFinder
 subtitle: brings tabs to your native Finder and more!
 layout: product
 icon: /shared/img/totalfinder-icon.png
-downloadtitle: Download v0.6.5
-download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.5.dmg
+downloadtitle: Download v0.6.6
+download: https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.6.dmg
 mainshot: /shared/img/totalfinder-mainshot.png
 mainshotfull: /shared/img/totalfinder-mainshot-full.png
 overlaysx: 1032px
