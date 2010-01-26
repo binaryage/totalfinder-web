@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>What's new in TotalFinder?</title>
+        <style>
+            body,h1,h2,h3,h4,p,table{padding:0;margin:0;}
+            ol li{margin-bottom:5px;}
+            a{text-decoration:none;font-weight:normal;font-style:normal;font-variant:normal;color:#1e51be;}
+            a:hover{text-decoration:underline;}
+            *{font-family:"Lucida Grande",Lucida,Verdana,sans-serif;}
+            #page{padding-right:20px;padding-top:35px;padding-left:20px;font-size:9pt;}
+            #page h1{font-size:12pt;padding-top:5px;padding-bottom:5px;}
+            #page h2{font-size:11pt;padding-top:5px;padding-bottom:5px;}
+            #page h4{font-size:10pt;padding-top:5px;padding-bottom:5px;}
+            #page p{padding-top:5px;padding-bottom:5px;font-size:9pt;line-height:14pt;}
+            div.infobox{border:1px solid silver;margin-bottom:10px;clear:both;}
+            div.infobox h3{font-size:8pt;border-bottom:1px solid silver;background-color:#e2ecfe;padding:3px 5px;color:#000;}
+            div.infobox p{padding:5px;font-size:8pt !important;}
+            div.infobox img.left{float:left;}
+            ul.changes{margin:0;padding-left:30px;list-style-type:square;padding-right:10px;padding-top:6px;}
+            ul.changes li{margin-bottom:5px;}
+            h4{float:left;line-height:16px;}
+            h5{float:left;margin:0;padding:0;padding-top:6px;padding-left:6px;font-size:10px;color:#999;line-height:16px;}
+        </style>
+    </head>
+    <body>
+        <div id="page" style="padding: 5px 12px">
+            <h4>Version 0.6.7</h4>
+            <h5>released on January 25, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li>This is just dummy release identical to 0.6.6. I need to extend expiration period. Working hard on dual-panel feature, but didn't make it on time.</li>
+                </ul>
+            </div>
+            <h4>Version 0.6.6</h4>
+            <h5>released on January 19, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>FIXED:</b> Fixed crashing during tab dragging (<a href="http://getsatisfaction.com/binaryage/topics/finder_crashes_while_dragging_tab_with_0_6_5">read more</a>).</li>
+                    <li><b>FIXED:</b> Tab background color is consistent with Finder window during dragging.</li>
+                </ul>
+            </div>
+            <h4>Version 0.6.5</h4>
+            <h5>released on January 18, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> CMD+SHIFT+ARROWS or CMD+OPT+ARROWS keyboard shortcuts to move between tabs (<a href="http://getsatisfaction.com/binaryage/topics/modify_shortcut_for_next_tab">read more</a>).</li>
+                    <li><b>NEW:</b> Right-click on tab title displays original titlebar context menu (<a href="http://getsatisfaction.com/binaryage/topics/add_right_click_hierarchy_menu_to_each_tab">read more</a>).</li>
+                    <li><b>NEW:</b> Full UNIX path is presented as a tooltip when hovering over tab title.</li>
+                    <li><b>FIXED:</b> Uninstall script is more robust and works in the case Echelon was uninstalled independently.</li>
+                    <li><b>FIXED:</b> Last created/selected window become default for new Finder child windows being opened by the system or other apps.</li>
+                    <li><b>FIXED:</b> Plays nice with resizing utilities like SizeUp, FinderSize or BetterTouchTool (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_moving_applescript_sizeup">more info</a>).</li>
+                    <li><b>FIXED:</b> Fixed visual glitches after changing resolution or reconfiguring displays.</li>
+                    <li><b>FIXED:</b> Fixed quirks when activating Visor by clicking on Dock icon.</li>
+                    <li><b>IMPROVED:</b> Echelon KEXT is not being installed by default (users should opt-in).</li>
+                    <li><b>IMPROVED:</b> Dock icon brings Visor only if there is no other tabs window.</li>
+                    <li><b>IMPROVED:</b> After sliding Visor window down, in case TotalFinder has still main status, next visible window gets focus (Visor window does not keep it anymore).</li>
+                    <li><b>IMPROVED:</b> Installed clearly states that current version is ALPHA and final version will be paid (<a href="http://getsatisfaction.com/binaryage/topics/payware">more info</a>).</li>
+                </ul>
+            </div>
+            <h4>Version 0.6.4</h4>
+            <h5>released on January 14, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> Finder window keeps main status. Originally I was setting tab-browser window as main and Finder window as key. TotalFinder should be more stable now.</li>
+                    <li><b>FIXED:</b> Labels via right click context-menu work again (<a href="http://getsatisfaction.com/binaryage/topics/labels_not_working">read more</a>).</li>
+                    <li><b>FIXED:</b> TotalFinder remembers position of last closed window, new window is reopened on the same position (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_finder_like_default_window_position">read more</a>).</li>
+                    <li><b>IMPROVED:</b> Returning focus to previously active app should be a little bit faster.</li>
+                </ul>
+            </div>
+            <h4>Version 0.6.3</h4>
+            <h5>released on January 13, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>FIXED:</b> CMD+TAB activation must be more strict. Activating Visor only in the case there is no other classic Finder window.</li>
+                </ul>
+            </div>
+            <h4>Version 0.6.2</h4>
+            <h5>released on January 13, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>FIXED:</b> Regression introduced by CMD+TAB activation. Clicking on Desktop caused Visor to slide up.</li>
+                </ul>
+            </div>
+            <h4>Version 0.6.1</h4>
+            <h5>released on January 13, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> Disabled Visor mode by default. Many newcomers were confused by default Visor behavior. Visor veterans from Terminal.app may always enable Visor mode in preferences.</li>
+                    <li><b>NEW:</b> You may force Visor window to appear on top of Dock (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</li>
+                    <li><b>NEW:</b> You may resize Visor window and keep it's dimensions in free-form mode (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</li>
+                    <li><b>FIXED:</b> Fixed broken TotalFinder when running on top of localized Finder.</li>
+                    <li><b>FIXED:</b> Clicking on Finder Dock icon toggles Visor if available.</li>
+                    <li><b>FIXED:</b> CMD+TAB activation activates Visor if available.</li>
+                    <li><b>FIXED:</b> Corrected behavior in crash-recovery mode (<a href="http://getsatisfaction.com/binaryage/topics/tf_crashed_prefs_could_not_be_deleted_and_changed">read more</a>).</li>
+                    <li><b>REMOVED:</b> Removed "Show on Reopen" obsolete option from Visor for Terminal.app.</li>
+                </ul>
+            </div>
+            <h4>Version 0.6</h4>
+            <h5>released on January 11, 2010</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> Tabs! thanks to Chromium codebase, love you Google.</li>
+                    <li><b>NEW:</b> Visor mode window could be avoided by unchecking both activation options.</li>
+                    <li><b>FIXED:</b> Better stability.</li>
+                    <li><b>FIXED:</b> Visor window remembers it's height during restarts.</li>
+                    <li><b>FIXED:</b> Visor window does not show up during expose.</li>
+                    <li><b>FIXED:</b> Fixed quirks related to sliding visor window.</li>
+                    <li><b>FIXED:</b> Visor window stays up until there is no window with main status within Finder.app.</li>
+                    <li><b>REMOVED:</b> Visor window can slide only from bottom of the screen. Removed "Position" selector.</li>
+                    <li><b>REMOVED:</b> Dropped ppc architecture support.</li>
+                </ul>
+            </div>
+            <h4>Version 0.5</h4>
+            <h5>released on December 18, 2009</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> Added tweak option "Don't customize Dock Icon".</li>
+                    <li><b>NEW:</b> Installer displays warning if SIMBL is not detected.</li>
+                    <li><b>NEW:</b> Archive contains compatible SIMBL package (for case TotalFinder.dmg is found on Planet of the Apes).</li>
+                    <li><b>FIXED:</b> Quick TotalFinder restart from Preferences Pane is not counted as a crash.</li>
+                    <li><b>FIXED:</b> Using latest Sparkle which supports asynchronous package installation. This fixes installer choking when updating via Sparkle's "Install and Relaunch" button.</li>
+                </ul>
+            </div>
+            <h4>Version 0.4</h4>
+            <h5>released on December 9, 2009</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> Added option to force "Folders on Top".</li>
+                    <li><b>FIXED:</b> TotalFinder should work for users with 32-bit hardware (folks running i386 binary of Finder).</li>
+                </ul>
+            </div>
+            <h4>Version 0.3</h4>
+            <h5>released on December 6, 2009</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> Sparkle updating system. </li>
+                    <li><b>NEW:</b> Added red face preventing continuous crashing during startup (because Finder is being restarted after crash by launchd).</li>
+                    <li><b>NEW:</b> Added uninstall script. </li>
+                    <li><b>FIXED:</b> Changed TotalFinder window level so that auxiliary floating windows are visible on top of it (<a href="http://getsatisfaction.com/binaryage/topics/deactivate_always_on_top_window">more info</a>).</li>
+                    <li><b>FIXED:</b> Fixed Echelon registration into startup items. Previously Echelon wasn't started again after restart.</li>
+                    <li><b>FIXED:</b> Desktop icons should persist during Finder restarts. I'm restoring important .DS_Store files to original locations during restart.</li>
+                </ul>
+            </div>
+            <h4>Version 0.2.1</h4>
+            <h5>released on November 30, 2009</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>FIXED:</b> prefix folder /usr/local/.dscache is created by installer with proper rights. Originally TotalFinder was suddenly exiting when trying to perform operation with insufficient rights.</li>
+                </ul>
+            </div>
+            <h4>Version 0.2</h4>
+            <h5>released on November 30, 2009</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><b>NEW:</b> .DS_Store redirect mode.</li>
+                    <li><b>NEW:</b> Visor-like hot-key activation.</li>
+                </ul>
+            </div>
+            <h4>Version 0.1</h4>
+            <h5>September - November, 2009</h5>
+            <div class="infobox">
+                <ul class="changes">
+                    <li>Idea, experiments with Snow Leopard, proof of concept code</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
