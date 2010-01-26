@@ -64,7 +64,7 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 > Not anytime soon. I love open-source, but this is not the type of a project suitable as an open-source product. Donations for open-source tools haven't worked for me very well in the past. But I'm open for discussion.
 
 ## History
-
-<iframe src="https://dl.getdropbox.com/u/559047/tf/changelog.html" width="100%" height="2000" frameborder="0" align="baseline" scrolling="no">
-    
-</iframe>
+<div class="changelog">&nbsp;</div>
+<script type="text/javascript" charset="utf-8">
+    $('.changelog').load('changelog.html #page');
+</script>
