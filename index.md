@@ -4,8 +4,8 @@ product_title: TotalFinder
 subtitle: brings tabs to your native Finder and more!
 layout: product
 icon: /shared/img/totalfinder-icon.png
-downloadtitle: Download v0.8
-download: http://downloads.binaryage.com/TotalFinder-0.8.dmg
+downloadtitle: Download v0.8.1
+download: http://downloads.binaryage.com/TotalFinder-0.8.1.dmg
 mainshot: /shared/img/totalfinder-mainshot.png
 mainshotfull: /shared/img/totalfinder-mainshot-full.png
 overlaysx: 1032px
