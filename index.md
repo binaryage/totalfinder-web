@@ -14,7 +14,7 @@ advert: Read more about the development progress <a href="http://blog.binaryage.
 facebook: 1
 retweet: 1
 meta_title: TotalFinder brings tabs to your native Finder and more!
-meta_description: TotalFinder is a plugin for Finder.app which adds tabs and dual panels like in TotalCommander. It also and enables other tweaks for advanced users. For example it is possible to have Finder available system-wide activated on pressing a hot-key.
+meta_description: TotalFinder is a plugin for Finder.app which adds tabs and dual panels like in TotalCommander. It also and enables other tweaks for advanced users. For example it is possible to have Finder available system-wide activated on a hot-key.
 meta_image: /images/totalfinder-screenshot-tabs.png
 shots: [{
     title: "TotalFinder with tabs!",
