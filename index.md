@@ -15,7 +15,7 @@ facebook: 1
 retweet: 1
 usethis: totalfinder
 meta_title: TotalFinder brings tabs to your native Finder and more!
-meta_description: TotalFinder is a plugin for Finder.app which adds tabs like in Chrome browser and dual panels like in TotalCommander. It also enables various tweaks for advanced users, for example "Folders on Top" feature or "Visor window" available system-wide on a hot key.
+meta_description: TotalFinder is a plugin for Finder.app which adds tabs like in Chrome browser and dual panels like in TotalCommander. It also enables various tweaks for advanced users...
 meta_image: /images/totalfinder-screenshot-tabs.png
 shots: [{
     title: "TotalFinder with tabs!",
