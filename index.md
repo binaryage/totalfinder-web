@@ -59,7 +59,7 @@ shots: [{
 &#x2764; Love you Veronica! -- Darwin
 
 <embed class="rev3PlayerEmbed" type="application/x-shockwave-flash" src="http://revision3.com/player-v4346" allowFullScreen="true" quality="high" allowScriptAccess="always" width="100%" height="600"/>
-<div style="font-size: 10px; text-align: right; position: relative; top: -4px">The footage courtesy of <a href="http://revision3.com/tzdaily/2010-02-16totalfinder">TekZilla Daily (Revision3 TV)</a></div>
+<div style="font-size: 10px; text-align: right; position: line-height: 10px;">The footage courtesy of <a href="http://revision3.com/tzdaily/2010-02-16totalfinder">TekZilla Daily (Revision3 TV)</a></div>
 
 
 ## Features
