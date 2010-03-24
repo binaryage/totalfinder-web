@@ -13,6 +13,7 @@ note: <b>ALPHA</b> is free until 1.0. Then it expires and you will get chance to
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
 facebook: 1
 retweet: 1
+usethis: totalfinder
 meta_title: TotalFinder brings tabs to your native Finder and more!
 meta_description: TotalFinder is a plugin for Finder.app which adds tabs and dual panels like in TotalCommander. It also and enables other tweaks for advanced users. For example it is possible to have Finder available system-wide activated on a hot-key.
 meta_image: /images/totalfinder-screenshot-tabs.png
