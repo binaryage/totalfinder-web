@@ -101,4 +101,16 @@ task :serve do
     run_in_terminal("cd \"#{ROOT}\" && jekyll --auto --server 4003 --url http://totalfinder.binaryage.org", "totalfinder", [0,10000,3])
 end
 
+desc "optimize png images"
+task :optimize do
+    Dir.glob(File.join(ROOT, 'shared', "**", "*.png")) do |file|
+        puts file
+        `optipng −i1 −o7 "#{file}"`
+    end
+    Dir.glob(File.join(ROOT, 'images', "**", "*.png")) do |file|
+        puts file
+        `optipng −i1 −o7 "#{file}"`
+    end
+end
+
 task :default => :serve
