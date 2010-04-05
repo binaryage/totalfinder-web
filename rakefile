@@ -106,10 +106,12 @@ task :optimize do
     Dir.glob(File.join(ROOT, 'shared', "**", "*.png")) do |file|
         puts file
         `optipng −i1 −o7 "#{file}"`
+        break
     end
     Dir.glob(File.join(ROOT, 'images', "**", "*.png")) do |file|
         puts file
         `optipng −i1 −o7 "#{file}"`
+        break
     end
 end
 
