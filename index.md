@@ -9,7 +9,7 @@ download: http://downloads.binaryage.com/TotalFinder-0.8.2.dmg
 downloadtitle: Download 0.8.2
 buy: http://store.binaryage.com
 buytitle: buy
-note: <b>ALPHA</b> is free until 1.0. Then it expires and you will get chance to buy final version for $15.
+note: <b>ALPHA</b> is free until 1.0. Then it expires and you may buy final version for $15.
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
 facebook: 1
 retweet: 1
@@ -17,6 +17,17 @@ usethis: totalfinder
 meta_title: TotalFinder brings tabs to your native Finder and more!
 meta_description: TotalFinder is a plugin for Finder.app which adds tabs like in Chrome browser and dual panels like in TotalCommander. It also enables various tweaks for advanced users...
 meta_image: /images/totalfinder-screenshot-tabs.png
+buzz: 1
+fbsdk: 1
+ogmeta: {
+    site_name: "BinaryAge website",
+    description: "TotalFinder adds tabs into your native Finder and more!",
+    email: "antonin@binaryage.com",
+    type: "product",
+    title: "TotalFinder",
+    url: "http://totalfinder.binaryage.com",
+    image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-64.png"
+}
 shots: [{
     title: "TotalFinder with tabs!",
     thumb: "/images/totalfinder-screenshot-tabs-t.png",
