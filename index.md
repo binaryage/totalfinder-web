@@ -26,7 +26,7 @@ ogmeta: {
     type: "product",
     title: "TotalFinder",
     url: "http://totalfinder.binaryage.com",
-    image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-64.png"
+    image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
     title: "TotalFinder with tabs!",
