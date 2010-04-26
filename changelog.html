@@ -26,6 +26,9 @@
             .changelog ul.changes{margin:0;padding-left:30px;list-style-type:none;padding-right:10px;padding-top:6px;}
             .changelog ul.changes li{margin-bottom:5px;}
 
+            .changelog .blog-post-pointer {padding-bottom:5px !important; }
+            .changelog .blog-post-pointer a {font-weight: bold;}
+
             .changelog .titlebox { background-color: #eee; border-bottom: 0px solid #aaa; margin-top: 20px; line-height: 20px;}
             .changelog h4{float:left;font-size: 12px;padding:3px;line-height:16px;font-weight: bold; padding-left: 10px; padding-right:6px; width: 90px; white-space:nowrap; text-align:right;}
             .changelog h5{margin:0;padding:0;padding:3px;margin-left:6px;font-size:10px;color:#666;line-height:16px;font-weight:normal;}
@@ -50,7 +53,9 @@
             </div>
             <div class="infobox">
                 <ul class="changes">
+                    <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-without-simbl/">TotalFinder now works without SIMBL</a></li>
                     <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinder has its own mechanism for Finder injection.</span></li>
+                    <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed SIMBL dependency.</span></li>
                     <li><span class="sticker new"><b>NEW</b></span> <span class="info">Echelon.kext renamed to TotalFinder.kext. Launch daemon is not needed anymore for .DS_Store redirect feature to work.</span></li>
                     <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added option which prevents adopting new Finder windows as tabs automatically. See TotalFinder/Tweaks preferences. (<a href="http://getsatisfaction.com/binaryage/topics/desktop_folders_open_as_tabs_spaces_and_generic_problem">issue</a>)</span></li>
                     <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed window jump problem (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_jumps">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_jumps-1ac42">issue</a>).</span></li>
@@ -58,7 +63,6 @@
                     <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed CMD+P glitch. (<a href="http://getsatisfaction.com/binaryage/topics/cmd_p_bug">issue</a>).</span></li>
                     <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Warning dialog appears when running TotalFinder with untested Finder version.</span></li>
                     <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Updated crash dialog UI and also updated Breakpad sources to the latest version.</span></li>
-                    <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed SIMBL dependency.</span></li>
                 </ul>
             </div>
             <div class="titlebox">
