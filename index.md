@@ -98,7 +98,7 @@ shots: [{
 > Apple did rewrite of Finder.app for Snow Leopard. The new Finder is using Cocoa framework. This made it possible to build TotalFinder on top of existing Finder app. Older versions of OSX have Finder implemented in Carbon which is almost impossible to tweak. There is no easy way how to port TotalFinder under Leopard. I'm sorry.
 
 #### How TotalFinder works?
-> TotalFinder contains plugin into Finder.app which gets loaded into running Finder when you launch TotalFinder.app. It works similar to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) you may know from other programs. TotalFinder is not dependent on SIMBL to be installed in your system (since version 0.8.3).
+> TotalFinder contains plugin which gets loaded into running Finder when you launch TotalFinder.app. It works similar to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) you may know from other programs. TotalFinder is not dependent on SIMBL to be installed in your system (since version 0.8.3).
 
 #### I'm afraid of installing any Finder plugins. Aren't they evil?
 > TotalFinder will never overwrite your Finder.app files. It modifies running Finder application in-memory. Uninstalling basically means removing TotalFinder.app, but you should use uninstaller which does proper cleanup.
