@@ -124,6 +124,7 @@ shots: [{
 #### I use Safari! Can you replace Chrome tabs with Safari tabs?
 > I'm indifferent. Some people prefer Chrome tabs, some prefer Safari tabs. There are haters on both sides. This may be "skin" option in the future.
 
+
 ## Changelog
 
 <div class="changelogx">&nbsp;</div>
