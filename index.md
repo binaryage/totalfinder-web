@@ -94,9 +94,6 @@ shots: [{
 
 ## FAQ
 
-#### I'm running OSX 10.5 Leopard. Why is TotalFinder available only for 10.6 Snow Leopard?
-> Apple did rewrite of Finder.app for Snow Leopard. The new Finder is using Cocoa framework. This made it possible to build TotalFinder on top of existing Finder app. Older versions of OSX have Finder implemented in Carbon which is almost impossible to tweak. There is no easy way how to port TotalFinder under Leopard. I'm sorry.
-
 #### How TotalFinder works?
 > TotalFinder contains plugin which gets loaded into running Finder when you launch TotalFinder.app. It works similar to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) you may know from other programs. TotalFinder is not dependent on SIMBL to be installed in your system (since version 0.8.3).
 
@@ -112,8 +109,11 @@ shots: [{
 #### How to run unaltered Finder without uninstalling TotalFinder?
 > You may go to Terminal.app and type `killall Finder`. This will restart Finder and TotalFinder does not load automatically. You may also want to remove TotalFinder.app from your login startup items in the `System Preferences` to prevent loading TotalFinder on startup.
 
-#### TotalFinder installs into /Applications, may I move it elsewhere?
-> No. TotalFinder consists of various components (`TotalFinder.bundle`, `TotalFinder.osax`, `TotalFinder.kext`) and these guys expect TotalFinder.app to reside in ``/Applications`. Please don't make things  complicated. Also please note that TotalFinder.app files are installed under admin's rights. So only admin may remove it. This is because TotalFinder is meant to be installed system-wide for all users. But only the user who installed it gets TotalFinder.app in his/hers login startup items initially. Make sense?
+#### TotalFinder installs into `/Applications`, may I move it elsewhere?
+> No. TotalFinder consists of various components (`TotalFinder.bundle`, `TotalFinder.osax`, `TotalFinder.kext`) and these guys expect `TotalFinder.app` to reside in ``/Applications`. Please don't make things  complicated. Also please note that `TotalFinder.app` files are installed under admin's rights. So only admin may remove it. This is because TotalFinder is meant to be installed system-wide for all users. But only the user who installed it gets TotalFinder.app in his/hers login startup items initially. Make sense?
+
+#### I'm running OSX 10.5 (Leopard). Why is TotalFinder available only for OSX 10.6 (Snow Leopard)?
+> Apple rewrote of Finder.app for Snow Leopard. The new Finder is using Cocoa framework. This made it possible to build TotalFinder on top of existing Finder.app. Older versions of OSX have Finder implemented in Carbon which is almost impossible to tweak. There is no easy way how to port TotalFinder under Leopard. I'm sorry.
 
 #### What is that Purchase screen in preferences? Are you going to sell TotalFinder?
 > Yes, in the future when it matures to version 1.0. I need to buy a third mac!
@@ -126,7 +126,6 @@ shots: [{
 
 #### I use Safari! Can you replace Chrome tabs with Safari tabs?
 > I'm indifferent. Some people prefer Chrome tabs, some prefer Safari tabs. There are haters on both sides. This may be "skin" option in the future.
-
 
 ## Changelog
 
