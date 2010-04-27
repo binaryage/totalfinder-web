@@ -103,14 +103,17 @@ shots: [{
 #### I'm afraid of installing any Finder plugins. Aren't they evil?
 > TotalFinder will never overwrite your Finder.app files. It modifies running Finder application in-memory. Uninstalling basically means removing TotalFinder.app, but you should use uninstaller which does proper cleanup.
 
-#### What about Apple updates of Finder.app and OSX upgrades?
-> Right, there is always a risk that application breaks during OS update or upgrade. With TotalFinder that risk is much higher because it hooks into Finder's internals. If you want TotalFinder features you have to go and live more dangerously. I'm trying to do my best to make TotalFinder as robust as possible by checking Finder.app version and shape before overriding its functionality. Anyway, you have always option to uninstall TotalFinder and return back to your original unaltered Finder.app when something goes wrong. I will do my best to keep TotalFinder compatible with Apple's updates. I'm using this software on daily basis so I can spot problems very quickly :-)
-
 #### How do I uninstall TotalFinder?
 > There is an uninstall option under status menu icon. You may also download TotalFinder again, open DMG and execute `Uninstall TotalFinder.app`.
 
+#### What about Apple updates of Finder.app and OSX upgrades?
+> Right, there is always a risk that application breaks during OS update or upgrade. With TotalFinder that risk is much higher because it hooks into Finder's internals. If you want TotalFinder features you have to go and live more dangerously. I'm trying to do my best to make TotalFinder as robust as possible by checking Finder.app version and shape before overriding its functionality. Anyway, you have always option to uninstall TotalFinder and return back to your original unaltered Finder.app when something goes wrong. I will do my best to keep TotalFinder compatible with Apple's updates. I'm using this software on daily basis so I can spot problems very quickly :-)
+
 #### How to run unaltered Finder without uninstalling TotalFinder?
-> You may go to Terminal.app and type `killall Finder`. This will restart Finder into original state. You may also want to remove TotalFinder.app from your login startup item in the System Preferences.
+> You may go to Terminal.app and type `killall Finder`. This will restart Finder and TotalFinder does not load automatically. You may also want to remove TotalFinder.app from your login startup items in the `System Preferences` to prevent loading TotalFinder on startup.
+
+#### TotalFinder installs into /Applications, may I move it elsewhere?
+> No. TotalFinder consists of various components (`TotalFinder.bundle`, `TotalFinder.osax`, `TotalFinder.kext`) and these guys expect TotalFinder.app to reside in ``/Applications`. Please don't make things  complicated. Also please note that TotalFinder.app files are installed under admin's rights. So only admin may remove it. This is because TotalFinder is meant to be installed system-wide for all users. But only the user who installed it gets TotalFinder.app in his/hers login startup items initially. Make sense?
 
 #### What is that Purchase screen in preferences? Are you going to sell TotalFinder?
 > Yes, in the future when it matures to version 1.0. I need to buy a third mac!
@@ -119,7 +122,7 @@ shots: [{
 > Please follow this thread: [http://getsatisfaction.com/binaryage/topics/how_much_will_totalfinder_be](http://getsatisfaction.com/binaryage/topics/how_much_will_totalfinder_be)
 
 #### What is TotalFinder.kext (Echelon)?
-> Installing kernel extensions sounds scary, but it is a solution to prevent .DS_Store files to be created all over the place on your disk.<br>Interested how it works? Read this blog post: [http://blog.binaryage.com/totalfinder-alpha](http://blog.binaryage.com/totalfinder-alpha)
+> Yeah, installing kernel extensions sounds scary, but it is a solution to prevent .DS_Store files to be created all over the place on your disk.<br>Interested how it works? Read this blog post: [http://blog.binaryage.com/totalfinder-alpha](http://blog.binaryage.com/totalfinder-alpha)
 
 #### I use Safari! Can you replace Chrome tabs with Safari tabs?
 > I'm indifferent. Some people prefer Chrome tabs, some prefer Safari tabs. There are haters on both sides. This may be "skin" option in the future.
