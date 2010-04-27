@@ -69,8 +69,6 @@ shots: [{
 
 ### Motto: Make Finder totally rock!
 
-It is finally possible under Snow Leopard with <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a>.
-
 ### Implemented features:
 
 * TABS like in Google Chrome! ([read more](http://blog.binaryage.com/totalfinder-with-tabs))
@@ -97,16 +95,22 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 ## FAQ
 
 #### I'm running OSX 10.5 Leopard. Why is TotalFinder available only for 10.6 Snow Leopard?
-> Apple did rewrite of Finder.app for Snow Leopard. The new Finder is using Cocoa framework. This made it possible to build TotalFinder on top of existing Finder app. Older versions of OSX have Finder implemented in Carbon which is almost impossible to tweak. I will never port TotalFinder under Leopard. I'm sorry.
+> Apple did rewrite of Finder.app for Snow Leopard. The new Finder is using Cocoa framework. This made it possible to build TotalFinder on top of existing Finder app. Older versions of OSX have Finder implemented in Carbon which is almost impossible to tweak. There is no easy way how to port TotalFinder under Leopard. I'm sorry.
 
-#### I'm afraid of installing any SIMBL plugins. Aren't they evil?
-> SIMBL plugin is a program which is able to patch other application **during runtime**. TotalFinder will never overwrite your Finder.app or touch anything inside. Uninstalling basically means removing TotalFinder.bundle from SIMBL folder. SIMBL plugins have same privileges as other (classic) desktop applications. You have to trust the authors that they will not screw up your computer. You have to trust me, I'm quite a nice guy. By the way Finder.app runs under user's rights, not under Administrator's privileges, so it is a classic OSX app.
+#### How TotalFinder works?
+> TotalFinder contains plugin into Finder.app which gets loaded into running Finder when you launch TotalFinder.app. It works similar to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) you may know from other programs. TotalFinder is not dependent on SIMBL to be installed in your system (since version 0.8.3).
 
-#### What about Apple Updates of Finder.app or OSX upgrades?
-> Right, there is always a risk that application breaks during OS update or upgrade (be it SIMBL or not). With SIMBL that risk is much higher because it hooks into other app's internals. If you want TotalFinder features you have to go and live more dangerously. I'm trying to do my best to make TotalFinder as robust as possible by checking Finder.app shape before overriding it's functionality. Anyway, you have always option to uninstall TotalFinder and return back to your original unaltered Finder.app when something goes wrong. I will do my best to keep TotalFinder compatible with Apple's updates. I'm using this software on daily basis so I can spot problems very quickly :-)
+#### I'm afraid of installing any Finder plugins. Aren't they evil?
+> TotalFinder will never overwrite your Finder.app files. It modifies running Finder application in-memory. Uninstalling basically means removing TotalFinder.app, but you should use uninstaller which does proper cleanup.
+
+#### What about Apple updates of Finder.app and OSX upgrades?
+> Right, there is always a risk that application breaks during OS update or upgrade. With TotalFinder that risk is much higher because it hooks into Finder's internals. If you want TotalFinder features you have to go and live more dangerously. I'm trying to do my best to make TotalFinder as robust as possible by checking Finder.app version and shape before overriding its functionality. Anyway, you have always option to uninstall TotalFinder and return back to your original unaltered Finder.app when something goes wrong. I will do my best to keep TotalFinder compatible with Apple's updates. I'm using this software on daily basis so I can spot problems very quickly :-)
 
 #### How do I uninstall TotalFinder?
-> There is an uninstall option under status menu icon. You may also download TotalFinder, open DMG and execute `Uninstall.scpt` applescript. You may check the source code so you can see it is not doing anything evil to your machine.
+> There is an uninstall option under status menu icon. You may also download TotalFinder again, open DMG and execute `Uninstall TotalFinder.app`.
+
+#### How to run unaltered Finder without uninstalling TotalFinder?
+> You may go to Terminal.app and type `killall Finder`. This will restart Finder into original state. You may also want to remove TotalFinder.app from your login startup item in the System Preferences.
 
 #### What is that Purchase screen in preferences? Are you going to sell TotalFinder?
 > Yes, in the future when it matures to version 1.0. I need to buy a third mac!
@@ -114,8 +118,8 @@ It is finally possible under Snow Leopard with <a href="http://www.culater.net/s
 #### How much will TotalFinder be?
 > Please follow this thread: [http://getsatisfaction.com/binaryage/topics/how_much_will_totalfinder_be](http://getsatisfaction.com/binaryage/topics/how_much_will_totalfinder_be)
 
-#### What is Echelon?
-> Echelon is a solution to prevent .DS_Store files to be created all over the place on your disk.<br>Interested how it works? Read this blog post: [http://blog.binaryage.com/totalfinder-alpha](http://blog.binaryage.com/totalfinder-alpha)
+#### What is TotalFinder.kext (Echelon)?
+> Installing kernel extensions sounds scary, but it is a solution to prevent .DS_Store files to be created all over the place on your disk.<br>Interested how it works? Read this blog post: [http://blog.binaryage.com/totalfinder-alpha](http://blog.binaryage.com/totalfinder-alpha)
 
 #### I use Safari! Can you replace Chrome tabs with Safari tabs?
 > I'm indifferent. Some people prefer Chrome tabs, some prefer Safari tabs. There are haters on both sides. This may be "skin" option in the future.
