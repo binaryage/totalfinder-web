@@ -5,8 +5,8 @@ product_badge: Snow Leopard Only!
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
 layout: product
-download: http://downloads.binaryage.com/TotalFinder-0.8.3.dmg
-downloadtitle: Download 0.8.3
+download: http://downloads.binaryage.com/TotalFinder-0.9.dmg
+downloadtitle: Download 0.9
 buy: http://store.binaryage.com
 buytitle: buy
 note: <b>ALPHA</b> is free until 1.0. Then it expires and you may buy final version for $15.
@@ -96,10 +96,10 @@ shots: [{
 ## FAQ
 
 #### How TotalFinder works?
-> TotalFinder contains plugin which gets loaded into running Finder when you launch TotalFinder.app. It works similar to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) you may know from other programs. TotalFinder is not dependent on SIMBL to be installed in your system (since version 0.8.3).
+> TotalFinder is a plugin which gets loaded into Finder when you launch TotalFinder.app. It works similarly to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) which you may know from other programs. But TotalFinder is standalone and it is not dependent on SIMBL (since version 0.8.3).
 
 #### I'm afraid of installing any Finder plugins. Aren't they evil?
-> TotalFinder will never overwrite your Finder.app files. It modifies running Finder application in-memory. Uninstalling basically means removing TotalFinder.app, but you should use uninstaller which does proper cleanup.
+> TotalFinder will never overwrite your Finder.app files on the disk. It modifies running Finder application image in-memory. Uninstalling basically means removing TotalFinder.app and restarting Finder, but you should use uninstaller which does the proper cleanup.
 
 #### How do I uninstall TotalFinder?
 > There is an uninstall option under status menu icon. You may also download TotalFinder again, open DMG and execute `Uninstall TotalFinder.app`.
