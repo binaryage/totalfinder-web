@@ -48,6 +48,36 @@
     <body>
         <div id="page" class="changelog" style="padding: 5px 12px">
             <div class="titlebox">
+                <h4><a href="http://downloads.binaryage.com/TotalFinder-0.9.dmg">0.9</a></h4>
+                <h5>released on May 17, 2010</h5>
+            </div>
+            <div class="infobox">
+                <ul class="changes">
+                    <li><span class="sticker new"><b>NEW</b></span> <span class="info">Toggle display of hidden files without Finder restart! (CMD+SHIFT+.)</span></li>
+                    <li><span class="sticker new"><b>NEW</b></span> <span class="info">Visor has blue pin button in place of close button (CMD+SHIFT+P)</span></li>
+                    <li><span class="sticker new"><b>NEW</b></span> <span class="info">Visor window can be resized by dragging main window's title bar vertically. Visor window is no longer movable.</span></li>
+                    <li><span class="sticker new"><b>NEW</b></span> <span class="info">New Tweak option 'Always Maximize' - makes Zoom behave like in Google Chrome.</span></li>
+                    <li><span class="sticker new"><b>NEW</b></span> <span class="info">New Tweak option 'Narrow Tabs Bar' - saves some vertical space for folks with 13" notebooks.</span></li>
+                    <li><span class="sticker new"><b>NEW</b></span> <span class="info">CMD+Q closes all open windows. This does not terminate Finder process tough.</span></li>
+                    <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed random crashes caused by pending tabs animations accessing already destroyed browser window.</span></li>
+                    <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed possible crash in tabs state serialization code.</span></li>
+                    <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Prevented crash when last windows was closed and user requested to create a new tab via a keyboard shortcut.</span></li>
+                    <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed `Cycle Through Windows` menu command (<a href="http://getsatisfaction.com/binaryage/topics/_cycle_through_windows_menu_command_is_always_disabled_grayed_out">issue</a>).</span></li>
+                    <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed `Zoom` and `Zoom All` menu commands.</span></li>
+                    <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Zoom acts as the original Finder `Zoom` command - hold SHIFT to maximize (<a href="http://getsatisfaction.com/binaryage/topics/zoom_acting_as_maximize">issue</a>).</span></li>
+                    <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Seamless switching between free-form and classic visor mode. Resizing works without Visor window recreation.</span></li>
+                    <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Improved look of TotalFinder preference panels. Also renamed some options and added more descriptive texts.</span></li>
+                    <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Installer disables POSIX names in Finder's plist option during installation (<a href="http://getsatisfaction.com/binaryage/topics/option_to_display_only_the_folder_name_in_tabs">issue</a>).</span></li>
+                    <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">LSUIElement hides TotalFinderLauncher.app from the Dock (<a href="http://getsatisfaction.com/binaryage/topics/use_lsuielement_argument_for_the_new_totalfinder_app">issue</a>).</span></li>
+                    <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Better logic for selecting target browser for a new tab: open it in visor if visor is visible and key window else use last active non-visor window.</span></li>
+                    <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Overall refactorings, dead code removal and speed improvements.</span></li>
+                    <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Dual panel separator line goes over toolbar and statusbar.</span></li>
+                    <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed close button on Visor window.</span></li>
+                    <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed continuous crash preventer code (not needed anymore).</span></li>
+                    <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed TotalFinderOptionTab tweak option. Switching panels is going to be just OPT+TAB. Using plain TAB wasn't good idea.</span></li>
+                </ul>
+            </div>
+            <div class="titlebox">
                 <h4><a href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg">0.8.3</a></h4>
                 <h5>released on April 26, 2010</h5>
             </div>
@@ -55,7 +85,6 @@
                 <ul class="changes">
                     <li class="blog-post-pointer">More details in the blog post: <a href="http://blog.binaryage.com/totalfinder-without-simbl/">TotalFinder now works without SIMBL</a></li>
                     <li><span class="sticker new"><b>NEW</b></span> <span class="info">TotalFinder has its own mechanism for Finder injection.</span></li>
-                    <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed SIMBL dependency.</span></li>
                     <li><span class="sticker new"><b>NEW</b></span> <span class="info">Echelon.kext renamed to TotalFinder.kext. Launch daemon is not needed anymore for .DS_Store redirect feature to work.</span></li>
                     <li><span class="sticker new"><b>NEW</b></span> <span class="info">Added option which prevents adopting new Finder windows as tabs automatically. See TotalFinder/Tweaks preferences. (<a href="http://getsatisfaction.com/binaryage/topics/desktop_folders_open_as_tabs_spaces_and_generic_problem">issue</a>)</span></li>
                     <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed window jump problem (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_jumps">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_jumps-1ac42">issue</a>).</span></li>
@@ -63,6 +92,7 @@
                     <li><span class="sticker fixed"><b>FIXED</b></span> <span class="info">Fixed CMD+P glitch. (<a href="http://getsatisfaction.com/binaryage/topics/cmd_p_bug">issue</a>).</span></li>
                     <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Warning dialog appears when running TotalFinder with untested Finder version.</span></li>
                     <li><span class="sticker improved"><b>IMPROVED</b></span> <span class="info">Updated crash dialog UI and also updated Breakpad sources to the latest version.</span></li>
+                    <li><span class="sticker removed"><b>REMOVED</b></span> <span class="info">Removed SIMBL dependency.</span></li>
                 </ul>
             </div>
             <div class="titlebox">
