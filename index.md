@@ -5,8 +5,8 @@ product_badge: Snow Leopard Only!
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
 layout: product
-download: http://downloads.binaryage.com/TotalFinder-0.9.dmg
-downloadtitle: Download 0.9
+download: http://downloads.binaryage.com/TotalFinder-0.9.1.dmg
+downloadtitle: Download 0.9.1
 buy: http://store.binaryage.com
 buytitle: buy
 note: <b>ALPHA</b> is free until 1.0. Then it expires and you may buy final version for $15.
