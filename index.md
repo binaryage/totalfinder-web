@@ -9,7 +9,7 @@ download: http://downloads.binaryage.com/TotalFinder-0.9.3.dmg
 downloadtitle: Download 0.9.3
 buy: http://store.binaryage.com
 buytitle: buy
-note: <b>ALPHA</b> is free until 1.0. Then it expires and you may buy final version for $15.
+note: TotalFinder is free until version 1.0 at which point the fee will be $15.
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
 facebook: 1
 retweet: 1
@@ -95,38 +95,42 @@ shots: [{
 
 ## FAQ
 
-#### How TotalFinder works?
-> TotalFinder is a plugin which gets loaded into Finder when you launch TotalFinder.app. It works similarly to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) which you may know from other programs. But TotalFinder is standalone and it is not dependent on SIMBL (since version 0.8.3).
+#### How does TotalFinder work?
+> TotalFinder is a plugin which gets loaded into the Finder when you launch the TotalFinder.app. It works similarly to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) which you may know from other programs. However, TotalFinder is a standalone application and is not dependent on SIMBL (since version 0.8.3).
 
 #### I'm afraid of installing any Finder plugins. Aren't they evil?
-> TotalFinder will never overwrite your Finder.app files on the disk. It modifies running Finder application image in-memory. Uninstalling basically means removing TotalFinder.app and restarting Finder, but you should use uninstaller which does the proper cleanup.
+> TotalFinder will never overwrite your Finder.app files. It modifies the running Finder application image in-memory.
 
 #### How do I uninstall TotalFinder?
-> There is an uninstall option under status menu icon. You may also download TotalFinder again, open DMG and execute `Uninstall TotalFinder.app`.
+> There is an uninstall option available through the TotalFinder menubar icon. You can also download TotalFinder again, open the DMG, and then execute `Uninstall TotalFinder.app`.
 
-#### What about Apple updates of Finder.app and OSX upgrades?
-> Right, there is always a risk that application breaks during OS update or upgrade. With TotalFinder that risk is much higher because it hooks into Finder's internals. If you want TotalFinder features you have to go and live more dangerously. I'm trying to do my best to make TotalFinder as robust as possible by checking Finder.app version and shape before overriding its functionality. Anyway, you have always option to uninstall TotalFinder and return back to your original unaltered Finder.app when something goes wrong. I will do my best to keep TotalFinder compatible with Apple's updates. I'm using this software on daily basis so I can spot problems very quickly :-)
+#### What about Finder upgrades and system updates?
+> First of all, I use TotalFinder myself on a daily basis so I am able to spot any potential problems very quickly. Plus, I am 100% committed to keeping TotalFinder compatible with Apple's updates.
+Please remember, if you ever do experience any problem whatsoever, it's extremely easy to uninstall TotalFinder and return to the Apple's basic Finder. Please help make TotalFinder better and report your issues on [getsatisfaction](http://getsatisfaction.com/binaryage).
 
-#### How to run unaltered Finder without uninstalling TotalFinder?
-> You may go to Terminal.app and type `killall Finder`. This will restart Finder and TotalFinder does not load automatically. You may also want to remove TotalFinder.app from your login startup items in the `System Preferences` to prevent loading TotalFinder on startup.
+#### How can I run an unaltered Finder without uninstalling TotalFinder?
+> You can go to the Terminal and type: `killall Finder`. This will restart the Finder and TotalFinder will not load automatically at this time. You can also remove TotalFinder from your login startup items in the System Preferences to prevent TotalFinder from loading at startup.
 
-#### TotalFinder installs into `/Applications`, may I move it elsewhere?
-> No. TotalFinder consists of various components (`TotalFinder.bundle`, `TotalFinder.osax`, `TotalFinder.kext`) and these guys expect `TotalFinder.app` to reside in `/Applications`. Please don't make things  complicated. Also please note that `TotalFinder.app` files are installed under admin's rights. So only admin may remove it. This is because TotalFinder is meant to be installed system-wide for all users. But only the user who installed it gets TotalFinder.app in his/hers login startup items initially. Make sense?
+#### TotalFinder installs into `/Applications`. Can I move it elsewhere?
+> No. 
+TotalFinder consists of various components (TotalFinder.bundle, TotalFinder.osax, TotalFinder.kext). Each of these items expect TotalFinder.app to reside in /Applications. 
+Please also note that TotalFinder files are installed under admin's rights. So only admin may remove it. This is because TotalFinder is meant to be installed system-wide for all users.
 
 #### I'm running OSX 10.5 (Leopard). Why is TotalFinder available only for OSX 10.6 (Snow Leopard)?
-> Apple rewrote of Finder.app for Snow Leopard. The new Finder is using Cocoa framework. This made it possible to build TotalFinder on top of existing Finder.app. Older versions of OSX have Finder implemented in Carbon which is almost impossible to tweak. There is no easy way how to port TotalFinder under Leopard. I'm sorry.
+> Apple rewrote the Finder for Snow Leopard. The Finder in Snow Leopard uses the Cocoa framework and this made it possible to build TotalFinder on top of the base level Finder. In older versions of OSX the Finder uses the Carbon framework which is almost impossible to tweak. This means that there is simply no easy way to make TotalFinder work under Leopard. Sorry!
 
-#### What is that Purchase screen in preferences? Are you going to sell TotalFinder?
-> Yes, in the future when it matures to version 1.0. I need to buy a third mac!
-
-#### How much will TotalFinder be?
-> Please follow this thread: [http://getsatisfaction.com/binaryage/topics/how_much_will_totalfinder_be](http://getsatisfaction.com/binaryage/topics/how_much_will_totalfinder_be)
+#### How much is TotalFinder?
+> From Version 1.0 onwards, TotalFinder is no longer free and will cost $15. In terms of licensing I'd like using the concept of dual licensing:
+> <br>1) Per-user = use it on as many machines you want while you are the only user using this license of TotalFinder
+> <br>2) Per-machine = use it on one machine, unlimited number of users. You may freely switch between those two.
 
 #### What is TotalFinder.kext (Echelon)?
-> Yeah, installing kernel extensions sounds scary, but it is a solution to prevent .DS_Store files to be created all over the place on your disk.<br>Interested how it works? Read this blog post: [http://blog.binaryage.com/totalfinder-alpha](http://blog.binaryage.com/totalfinder-alpha)
+> It is a solution to prevent .DS_Store files to be created in local folders of your disk. TotalFinder keeps them in one separate folder, but pretends to Finder they are still in original places. Are you more interested in how it works? Read this blog post: [http://blog.binaryage.com/totalfinder-alpha](http://blog.binaryage.com/totalfinder-alpha)
 
 #### I use Safari! Can you replace Chrome tabs with Safari tabs?
-> I'm indifferent. Some people prefer Chrome tabs, some prefer Safari tabs. There are haters on both sides. This may be "skin" option in the future.
+> I'm indifferent. Some people prefer Chrome tabs, some prefer Safari tabs. There are haters on both sides. This may be a "skin" option in the future.
+
+I am always open to feedback and suggestions. Thanks!
 
 ## Changelog
 
