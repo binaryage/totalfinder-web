@@ -137,3 +137,9 @@ I am always open to feedback and suggestions. Thanks!
 ## Changelog
 
 <div class="changelogx">&nbsp;</div>
+
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        $('.changelogx').load('changelog.html #page');
+    });
+</script>
