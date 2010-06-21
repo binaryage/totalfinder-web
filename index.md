@@ -11,6 +11,8 @@ buy: http://store.binaryage.com
 buytitle: buy
 note: TotalFinder is free until version 1.0 at which point the fee will be $15.
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
+leftshift: 60px
+likeshift: 22px
 facebook: 1
 retweet: 1
 usethis: totalfinder
@@ -135,10 +137,3 @@ I am always open to feedback and suggestions. Thanks!
 ## Changelog
 
 <div class="changelogx">&nbsp;</div>
-<script type="text/javascript" charset="utf-8">
-    $(function() {
-        $('.changelogx').load('changelog.html #page', function() {
-            Cufon.replace('.changelogx h4');
-        });
-    });
-</script>
