@@ -5,8 +5,8 @@ product_badge: Snow Leopard Only!
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
 layout: product
-download: http://downloads.binaryage.com/TotalFinder-0.9.7.dmg
-downloadtitle: Download 0.9.7
+download: http://downloads.binaryage.com/TotalFinder-0.9.8.dmg
+downloadtitle: Download 0.9.8
 buy: http://store.binaryage.com
 buytitle: buy
 note: TotalFinder is free until version 1.0 at which point the fee will be $15.
