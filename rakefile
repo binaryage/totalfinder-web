@@ -98,7 +98,7 @@ end
 
 desc "run da server"
 task :serve do
-    run_in_terminal("cd \"#{ROOT}\" && jekyll --auto --server 4003 --url http://totalfinder.binaryage.org", "totalfinder", [0,10000,3])
+    run_in_terminal("cd \"#{ROOT}\" && jekyll --auto --server 4003 --url http://totalfinder.binaryage.org --permalink pretty_flat", "totalfinder", [0,10000,3])
 end
 
 desc "optimize png images"
