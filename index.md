@@ -66,7 +66,7 @@ shots: [{
     full: "/images/totalfinder-screenshot-preferences-info.png"
 }]
 ---
-
+ 
 <div class="tf-main-content">
 <hr>
 <h2>It is a better Finder for your Mac</h2>
