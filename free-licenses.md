@@ -12,8 +12,8 @@ I will grant a free license to everyone who meets any of these criteria:
 
 1. created or significantly contributed to open-source project or tool I used in TotalFinder
 2. is on my free give-away licenses list for helping me with TotalFinder (e.g. translators)
-3. is one of the winners of the crash reporter lottery
-4. is using valid `<someone>@google.com` email address (my "thank you" for the Chromium project and other open-source)
+3. is one of the winners of the crash reporting lottery
+4. is using valid `<someone>@google.com` email address (as "thank you" for the Chromium project and other open-source)
 5. who feels that he/she should get a free license for some other reason and makes me agree
 
 Please [drop me a mail](mailto:antonin@binaryage.com) and I will issue a free license for you if you meet the criteria.
