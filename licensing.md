@@ -26,21 +26,13 @@ This should allow you to evaluate TotalFinder functionality and decide whether y
 
 ## Free licenses
 
-I will grant a free license to everyone who meets any of these criteria:
-
-1. created or significantly contributed to open-source project or tool I used in TotalFinder
-2. is on my free give-away licenses list for helping me with TotalFinder (e.g. translators)
-3. is one of the winners of the crash reporter lottery
-4. is using valid `<someone>@google.com` email address (my "thank you" for the Chromium project and other open-source)
-5. who feels that he/she should get a free license for some other reason and makes me agree
-
-Please [drop me a mail](mailto:antonin@binaryage.com) and I will issue a free license for you if you meet the criteria.
+Check [this page](/free-licenses) if you can get a free license.
 
 ## Buying a license
 
 <img src="/images/licensing-icon.png" style="width: 32px; float: left; margin-right: 10px">
 
-Please visit [the store](/todo-store-link) where you can purchase TotalFinder for $15. It is safe and easy (powered by [FastSpring](http://fastspring.com)).
+Please visit [the store](https://sites.fastspring.com/binaryage/instant/totalfinder) where you can purchase TotalFinder for $15. It is safe and easy (powered by [FastSpring](http://fastspring.com)).
 
 ## TotalFinder updates
 
