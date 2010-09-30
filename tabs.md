@@ -27,10 +27,10 @@ Similarly in TotalFinder tabs display multiple directories within one window. To
 
 1. You may **switch between tabs**.
 2. You may **reorder tabs**.
-3. You may **pull the tab out** into separate a window.
-4. You may **drag the tab** and insert it between other tabs in existing window.
+3. You may **pull the tab out** into a separate window.
+4. You may **drag the tab** and insert it between other tabs in an existing window.
 5. You may **close individual tabs**.
-6. You may double-click the tab to **enter dual mode**.
+6. You may double-click the tab to **enter a dual mode**.
 7. You may **drag file or folder onto a tab** to move it.
 8. You may **drag folder in between tabs** to open given folder as a new tab.
 
