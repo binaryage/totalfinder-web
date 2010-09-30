@@ -28,6 +28,10 @@ This should allow you to evaluate TotalFinder functionality and decide whether y
 
 Check [this page](/free-licenses) if you can get a free license.
 
+## Office license
+
+You may also want to check [office license page](/office-license) for info on licensing to groups like companies, offices or labs.
+
 ## Buying a license
 
 <img src="/images/licensing-icon.png" style="width: 32px; float: left; margin-right: 10px">
