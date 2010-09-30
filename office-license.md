@@ -8,7 +8,7 @@ prev_link: /documentation
 
 ## Licensing for companies, labs and working groups
 
-TotalFinder is a customer app with dead simple licensing: You buy a single personal license for your machine or alternatively you buy a discounted multi-license pack to be installed on multiple computers you own.
+TotalFinder is an app for end users with a dead simple licensing scheme. You buy a single personal license for your machine. <span style="font-size:10px">Or alternatively you buy a discounted multi-license pack to be installed on multiple computers you own.</span>
 
 <b>The problem with companies is that over the time people get hired and fired. And that computers are being added or removed, some fire too. Nobody wants to keep track of head counts and care about licenses. You have more important things to do.</b>
 
