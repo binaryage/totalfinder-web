@@ -49,6 +49,38 @@ TotalFinder Copyright (c) 2010 Antonin Hildebrand (me)
 
 -----------------------------------------------------------------------------
 
-Have a nice day and please don't sue me. I know the very best lawyers. 
+ OFFICE LICENSE:
+
+ Permission is hereby granted to the person (you) buying multiple copies of 
+ this software and associated documentation files (TotalFinder),
+ to use it under the following conditions:
+
+ Software is to be used by people working a well-defined group like 
+ company, department, office or project group. You may put license name 
+ and key on a wiki or similar place available to the group members. 
+ Every group member then may use it under the terms of COMMERCIAL LICENSE 
+ as long as he or she is a valid member of the group.
+
+ With following conditions:
+ 1. You have a multi-license for at least 3 people covering actual number 
+    of group members
+ 2. You have to buy additional OFFICE LOCK license which allows execution 
+    of OFFICE license for the period one year
+    
+ That is all you may explicitly do, but you may always do more if you ask 
+ me at antonin@binaryage.com and I will reply "yes" or if your local laws
+ force me to allow that regardless.
+
+ TOTALFINDER IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH TOTALFINDER OR THE USE OR OTHER DEALINGS IN
+ TOTALFINDER.
+
+-----------------------------------------------------------------------------
+
+Have a nice day and please don't sue me.
 
 http://binaryage.com
