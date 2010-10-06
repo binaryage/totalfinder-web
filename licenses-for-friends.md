@@ -17,7 +17,7 @@ You buy <a href="">TotalFinder Friends</a> for $30 and I will send you a classic
 ## Send message by email
 <div style="position: relative">
 <img src="{{site.url}}/images/friends-email-template.png" style="width:700px;border:1px solid #aaa;padding:2px" class="nice-rounded"><br>
-<input class="hoverable-input" style="position: absolute; top:192px;left:217px;border:none; width:474px;" type="text" value="Let's buy TotalFinder for $10">
+<input class="hoverable-input" style="position: absolute; top:192px;left:217px;border:none; width:474px;" type="text" value="Want TotalFinder for $10 ?">
 <textarea class="hoverable-input" style="position: absolute; top:266px;left:167px;border:none; font-size: 10px; height:110px; width:516px;overflow:hidden">
 Hi guys,
 
