@@ -41,4 +41,4 @@ Let me know...
 
 ## Or use Twitter!
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder for $10 (=$5 discount) check out http://totalfinder.binaryage.com" data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder for $10 (=$5 discount) " data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
