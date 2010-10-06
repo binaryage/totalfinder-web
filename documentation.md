@@ -55,6 +55,7 @@ div#gsfn_list_widget div#gsfn_content p.gsfn_summary { margin-top: 2px }
 
 * [Reasons to buy](/reasons-to-buy)
 * [Free licenses](/free-licenses)
+* [Discount for friends](/licenses-for-friends)
 * [Office license](/office-license)
 
 <script src="http://getsatisfaction.com/binaryage/widgets/javascripts/840ea68bc6/widgets.js" type="text/javascript"></script>
