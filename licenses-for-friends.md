@@ -36,9 +36,9 @@ Let me know...
 <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 <script type="text/javascript">$(function(){
     var x = $('a[type=button_count]');
-    x.attr('href', x.attr('href')+'&t='+encodeURIComponent('Join me and let\'s buy TotalFinder $10 (=$5 discount)'));
+    x.attr('href', x.attr('href')+'&t='+encodeURIComponent('Join me and let\'s buy TotalFinder for $10 (=$5 discount)'));
 })</script>
 
 ## Or use Twitter!
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder $10 (=$5 discount) check http://totalfinder.binaryage.com" data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder for $10 (=$5 discount) check out http://totalfinder.binaryage.com" data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
