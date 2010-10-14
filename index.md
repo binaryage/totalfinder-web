@@ -4,11 +4,10 @@ title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
-download: http://downloads.binaryage.com/TotalFinder-1.0.dmg
-downloadtitle: Download 1.0
+download: http://downloads.binaryage.com/TotalFinder-1.0.1.dmg
+downloadtitle: Download 1.0.1
 buy: http://store.binaryage.com
 buytitle: buy
-note: TotalFinder is free until version 1.0 at which point the fee will be $15.
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
 leftshift: 12px
 likeshift: 22px
