@@ -57,6 +57,7 @@ div#gsfn_list_widget div#gsfn_content p.gsfn_summary { margin-top: 2px }
 * [Free licenses](/free-licenses)
 * [Discount for friends](/licenses-for-friends)
 * [Office license](/office-license)
+* [Credits](/credits)
 
 <script src="http://getsatisfaction.com/binaryage/widgets/javascripts/840ea68bc6/widgets.js" type="text/javascript"></script>
 <script src="http://getsatisfaction.com/binaryage/topics.widget?callback=gsfnTopicsCallback&amp;limit=12&amp;product=binaryage_totalfinder&amp;sort=last_active_at&amp;style=question" type="text/javascript"></script>
