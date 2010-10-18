@@ -6,7 +6,7 @@ next: Acknowledgements
 next_link: /acknowledgements
 ---
 
-# __TotalFinder is a product of the work by many__
+# __TotalFinder was created with contributions from many people__
 
 ## People who contributed significantly
 
@@ -14,7 +14,7 @@ next_link: /acknowledgements
 * **Lorenzo Orlandi** - providing tips and great [support to the users at forums](http://getsatisfaction.com/binaryage)
 * and all [translators](http://github.com/binaryage/totalfinder-i18n/contributors)
 
-## TotalFinder leveraged these open-source projects
+## TotalFinder leveraged these open-source projects and tools
 
 * <a href="http://www.fscript.org">**F-Script**</a> by Philippe Mougin
 * <a href="http://www.codethecode.com/projects/class-dump">**class-dump**</a> by Steve Nygard
@@ -33,3 +33,7 @@ To see full formal acknowledgements, please [visit this page](http://totalfinder
 ## Thank you!
 
 Anyone who contributed to these projects can [grab a free TotalFinder copy](http://totalfinder.binaryage.com/free-licenses).
+
+---
+
+<div style="color: #666; font-size: 10px">Please <a href="mailto:antonin@binaryage.com">send me an email</a> if you think I forgot to mention someone. Thank you.</div>
