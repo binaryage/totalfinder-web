@@ -1,7 +1,7 @@
 ---
 layout: tf-page
-title: TotalFinder Changelog
-subtitle: TotalFinder Changelog
+title: TotalFinder BETA Changelog
+subtitle: TotalFinder BETA Changelog
 prev: Stable Channel
 prev_link: /changes
 ---
