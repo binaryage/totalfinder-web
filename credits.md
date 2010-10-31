@@ -12,6 +12,7 @@ next_link: /acknowledgements
 
 * **Roman Yusufkhanov** - contributed new "Folders on Top" implementation and other code
 * **Lorenzo Orlandi** - providing tips and great [support to the users at forums](http://getsatisfaction.com/binaryage)
+* **[Petr Stastny](http://raist.cz)** - created TotalFinder icon, BinaryAge logo, helped on web site design and other tasks
 * and all [translators](http://github.com/binaryage/totalfinder-i18n/contributors)
 
 ## TotalFinder leveraged these open-source projects and tools
