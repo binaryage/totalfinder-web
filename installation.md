@@ -10,12 +10,12 @@ next_link: /uninstallation
 
 ## Installation is easy
 
-TotalFinder has a convenient installer which guides you through installation steps:
+TotalFinder has a convenient installer which guides you through the installation steps:
 
-1. Download and open latest archive TotalFinder-X.Y.Z.dmg from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com)
+1. Download and open the latest archive TotalFinder-X.Y.Z.dmg from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com)
 2. Launch `TotalFinder.mpkg`
-3. Click through installation process
-4. Finder restarts with TotalFinder
+3. Click through the installation process
+4. Finder will restart with TotalFinder
 
 <div style="height: 50px">&nbsp;</div>
 
@@ -31,7 +31,7 @@ TotalFinder uses [Sparkle](http://sparkle.andymatuschak.org/) updating system. B
 
 <img src="/images/login-items.png" class="doc-inline-image-50 right">
 
-By default, installer puts `TotalFinder.app` into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove `TotalFinder.app` from your login startup items to prevent TotalFinder from launching at startup.
+By default, the installer puts `TotalFinder.app` into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove `TotalFinder.app` from your login startup items to prevent TotalFinder from launching at startup.
 
 <div style="height: 120px">&nbsp;</div>
 
@@ -49,4 +49,4 @@ For removal please check separate [uninstallation page](/uninstallation).
 
 * `/Users/<user>/Library/Preferences/com.apple.finder.plist` - all TotalFinder related keys are prefixed with `TotalFinder`
     
-Note: You may safely remove any TotalFinder prefixed keys. TotalFinder recreates them with default values when restarted. Deleting whole `com.apple.finder.plist` and restarting Finder will reset both Finder and TotalFinder into initial state (factory defaults).
+Note: You may safely remove any TotalFinder prefixed keys. TotalFinder recreates them with default values when restarted. Deleting the whole `com.apple.finder.plist` file and restarting Finder will reset both Finder and TotalFinder into their initial state (factory defaults).

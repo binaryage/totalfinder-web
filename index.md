@@ -68,7 +68,7 @@ shots: [{
  
 <div class="tf-main-content">
 <hr>
-<h2>It is a better Finder for your Mac</h2>
+<h2>It's a better Finder for your Mac</h2>
 
 <div class="tf-highlights">
 <div class="tf-highlight">
@@ -159,7 +159,7 @@ shots: [{
     </div>
     <div class="tf-highlight-content">
         <h3>Safari-style Tabs</h3>
-        <p>Some people hate Chrome tabs with passion. I feel your pain guys.</p>
+        <p>Some people hate Chrome tabs with a passion. I feel your pain, guys.</p>
         <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/allow_safari_style_tabs_or_unique_a_style_chrome_tabs_me_not_like">discuss it here</a></div>
     </div>
 </div>

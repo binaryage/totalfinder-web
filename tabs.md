@@ -21,18 +21,18 @@ next_link: /dual-mode
 
 You already know tabs from your web browser. For example, in Safari the tabs are sheets for displaying multiple web pages within one browser window.
 
-Similarly in TotalFinder tabs display multiple directories within one window. TotalFinder uses the code from Google Chrome web browser, that is the reason why the tabs look and behave similar way.
+Similarly in TotalFinder tabs display multiple directories within one window. TotalFinder uses the code from Google Chrome web browser, which is why the tabs look and behave in a similar way.
 
 ## What can I do with tabs?
 
-1. You may **switch between tabs**.
-2. You may **reorder tabs**.
-3. You may **pull the tab out** into a separate window.
-4. You may **drag the tab** and insert it between other tabs in an existing window.
-5. You may **close individual tabs**.
-6. You may double-click the tab to **enter a dual mode**.
-7. You may **drag file or folder onto a tab** to move it.
-8. You may **drag folder in between tabs** to open given folder as a new tab.
+1. You can **switch between tabs**.
+2. You can **reorder tabs**.
+3. You can **pull the tab out** into a separate window.
+4. You can **drag the tab** and insert it between other tabs in an existing window.
+5. You can **close individual tabs**.
+6. You can double-click the tab to **enter a dual mode**.
+7. You can **drag file or folder onto a tab** to move it.
+8. You can **drag folder in between tabs** to open given folder as a new tab.
 
 ## Keyboard Shortcuts
 

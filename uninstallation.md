@@ -10,7 +10,7 @@ next_link: /licensing
 
 ## Removal is just two clicks away
 
-TotalFinder comes with convenient uninstaller script which safely removes TotalFinder from your computer. 
+TotalFinder comes with a convenient uninstaller script which safely removes TotalFinder from your computer.
 
 Under TotalFinder's Menu Bar item select `Uninstall TotalFinder`:
 
@@ -23,7 +23,7 @@ Under TotalFinder's Menu Bar item select `Uninstall TotalFinder`:
 In case of troubles running menu command you may alternatively:
 
 * In Terminal.app execute `open "/Applications/TotalFinder.app/Contents/Resources/TotalFinder Uninstaller.app"`
-* Download and open latest archive from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com) and launch `TotalFinder Uninstaller.app`
+* Download and open the latest archive from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com) and launch `TotalFinder Uninstaller.app`
 
 ## Purging the configuration
 
@@ -31,8 +31,8 @@ In case of troubles running menu command you may alternatively:
 
 By default the uninstaller does not remove your configuration settings from `/Users/<user>/Library/Preferences/com.apple.finder.plist`. 
     
-It is just a few extra bytes we leave for case you are just reinstalling it for some reason. It is also convenient to keep your license key there just for case you return to TotalFinder later.
+It is just a few extra bytes we leave for case you are just reinstalling for some reason. It is also convenient to keep your license key there just for case you return to TotalFinder later.
 
-In some future version uninstaller will offer removing the configuration. Right now you have to do it by hand. If you want to clean TotalFinder trail completely remove all TotalFinder prefixed keys from that file. You may use plist editor for that:
+In some future version uninstaller will offer to remove the configuration. Right now you have to do it by hand. If you want to clean the TotalFinder trail completely, remove all TotalFinder prefixed keys from that file. You can use plist editor to do that:
 
     open ~/Library/Preferences/com.apple.finder.plist

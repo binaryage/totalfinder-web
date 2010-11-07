@@ -15,7 +15,7 @@ prev_link: /asepsis
 
 ## Reset to defaults
 
-Button `Reset TotalFinder to defauls` will restore initial TotalFinder configuration for all features. This does not remove your license key.
+Button `Reset TotalFinder to defaults` will restore the initial TotalFinder configuration for all features. This does not remove your license key.
 
 ## File Browser
 
@@ -25,13 +25,13 @@ Enables display of hidden files. More in [Show System Files](/show-system-files)
 
 ### Folders on Top
 
-In browser views displays first folders and then files. More in [Folders on Top](/folders-on-top).
+In browser views, displays folders first and then files. More in [Folders on Top](/folders-on-top).
 
 ### Always Maximize
 
 By default OSX applications maximize to take available space but they don't take more space than they actually need to display without scrollbars.
 
-When checked, clicking green maximize button in the top left window frame corner will maximize TotalFinder to full available screen space.
+When checked, clicking the green maximize button in the top left window frame corner will maximize TotalFinder to the full available screen space.
 
 When unchecked, you may also hold SHIFT and click the green button to maximize to full screen as if it were checked.
 
@@ -43,7 +43,7 @@ Dual mode is covered in a separate article about [Dual Mode in TotalFinder](/dua
 
 ### Hide icon in Menu Bar
 
-By default TotalFinder displays small icon in the Menu Bar. It shows an auxiliary menu when clicked. You may hide the icon to conserve Menu Bar space.
+By default TotalFinder displays a small icon in the Menu Bar. It shows an auxiliary menu when clicked. You may hide the icon to conserve Menu Bar space.
 
 <img src="/images/uninstall-menu.png">
 
@@ -51,7 +51,7 @@ By default TotalFinder displays small icon in the Menu Bar. It shows an auxiliar
 
 If you don't like TotalFinder icon in the Dock, you may switch to the original Finder icon.
 
-If you use some icon replacement pack. Please note that you have to restart Finder to see your custom icons after checking this option.
+If you use some icon replacement pack, please note that you have to restart Finder to see your custom icons after checking this option.
 
 ## Experimental
 
@@ -61,11 +61,11 @@ By default TotalFinder forces all new Finder windows to be opened as new tabs of
 
 After checking this option newly created windows start as new windows.
 
-In the future there will be a better way how to specify behavior of new Finder windows. For more information [see the discussion](http://getsatisfaction.com/binaryage/topics/what_does_freelance_window_preference_mean).
+In the future there will be a better way to specify behavior of new Finder windows. For more information [see the discussion](http://getsatisfaction.com/binaryage/topics/what_does_freelance_window_preference_mean).
 
 ### Use narrow Tabs Bar
 
-People are running OSX on small notebooks with small displays. Checking this option makes TotalFinder's tab bar smaller and saves 14 pixels of precious vertical space.
+For people who are running OSX on small notebooks with small displays. Checking this option makes TotalFinder's tab bar smaller and saves 14 pixels of precious vertical space.
 
 ## Keyboard Shortcuts
 

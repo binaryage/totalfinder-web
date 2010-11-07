@@ -20,40 +20,40 @@ next_link: /asepsis
 
 Visor is a system-wide TotalFinder window displaying at the bottom of the screen. The idea is to have one dedicated TotalFinder instance always ready just one key press away. This functionality is inspired by [Terminal.app's Visor](http://visor.binaryage.com).
 
-This feature is disabled by default. It is meant to be enabled by advanced users who want to adopt Visor-based workflow. It works best when you have auto-hiding Dock panel.
+This feature is disabled by default. It is meant to be enabled by advanced users who want to adopt a Visor-based workflow. It works best when you have auto-hiding Dock panel enabled.
 
 ## What can I do with Visor?
 
-1. You may show and hide it
-2. You may hide it by pressing Escape (optional)
-3. You may pin visor window
-4. You may tweak its appearance and behavior
+1. You can show and hide it
+2. You can hide it by pressing Escape (optional)
+3. You can pin visor window
+4. You can tweak its appearance and behavior
 
 ## Activation and deactivation
 
-To activate the Visor press the keyboard shortcut. You may alternatively double tap option key. To deactivate, press it again or hit escape. Visor deactivates also when another application gets input focus.
+To activate the Visor press the keyboard shortcut. Alternatively, you can double tap the option key. To deactivate, press the keyboard shortcut again or hit escape. Visor also deactivates when another application gets input focus.
 
 ## Pinning Visor
 
-Sometimes you may want Visor to temporarily stay open even if you switch to another application. In this situation you may pin the Visor using blue button in the top left corner of the Visor window. There is a keyboard shortcut `⇧⌘P` for doing it quickly without mouse.
+Sometimes you may want Visor to temporarily stay open even if you switch to another application. In this situation you can pin the Visor the using blue button in the top left corner of the Visor window. There is a keyboard shortcut `⇧⌘P` for doing it quickly without a mouse.
 
-While pinned, Visor does not hide when losing focus. Hiding using activation shortcut still works.
+While pinned, Visor does not hide when losing focus. Hiding using the activation shortcut still works.
 
 ## Resizing Visor
 
-Visor was designed to occupy whole width of the screen in the bottom part. You may adjust Visor's height by dragging window frame (drag the area behind tabs).
+Visor was designed to occupy the whole width of the screen, positioned at the bottom. You can adjust Visor's height by dragging the window frame (drag the area behind tabs).
 
-Some users have wide monitors and they also want to control the width and horizontal position of the Visor window. In this case you may enable a `FreeForm Window` switch which enables arbitrary size and horizontal position for the Visor window. Use the classic resizing gripper in the bottom right window corner.
+Some users have wide monitors and want to control the width and horizontal position of the Visor window. In this case you can enable a `FreeForm Window` switch which enables arbitrary size and horizontal position for the Visor window. Use the classic resizing gripper in the bottom right window corner.
 
 ## Sliding effect
 
-Visor window slides on screen similar way how game console did in original Quake game. You may customize this effect by specifying duration and whether you want it to fade and slide.
+The Visor window slides on screen similar way to how the game console did in the original Quake game. You may customize this effect by specifying duration and whether you want it to fade and slide.
 
 ## Screens and Spaces
 
 * **Screen** - on multi-monitor systems forces Visor window to appear on particular screen
 * **Show on all Spaces** - Visor window will appear on all spaces (recommended)
-* **Show above the Dock level** - displays Visor above Dock
+* **Show above the Dock level** - displays Visor above the Dock
 
 ## Keyboard Shortcuts
 
