@@ -21,7 +21,7 @@ next_link: /visor
 
 By default Finder does not display hidden (system) files. 
 
-TotalFinder adds a keyboard shortcut to toggle display of these files without the need of the Finder restart.
+TotalFinder adds a keyboard shortcut to toggle display of these files without the need to restart Finder.
 
 ## Keyboard Shortcuts
 

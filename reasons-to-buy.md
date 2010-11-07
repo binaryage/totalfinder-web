@@ -11,17 +11,17 @@ I'm [Antonin](http://binaryage.com/about), the author of TotalFinder. Here are m
 
 ## You get tabbed browsing in Finder
 
-Finder works pretty well but tabs may really improve your daily workflows. You already know how to use tabs from your web browser. It simply makes you more effective instantly. Also having tabbed Finder makes you look cool when you share screen with your geeky Mac friends - that's guaranteed!
+Finder works pretty well but tabs could really improve your daily workflows. You already know how to use tabs from your web browser. It simply makes you more effective instantly. Also having tabbed Finder makes you look cool when you share your screen with your geeky Mac friends - that's guaranteed!
 
-## Yes, it's the Finder! You don't have to learn anything new
+## Yes, it's Finder! You don't have to learn anything new
 
 Apps like PathFinder, ForkLift or DiskOrder are nice, mature and have many great features. But you have to make a hard decision to switch and learn.
 
-With TotalFinder you don't have to do the decision between Finder and some replacement application. You get the Finder with all you already know plus some new handy features. Most TotalFinder features is disabled by default and you may enable them one by one as you go.
+With TotalFinder you don't have to make this decision between Finder and some replacement application. You get Finder with all everything already know plus some new handy features. Most TotalFinder features are disabled by default and you can enable them one by one as you go.
 
 TotalFinder's approach is novel in a way that it is not a replacement application. It augments Finder and improves its functionality. This should also offer better interoperability with other applications which usually expect Finder to be your only file manager. We've all seen those menus with "Reveal in Finder" items, right?
 
-Finder is not going away anytime soon and it has some very unique features like TimeMachine or SpotLight search. Every Mac has Finder installed. You better learn how to live with it than fight it. TotalFinder can help and make Finder work better for you.
+Finder is not going away anytime soon and it has some very unique features like TimeMachine and SpotLight search. Every Mac has Finder installed. You are better to learn how to live with it than fight it. TotalFinder can help and make Finder work better for you.
 
 ## You can support a single guy doing cool stuff
 

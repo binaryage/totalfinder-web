@@ -14,15 +14,15 @@ next_link: /registration
 You may install TotalFinder and use it in trial mode for 14 days. Then you should decide to buy it or uninstall it.
 </div>
 
-Trial version displays info badge in the top-right part of every window:
+The trial version displays an info badge in the top-right part of every window:
 
 <img src="/images/trial.png" class="doc-inline-image" style="left: 0px; margin-bottom: -20px">
 
-After 14 days it starts showing unregistered badge:
+After 14 days it starts showing the unregistered badge:
 
 <img src="/images/unregistered.png" class="doc-inline-image" style="left: 0px; margin-bottom: -20px">
 
-This allows you to evaluate TotalFinder functionality and decide whether you want to buy it or not.
+This allows you to evaluate TotalFinder's functionality and decide whether you want to buy it or not.
 
 ## The license agreement
 
@@ -38,11 +38,11 @@ When you buy a TotalFinder license you get my permission to use the software. Us
 
 ## Free licenses
 
-Check [this page](/free-licenses) if you can get a free license.
+Check [this page](/free-licenses) to see if you can get a free license.
 
 ## Office license
 
-You may also want to check [office license page](/office-license) for info on licensing to groups like companies, offices or labs.
+You may also want to check the [office license page](/office-license) for info on licensing to groups like companies, offices or labs.
 
 ## Buying a license
 
@@ -58,7 +58,7 @@ A new major OS release (OS X 10.7) will probably require substantial rewrites an
 
 ## TotalFinder and your privacy
 
-TotalFinder does not connect or communicate over the network. It works perfectly on a computer disconnected from the internet.
+TotalFinder does not connect to or communicate over the network. It works perfectly on a computer disconnected from the internet.
 
 There are two cases in which TotalFinder optionally sends data over the network:
 
@@ -70,7 +70,7 @@ There are two cases in which TotalFinder optionally sends data over the network:
 I have tested TotalFinder with my system and I did my best to make it bug-free and stable. However it may still contain undiscovered bugs or issues.
 
 <div class="license-warning">
-Also please note that I'm not in control of what Apple does with Finder in the future. Although unlikely, it may happen that some future update makes it impossible for me to adapt TotalFinder or some of its functionality to a new Finder version. By buying the license you accept this risk.
+Also please note that I'm not in control of what Apple does with Finder in the future. Although unlikely, it may happen that some future update makes it impossible for me to adapt TotalFinder or some of its functionality to a new Finder version. By buying a license you accept this risk.
 </div>
 
 <div class="license-exclamation">

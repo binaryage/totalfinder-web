@@ -8,7 +8,7 @@ TotalFinder Copyright (c) 2010 Antonin Hildebrand (me)
  this software and associated documentation files (TotalFinder),
  to use it under the following conditions:
 
- You may install TotalFinder to test and evaluate it for 14 days. After
+ You may install TotalFinder to test and evaluate for 14 days. After
  this test period of 14 days you must obtain a commercial license or uninstall.
 
  TOTALFINDER IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -27,7 +27,7 @@ TotalFinder Copyright (c) 2010 Antonin Hildebrand (me)
  this software and associated documentation files (TotalFinder),
  to use it under the following conditions:
 
- You may install TotalFinder and use it in one of these scenarios:
+ You may install and use TotalFinder in one of these scenarios:
  1. TotalFinder is used by one user on multiple computers exclusively
  2. TotalFinder is used by multiple users on a single computer
  You may freely switch between those scenarios.
@@ -36,7 +36,7 @@ TotalFinder Copyright (c) 2010 Antonin Hildebrand (me)
  TotalFinder as long as you are doing it for good, not for evil.
 
  That is all you may explicitly do, but you may always do more if you ask 
- me at antonin@binaryage.com and I will reply "yes" or if your local laws
+ me at antonin@binaryage.com and I reply "yes" or if your local laws
  force me to allow that regardless.
 
  TOTALFINDER IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -55,20 +55,20 @@ TotalFinder Copyright (c) 2010 Antonin Hildebrand (me)
  this software and associated documentation files (TotalFinder),
  to use it under the following conditions:
 
- Software is to be used by people working a well-defined group like 
- company, department, office or project group. You may put license name 
+ Software is to be used by people working in a well-defined group like a
+ company, department, office or project group. You may put the license name 
  and key on a wiki or similar place available to the group members. 
- Every group member then may use it under the terms of COMMERCIAL LICENSE 
+ Every group member may then use it under the terms of COMMERCIAL LICENSE 
  as long as he or she is a valid member of the group.
 
  With following conditions:
  1. You have a multi-license for at least 3 people covering actual number 
     of group members
- 2. You have to buy additional OFFICE LOCK license which allows execution 
+ 2. You have bought additional OFFICE LOCK license which allows execution 
     of OFFICE license for the period one year
     
  That is all you may explicitly do, but you may always do more if you ask 
- me at antonin@binaryage.com and I will reply "yes" or if your local laws
+ me at antonin@binaryage.com and I reply "yes" or if your local laws
  force me to allow that regardless.
 
  TOTALFINDER IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR

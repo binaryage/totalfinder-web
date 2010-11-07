@@ -21,9 +21,9 @@ next_link: /show-system-files
 
 By default Finder does not separate folders and files and displays them mixed as you can see on the left.
 
-Some users prefer to see first folders and then files regardless of actual sorting options. 
+However, some users prefer to see first folders and then files regardless of actual sorting options. 
 
-TotalFinder enables toggle of this display on a keyboard shortcut.
+TotalFinder enables toggle of this display by a keyboard shortcut.
 
 ## What about sorting?
 
