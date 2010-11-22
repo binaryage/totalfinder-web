@@ -33,36 +33,6 @@ shots: [{
     title: "TotalFinder with tabs!",
     thumb: "/images/totalfinder-screenshot-tabs-t.png",
     full: "/images/totalfinder-screenshot-tabs.png"
-},
-{
-    title: "TotalFinder in dual mode",
-    thumb: "/images/totalfinder-screenshot-dual-mode-t.png",
-    full: "/images/totalfinder-screenshot-dual-mode.png"
-},
-{
-    title: "TotalFinder visor window slides from bottom",
-    thumb: "/images/totalfinder-screenshot-visor-t.png",
-    full: "/images/totalfinder-screenshot-visor.png"
-},
-{
-    title: "TotalFinder preferences - Visor",
-    thumb: "/images/totalfinder-screenshot-preferences-visor-t.png",
-    full: "/images/totalfinder-screenshot-preferences-visor.png"
-},
-{
-    title: "TotalFinder preferences - .DS_Store redirection",
-    thumb: "/images/totalfinder-screenshot-preferences-store-t.png",
-    full: "/images/totalfinder-screenshot-preferences-store.png"
-},
-{
-    title: "TotalFinder preferences - various tweaks",
-    thumb: "/images/totalfinder-screenshot-preferences-tweaks-t.png",
-    full: "/images/totalfinder-screenshot-preferences-tweaks.png"
-},
-{
-    title: "TotalFinder preferences - info screen",
-    thumb: "/images/totalfinder-screenshot-preferences-info-t.png",
-    full: "/images/totalfinder-screenshot-preferences-info.png"
 }]
 ---
  
