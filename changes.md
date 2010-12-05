@@ -12,6 +12,6 @@ next_link: /beta-changes
 
 <script type="text/javascript" charset="utf-8">
     $(function() {
-        $('.changelogx').load('changelog.html #page');
+        $('.changelogx').load('changelog.html?x='+((Math.random()+"").substring(2))+' #page');
     });
 </script>

@@ -18,7 +18,7 @@ prev_link: /changes
 
 <script type="text/javascript" charset="utf-8">
     $(function() {
-        $('.changelogx').load('changelog-beta.html #page');
+        $('.changelogx').load('changelog-beta.html?x='+((Math.random()+"").substring(2))+' #page');
     });
     
     function showBetaHint(el) {
