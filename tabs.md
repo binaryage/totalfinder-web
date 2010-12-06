@@ -14,14 +14,14 @@ next_link: /dual-mode
     <h2>Preferences</h2>
     <img src="/images/preferences-menu.png" class="doc-pref-menu">
     <img src="/images/pref-none.png" class="doc-pref">
-    <p>The tabs is basic feature of TotalFinder. This feature cannot be turned off.</p>
+    <p>The tabs are a basic feature of TotalFinder. This feature cannot be turned off.</p>
 </div>
 
 ## What are tabs?
 
 You already know tabs from your web browser. For example, in Safari the tabs are sheets for displaying multiple web pages within one browser window.
 
-Similarly in TotalFinder tabs display multiple directories within one window. TotalFinder uses the code from Google Chrome web browser, which is why the tabs look and behave in a similar way.
+Similarly, in TotalFinder tabs display multiple directories within one window. TotalFinder uses the code from Google's Chrome web browser, which is why the tabs look and behave in a similar way.
 
 ## What can I do with tabs?
 
