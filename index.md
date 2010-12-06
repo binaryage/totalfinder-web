@@ -4,8 +4,8 @@ title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
-download: http://downloads.binaryage.com/TotalFinder-1.0.1.dmg
-downloadtitle: Download 1.0.1
+download: http://downloads.binaryage.com/TotalFinder-1.1.dmg
+downloadtitle: Download 1.1
 buy: http://store.binaryage.com
 buytitle: buy
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
@@ -103,6 +103,18 @@ shots: [{
 </div>
 <div class="tf-highlight">
     <div class="tf-highlight-icon">
+        <div class="thumb-cut">
+            
+        </div>
+    </div>
+    <div class="tf-highlight-content">
+        <h3>Cut &amp; Paste</h3>
+        <p>Scissors are dangerous but can be very useful when used properly.</p>
+        <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/move_files_and_folders_with_cut_past">discuss it here</a></div>
+    </div>
+</div>
+<!-- <div class="tf-highlight">
+    <div class="tf-highlight-icon">
         <a href="/asepsis">
             <div class="thumb-asepsis"></div>
         </a>
@@ -112,12 +124,12 @@ shots: [{
         <p>Get rid of those pesky .DS_Store files. Close them into a cage.</p>
         <div class="tf-more"><a href="/asepsis">read more</a></div>
     </div>
-</div>
+</div> -->
 <br class="clear">
 </div>
 
+<!-- 
 <hr>
-
 <h2>Hot ideas waiting to be implemented</h2>
 
 <div class="tf-highlights dimmed">
@@ -135,18 +147,6 @@ shots: [{
 </div>
 <div class="tf-highlight">
     <div class="tf-highlight-icon">
-        <div class="thumb-cut">
-            
-        </div>
-    </div>
-    <div class="tf-highlight-content">
-        <h3>Cut &amp; Paste</h3>
-        <p>Scissors are dangerous but can be very useful when used properly.</p>
-        <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/move_files_and_folders_with_cut_past">discuss it here</a></div>
-    </div>
-</div>
-<div class="tf-highlight">
-    <div class="tf-highlight-icon">
         <div class="thumb-term">
             
         </div>
@@ -158,10 +158,10 @@ shots: [{
     </div>
 </div>
 <br class="clear">
-</div>
+</div> -->
 
 <hr>
-<h2>What more?</h2>
+<h2>What next?</h2>
 
 <div class="what-next">
 <a href="/documentation" class="button button-250 product-button-doc">
