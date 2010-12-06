@@ -17,7 +17,7 @@ next_link: /visor
     <img src="/images/pref-tweaks.png" class="doc-pref">
 </div>
 
-## Hidden files live there too
+## Hidden files live there, too.
 
 By default Finder does not display hidden (system) files. 
 
