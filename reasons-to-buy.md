@@ -21,7 +21,7 @@ With TotalFinder you don't have to make this decision between Finder and some re
 
 TotalFinder's approach is novel in a way that it is not a replacement application. It augments Finder and improves its functionality. This should also offer better interoperability with other applications which usually expect Finder to be your only file manager. We've all seen those menus with "Reveal in Finder" items, right?
 
-Finder is not going away anytime soon and it has some very unique features like TimeMachine and SpotLight search. Every Mac has Finder installed. You are better to learn how to live with it than fight it. TotalFinder can help and make Finder work better for you.
+Finder is not going away anytime soon and it has some very unique features like Time Machine and Spotlight search. Every Mac has Finder installed. You are better to learn how to live with it than fight it. TotalFinder can help and make Finder work better for you.
 
 ## You can support a single guy doing cool stuff
 
