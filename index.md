@@ -72,7 +72,7 @@ shots: [{
     </div>
     <div class="tf-highlight-content">
         <h3>Folders on Top</h3>
-        <p>Don't make me think. Folders should always go first.</p>
+        <p>Don't make me think. Folders should always go first in list view.</p>
         <div class="tf-more"><a href="/folders-on-top">read more</a></div>
     </div>
 </div>
