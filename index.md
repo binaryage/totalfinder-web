@@ -11,7 +11,7 @@ buy: http://store.binaryage.com
 buytitle: buy
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
 leftshift: 12px
-likeshift: 22px
+likeshift: -72px
 facebook: 1
 retweet: 1
 usethis: totalfinder
@@ -39,8 +39,6 @@ shots: [{
  
 <div class="tf-main-content">
 <hr>
-<h2>It's a better Finder for your Mac</h2>
-
 <div class="tf-highlights">
 <div class="tf-highlight">
     <div class="tf-highlight-icon">
@@ -62,7 +60,7 @@ shots: [{
     </div>
     <div class="tf-highlight-content">
         <h3>Dual Mode</h3>
-        <p>Display two Finder windows side-by-side in dual panel mode.</p>
+        <p>Display two Finder windows side-by-side in dual mode.</p>
         <div class="tf-more"><a href="/dual-mode">read more</a></div>
     </div>
 </div>
@@ -74,10 +72,11 @@ shots: [{
     </div>
     <div class="tf-highlight-content">
         <h3>Folders on Top</h3>
-        <p>Don't make me think. Folders should always go before files.</p>
+        <p>Don't make me think. Folders should always go first.</p>
         <div class="tf-more"><a href="/folders-on-top">read more</a></div>
     </div>
 </div>
+<div class="tf-highlight-separator"></div>
 <div class="tf-highlight">
     <div class="tf-highlight-icon">
         <a href="/show-system-files">
@@ -110,59 +109,14 @@ shots: [{
     </div>
     <div class="tf-highlight-content">
         <h3>Cut &amp; Paste</h3>
-        <p>Scissors are dangerous but can be very useful when used properly.</p>
+        <p>Use keyboard shortcuts to move files around. Faster than drag &amp; drop.</p>
         <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/move_files_and_folders_with_cut_past">discuss it here</a></div>
     </div>
 </div>
-<!-- <div class="tf-highlight">
-    <div class="tf-highlight-icon">
-        <a href="/asepsis">
-            <div class="thumb-asepsis"></div>
-        </a>
-    </div>
-    <div class="tf-highlight-content">
-        <h3>Asepsis</h3>
-        <p>Get rid of those pesky .DS_Store files. Close them into a cage.</p>
-        <div class="tf-more"><a href="/asepsis">read more</a></div>
-    </div>
-</div> -->
 <br class="clear">
 </div>
 
-<!-- 
 <hr>
-<h2>Hot ideas waiting to be implemented</h2>
-
-<div class="tf-highlights dimmed">
-<div class="tf-highlight">
-    <div class="tf-highlight-icon">
-        <div class="thumb-stabs">
-            
-        </div>
-    </div>
-    <div class="tf-highlight-content">
-        <h3>Safari-style Tabs</h3>
-        <p>Some people hate Chrome tabs with a passion. I feel your pain, guys.</p>
-        <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/allow_safari_style_tabs_or_unique_a_style_chrome_tabs_me_not_like">discuss it here</a></div>
-    </div>
-</div>
-<div class="tf-highlight">
-    <div class="tf-highlight-icon">
-        <div class="thumb-term">
-            
-        </div>
-    </div>
-    <div class="tf-highlight-content">
-        <h3>Terminal Cooperation</h3>
-        <p>Make Terminal and Finder talk to each other. Peace.</p>
-        <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/terminal_app_cooperation">discuss it here</a></div>
-    </div>
-</div>
-<br class="clear">
-</div> -->
-
-<hr>
-<h2>What next?</h2>
 
 <div class="what-next">
 <a href="/documentation" class="button button-250 product-button-doc">
@@ -173,7 +127,4 @@ shots: [{
     <div><div>See Changelog</div></div>
 </a>
 
-<a href="http://support.binaryage.com" class="button button-250 product-button-forum">
-    <div><div>Visit Forums</div></div>
-</a>
 </div>
