@@ -31,16 +31,32 @@ ogmeta: {
     image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
-    title: "TotalFinder with tabs!",
-    thumb: "/images/totalfinder-screenshot-tabs-t.png",
-    full: "/images/totalfinder-screenshot-tabs.png"
+    title: "Finder with tabs!",
+    thumb: "/images/showcase/thumb-showcase-tabs.png",
+    full: "/images/showcase/showcase-tabs.png"
+},    {
+    title: "Dual Mode",
+    thumb: "/images/showcase/thumb-showcase-dual-mode.png",
+    full: "/images/showcase/showcase-dual-mode.png"
+},    {
+    title: "Folders on Top",
+    thumb: "/images/showcase/thumb-showcase-folders-on-top.png",
+    full: "/images/showcase/showcase-folders-on-top.png"
+},    {
+    title: "Show System Files",
+    thumb: "/images/showcase/thumb-showcase-system-files.png",
+    full: "/images/showcase/showcase-system-files.png"
+},    {
+    title: "Visor window",
+    thumb: "/images/showcase/thumb-showcase-visor.png",
+    full: "/images/showcase/showcase-visor.png"
 }]
 ---
  
 <div class="tf-main-content">
 <hr>
 <div class="tf-highlights">
-<div class="tf-highlight">
+<div class="tf-highlight" data-showcase="1">
     <div class="tf-highlight-icon">
         <a href="/tabs">
             <div class="thumb-tabs"></div>
@@ -52,7 +68,7 @@ shots: [{
         <div class="tf-more"><a href="/tabs">read more</a></div>
     </div>
 </div>
-<div class="tf-highlight">
+<div class="tf-highlight" data-showcase="2">
     <div class="tf-highlight-icon">
         <a href="/dual-mode">
             <div class="thumb-dual"></div>
@@ -64,7 +80,7 @@ shots: [{
         <div class="tf-more"><a href="/dual-mode">read more</a></div>
     </div>
 </div>
-<div class="tf-highlight">
+<div class="tf-highlight" data-showcase="3">
     <div class="tf-highlight-icon">
         <a href="/folders-on-top">
             <div class="thumb-fot"></div>
@@ -77,7 +93,7 @@ shots: [{
     </div>
 </div>
 <div class="tf-highlight-separator"></div>
-<div class="tf-highlight">
+<div class="tf-highlight" data-showcase="4">
     <div class="tf-highlight-icon">
         <a href="/show-system-files">
             <div class="thumb-ssf"></div>
@@ -89,7 +105,7 @@ shots: [{
         <div class="tf-more"><a href="/show-system-files">read more</a></div>
     </div>
 </div>
-<div class="tf-highlight">
+<div class="tf-highlight" data-showcase="5">
     <div class="tf-highlight-icon">
         <a href="/visor">
             <div class="thumb-visor"></div>

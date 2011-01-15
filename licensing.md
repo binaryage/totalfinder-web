@@ -46,7 +46,7 @@ You may also want to check the [office license page](/office-license) for info o
 
 ## Buying a license
 
-<img src="/images/licensing-icon.png" style="width: 32px; float: left; margin-right: 10px">
+<img src="/shared/img/totalfinder-icon-shop.png" style="width: 32px; float: left; margin-right: 10px">
 
 Please visit [the store](https://sites.fastspring.com/binaryage/instant/totalfinder) where you can purchase TotalFinder for $15. It is safe and easy (powered by [FastSpring](http://fastspring.com)).
 
