@@ -31,13 +31,13 @@ ogmeta: {
     image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
-    title: "Finder with tabs!",
-    thumb: "/images/showcase/thumb-showcase-tabs.png",
-    full: "/images/showcase/showcase-tabs.png"
-},    {
     title: "Dual Mode",
     thumb: "/images/showcase/thumb-showcase-dual-mode.png",
     full: "/images/showcase/showcase-dual-mode.png"
+},    {
+    title: "Finder with tabs!",
+    thumb: "/images/showcase/thumb-showcase-tabs.png",
+    full: "/images/showcase/showcase-tabs.png"
 },    {
     title: "Folders on Top",
     thumb: "/images/showcase/thumb-showcase-folders-on-top.png",
@@ -56,7 +56,7 @@ shots: [{
 <div class="tf-main-content">
 <hr>
 <div class="tf-highlights">
-<div class="tf-highlight" data-showcase="1">
+<div class="tf-highlight" data-showcase="2">
     <div class="tf-highlight-icon">
         <a href="/tabs">
             <div class="thumb-tabs"></div>
@@ -68,7 +68,7 @@ shots: [{
         <div class="tf-more"><a href="/tabs">read more</a></div>
     </div>
 </div>
-<div class="tf-highlight" data-showcase="2">
+<div class="tf-highlight" data-showcase="1">
     <div class="tf-highlight-icon">
         <a href="/dual-mode">
             <div class="thumb-dual"></div>
