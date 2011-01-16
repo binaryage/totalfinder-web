@@ -8,7 +8,7 @@ next: Installation
 next_link: /installation
 ---
 
-<img src="/images/totalfinder-screenshot-tabs.png" style="float:right; width:500px; margin-left: 20px; position: relative; top: 0px">
+<img src="/images/showcase/thumb-showcase-dual-mode.png" style="float:right; width:500px; margin-left: 20px; position: relative; top: 0px">
 
 ## TotalFinder is just a better Finder
 
