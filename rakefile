@@ -115,4 +115,10 @@ task :optimize do
     end
 end
 
+desc "update mainshot"
+task :mainshot do
+    sys("cp images/showcase/showcase-dual-mode.png shared/img/totalfinder-mainshot-full.png")
+    sys("cp images/showcase/thumb-showcase-dual-mode.png shared/img/totalfinder-mainshot.png")
+end
+
 task :default => :serve
