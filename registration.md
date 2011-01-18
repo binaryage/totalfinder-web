@@ -47,4 +47,4 @@ Click Register and you get this happy screen if you did it right:
 
 <img src="/images/totalfinder-good-license.png">
 
-Thank you and enjoy using TotalFinder! And please [let me know](mailto:antonin@binaryage.com) if you encounter any troubles completing your registration.
+Thank you and enjoy using TotalFinder! And please [let me know](mailto:support@binaryage.com) if you encounter any troubles completing your registration.

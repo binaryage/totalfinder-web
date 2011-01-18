@@ -24,7 +24,7 @@ fbsdk: 1
 ogmeta: {
     site_name: "BinaryAge website",
     description: "TotalFinder adds tabs into your native Finder and more!",
-    email: "antonin@binaryage.com",
+    email: "support@binaryage.com",
     type: "product",
     title: "TotalFinder",
     url: "http://totalfinder.binaryage.com",
