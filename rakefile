@@ -121,4 +121,15 @@ task :mainshot do
     sys("cp images/showcase/thumb-showcase-dual-mode.png shared/img/totalfinder-mainshot.png")
 end
 
+desc "update images"
+task :update do
+    sys("mkdir -p tfdata")
+    sys("mount -t smbfs //guest:@whale/Store/tfdata/products/showcase/English tfdata")
+    sys("rsync -av --delete tfdata/ images/showcase/")
+    sleep(2)
+    sys("umount tfdata")
+    sys("rm -rf tfdata")
+    puts red("run> rake mainshot")
+end
+
 task :default => :serve
