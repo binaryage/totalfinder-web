@@ -41,9 +41,19 @@ Similarly, in TotalFinder tabs display multiple directories within one window. T
         <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
         <tr><td>Open a new tab</td><td>⌘T</td><td></td></tr>
         <tr><td>Close selected tab</td><td>⌘W</td><td></td></tr>
-        <tr><td>Switch between tabs</td><td>⌘⇧[ and  ⌘⇧]<br> ⌘⌥← and ⌘⌥→<br> ⌘⇧← and  ⌘⇧→</td><td></td></tr>
+        <tr><td>Switch between tabs</td><td>⌘⇧[ and  ⌘⇧]<br> ⌘⇧← and  ⌘⇧→</td><td></td></tr>
         <tr><td>Open a new window</td><td>⌘N</td><td></td></tr>
         <tr><td>Close window</td><td>⌘⇧W</td><td></td></tr>
         <tr><td>Close all windows</td><td>⌘⌥W</td><td></td></tr>
     </table>
 </div>
+
+## Remapping Shortcuts
+
+Do you want additional shortcuts for switching tabs? For example ⌘⌥→ to match Google Chrome?<br>You may want to use standard OS X mechanism for mapping keyboard shortcuts to menu items.
+
+Please go to `System Preferences -> Keyboard -> Keyboard Shortcuts -> Application Shortcuts`
+
+<img src="/images/mapping-shortcuts.png" width="500">
+
+<div style="color: #888; font-size:10px;">Note that adding ⌘⌥← and  ⌘⌥→ overrides standard Finder shortcuts for expanding items in list view. See this <a href="http://getsatisfaction.com/binaryage/topics/running_totalfinder_disables_cmd_opt_rightarrow_expand_all_effect">topic for more information</a>.</div>
