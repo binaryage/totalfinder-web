@@ -50,7 +50,7 @@ Similarly, in TotalFinder tabs display multiple directories within one window. T
 
 ## Remapping Shortcuts
 
-Do you want additional shortcuts for switching tabs? For example ⌘⌥→ to match Google Chrome?<br>You may want to use standard OS X mechanism for mapping keyboard shortcuts to menu items.
+Do you want additional shortcuts for switching tabs? For example ⌘⌥→ to match Google Chrome?<br>You may want to use the standard OS X mechanism for mapping keyboard shortcuts to menu items.
 
 Please go to `System Preferences -> Keyboard -> Keyboard Shortcuts -> Application Shortcuts`
 
