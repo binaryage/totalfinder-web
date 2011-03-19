@@ -51,4 +51,9 @@ Please subscribe to beta channel of TotalFinder updates:<br>
 
 Please report bugs and compatibility issues here: [http://getsatisfaction.com/binaryage](http://getsatisfaction.com/binaryage).
 
-Thanks, you are awesome!
+**Thanks, you are awesome!**
+
+---
+
+Just want to chat about Lion and TotalFinder future? Please use this topic:
+[http://getsatisfaction.com/binaryage/topics/totalfinder_for_lion](http://getsatisfaction.com/binaryage/topics/totalfinder_for_lion)
