@@ -54,7 +54,7 @@ Please visit [the store](https://sites.fastspring.com/binaryage/instant/totalfin
 
 When you buy a license you may freely update to all TotalFinder versions within one major OS release. For example by buying TotalFinder today you will get free updates for all Snow Leopard compatible versions (OS X 10.6).
 
-A new major OS release (OS X 10.7) will probably require substantial rewrites and intensive testing. I will charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.
+A new major OS release (OS X 10.7) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.
 
 ## TotalFinder and your privacy
 
