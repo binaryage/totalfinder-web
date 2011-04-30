@@ -1,19 +1,17 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: Visor in TotalFinder
-subtitle: Visor in TotalFinder
-prev: Show System Files
-prev_link: /show-system-files
-next: Asepsis
-next_link: /asepsis
+subtitle: Visor
 ---
 
 <img src="/images/visor-fade.png" class="doc-image" style="margin-bottom: 0px">
 
 <div class="doc-side">
-    <h2>Preferences</h2>
-    <img src="/images/preferences-menu.png" class="doc-pref-menu">
-    <img src="/images/pref-visor.png" class="doc-pref">
+    <div class="doc-side-inner">
+        <h2>Preferences</h2>
+        <img src="/images/preferences-menu.png" class="doc-pref-menu">
+        <img src="/images/pref-visor.png" class="doc-pref">
+    </div>
 </div>
 
 ## What is Visor?
@@ -57,7 +55,7 @@ The Visor window slides on screen similar way to how the game console did in the
 
 ## Keyboard Shortcuts
 
-<div class="keyboard-shortcuts">
+<div class="keyboard-shortcuts full">
     <table border="0" cellspacing="0" cellpadding="0">
         <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
         <tr><td>Show or hide Visor</td><td>⌥`</td><td>alternatively double tap ⌥+⌥</td></tr>

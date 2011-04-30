@@ -1,9 +1,7 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: My reasons to buy TotalFinder
 subtitle: My reasons to buy TotalFinder
-prev: Documentation Index
-prev_link: /documentation
 ---
 
 Hello there, 

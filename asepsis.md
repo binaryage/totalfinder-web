@@ -1,17 +1,15 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: Asepsis in TotalFinder
-subtitle: Asepsis in TotalFinder
-prev: Visor
-prev_link: /visor
-next: Tweaks
-next_link: /tweaks
+subtitle: Asepsis
 ---
 
 <div class="doc-side">
-    <h2>Preferences</h2>
-    <img src="/images/preferences-menu.png" class="doc-pref-menu">
-    <img src="/images/pref-asepsis.png" class="doc-pref">
+    <div class="doc-side-inner">
+        <h2>Preferences</h2>
+        <img src="/images/preferences-menu.png" class="doc-pref-menu">
+        <img src="/images/pref-asepsis.png" class="doc-pref">
+    </div>
 </div>
 
 ## What is Asepsis?

@@ -1,11 +1,7 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: Registering TotalFinder
-subtitle: Registering TotalFinder
-prev: Licensing
-prev_link: /licensing
-next: Tabs
-next_link: /tabs
+subtitle: Registration
 ---
 
 ## Thanks for considering buying TotalFinder
@@ -16,7 +12,7 @@ This should be really straight-forward. It should take less than 5 minutes in mo
 
 Please notice that there is no point in ordering 2 licenses, because they cost the same price as 3 licenses. Yes, I offer such [aggressive multi-licensing](http://sites.fastspring.com/binaryage/product/totalfinder/pricing) :-)
 
-<img src="/images/web-store.png" style="width: 800px">
+<img src="/images/web-store.png" style="width: 600px">
 
 ## Wait for an email with "TotalFinder License" in the subject
 
@@ -26,7 +22,7 @@ We all know that even important emails can sometimes end up in a spam folder. Pl
 
 In my gmail the message looks like this:
 
-<img src="/images/totalfinder-license-email.png" style="width: 800px">
+<img src="/images/totalfinder-license-email.png" style="width: 600px">
 
 ## Enter your license into TotalFinder's Registration Dialog
 
@@ -47,4 +43,6 @@ Click Register and you get this happy screen if you did it right:
 
 <img src="/images/totalfinder-good-license.png">
 
-Thank you and enjoy using TotalFinder! And please [let me know](mailto:support@binaryage.com) if you encounter any troubles completing your registration.
+Thank you and enjoy using TotalFinder! 
+
+And please [let me know](mailto:support@binaryage.com) if you encounter any troubles completing your registration.

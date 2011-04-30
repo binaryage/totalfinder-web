@@ -1,17 +1,13 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: Licensing TotalFinder
 subtitle: Licensing TotalFinder
-prev: Uninstallation
-prev_link: /uninstallation
-next: Registration
-next_link: /registration
 ---
 
 ## Trial Version
 
 <div class="license-desk">
-You may install TotalFinder and use it in trial mode for 14 days. Then you should decide to buy it or uninstall it.
+You may install TotalFinder and use it in trial mode for 14 days. Then you decide to buy it or uninstall it.
 </div>
 
 The trial version displays an info badge in the top-right part of every window:
@@ -26,7 +22,7 @@ This allows you to evaluate TotalFinder's functionality and decide whether you w
 
 ## The license agreement
 
-When you buy a TotalFinder license you get my permission to use the software. Usual conventions apply, here is [the legal code](/license.txt).
+When you buy a TotalFinder license you get my permission to use the software. Here is [the legal code](/license.txt).
 
 <div class="license-desk">
 <p>You may use your license in either of two ways:</p>
@@ -40,19 +36,15 @@ When you buy a TotalFinder license you get my permission to use the software. Us
 
 Check [this page](/free-licenses) to see if you can get a free license.
 
-## Office license
-
-You may also want to check the [office license page](/office-license) for info on licensing to groups like companies, offices or labs.
-
 ## Buying a license
 
 <img src="/shared/img/totalfinder-icon-shop.png" style="width: 32px; float: left; margin-right: 10px">
 
-Please visit [the store](https://sites.fastspring.com/binaryage/instant/totalfinder) where you can purchase TotalFinder for $15. It is safe and easy (powered by [FastSpring](http://fastspring.com)).
+Please visit [the store](https://sites.fastspring.com/binaryage/instant/totalfinder) where you can purchase TotalFinder. It is safe and easy (powered by [FastSpring](http://fastspring.com)).
 
 ## TotalFinder updates
 
-When you buy a license you may freely update to all TotalFinder versions within one major OS release. For example by buying TotalFinder today you will get free updates for all Snow Leopard compatible versions (OS X 10.6).
+When you buy a license you may freely update to all TotalFinder versions within one major OS release. For example by buying TotalFinder today you will get free updates for all versions compatible with Snow Leopard (OS X 10.6).
 
 A new major OS release (OS X 10.7) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.
 
@@ -62,8 +54,8 @@ TotalFinder does not connect to or communicate over the network. It works perfec
 
 There are two cases in which TotalFinder optionally sends data over the network:
 
-* [Sparkle](http://sparkle.andymatuschak.org/) updating system - when checking and downloading a new version
-* [Crash Reporting](http://blog.binaryage.com/crash-reporting-in-binaryage) dialog - when you explicitly click "Send Report..." button
+* [Sparkle](http://sparkle.andymatuschak.org/) updating system - when checking and downloading a new version.
+* [Crash Reporting](http://blog.binaryage.com/crash-reporting-in-binaryage) dialog - when you explicitly click "Send Report..." button.
 
 ## TotalFinder reliability
 

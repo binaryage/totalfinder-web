@@ -1,9 +1,7 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: TotalFinder discount with friends
 subtitle: TotalFinder discount with friends
-prev: Documentation Index
-prev_link: /documentation
 ---
 
 ## How does it work?
@@ -13,6 +11,8 @@ prev_link: /documentation
 <div style="width:600px">
 You buy <a href="">TotalFinder Friends</a> for $30 and I will send you a classic license plus two coupons as URLs. You may then send the coupon links to your friends. Either as a gift or they give you $10 back.
 </div>
+
+<br class="clear"/>
 
 ## Send message by email
 <div style="position: relative">
@@ -28,9 +28,10 @@ http://blog.binaryage.com/totalfinder-discount-coupon-with-friends
 
 Let me know...
 </textarea>
+<br class="clear"/>
 </div>
 
-## Evangelize via Facebook <!-- or "Spread the word" -->
+## Evangelize via Facebook
 
 <a name="fb_share" type="button_count" share_url="http://totalfinder.binaryage.com" href="http://www.facebook.com/sharer.php?t=title">Share</a>
 <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>

@@ -1,26 +1,22 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: About TotalFinder
 subtitle: About TotalFinder
-prev: Documentation Index
-prev_link: /documentation
-next: Installation
-next_link: /installation
 ---
-
-<img src="/images/showcase/thumb-showcase-dual-mode.png" style="float:right; width:500px; margin-left: 20px; position: relative; top: 0px">
 
 ## TotalFinder is just a better Finder
 
-TotalFinder works like the original Finder but adds tabs, dual panel, folders on top and other useful features.
+<img src="/images/showcase/thumb-showcase-dual-mode.png" style="float:right; width:360px; margin-left: 20px; position: relative; top: -24px">
+
+TotalFinder works like the original Finder but adds [tabs](/tabs), [dual panel](/dual-mode), [folders on top](/folders-on-top) and other [useful features](/tweaks).
 
 My goal is to improve Finder in areas where it lacks but keep the overall design which is good in my opinion.
 
-TotalFinder works only with latest OSX 10.6 (Snow Leopard).
+TotalFinder works OSX 10.6 (Snow Leopard). [Some features](/lion) are also available in OSX 10.7 (Lion).
 
 ## TotalFinder is a plugin for Finder
 
-TotalFinder is an add-on which gets loaded into the Finder when you launch `TotalFinder.app`. It does not modify your `Finder.app` files on the disk, it modifies current instance of Finder running in memory. It works similarly to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) which you may know from [other programs](http://code.google.com/p/simbl/wiki/SIMBLPlugins). However, TotalFinder is a standalone application and is not dependent on SIMBL and should work reliably alongside other SIMBL applications.
+TotalFinder is an add-on which gets loaded into the Finder when you launch `TotalFinder.app`. It does not modify your Finder files on the disk, it modifies current instance of Finder running in memory. It works similarly to [SIMBL plugins](http://www.culater.net/software/SIMBL/SIMBL.php) which you may know from [other programs](http://code.google.com/p/simbl/wiki/SIMBLPlugins). However, TotalFinder is a standalone application and is not dependent on SIMBL and should work reliably alongside other SIMBL applications.
 
 ## System updates from Apple
 

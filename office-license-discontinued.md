@@ -2,7 +2,7 @@
 layout: tf-page
 title: Office License for TotalFinder
 subtitle: Office License for TotalFinder
-prev: Documentation Index
+prev: Documentation
 prev_link: /documentation
 ---
 

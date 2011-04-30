@@ -1,15 +1,15 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: TotalFinder Tweaks
-subtitle: TotalFinder Tweaks
-prev: Asepsis
-prev_link: /asepsis
+subtitle: Tweaks
 ---
 
 <div class="doc-side">
-    <h2>Preferences</h2>
-    <img src="/images/preferences-menu.png" class="doc-pref-menu">
-    <img src="/images/pref-tweaks.png" class="doc-pref">
+    <div class="doc-side-inner">
+        <h2>Preferences</h2>
+        <img src="/images/preferences-menu.png" class="doc-pref-menu">
+        <img src="/images/pref-tweaks.png" class="doc-pref">
+    </div>
 </div>
 
 
@@ -51,7 +51,7 @@ By default TotalFinder displays a small icon in the Menu Bar. It shows an auxili
 
 If you don't like TotalFinder icon in the Dock, you may switch to the original Finder icon.
 
-If you use some icon replacement pack, please note that you have to restart Finder to see your custom icons after checking this option.
+If you use some icon replacement pack (like CandyBar), please note that you have to restart Finder to see your custom icons after checking this option.
 
 ## Experimental
 
@@ -69,7 +69,7 @@ For people who are running OSX on small notebooks with small displays. Checking 
 
 ## Keyboard Shortcuts
 
-<div class="keyboard-shortcuts">
+<div class="keyboard-shortcuts full">
     <table border="0" cellspacing="0" cellpadding="0">
         <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
         <tr><td>Show System Files</td><td>⇧⌘.</td><td></td></tr>

@@ -1,9 +1,7 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: TotalFinder Acknowledgements
-subtitle: TotalFinder Acknowledgements
-prev: Credits
-prev_link: /credits
+subtitle: Acknowledgements
 ---
 
 ## Nicholas Jitkoff, Antonin Hildebrand (The Visor Project)

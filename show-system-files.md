@@ -1,20 +1,21 @@
 ---
-layout: tf-page
-title: Show System Files
+layout: tf-doc
+title: Show System Files in TotalFinder
 subtitle: Show System Files
-prev: Folders on Top
-prev_link: /folders-on-top
-next: Visor
-next_link: /visor
 ---
 
+<div class="doc-double">
 <img src="/images/system-files-disabled.png" class="doc-image1">
 <img src="/images/system-files-enabled.png" class="doc-image2">
+<div class="clear"> </div>
+</div>
 
 <div class="doc-side">
-    <h2>Preferences</h2>
-    <img src="/images/preferences-menu.png" class="doc-pref-menu">
-    <img src="/images/pref-tweaks.png" class="doc-pref">
+    <div class="doc-side-inner">
+        <h2>Preferences</h2>
+        <img src="/images/preferences-menu.png" class="doc-pref-menu">
+        <img src="/images/pref-tweaks.png" class="doc-pref">
+    </div>
 </div>
 
 ## Hidden files live there, too.

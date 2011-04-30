@@ -1,20 +1,18 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: Tabs in TotalFinder
-subtitle: Tabs in TotalFinder
-prev: Registration
-prev_link: /registration
-next: Dual Mode
-next_link: /dual-mode
+subtitle: Tabs
 ---
 
 <img src="/images/tabs.png" class="doc-image">
 
 <div class="doc-side">
-    <h2>Preferences</h2>
-    <img src="/images/preferences-menu.png" class="doc-pref-menu">
-    <img src="/images/pref-none.png" class="doc-pref">
-    <p>The tabs are a basic feature of TotalFinder. This feature cannot be turned off.</p>
+    <div class="doc-side-inner">
+        <h2>Preferences</h2>
+        <img src="/images/preferences-menu.png" class="doc-pref-menu">
+        <img src="/images/pref-none.png" class="doc-pref">
+        <p>The tabs are a basic feature of TotalFinder. This feature cannot be turned off.</p>
+    </div>
 </div>
 
 ## What are tabs?
@@ -52,8 +50,8 @@ Similarly, in TotalFinder tabs display multiple directories within one window. T
 
 Do you want additional shortcuts for switching tabs? For example ⌘⌥→ to match Google Chrome?<br>You may want to use the standard OS X mechanism for mapping keyboard shortcuts to menu items.
 
-Please go to `System Preferences -> Keyboard -> Keyboard Shortcuts -> Application Shortcuts`
+Go to `System Preferences -> Keyboard -> Keyboard Shortcuts -> Application Shortcuts`
 
 <img src="/images/mapping-shortcuts.png" width="500">
 
-<div style="color: #888; font-size:10px;">Note that adding ⌘⌥← and  ⌘⌥→ overrides standard Finder shortcuts for expanding items in list view. See this <a href="http://getsatisfaction.com/binaryage/topics/running_totalfinder_disables_cmd_opt_rightarrow_expand_all_effect">topic for more information</a>.</div>
+<div style="color: #888; font-size:10px;">Note that adding ⌘⌥← and  ⌘⌥→ overrides standard Finder shortcuts for expanding items in the list view.<br>See this <a href="http://getsatisfaction.com/binaryage/topics/running_totalfinder_disables_cmd_opt_rightarrow_expand_all_effect">topic for more information</a>.</div>

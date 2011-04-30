@@ -1,12 +1,10 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: TotalFinder Credits
-subtitle: TotalFinder Credits
-next: Acknowledgements
-next_link: /acknowledgements
+subtitle: Credits
 ---
 
-# __TotalFinder was created with contributions from many people__
+## __TotalFinder was created with contributions from many people__
 
 ## People who contributed significantly
 
@@ -14,7 +12,7 @@ next_link: /acknowledgements
 * **Lorenzo Orlandi** - providing tips and great [support to the users at forums](http://getsatisfaction.com/binaryage)
 * **[Petr Stastny](http://raist.cz)** - created TotalFinder icon, BinaryAge logo, helped on web site design and other tasks
 * **[Robin Raszka](http://robinraszka.com)** - created new TotalFinder icon and some other graphics assets
-* and all [translators](http://github.com/binaryage/totalfinder-i18n/contributors)
+* and all [the translators](http://github.com/binaryage/totalfinder-i18n/contributors)
 
 ## TotalFinder leveraged these open-source projects and tools
 
@@ -34,7 +32,7 @@ To see full formal acknowledgements, please [visit this page](http://totalfinder
 
 ## Thank you!
 
-Anyone who contributed to these projects can [grab a free TotalFinder copy](http://totalfinder.binaryage.com/free-licenses).
+Anyone who contributed to these projects can [grab a free copy](http://totalfinder.binaryage.com/free-licenses).
 
 ---
 

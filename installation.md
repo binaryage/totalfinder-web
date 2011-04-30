@@ -1,11 +1,7 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: Installing TotalFinder
-subtitle: Installing TotalFinder
-prev: About TotalFinder
-prev_link: /about
-next: Uninstallation
-next_link: /uninstallation
+subtitle: Install TotalFinder
 ---
 
 ## Installation is easy

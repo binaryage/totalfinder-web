@@ -1,20 +1,18 @@
 ---
-layout: tf-page
+layout: tf-doc
 title: Dual Mode in TotalFinder
-subtitle: Dual Mode in TotalFinder
-prev: Tabs
-prev_link: /tabs
-next: Folders on Top
-next_link: /folders-on-top
+subtitle: Dual Mode
 ---
 
 <img src="/images/dual-mode.png" class="doc-image">
 
 <div class="doc-side">
-    <h2>Preferences</h2>
-    <img src="/images/preferences-menu.png" class="doc-pref-menu">
-    <img src="/images/pref-none.png" class="doc-pref">
-    <p>The dual mode is an integral part of TotalFinder and cannot be turned off.</p>
+    <div class="doc-side-inner">
+        <h2>Preferences</h2>
+        <img src="/images/preferences-menu.png" class="doc-pref-menu">
+        <img src="/images/pref-none.png" class="doc-pref">
+        <p>The dual mode is an integral part of TotalFinder and cannot be turned off.</p>
+    </div>
 </div>
 
 ## What is Dual Mode?
