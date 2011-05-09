@@ -33,7 +33,7 @@ To activate the Visor press the keyboard shortcut. Alternatively, you can double
 
 ## Pinning Visor
 
-Sometimes you may want Visor to temporarily stay open even if you switch to another application. In this situation you can pin the Visor the using blue button in the top left corner of the Visor window. There is a keyboard shortcut `⇧⌘P` for doing it quickly without a mouse.
+Sometimes you may want Visor to temporarily stay open even if you switch to another application. In this situation you can pin the Visor using the blue button in the top-left corner of the Visor window. There is a keyboard shortcut `⇧⌘P` for doing it quickly without a mouse.
 
 While pinned, Visor does not hide when losing focus. Hiding using the activation shortcut still works.
 
