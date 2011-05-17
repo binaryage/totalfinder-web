@@ -59,7 +59,7 @@ shots: [{
     <div class="features-separator"></div>
     <div class="highlights">
         <div class="highlight" data-showcase="2">
-            <div class="highlight-icon">
+            <div class="highlight-icon hoverable" title="read more about Tabbed Browsing">
                 <a href="/tabs">
                     <div class="thumb-tabs"></div>
                 </a>
@@ -70,7 +70,7 @@ shots: [{
             </div>
         </div>
         <div class="highlight" data-showcase="1">
-            <div class="highlight-icon">
+            <div class="highlight-icon hoverable" title="read more about Dual Mode">
                 <a href="/dual-mode">
                     <div class="thumb-dual"></div>
                 </a>
@@ -81,7 +81,7 @@ shots: [{
             </div>
         </div>
         <div class="highlight last" data-showcase="3">
-            <div class="highlight-icon">
+            <div class="highlight-icon hoverable" title="read more about Folders on Top">
                 <a href="/folders-on-top">
                     <div class="thumb-fot"></div>
                 </a>
@@ -93,7 +93,7 @@ shots: [{
         </div>
         <div class="highlight-separator"></div>
         <div class="highlight" data-showcase="4">
-            <div class="highlight-icon">
+            <div class="highlight-icon hoverable" title="read more about System Files">
                 <a href="/show-system-files">
                     <div class="thumb-ssf"></div>
                 </a>
@@ -104,7 +104,7 @@ shots: [{
             </div>
         </div>
         <div class="highlight" data-showcase="5">
-            <div class="highlight-icon">
+            <div class="highlight-icon hoverable" title="read more about Visor">
                 <a href="/visor">
                     <div class="thumb-visor"></div>
                 </a>
