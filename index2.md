@@ -64,7 +64,7 @@ shots: [{
                     <div class="thumb-tabs"></div>
                 </a>
             </div>
-            <div class="highlight-content">
+            <div class="highlight-content wf">
                 <h3>Tabbed Browsing</h3>
                 <p>Add tabs on top of Finder. The same tabs as seen in Google Chrome.</p>
             </div>
@@ -75,7 +75,7 @@ shots: [{
                     <div class="thumb-dual"></div>
                 </a>
             </div>
-            <div class="highlight-content">
+            <div class="highlight-content wf">
                 <h3>Dual Mode</h3>
                 <p>Display two Finder windows side-by-side in dual mode.</p>
             </div>
@@ -86,7 +86,7 @@ shots: [{
                     <div class="thumb-fot"></div>
                 </a>
             </div>
-            <div class="highlight-content">
+            <div class="highlight-content wf">
                 <h3>Folders on Top</h3>
                 <p>Don't make me think. Folders should always go first in list view.</p>
             </div>
@@ -98,7 +98,7 @@ shots: [{
                     <div class="thumb-ssf"></div>
                 </a>
             </div>
-            <div class="highlight-content">
+            <div class="highlight-content wf">
                 <h3>Show System Files</h3>
                 <p>Show me all files on the disk. I'm not afraid to see the cruft.</p>
             </div>
@@ -109,7 +109,7 @@ shots: [{
                     <div class="thumb-visor"></div>
                 </a>
             </div>
-            <div class="highlight-content">
+            <div class="highlight-content wf">
                 <h3>Visor</h3>
                 <p>Convenient system-wide Finder always one key-press away.</p>
             </div>
@@ -120,7 +120,7 @@ shots: [{
             
                 </div>
             </div>
-            <div class="highlight-content">
+            <div class="highlight-content wf">
                 <h3>Cut &amp; Paste</h3>
                 <p>Use keyboard shortcuts to move files around. Faster than drag &amp; drop.</p>
             </div>
@@ -130,11 +130,11 @@ shots: [{
 
     <div class="generic-separator"></div>
     <div class="more-info">
-        <a href="/documentation" class="button product-button-doc">
+        <a href="/documentation" class="button product-button-doc wf">
             <div><div>Read the documentation</div></div>
         </a>
 
-        <a href="/changes" class="button product-button-changes">
+        <a href="/changes" class="button product-button-changes wf">
             <div><div>View recent changes</div></div>
         </a>
     </div>
