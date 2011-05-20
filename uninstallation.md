@@ -28,7 +28,7 @@ By default the uninstaller does not remove your configuration settings from `/Us
 
 <img src="/images/property-list-editor.png" style="width:400px; float: right; position: relative; top: -10px; margin-left: 40px">
     
-It is just a few extra bytes we leave for case you are just reinstalling for some reason. It is also convenient to keep your license key there just for case you return to TotalFinder later.
+It is just a few extra bytes we leave in case you need to temporarily uninstall TotalFinder and decide to reinstall later. 
 
 <br clear="both"/>
 
