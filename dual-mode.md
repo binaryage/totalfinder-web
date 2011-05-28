@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: tf-doc2
 title: Dual Mode in TotalFinder
 subtitle: Dual Mode
 ---

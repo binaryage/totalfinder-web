@@ -1,7 +1,7 @@
 ---
-layout: tf-doc
+layout: tf-doc2
 title: TotalFinder discount with friends
-subtitle: TotalFinder discount with friends
+subtitle: Discount for friends
 ---
 
 ## How does it work?

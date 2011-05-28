@@ -1,5 +1,5 @@
 ---
-layout: tf-home
+layout: tf-home2
 title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
@@ -11,6 +11,7 @@ buytitle: buy
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
 leftshift: 12px
 likeshift: -72px
+menu: products
 facebook: 1
 retweet: 1
 usethis: totalfinder
@@ -49,98 +50,92 @@ shots: [{
 },    {
     title: "Visor window",
     thumb: "/images/showcase/thumb-showcase-visor.png",
-    full: "/images/showcase/desktop-showcase-visor.png"
+    full: "/images/showcase/desktop-showcase-visor.png",
+    klass: "no-shadow"
 }]
 ---
  
-<div class="tf-main-content">
-    <hr>
-    <div class="tf-highlights">
-    <div class="tf-highlight" data-showcase="2">
-        <div class="tf-highlight-icon">
-            <a href="/tabs">
-                <div class="thumb-tabs"></div>
-            </a>
-        </div>
-        <div class="tf-highlight-content">
-            <h3>Tabbed Browsing</h3>
-            <p>Add tabs on top of Finder. The same tabs as seen in Google Chrome.</p>
-            <div class="tf-more"><a href="/tabs">read more</a></div>
-        </div>
-    </div>
-    <div class="tf-highlight" data-showcase="1">
-        <div class="tf-highlight-icon">
-            <a href="/dual-mode">
-                <div class="thumb-dual"></div>
-            </a>
-        </div>
-        <div class="tf-highlight-content">
-            <h3>Dual Mode</h3>
-            <p>Display two Finder windows side-by-side in dual mode.</p>
-            <div class="tf-more"><a href="/dual-mode">read more</a></div>
-        </div>
-    </div>
-    <div class="tf-highlight" data-showcase="3">
-        <div class="tf-highlight-icon">
-            <a href="/folders-on-top">
-                <div class="thumb-fot"></div>
-            </a>
-        </div>
-        <div class="tf-highlight-content">
-            <h3>Folders on Top</h3>
-            <p>Don't make me think. Folders should always go first in list view.</p>
-            <div class="tf-more"><a href="/folders-on-top">read more</a></div>
-        </div>
-    </div>
-    <div class="tf-highlight-separator"></div>
-    <div class="tf-highlight" data-showcase="4">
-        <div class="tf-highlight-icon">
-            <a href="/show-system-files">
-                <div class="thumb-ssf"></div>
-            </a>
-        </div>
-        <div class="tf-highlight-content">
-            <h3>Show System Files</h3>
-            <p>Show me all files on the disk. I'm not afraid to see the cruft.</p>
-            <div class="tf-more"><a href="/show-system-files">read more</a></div>
-        </div>
-    </div>
-    <div class="tf-highlight" data-showcase="5">
-        <div class="tf-highlight-icon">
-            <a href="/visor">
-                <div class="thumb-visor"></div>
-            </a>
-        </div>
-        <div class="tf-highlight-content">
-            <h3>Visor</h3>
-            <p>Convenient system-wide Finder always one key-press away.</p>
-            <div class="tf-more"><a href="/visor">read more</a></div>
-        </div>
-    </div>
-    <div class="tf-highlight">
-        <div class="tf-highlight-icon">
-            <div class="thumb-cut">
-            
+<div class="main-content">
+    <div class="features-separator"></div>
+    <div class="highlights">
+        <div class="highlight" data-showcase="2">
+            <div class="highlight-icon hoverable" title="read more about Tabbed Browsing">
+                <a href="/tabs">
+                    <div class="thumb-tabs"></div>
+                </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Tabbed Browsing</h3>
+                <p>Add tabs on top of Finder. The same tabs as seen in Google Chrome.</p>
             </div>
         </div>
-        <div class="tf-highlight-content">
-            <h3>Cut &amp; Paste</h3>
-            <p>Use keyboard shortcuts to move files around. Faster than drag &amp; drop.</p>
-            <div class="tf-more"><a href="http://getsatisfaction.com/binaryage/topics/move_files_and_folders_with_cut_past">discuss it here</a></div>
+        <div class="highlight" data-showcase="1">
+            <div class="highlight-icon hoverable" title="read more about Dual Mode">
+                <a href="/dual-mode">
+                    <div class="thumb-dual"></div>
+                </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Dual Mode</h3>
+                <p>Display two Finder windows side-by-side in dual mode.</p>
+            </div>
         </div>
+        <div class="highlight last" data-showcase="3">
+            <div class="highlight-icon hoverable" title="read more about Folders on Top">
+                <a href="/folders-on-top">
+                    <div class="thumb-fot"></div>
+                </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Folders on Top</h3>
+                <p>Don't make me think. Folders should always go first in list view.</p>
+            </div>
+        </div>
+        <div class="highlight-separator"></div>
+        <div class="highlight" data-showcase="4">
+            <div class="highlight-icon hoverable" title="read more about System Files">
+                <a href="/show-system-files">
+                    <div class="thumb-ssf"></div>
+                </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Show System Files</h3>
+                <p>Show me all files on the disk. I'm not afraid to see the cruft.</p>
+            </div>
+        </div>
+        <div class="highlight" data-showcase="5">
+            <div class="highlight-icon hoverable" title="read more about Visor">
+                <a href="/visor">
+                    <div class="thumb-visor"></div>
+                </a>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Visor</h3>
+                <p>Convenient system-wide Finder always one key-press away.</p>
+            </div>
+        </div>
+        <div class="highlight last">
+            <div class="highlight-icon">
+                <div class="thumb-cut">
+            
+                </div>
+            </div>
+            <div class="highlight-content wf">
+                <h3>Cut &amp; Paste</h3>
+                <p>Use keyboard shortcuts to move files around. Faster than drag &amp; drop.</p>
+            </div>
+        </div>
+        <br class="clear"/>
     </div>
-    <br class="clear">
-    </div>
 
-    <hr>
+    <div class="generic-separator"></div>
+    <div class="more-info">
+        <a href="/documentation" class="button product-button-doc wf">
+            <div><div>Read the documentation</div></div>
+        </a>
 
-    <div class="what-next">
-    <a href="/documentation" class="button button-250 product-button-doc">
-        <div><div>Read Documentation</div></div>
-    </a>
-
-    <a href="/changes" class="button button-250 product-button-cl">
-        <div><div>See Changelog</div></div>
-    </a>
+        <a href="/changes" class="button product-button-changes wf">
+            <div><div>View recent changes</div></div>
+        </a>
     </div>
 </div>

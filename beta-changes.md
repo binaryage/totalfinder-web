@@ -1,12 +1,8 @@
 ---
-layout: tf-page
-title: TotalFinder BETA Changelog
-subtitle: TotalFinder BETA Changelog
-prev: Stable Channel
-prev_link: /changes
+layout: tf-doc2
+title: Recent changes in TotalFinder pre-releases
+subtitle: Recent changes in pre-releases
 ---
-
-## Beta Channel
 
 <a href="javascript:showBetaHint(this);">How to switch to pre-releases in TotalFinder?</a>
 <div class="betahint" style="display:none; margin-top: -10px; margin-left: 20px">
@@ -14,14 +10,14 @@ prev_link: /changes
     <img src="/images/pref-about.png" style="width:300px">
 </div>
 
-<div class="changelogx">&nbsp;</div>
+<div class="changelogx"></div>
 
 <script type="text/javascript" charset="utf-8">
     $(function() {
         $('.changelogx').load('changelog-beta.html?x='+((Math.random()+"").substring(2))+' #page');
     });
     
-    function showBetaHint(el) {
+    function showBetaHint() {
         $('.betahint').toggle();
     }
 </script>

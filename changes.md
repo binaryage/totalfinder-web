@@ -1,14 +1,12 @@
 ---
-layout: tf-page
-title: TotalFinder Changelog
-subtitle: TotalFinder Changelog
-next: Beta Channel
-next_link: /beta-changes
+layout: tf-doc2
+title: Recent changes in TotalFinder
+subtitle: Recent changes
 ---
 
-## Stable Channel
+<a href="/beta-changes">Interested in pre-releases?</a>
 
-<div class="changelogx">&nbsp;</div>
+<div class="changelogx"></div>
 
 <script type="text/javascript" charset="utf-8">
     $(function() {

@@ -1,11 +1,7 @@
 ---
-layout: tf-page
-title: Lion Compatibility
-subtitle: Lion Compatibility
-prev: About TotalFinder
-prev_link: /about
-next: Beta Changes
-next_link: /beta-changes
+layout: tf-doc2
+title: TotalFinder compatibility with OSX 10.7 (Lion)
+subtitle: Compatibility with OSX 10.7 (Lion)
 ---
 
 ## Lion status

@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: tf-doc2
 title: Licensing TotalFinder
 subtitle: Licensing TotalFinder
 ---
@@ -34,7 +34,7 @@ When you buy a TotalFinder license you get my permission to use the software. He
 
 ## Free licenses
 
-Check [this page](/free-licenses) to see if you can get a free license.
+Check out [this page](/free-licenses) to see if you can get a free license.
 
 ## Buying a license
 
@@ -62,7 +62,7 @@ There are two cases in which TotalFinder optionally sends data over the network:
 I have tested TotalFinder with my system and I did my best to make it bug-free and stable. However it may still contain undiscovered bugs or issues.
 
 <div class="license-warning">
-Also please note that I'm not in control of what Apple does with Finder in the future. Although unlikely, it may happen that some future update makes it impossible for me to adapt TotalFinder or some of its functionality to a new Finder version. By buying a license you accept this risk.
+Also please note that I'm not in control of what Apple does with Finder in the future. Although unlikely, it may happen that some future update makes it impossible for me to adapt TotalFinder or some of its functionality to a new Finder version. By using this software you accept this risk.
 </div>
 
 <div class="license-exclamation">

@@ -1,5 +1,5 @@
 ---
-layout: tf-doc
+layout: tf-doc2
 title: Registering TotalFinder
 subtitle: Registration
 ---
@@ -10,7 +10,7 @@ This should be really straight-forward. It should take less than 5 minutes in mo
 
 ## Buy a license from [the web store](https://sites.fastspring.com/binaryage/instant/totalfinder)
 
-Please notice that there is no point in ordering 2 licenses, because they cost the same price as 3 licenses. Yes, I offer such [aggressive multi-licensing](http://sites.fastspring.com/binaryage/product/totalfinder/pricing) :-)
+Please note that there is no point in ordering 2 licenses, because they cost the same price as 3 licenses.
 
 <img src="/images/web-store.png" style="width: 600px">
 
