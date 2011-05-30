@@ -7,33 +7,20 @@ subtitle: Compatibility with OSX 10.7 (Lion)
 ## Lion status
 
 * Good news: The latest TotalFinder starts on Lion (OSX 10.7)
-* Bad news: The latest TotalFinder does not work in full on Lion (it takes me some time to fix all broken stuff)
+* Bad news: The latest TotalFinder still has some quirks (it will take some time to fix all broken stuff)
 
-This is work in progress. I'm committed to bring all TotalFinder features to Lion. Also I will continue support Snow Leopard in the foreseeable future.
+This is work in progress. I'm committed to bring all TotalFinder features to Lion.<br/>Also I will continue support Snow Leopard in the foreseeable future.
 
-Version 1.1.9 is the first one which runs on Lion. It _works on my machine_<sup>(tm)</sup>:
-
-<img src="http://dl.dropbox.com/u/559047/totalfinder-on-lion.png" width="800">
+<img src="http://dl.dropbox.com/u/559047/totalfinder-on-lion.png" width="600">
 
 ---
 
-### Broken TotalFinder features in Lion (as of 1.1.9)
+### Broken TotalFinder features in Lion ([as of 1.1.12](/beta-changes))
 
-* plugins disabled:
-  * FoldersOnTop
-  * CutAndPaste
-  * SystemFiles
-  * ColumnViewAutoWidth
-  * CopyPathMenu
-  * NoDesktopDots
-  * Asepsis
-* <strike>preferences pane</strike>
 * path bar behaves oddly (you need to re-create whole window/tab)
-* <strike>resizing just using bottom right corner</strike>
 * no tab tooltips (with full path)
 * no sidebar mirroring in dual mode
 * no sidebar width synchronization between tabs
-* <strike>drag and drop folder from list view does not work</strike>
 * horizontal window enlargement when resizing column in Column View
 * switching tabs confuses resizing logic (also switching tabs flashes finder background)
 * showing/hiding statusbar, toolbar and sidebar may not redraw window (you need to resize it or switch tabs to see the effect)
