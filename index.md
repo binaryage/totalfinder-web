@@ -11,7 +11,6 @@ buytitle: buy
 advert: Read more about the development progress <a href="http://blog.binaryage.com">on the blog ...</a>
 leftshift: 12px
 likeshift: -72px
-menu: products
 facebook: 1
 retweet: 1
 usethis: totalfinder
