@@ -132,7 +132,6 @@ shots: [{
         <a href="/documentation" class="button product-button-doc wf">
             <div><div>Read the documentation</div></div>
         </a>
-
         <a href="/changes" class="button product-button-changes wf">
             <div><div>View recent changes</div></div>
         </a>
