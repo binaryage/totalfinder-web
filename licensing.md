@@ -40,7 +40,7 @@ Check out [this page](/free-licenses) to see if you can get a free license.
 
 <img src="/shared/img/totalfinder-icon-shop.png" style="width: 32px; float: left; margin-right: 10px">
 
-Please visit [the store](https://sites.fastspring.com/binaryage/instant/totalfinder) where you can purchase TotalFinder. It is safe and easy (powered by [FastSpring](http://fastspring.com)).
+Please visit [the store](http://sites.fastspring.com/binaryage/product/store) where you can purchase TotalFinder. It is easy and safe (powered by [FastSpring](http://fastspring.com)).
 
 ## TotalFinder updates
 
