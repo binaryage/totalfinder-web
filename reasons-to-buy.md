@@ -3,9 +3,16 @@ layout: tf-doc2
 title: My reasons to buy TotalFinder
 subtitle: My reasons to buy TotalFinder
 ---
+<a href="http://binaryage.com/about">
+<img width="20" height="20" src="http://www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=20" style="float: left; position: relative; top: -3px; margin-right: 10px; display:block; border: 1px solid #ccc" title="Who is Antonin?">
+</a>
 
+<div>
 Hello there, 
-I'm [Antonin](http://binaryage.com/about), the author of TotalFinder. Here are my three main reasons why you should buy TotalFinder.
+I'm <a href="http://binaryage.com/about">Antonin</a>, the author of TotalFinder. Here are my three main reasons why you should buy TotalFinder.
+</div>
+
+<br class="clear"/>
 
 ## You get tabbed browsing in Finder
 
