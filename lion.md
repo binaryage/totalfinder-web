@@ -6,21 +6,16 @@ subtitle: Compatibility with OSX 10.7 (Lion)
 
 ## Lion status
 
-* Good news: The latest TotalFinder starts on Lion (OSX 10.7)
-* Bad news: The latest TotalFinder still has some quirks (it will take some time to fix all broken stuff)
+* Good news: The latest pre-release of TotalFinder fully works under Lion (OSX 10.7)
 
-This is work in progress. I'm committed to bring all TotalFinder features to Lion.<br/>Also I will continue support Snow Leopard in the foreseeable future.
+I'm committed to bring all TotalFinder features to Lion.<br/>Also I will continue support Snow Leopard in the foreseeable future.
 
 <img src="http://dl.dropbox.com/u/559047/totalfinder-on-lion.png" width="600">
 
 ---
 
-### Broken TotalFinder features in Lion ([as of 1.1.12](/beta-changes))
+### TotalFinder quirks under Lion ([as of 1.1.16](/beta-changes))
 
-* path bar behaves oddly (you need to re-create whole window/tab)
-* no tab tooltips (with full path)
-* no sidebar mirroring in dual mode
-* no sidebar width synchronization between tabs
 * horizontal window enlargement when resizing column in Column View
 * switching tabs confuses resizing logic (also switching tabs flashes finder background)
 * showing/hiding statusbar, toolbar and sidebar may not redraw window (you need to resize it or switch tabs to see the effect)
