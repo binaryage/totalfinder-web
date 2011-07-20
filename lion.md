@@ -14,7 +14,7 @@ I'm committed to bring all TotalFinder features to Lion.<br/>Also I will continu
 
 ---
 
-### TotalFinder quirks under Lion ([as of 1.1.16](/beta-changes))
+### TotalFinder quirks under Lion ([as of 1.2](/beta-changes))
 
 * horizontal window enlargement when resizing column in Column View
 * switching tabs confuses resizing logic (also switching tabs flashes finder background)
