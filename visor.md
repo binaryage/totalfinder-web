@@ -16,9 +16,9 @@ subtitle: Visor
 
 ## What is Visor?
 
-Visor is a system-wide TotalFinder window displaying at the bottom of the screen. The idea is to have one dedicated TotalFinder instance always ready just one key press away. This functionality is inspired by [Terminal.app's Visor](http://visor.binaryage.com).
+Visor is a system-wide TotalFinder window displayed at the bottom of the screen. The idea is to have one dedicated TotalFinder instance always ready just one key press away. This functionality is inspired by [Terminal.app's Visor](http://visor.binaryage.com).
 
-This feature is disabled by default. It is meant to be enabled by advanced users who want to adopt a Visor-based workflow. It works best when you have auto-hiding Dock panel enabled.
+This feature is disabled by default. It is meant to be enabled by advanced users who want to adopt a Visor-based workflow. It works best when you have the auto-hiding Dock panel enabled.
 
 ## What can I do with Visor?
 

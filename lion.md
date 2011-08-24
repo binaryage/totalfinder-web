@@ -8,7 +8,7 @@ subtitle: Compatibility with OSX 10.7 (Lion)
 
 * Good news: The latest pre-release of TotalFinder fully works under Lion (OSX 10.7)
 
-I'm committed to bring all TotalFinder features to Lion.<br/>Also I will continue support Snow Leopard in the foreseeable future.
+I'm committed to bring all TotalFinder features to Lion.<br/>Also I will continue to support Snow Leopard in the foreseeable future.
 
 <img src="http://dl.dropbox.com/u/559047/totalfinder-on-lion.png" width="600">
 

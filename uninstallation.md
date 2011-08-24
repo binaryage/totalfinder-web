@@ -16,7 +16,7 @@ Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
     <img src="/images/uninstaller.png" class="doc-inline-image" style="width: 346px; left: 320px; top: -46px">
 </div>
 
-In case of troubles running menu command you may alternatively run (in Terminal.app): 
+If you have trouble running the menu command you may alternatively run (in Terminal.app): 
     
     open "/Applications/TotalFinder.app/Contents/Resources/TotalFinder Uninstaller.app"
     

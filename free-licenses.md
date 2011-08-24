@@ -14,7 +14,7 @@ I will grant a free license to everyone who meets any of these criteria:
 4. is **a Google engineer** with a valid `someone@google.com` email address<br>- this is my "thanks" for the Chrome project and great meals [at GDD](http://www.google.com/events/developerday)
 5. is **an Apple employee** with a valid `someone@apple.com` email address<br>- this is my general "thank you" for making awesome products
 6. has **[bitcoins](http://arstechnica.com/tech-policy/news/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency.ars)** and wants to [trade them for TotalFinder](http://blog.binaryage.com/trade-totalfinder-bitcoin) - also I offer bitcoin earnings in my [affiliate program](http://blog.binaryage.com/trade-totalfinder-bitcoin)
-7. feels that he/she should get a free license for **some other reason** and makes me agree
+7. feels that he/she should get a free license for **some other reason** and convinces me
 
 Please [drop me an email](mailto:support@binaryage.com?subject=Free%20license%20request) and I will send you a free license link if you meet the criteria.
 

@@ -16,7 +16,7 @@ I'm <a href="http://binaryage.com/about">Antonin</a>, the author of TotalFinder.
 
 ## You get tabbed browsing in Finder
 
-Finder works pretty well but tabs could really improve your daily workflows. You already know how to use tabs from your web browser. It simply makes you more effective instantly. Also having tabbed Finder makes you look cool when you share your screen with your geeky Mac friends - that's guaranteed!
+Finder works pretty well but tabs could really improve your daily workflow. You already know how to use tabs from your web browser. It simply makes you more efficient instantly. Also having tabbed Finder makes you look cool when you share your screen with your geeky Mac friends - that's guaranteed!
 
 ## Yes, it's Finder! You don't have to learn anything new
 
@@ -30,9 +30,9 @@ Finder is not going away anytime soon and it has some very unique features like 
 
 ## You can support a single guy doing cool stuff
 
-By buying TotalFinder you are supporting the project. In fact you are also voting that you want something like this to continue and evolve. I have a proven track record of doing [useful software](http://binaryage.com), I  [listen to your requests](http://support.binaryage.com) and I'm not afraid [to share](http://github.com/darwin).
+By buying TotalFinder you are supporting the project. In fact you are also voting that you want something like this to continue and evolve. I have a proven track record of creating [useful software](http://binaryage.com), I  [listen to your requests](http://support.binaryage.com) and I'm not afraid [to share](http://github.com/darwin).
 
-I'm not going to promise here any particular features but you may bet on that I have many interesting ideas on my list. You simply allow me to continue working on cool software. 
+I'm not going to promise any particular features but you can bet that I have many interesting ideas on my list. Your support allows me to continue working on cool software. 
 
 Nothing is impossible!
 

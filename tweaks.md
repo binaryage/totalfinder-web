@@ -49,7 +49,7 @@ By default TotalFinder displays a small icon in the Menu Bar. It shows an auxili
 
 ### Keep original Dock icon
 
-If you don't like TotalFinder icon in the Dock, you may switch to the original Finder icon.
+If you don't like the TotalFinder icon in the Dock, you may switch back to the original Finder icon.
 
 If you use some icon replacement pack (like CandyBar), please note that you have to restart Finder to see your custom icons after checking this option.
 

@@ -45,4 +45,4 @@ Thank you for registering and enjoy using TotalFinder!
 
 ---
 
-And please [let me know](mailto:support@binaryage.com) if you encounter any troubles completing your registration.
+And please [let me know](mailto:support@binaryage.com) if you have any trouble completing your registration.

@@ -19,7 +19,7 @@ TotalFinder has a convenient installer which guides you through the installation
 
 <img src="/images/update-dialog.png" class="doc-inline-image-50 right">
 
-TotalFinder uses [Sparkle](http://sparkle.andymatuschak.org/) updating system. By default it notifies you whenever there is a new version available. You may also check for new version manually.
+TotalFinder uses the [Sparkle](http://sparkle.andymatuschak.org/) updating system. By default it notifies you whenever there is a new version available. You may also check for new versions manually.
 
 <div style="height: 200px">&nbsp;</div>
 
@@ -33,7 +33,7 @@ By default, the installer puts `TotalFinder.app` into startup items to be launch
 
 ## Uninstallation
 
-For removal please check separate [uninstallation page](/uninstallation).
+For removal please check the [uninstallation page](/uninstallation).
 
 ## Installation locations
 

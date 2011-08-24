@@ -20,15 +20,15 @@ subtitle: Folders on Top
 
 ## Folders on Top
 
-By default Finder does not separate folders and files and displays them mixed as you can see on the left.
+By default Finder does not separate folders and files and displays them mixed together as you can see on the left.
 
-However, some users prefer to see first folders and then files regardless of actual sorting options. 
+However, some users prefer to see folders first and then files regardless of the actual sorting options. 
 
-TotalFinder enables toggle of this display by a keyboard shortcut.
+TotalFinder enables this display by toggle of a keyboard shortcut.
 
 ## What about sorting?
 
-Sorting options work the same as in the original Finder. This mode just moves all folders before the first file while keeping their relative order.
+Sorting options work the same as they did in the original Finder. This mode just moves all folders before the first file while keeping their relative order.
 
 Also when you [display hidden files](/show-system-files) you may notice those dot items are sorted before non-dot items. This is a convenient view consistent with command-line folder listing tools.
 

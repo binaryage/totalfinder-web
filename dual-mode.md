@@ -17,7 +17,7 @@ subtitle: Dual Mode
 
 ## What is Dual Mode?
 
-Dual mode is a special mode where TotalFinder displays two Finder windows side-by-side. It is a similar view to what can be seen in classic dual-panel file managers. This is handy in situations when you want to move files from one panel to the other easily.
+Dual mode is a special mode where TotalFinder displays two Finder windows side-by-side. It is a view similar to what can be seen in classic dual-panel file managers. This is handy in situations when you want to easily move files from one panel to the other.
 
 Please note that individual Finder windows still behave the same as if they were individual windows. For example both windows keep their own toolbar. The only difference is that TotalFinder places the sidebar of the right-side window to the right edge and syncs its width with the left sidebar.
 
@@ -25,8 +25,8 @@ You may enter dual mode by double-clicking a tab or pressing ⌘U. The selected 
 
 ## What can I do with dual mode?
 
-1. You can **enter dual mode** and create dual tab.
-2. You can **leave dual mode** and break dual tab back into two single tabs.
+1. You can **enter dual mode** and create dual tabs.
+2. You can **leave dual mode** and break dual tabs back into two single tabs.
 3. You can **switch active panel** when in dual mode.
 
 ## Keyboard shortcuts

@@ -7,7 +7,7 @@ subtitle: Licensing TotalFinder
 ## Trial Version
 
 <div class="license-desk">
-You may install TotalFinder and use it in trial mode for 14 days. Then you decide to buy it or uninstall it.
+You may install TotalFinder and use it in trial mode for 14 days. Then you need to decide to buy it or uninstall it.
 </div>
 
 The trial version displays an info badge in the top-right part of every window:
@@ -44,9 +44,9 @@ Please visit [the store](http://sites.fastspring.com/binaryage/product/store) wh
 
 ## TotalFinder updates
 
-When you buy a license you may freely update to all TotalFinder versions within one major OS release. For example by buying TotalFinder today you will get free updates for all versions compatible with Snow Leopard (OS X 10.6).
+When you buy a license you may freely update to all TotalFinder versions within one major OS release. For example by buying TotalFinder today you will get free updates for all versions compatible with Lion (OS X 10.7).
 
-A new major OS release (OS X 10.7) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.
+A new major OS release (OS X 10.8?) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.
 
 ## TotalFinder and your privacy
 
