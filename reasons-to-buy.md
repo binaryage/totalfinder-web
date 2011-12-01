@@ -24,7 +24,7 @@ Apps like PathFinder, ForkLift or DiskOrder are nice, mature and have many great
 
 With TotalFinder you don't have to make this decision between Finder and some replacement application. You get Finder with all you already know plus some new handy features. You may enable them as you go.
 
-TotalFinder is not a replacement application, it a plugin which improves Finder's functionality. This should also offer better interoperability with other applications which usually expect Finder to be your only file manager. We've all seen those menus with "Reveal in Finder" items, right?
+TotalFinder is not a replacement application, it is a plugin which improves Finder's functionality. This should also offer better interoperability with other applications which usually expect Finder to be your only file manager. We've all seen those menus with "Reveal in Finder" items, right?
 
 Finder is not going away anytime soon and it has some very unique features like Time Machine and Spotlight search. Every Mac has Finder installed. You are better to learn how to live with it than fight it. TotalFinder can help and make Finder work better for you.
 
