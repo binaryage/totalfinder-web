@@ -1,5 +1,5 @@
 ---
-layout: tf-home2
+layout: tf-home
 title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
