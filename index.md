@@ -28,19 +28,23 @@ ogmeta: {
 shots: [{
     title: "Dual Mode",
     thumb: "/images/showcase/thumb-showcase-dual-mode.png",
-    full: "/images/showcase/desktop-showcase-dual-mode.png"
+    full: "/images/showcase/desktop-showcase-dual-mode.png",
+    klass: "no-shadow"
 },    {
     title: "Finder with tabs!",
     thumb: "/images/showcase/thumb-showcase-tabs.png",
-    full: "/images/showcase/desktop-showcase-tabs.png"
+    full: "/images/showcase/desktop-showcase-tabs.png",
+    klass: "no-shadow"
 },    {
     title: "Folders on Top",
     thumb: "/images/showcase/thumb-showcase-folders-on-top.png",
-    full: "/images/showcase/desktop-showcase-folders-on-top.png"
+    full: "/images/showcase/desktop-showcase-folders-on-top.png",
+    klass: "no-shadow"
 },    {
     title: "Show System Files",
     thumb: "/images/showcase/thumb-showcase-system-files.png",
-    full: "/images/showcase/desktop-showcase-system-files.png"
+    full: "/images/showcase/desktop-showcase-system-files.png",
+    klass: "no-shadow"
 },    {
     title: "Visor window",
     thumb: "/images/showcase/thumb-showcase-visor.png",
