@@ -46,7 +46,7 @@ shots: [{
     full: "/images/showcase/desktop-showcase-system-files.png",
     klass: "no-shadow"
 },    {
-    title: "Visor window",
+    title: "Visor Window",
     thumb: "/images/showcase/thumb-showcase-visor.png",
     full: "/images/showcase/desktop-showcase-visor.png",
     klass: "no-shadow"
