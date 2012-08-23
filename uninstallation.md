@@ -18,7 +18,7 @@ Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
 
 If you have trouble running the menu command you may alternatively run (in Terminal.app): 
     
-    open "/Applications/TotalFinder.app/Contents/Resources/TotalFinder Uninstaller.app"
+    open "/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app"
     
 Or download and open the latest archive from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com) and launch TotalFinder Uninstaller.
 
