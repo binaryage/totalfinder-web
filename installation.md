@@ -9,7 +9,7 @@ subtitle: Install TotalFinder
 TotalFinder has a convenient installer which guides you through the installation steps:
 
 1. Download and open the latest archive TotalFinder-X.Y.Z.dmg from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com)
-2. Launch `TotalFinder.mpkg`
+2. Launch `TotalFinder.pkg`
 3. Click through the installation process
 4. Finder will restart with TotalFinder
 
