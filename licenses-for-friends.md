@@ -7,7 +7,7 @@ plusone: 1
 
 ## How does it work?
 
-<img src="{{site.url}}/shared/img/totalfinder-buy-30.png" style="float:left; margin-right:30px;width:100px; position: relative; top: 4px">
+<img src="{{site.url}}/base/img/totalfinder-buy-30.png" style="float:left; margin-right:30px;width:100px; position: relative; top: 4px">
 
 <div style="width:600px">
 You buy <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">TotalFinder Friends</a> for $36 and I will send you a classic license plus two free coupons as URLs. You may then send the coupon links to your Mac friends. Either as a gift or they give you $12 back.

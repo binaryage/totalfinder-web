@@ -14,7 +14,7 @@ usethis: totalfinder
 meta_title: TotalFinder brings tabs to your native Finder and more!
 meta_keywords: totalfinder,mac,finder,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,visor,totalcommander,binaryage
 meta_description: TotalFinder is a plugin for Finder.app which adds tabs like in Chrome browser, dual panels similar to TotalCommander and more tweaks.
-meta_image: /shared/img/icons/totalfinder-128.png
+meta_image: /base/img/icons/totalfinder-128.png
 pray: finder tabs mac, total commander mac, better finder plugin
 ogmeta: {
     site_name: "BinaryAge website",
@@ -23,7 +23,7 @@ ogmeta: {
     type: "product",
     title: "TotalFinder",
     url: "http://totalfinder.binaryage.com",
-    image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
+    image: "http://totalfinder.binaryage.com/base/img/icons/totalfinder-256.png"
 }
 shots: [{
     title: "Dual Mode",
