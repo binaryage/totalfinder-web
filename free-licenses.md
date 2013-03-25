@@ -16,7 +16,7 @@ I will grant a free license to everyone who meets any of these criteria:
 6. has **[bitcoins](http://arstechnica.com/tech-policy/news/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency.ars)** and wants to [trade them for TotalFinder](http://blog.binaryage.com/trade-totalfinder-bitcoin) - also I offer bitcoin earnings in my [affiliate program](http://blog.binaryage.com/trade-totalfinder-bitcoin)
 7. feels that he/she should get a free license for **some other reason** and convinces me
 
-Please [drop me an email](mailto:support@binaryage.com?subject=Free%20license%20request) and I will send you a free license link if you meet the criteria.
+Please [drop me an email](mailto:support@binaryage.com?subject=Free%20TotalFinder%20license%20request) and I will send you a free license link if you meet the criteria.
 
 ## Free licenses for the press
 
