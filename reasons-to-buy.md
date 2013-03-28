@@ -38,6 +38,6 @@ Nothing is impossible!
 
 ---
 
-<div style="color: #666; font-size: 70%">
+<div style="color: #666; font-size: 11px">
     This is an opinionated article. Do you disagree? Do you have other opinions about Finder, TotalFinder or other file managers? Write your own article and I will possibly link it here.
 </div>
