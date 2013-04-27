@@ -13,12 +13,12 @@ fbsdk: 1
 usethis: totalfinder
 meta_title: TotalFinder brings tabs to your native Finder and more!
 meta_keywords: totalfinder,mac,finder,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,visor,totalcommander,binaryage
-meta_description: TotalFinder is a plugin for Finder.app which adds tabs like in Chrome browser, dual panels similar to TotalCommander and more tweaks.
+meta_description: TotalFinder is a plugin for Finder.app which adds tabs like those in Google Chrome, dual panels similar to TotalCommander, and other improvements.
 meta_image: /shared/img/icons/totalfinder-128.png
 pray: finder tabs mac, total commander mac, better finder plugin
 ogmeta: {
     site_name: "BinaryAge website",
-    description: "TotalFinder adds tabs into your native Finder and more!",
+    description: "TotalFinder adds tabs to your native Finder and more!",
     email: "support@binaryage.com",
     type: "product",
     title: "TotalFinder",
@@ -64,7 +64,7 @@ shots: [{
             </div>
             <div class="highlight-content wf">
                 <h3>Tabbed Browsing</h3>
-                <p>Add tabs on top of Finder. The same tabs as seen in Google Chrome.</p>
+                <p>Add tabs into Finder windows, similar to those seen in Google Chrome.</p>
             </div>
         </div>
         <div class="highlight" data-showcase="1">
@@ -109,7 +109,7 @@ shots: [{
             </div>
             <div class="highlight-content wf">
                 <h3>Visor</h3>
-                <p>Convenient system-wide Finder always one key-press away.</p>
+                <p>The Finder is always one key-press away!</p>
             </div>
         </div>
         <div class="highlight last">
