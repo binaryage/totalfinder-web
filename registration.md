@@ -18,9 +18,9 @@ This should be really straight-forward. It should take less than 5 minutes in mo
 
 In most cases you should get it instantly after the payment.
 
-We all know that even important emails can sometimes end up in a spam folder. Please double check your spam before you [report a missing email](mailto:antonin@binaryage.com). I'm using [FastSpring](http://fastspring.com) which is rock-solid, so a mistake by our mail robots is unlikely.
+We all know that even important emails can sometimes end up in a spam folder. Please double check your spam before you [report a missing email](mailto:support@binaryage.com). I'm using [FastSpring](http://fastspring.com) which is rock-solid, so a mistake by our mail robots is unlikely.
 
-In my gmail the message looks like this:
+In my Gmail the message looks like this:
 
 <img src="/images/totalfinder-license-email.png" style="width: 600px">
 
@@ -35,7 +35,7 @@ Or you may go through Preferences / About / Register button.
 
 <img src="/images/totalfinder-registration.png"><br>
 
-Please make sure you copy and paste license information from the email exactly and without surrounding quotes. 
+Please make sure you copy and paste the license information from the email exactly and without surrounding quotes. 
 
 Click Register and you get this happy screen if you did it right:
 
