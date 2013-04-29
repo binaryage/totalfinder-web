@@ -30,7 +30,7 @@ TotalFinder enables this display by toggle of a keyboard shortcut.
 
 Sorting options work the same as they did in the original Finder. This mode just moves all folders before the first file while keeping their relative order.
 
-Also when you [display hidden files](/show-system-files) you may notice those dot items are sorted before non-dot items. This is a convenient view consistent with command-line folder listing tools.
+Also when you [display hidden files](/show-system-files.md) you may notice those dot items are sorted before non-dot items. This is a convenient view consistent with command-line folder listing tools.
 
 ## Keyboard Shortcuts
 
