@@ -111,25 +111,25 @@ Toolkit (http://www.openssl.org). This toolkit is licensed as follows:
     * 
     * 3. All advertising materials mentioning features or use of this 
     *    software must display the following acknowledgment: 
-    *    ÒThis product includes software developed by the OpenSSL Project 
-    *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)Ó 
+    *    "This product includes software developed by the OpenSSL Project 
+    *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
     * 
-    * 4. The names ÒOpenSSL ToolkitÓ and ÒOpenSSL ProjectÓ must not be used to 
+    * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to 
     *    endorse or promote products derived from this software without 
     *    prior written permission. For written permission, please contact 
     *    openssl-core@openssl.org. 
     * 
     * 5. Products derived from this software may not be called ÒOpenSSLÓ 
-    *    nor may ÒOpenSSLÓ appear in their names without prior written 
+    *    nor may "OpenSSL" appear in their names without prior written 
     *    permission of the OpenSSL Project. 
     * 
     * 6. Redistributions of any form whatsoever must retain the following 
 
     *    acknowledgment: 
-    *    ÒThis product includes software developed by the OpenSSL Project 
-    *    for use in the OpenSSL Toolkit (http://www.openssl.org/)Ó 
+    *    This product includes software developed by the OpenSSL Project 
+    *    for use in the OpenSSL Toolkit (http://www.openssl.org/)
     * 
-    * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS ISÕÕ AND ANY 
+    * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT "AS IS" AND ANY 
     * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
     * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
     * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR 
@@ -164,7 +164,7 @@ Toolkit (http://www.openssl.org). This toolkit is licensed as follows:
     * included with this distribution is covered by the same copyright terms 
     * except that the holder is Tim Hudson (tjh@cryptsoft.com). 
     * 
-    * Copyright remains Eric YoungÕs, and as such any Copyright notices in 
+    * Copyright remains Eric Young's, and as such any Copyright notices in 
     * the code are not to be removed. 
     * If this package is used in a product, Eric Young should be given attribution 
     * as the author of the parts of the library used. 
@@ -183,13 +183,13 @@ Toolkit (http://www.openssl.org). This toolkit is licensed as follows:
     *    must display the following acknowledgement: 
     *    ÒThis product includes cryptographic software written by 
     *     Eric Young (eay@cryptsoft.com)Ó
-    *    The word ÔcryptographicÕ can be left out if the rouines from the library 
+    *    The word "cryptographic" can be left out if the routines from the library 
     *    being used are not cryptographic related :-). 
-    * 4. If you include any Windows speciÞc code (or a derivative thereof) from 
+    * 4. If you include any Windows specific code (or a derivative thereof) from 
     *    the apps directory (application code) you must include an acknowledgement: 
-    *    ÒThis product includes software written by Tim Hudson (tjh@cryptsoft.com)Ó 
+    *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)" 
     * 
-    * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS ISÕÕ AND 
+    * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG "AS IS" AND 
     * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
     * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
     * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE 
