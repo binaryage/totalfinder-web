@@ -16,7 +16,7 @@ Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
     <img src="/images/uninstaller.png" class="doc-inline-image" style="width: 346px; left: 320px; top: -46px">
 </div>
 
-If you have trouble running the menu command you may alternatively run (in Terminal.app): 
+If you have trouble running the menu command you may alternatively run the following in Terminal.app: 
     
     open "/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app"
     
@@ -32,6 +32,6 @@ It is just a few extra bytes we leave in case you need to temporarily uninstall 
 
 <br clear="both"/>
 
-In some future version uninstaller will offer to remove the configuration. Right now you have to do it by hand. If you want to clean the TotalFinder trail completely, remove all TotalFinder prefixed keys from that file. You can use plist editor to do that:
+A future version of the uninstaller will offer to remove the configuration keys. Right now you have to do it by hand. If you want to clean the TotalFinder trail completely, remove all TotalFinder prefixed keys from that file. You can use plist editor to do that:
 
     open ~/Library/Preferences/com.apple.finder.plist
