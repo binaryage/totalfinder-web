@@ -30,4 +30,4 @@ You can go to the Terminal.app and type:
    
     killall Finder 
     
-This will restart the Finder in an unaltered state. That means TotalFinder will not load automatically next time. To open TotalFinder again, launch TotalFinder.app in /Applications.
+This will restart the Finder in an unaltered state, without TotalFinder. To open TotalFinder again, launch TotalFinder.app in /Applications.
