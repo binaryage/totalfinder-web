@@ -8,7 +8,7 @@ subtitle: Tweaks
     <div class="doc-side-inner">
         <h2>Preferences</h2>
         <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-tweaks.png" class="doc-pref">
+        <img src="/images/pref-tweaks.png" class="doc-pref" style="margin-left:5px;">
     </div>
 </div>
 
@@ -39,21 +39,17 @@ When unchecked, you may also hold SHIFT and click the green button to maximize t
 
 Dual mode is covered in a separate article about [Dual Mode in TotalFinder](/dual-mode).
 
-## Menu and Dock
+## Sidebar
 
-### Hide icon in Menu Bar
+Color sidebar icons are now available.
 
-By default TotalFinder displays a small icon in the Menu Bar. It shows an auxiliary menu when clicked. You may hide the icon to conserve Menu Bar space.
+<img src="/images/sidebar.png">
 
-<img src="/images/uninstall-menu.png">
+## Tabs
 
-### Keep original Dock icon
+### Use narrow Tabs Bar
 
-If you don't like the TotalFinder icon in the Dock, you may switch back to the original Finder icon.
-
-If you use some icon replacement pack (like CandyBar), please note that you have to restart Finder to see your custom icons after checking this option.
-
-## Experimental
+For people who are running OSX on small notebooks with small displays. Checking this option makes TotalFinder's tab bar smaller and saves 14 pixels of precious vertical space.
 
 ### Freelance Windows
 
@@ -63,9 +59,19 @@ After checking this option newly created windows start as new windows.
 
 In the future there will be a better way to specify behavior of new Finder windows. For more information [see the discussion](http://getsatisfaction.com/binaryage/topics/what_does_freelance_window_preference_mean).
 
-### Use narrow Tabs Bar
+### Always Maximize
 
-For people who are running OSX on small notebooks with small displays. Checking this option makes TotalFinder's tab bar smaller and saves 14 pixels of precious vertical space.
+Checking this returns the green button's behavior to the Finder standard.
+
+Typically the green "Maximize" button makes the Finder window as large as possible.  TotalFinder improves upon Maximize.  There are four settings that are cycled through when clicking the button:
+1. Wide enough to fit all icons
+2. Tighter fit
+3. Tightest fit
+4. The original size of the window you sized it to
+
+### Open new tabs with previous location
+
+Instead of opening into its own window, new tabs will open among the tabs of the last active window.
 
 ## Keyboard Shortcuts
 

@@ -4,7 +4,7 @@ title: TotalFinder Menus
 subtitle: Menus
 ---
 
-<img src="/images/context-menu-path.png" class="doc-image" style="margin-bottom: 0px">
+<img src="/images/context-menu-path.png" style="margin-bottom: 0px">
 
 ## Hide icon in Menu Bar
 
@@ -24,4 +24,4 @@ TotalFinder makes it really easy to capture a variety of path formats for a sele
 
 Although you can always use the keyboard shortcuts to cut, copy, or paste an object with TotalFinder installed, this menu option offers a button for each edit operation in the contextual menu.
 
-<img src="/images/context-menu-buttons.png" class="doc-image" style="margin-bottom: 0px">
+<img src="/images/context-menu-buttons.png" style="margin-bottom: 0px">
