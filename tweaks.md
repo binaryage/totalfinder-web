@@ -17,23 +17,6 @@ subtitle: Tweaks
 
 Button `Reset TotalFinder to defaults` will restore the initial TotalFinder configuration for all features. This does not remove your license key.
 
-## File Browser
-
-### Show System Files
-
-Enables display of hidden files. More in [Show System Files](/show-system-files).
-
-### Folders on Top
-
-In browser views, displays folders first and then files. More in [Folders on Top](/folders-on-top).
-
-### Always Maximize
-
-By default OSX applications maximize to take available space but they don't take more space than they actually need to display without scrollbars.
-
-When checked, clicking the green maximize button in the top left window frame corner will maximize TotalFinder to the full available screen space.
-
-When unchecked, you may also hold SHIFT and click the green button to maximize to full screen as if it were checked.
 
 ### Toggle Dual Mode
 
@@ -68,6 +51,8 @@ Typically the green "Maximize" button makes the Finder window as large as possib
 2. Tighter fit
 3. Tightest fit
 4. The original size of the window you sized it to
+
+When unchecked, you may also hold SHIFT and click the green button to maximize to full screen as if it were checked.
 
 ### Open new tabs with previous location
 
