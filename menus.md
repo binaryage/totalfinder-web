@@ -4,8 +4,6 @@ title: TotalFinder Menus
 subtitle: Menus
 ---
 
-<img src="/images/context-menu-path.png" style="margin-bottom: 0px">
-
 ## Hide icon in Menu Bar
 
 This is if you don't want to see TotalFinder's icon in your menu bar.
@@ -19,6 +17,8 @@ TotalFinder makes it really easy to capture a variety of path formats for a sele
 4. UNC Path
 5. HFS Path
 6. Terminal Path
+
+<img src="/images/context-menu-path.png" style="margin-bottom: 0px">
 
 ## Show CutPaste buttons in Context Menus
 
