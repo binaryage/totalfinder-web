@@ -11,6 +11,7 @@ This is if you don't want to see TotalFinder's icon in your menu bar.
 ## Allow path copying from Context Menus
 
 TotalFinder makes it really easy to capture a variety of path formats for a selected object.  Right-click on any file or folder, select Copy Path, and select the path format you'd like copied to the clipboard:
+
 1. Posix Path
 2. URL
 3. Windows Path
