@@ -18,4 +18,4 @@ Enables display of hidden files. More in [Show System Files](/show-system-files)
 
 When browsing the Finder in Column View with this option turned on, the Finder will now expand the column to fit the longest filename.
 
-You can also set the maximum width of this feature, and we are adding a way to set the minimum width, too.
+You can also set the maximum and minimum widths of this feature.
