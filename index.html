@@ -110,8 +110,7 @@
                   <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-thumbup">
                     <div><div>Watch the Video<div class="product-specs">to see the major features in action</div></div></div>
                   </a>
-                  <div id="o-download" rel="#download"></div>
-                  <a href="http://downloads.binaryage.com/TotalFinder-1.4.18.dmg" id="o-download-button" rel="#download" class="button product-button-download">
+                  <a href="http://downloads.binaryage.com/TotalFinder-1.4.18.dmg" id="o-download-button" class="button product-button-download">
                     <div><div><div class="trial-note">14-day trial</div>Download v1.4.18<div class="product-specs">to enjoy your 14-day trial prior to buying</div></div></div>
                   </a>
                   <a id="o-buy" rel="#buy" class="button product-button-buy">
@@ -341,7 +340,7 @@
         <img class="overlay-progress" src="http://static.binaryage.com/32e8f83d_shared_img_twitter-loader.gif"/>
       </div>
       <script type="text/javascript">
-        $(function(){var e;var r={opacity:.3,color:"#000"};$("#o-teaser").overlay({top:110,effect:"apple",expose:r});$("#o-buy").overlay({top:110,effect:"apple",expose:r});$(".video-icon").bind("click",function(e){$("#o-teaser").trigger("click");return false})});$(function(){var e=-1;$(".product-thumbs-scrollable").scrollable({speed:0,onSeek:function(r,t){if(t==e)return;var a=$(".product-thumbs-items img").eq(t);var o=$(".screenshot-box:visible");var l=$(a.attr("rel"));if(l[0]===o[0])return;o.fadeOut();l.fadeIn()}}).navigator();var r=$(".product-thumbs-scrollable").data("scrollable");var t;$(".highlight").each(function(){var e=$(this);var a=e.attr("data-showcase");if(!a)return;a=parseInt(a,10)-1;e.bind("mouseenter",function(){if(t){clearTimeout(t)}t=setTimeout(function(){r.seekTo(a,0)},1e3)});e.bind("mouseleave",function(){if(t){clearTimeout(t);t=null}})})});$(function(){$(".overlayable").overlay({expose:"#f1f1f1",target:"#gallery"}).gallery({preventResize:true,disabledClass:"disabled-overlay",prev:".overlay-prev",next:".overlay-next",info:".overlay-info",progress:".overlay-progress",opacity:1,speed:200,template:"[${index}/${total}] ${title}"})})
+        $(function(){var e;var o={opacity:.3,color:"#000"};$("#o-teaser").overlay({top:110,effect:"apple",expose:o});$("#o-buy").overlay({top:110,effect:"apple",expose:o});$("#o-download-button").bind("click",function(e){_gaq.push(["_trackPageview","/overlays/o-download"])});$(".video-icon").bind("click",function(e){$("#o-teaser").trigger("click");return false})});$(function(){var e=-1;$(".product-thumbs-scrollable").scrollable({speed:0,onSeek:function(o,t){if(t==e)return;var a=$(".product-thumbs-items img").eq(t);var r=$(".screenshot-box:visible");var l=$(a.attr("rel"));if(l[0]===r[0])return;r.fadeOut();l.fadeIn()}}).navigator();var o=$(".product-thumbs-scrollable").data("scrollable");var t;$(".highlight").each(function(){var e=$(this);var a=e.attr("data-showcase");if(!a)return;a=parseInt(a,10)-1;e.bind("mouseenter",function(){if(t){clearTimeout(t)}t=setTimeout(function(){o.seekTo(a,0)},1e3)});e.bind("mouseleave",function(){if(t){clearTimeout(t);t=null}})})});$(function(){$(".overlayable").overlay({expose:"#f1f1f1",target:"#gallery"}).gallery({preventResize:true,disabledClass:"disabled-overlay",prev:".overlay-prev",next:".overlay-next",info:".overlay-info",progress:".overlay-progress",opacity:1,speed:200,template:"[${index}/${total}] ${title}"})})
       </script>
     </div>
     <div class="clear"></div>
