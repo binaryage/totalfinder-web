@@ -6,11 +6,9 @@ subtitle: Compatibility with OS X 10.9 (Mavericks)
 
 <img src="images/mavericks.png" width="600px">
 
-**Good news!** We plan to bring all existing TotalFinder features to Mavericks, including Chrome-style tabs. It is too early to say if it all will be feasible, but we are pretty optimistic that it will be technically possible. Until the official Mavericks release in Fall 2013 we have still some time to discover possible ways how to do that.
+**Good news!** TotalFinder 1.5 is out and compatible with Mavericks!  Download it [http://downloads.binaryage.com/TotalFinder-1.5.dmg](here).
 
-From [version 1.4.15](http://totalfinder.binaryage.com/beta-changes) onward, TotalFinder launches without errors under OS X 10.9, but most features are disabled for now. We will re-enable them one by one as we will progress porting the code to the new system.
-
-We will also support Lion and Mountain Lion versions in foreseeable future. We might decide to drop Lion (10.7) support in January 2014.
+We will continue supporting Lion and Mountain Lion versions for the foreseeable future. We might decide to drop Lion (10.7) support in January 2014.
 
 ---
 
