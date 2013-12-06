@@ -4,8 +4,8 @@ title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
-download: http://downloads.binaryage.com/TotalFinder-1.5.2.dmg
-downloadtitle: Download v1.5.2
+download: http://downloads.binaryage.com/TotalFinder-1.5.6.dmg
+downloadtitle: Download v1.5.6
 facebook: 1
 retweet: 1
 buzz: 1
