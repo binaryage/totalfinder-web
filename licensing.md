@@ -44,9 +44,9 @@ Please visit [the store](http://sites.fastspring.com/binaryage/product/store) wh
 
 ## TotalFinder updates
 
-When you buy a license you may freely update to all TotalFinder versions within one major OS release. For example by buying TotalFinder today you will get free updates for all versions compatible with Lion (OS X 10.7).
+When you buy a license you may freely update to all TotalFinder versions within one major OS release. For example by buying TotalFinder today you will get free updates for all versions compatible with Mavericks (OS X 10.9).
 
-A new major OS release (OS X 10.8?) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.
+A new major OS release (OS X 10.10?) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price. But historically I was able to reuse most of my work in new OS releases 10.6 up to 10.9, so all updates have been free so far.
 
 ## TotalFinder and your privacy
 
