@@ -20,7 +20,7 @@ TotalFinder lets you enable highlighting items with colors. An item's color is d
 
 This feature mimics old Finder behaviour. I implemented this option because [many people](http://discuss.binaryage.com/t/wish-return-finder-labels-to-mavericks/662) requested back colored labels from Mountain Lion. It is not enabled by default. You have to opt-in via Preferences -> TotalFinder -> File Browser -> Colored Labels (see on the right).
 
-This feature is available only under Mavericks and later (10.9+) since [TotalFinder 1.6](changes).
+This feature is available only under Mavericks and later (10.9+) since [TotalFinder 1.6](beta-changes).
 
 ## Colored Labels in Icon View
 
