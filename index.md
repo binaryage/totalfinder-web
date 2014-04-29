@@ -87,12 +87,16 @@ highlights: [{
   <div class="row">
     <div class="col-md-12">
       <div class="more-info">
-        <a href="/documentation" class="button product-button-doc wf">
-          <div><i class="fa fa-book"></i> Read Documentation</div>
-        </a>
-        <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
-          <div><i class="fa fa-play-circle"></i> Watch Video</div>
-        </a>
+        <div class="manual-button-box">
+          <a href="/documentation" class="button product-button-doc wf">
+            <div><i class="fa fa-book"></i> Read more in manual pages</div>
+          </a>
+        </div>
+        <div class="teaser-button-box">
+          <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
+            <div><i class="fa fa-play-circle"></i> Watch Video</div>
+          </a>
+        </div>
       </div>
     </div>
   </div>

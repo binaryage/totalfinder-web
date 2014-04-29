@@ -16,16 +16,16 @@ This feature is available only under Mavericks and later (10.9+) since [TotalFin
 
 ## Colored Labels in Icon View
 
-<a target="_blank" href="/images/colored-labels-icon-view.png"><img src="/images/colored-labels-icon-view.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-icon-view.png"><img src="/images/colored-labels-icon-view.png" style="margin-bottom: 0px; width: 100%"></a>
 
 ## Colored Labels in List View
 
-<a target="_blank" href="/images/colored-labels-list-view.png"><img src="/images/colored-labels-list-view.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-list-view.png"><img src="/images/colored-labels-list-view.png" style="margin-bottom: 0px; width: 100%"></a>
 
 ## Colored Labels in Column View
 
-<a target="_blank" href="/images/colored-labels-column-view.png"><img src="/images/colored-labels-column-view.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-column-view.png"><img src="/images/colored-labels-column-view.png" style="margin-bottom: 0px; width: 100%"></a>
 
 ## Colored Labels on Desktop
 
-<a target="_blank" href="/images/colored-labels-desktop.png"><img src="/images/colored-labels-desktop.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-desktop.png"><img src="/images/colored-labels-desktop.png" style="margin-bottom: 0px; width: 100%"></a>
