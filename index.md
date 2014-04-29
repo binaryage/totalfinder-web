@@ -1,138 +1,99 @@
 ---
 layout: tf-home
+download: http://downloads.binaryage.com/TotalFinder-1.5.22.dmg
+downloadtitle: Download v1.5.22
 title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
-download: http://downloads.binaryage.com/TotalFinder-1.5.22.dmg
-downloadtitle: Download v1.5.22
-facebook: 1
-retweet: 1
-buzz: 1
 fbsdk: 1
-usethis: totalfinder
+plusone: 1
+product-fblike: 1
+product-plusone: 1
+product-tweet: 1
 meta_title: TotalFinder brings tabs to your native Finder and more!
 meta_keywords: totalfinder,mac,finder,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,visor,totalcommander,binaryage
 meta_description: TotalFinder is a plugin for Finder.app which adds tabs like those in Google Chrome, dual panels similar to TotalCommander, and other improvements.
 meta_image: /shared/img/icons/totalfinder-128.png
 pray: finder tabs mac, total commander mac, better finder plugin
 ogmeta: {
-    site_name: "BinaryAge website",
-    description: "TotalFinder adds tabs to your native Finder and more!",
-    email: "support@binaryage.com",
-    type: "product",
-    title: "TotalFinder",
-    url: "http://totalfinder.binaryage.com",
-    image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
+  site_name: "BinaryAge website",
+  description: "TotalFinder adds tabs to your native Finder and more!",
+  email: "support@binaryage.com",
+  type: "product",
+  title: "TotalFinder",
+  url: "http://totalfinder.binaryage.com",
+  image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
-    title: "Dual Mode",
-    thumb: "/images/showcase/thumb-showcase-dual-mode.png",
-    full: "/images/showcase/desktop-showcase-dual-mode.png",
-    klass: "no-shadow"
-},    {
-    title: "Finder with tabs!",
-    thumb: "/images/showcase/thumb-showcase-tabs.png",
-    full: "/images/showcase/desktop-showcase-tabs.png",
-    klass: "no-shadow"
-},    {
-    title: "Folders on Top",
-    thumb: "/images/showcase/thumb-showcase-folders-on-top.png",
-    full: "/images/showcase/desktop-showcase-folders-on-top.png",
-    klass: "no-shadow"
-},    {
-    title: "Show System Files",
-    thumb: "/images/showcase/thumb-showcase-system-files.png",
-    full: "/images/showcase/desktop-showcase-system-files.png",
-    klass: "no-shadow"
-},    {
-    title: "Visor Window",
-    thumb: "/images/showcase/thumb-showcase-visor.png",
-    full: "/images/showcase/desktop-showcase-visor.png",
-    klass: "no-shadow"
+  title: "Dual Mode",
+  thumb: "/images/showcase/showcase-dual-mode.png",
+  full: "/images/showcase/desktop-showcase-dual-mode.png",
+  klass: "no-shadow"
+},  {
+  title: "Finder with tabs!",
+  thumb: "/images/showcase/showcase-tabs.png",
+  full: "/images/showcase/desktop-showcase-tabs.png",
+  klass: "no-shadow"
+},  {
+  title: "Folders on Top",
+  thumb: "/images/showcase/showcase-folders-on-top.png",
+  full: "/images/showcase/desktop-showcase-folders-on-top.png",
+  klass: "no-shadow"
+},  {
+  title: "Show System Files",
+  thumb: "/images/showcase/showcase-system-files.png",
+  full: "/images/showcase/desktop-showcase-system-files.png",
+  klass: "no-shadow"
+},  {
+  title: "Visor Window",
+  thumb: "/images/showcase/showcase-visor.png",
+  full: "/images/showcase/desktop-showcase-visor.png",
+  klass: "no-shadow"
+}]
+highlights: [{
+  title: "Tabbed Browsing",
+  description: "Add chrome-style tabs into Finder windows.",
+  klass: "thumb-tabs",
+  screenshot: 2
+},{
+  title: "Dual Mode",
+  description: "Display two Finder windows side-by-side in dual mode.",
+  klass: "thumb-dual",
+  screenshot: 1
+},{
+  title: "Folders on Top",
+  description: "Don't make me think. Folders should always go first in list view.",
+  klass: "thumb-fot",
+  screenshot: 3
+},{
+  title: "Show System Files",
+  description: "Show me all files on the disk. I'm not afraid to see the cruft.",
+  klass: "thumb-ssf",
+  screenshot: 4
+},{
+  title: "Visor",
+  description: "The Finder is always one key-press away!",
+  klass: "thumb-visor",
+  screenshot: 5
+},{
+  title: "Cut &amp; Paste",
+  description: "Use keyboard shortcuts to move files around. Faster than drag &amp; drop.",
+  klass: "thumb-cut"
 }]
 ---
 
 <div class="main-content">
-    <div class="features-separator"></div>
-    <div class="highlights">
-        <div class="highlight" data-showcase="2">
-            <div class="highlight-icon hoverable" title="read more about Tabbed Browsing">
-                <a href="/tabs">
-                    <div class="thumb-tabs"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Tabbed Browsing</h3>
-                <p>Add tabs into Finder windows, similar to those seen in Google Chrome.</p>
-            </div>
-        </div>
-        <div class="highlight" data-showcase="1">
-            <div class="highlight-icon hoverable" title="read more about Dual Mode">
-                <a href="/dual-mode">
-                    <div class="thumb-dual"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Dual Mode</h3>
-                <p>Display two Finder windows side-by-side in dual mode.</p>
-            </div>
-        </div>
-        <div class="highlight last" data-showcase="3">
-            <div class="highlight-icon hoverable" title="read more about Folders on Top">
-                <a href="/folders-on-top">
-                    <div class="thumb-fot"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Folders on Top</h3>
-                <p>Don't make me think. Folders should always go first in list view.</p>
-            </div>
-        </div>
-        <div class="highlight-separator"></div>
-        <div class="highlight" data-showcase="4">
-            <div class="highlight-icon hoverable" title="read more about System Files">
-                <a href="/show-system-files">
-                    <div class="thumb-ssf"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Show System Files</h3>
-                <p>Show me all files on the disk. I'm not afraid to see the cruft.</p>
-            </div>
-        </div>
-        <div class="highlight" data-showcase="5">
-            <div class="highlight-icon hoverable" title="read more about Visor">
-                <a href="/visor">
-                    <div class="thumb-visor"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Visor</h3>
-                <p>The Finder is always one key-press away!</p>
-            </div>
-        </div>
-        <div class="highlight last">
-            <div class="highlight-icon">
-                <div class="thumb-cut">
-
-                </div>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Cut &amp; Paste</h3>
-                <p>Use keyboard shortcuts to move files around. Faster than drag &amp; drop.</p>
-            </div>
-        </div>
-        <br class="clear"/>
-    </div>
-
-    <div class="generic-separator"></div>
-    <div class="more-info">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="more-info">
         <a href="/documentation" class="button product-button-doc wf">
-            <div><div>Read the documentation</div></div>
+          <div><i class="fa fa-book"></i> Read Documentation</div>
         </a>
-        <a href="/changes" class="button product-button-changes wf">
-            <div><div>View recent changes</div></div>
+        <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
+          <div><i class="fa fa-play-circle"></i> Watch Video</div>
         </a>
+      </div>
     </div>
+  </div>
 </div>
