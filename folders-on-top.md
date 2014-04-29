@@ -1,22 +1,10 @@
 ---
-layout: tf-doc
+layout: tf-doc-pref
 title: Folders on Top in TotalFinder
 subtitle: Folders on Top
+doc-image: /images/folders-on-top-disabled.png
+pref-image: /images/pref-tweaks.png
 ---
-
-<div class="doc-double">
-<img src="/images/folders-on-top-disabled.png" class="doc-image1">
-<img src="/images/folders-on-top-enabled.png" class="doc-image2">
-<div class="clear"> </div>
-</div>
-
-<div class="doc-side">
-    <div class="doc-side-inner">
-        <h2>Preferences</h2>
-        <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-tweaks.png" class="doc-pref">
-    </div>
-</div>
 
 ## Folders on Top
 

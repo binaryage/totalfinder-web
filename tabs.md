@@ -1,19 +1,10 @@
 ---
-layout: tf-doc
+layout: tf-doc-pref
 title: Tabs in TotalFinder
 subtitle: Tabs
+doc-image: /images/tabs.png
+pref-image: /images/pref-none.png
 ---
-
-<img src="/images/tabs.png" class="doc-image">
-
-<div class="doc-side">
-    <div class="doc-side-inner">
-        <h2>Preferences</h2>
-        <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-none.png" class="doc-pref">
-        <p>The tabs are a basic feature of TotalFinder. This feature cannot be turned off.</p>
-    </div>
-</div>
 
 ## What are tabs?
 
@@ -35,15 +26,15 @@ Similarly, in TotalFinder tabs display multiple directories within one window. T
 ## Keyboard Shortcuts
 
 <div class="keyboard-shortcuts">
-    <table border="0" cellspacing="0" cellpadding="0">
-        <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
-        <tr><td>Open a new tab</td><td>⌘T</td><td></td></tr>
-        <tr><td>Close selected tab</td><td>⌘W</td><td></td></tr>
-        <tr><td>Switch between tabs</td><td>⌘⇧[ and  ⌘⇧]<br> ⌘⇧← and  ⌘⇧→</td><td></td></tr>
-        <tr><td>Open a new window</td><td>⌘N</td><td></td></tr>
-        <tr><td>Close window</td><td>⌘⇧W</td><td></td></tr>
-        <tr><td>Close all windows</td><td>⌘⌥W</td><td></td></tr>
-    </table>
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
+    <tr><td>Open a new tab</td><td>⌘T</td><td></td></tr>
+    <tr><td>Close selected tab</td><td>⌘W</td><td></td></tr>
+    <tr><td>Switch between tabs</td><td>⌘⇧[ and  ⌘⇧]<br> ⌘⇧← and  ⌘⇧→</td><td></td></tr>
+    <tr><td>Open a new window</td><td>⌘N</td><td></td></tr>
+    <tr><td>Close window</td><td>⌘⇧W</td><td></td></tr>
+    <tr><td>Close all windows</td><td>⌘⌥W</td><td></td></tr>
+  </table>
 </div>
 
 ## Remapping Shortcuts

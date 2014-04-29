@@ -13,23 +13,16 @@ TotalFinder has a convenient installer which guides you through the installation
 3. Click through the installation process
 4. Finder will restart with TotalFinder
 
-<div style="height: 50px">&nbsp;</div>
-
 ## TotalFinder updates
 
-<img src="/images/update-dialog.png" class="doc-inline-image-50 right">
-
 TotalFinder uses the [Sparkle](http://sparkle.andymatuschak.org/) updating system. By default it notifies you whenever there is a new version available. You may also check for new versions manually.
-
-<div style="height: 200px">&nbsp;</div>
+<img src="/images/update-dialog.png" class="doc-inline-image-50">
 
 ## TotalFinder in login startup items
 
-<img src="/images/login-items.png" class="doc-inline-image-50 right">
-
 By default, the installer puts `TotalFinder.app` into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove `TotalFinder.app` from your login startup items to prevent TotalFinder from launching at startup.
 
-<div style="height: 120px">&nbsp;</div>
+<img src="/images/login-items.png" class="doc-inline-image-50">
 
 ## Uninstallation
 

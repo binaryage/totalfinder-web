@@ -10,10 +10,10 @@ TotalFinder comes with a convenient uninstaller script which safely removes Tota
 
 Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
 
-<div style="position:relative; margin-bottom: 20px;">
-    <img src="/images/uninstall-menu.png" class="doc-inline-image" style="left: 0px; top: -60px">
-    <img src="/images/really-uninstall.png" class="doc-inline-image" style="width: 340px; left: 260px; top: 68px; position: absolute">
-    <img src="/images/uninstaller.png" class="doc-inline-image" style="width: 346px; left: 320px; top: -46px">
+<div>
+  <img src="/images/uninstall-menu.png" style="width:150px">
+  <img src="/images/really-uninstall.png" style="width:300px">
+  <img src="/images/uninstaller.png" style="width:300px">
 </div>
 
 If you have trouble running the menu command you may alternatively run the following in Terminal.app: 
@@ -26,11 +26,9 @@ Or download and open the latest archive from [http://totalfinder.binaryage.com](
 
 By default the uninstaller does not remove your configuration settings from `/Users/<user>/Library/Preferences/com.apple.finder.plist`. 
 
-<img src="/images/property-list-editor.png" style="width:400px; float: right; position: relative; top: -10px; margin-left: 40px">
-    
 It is just a few extra bytes we leave in case you need to temporarily uninstall TotalFinder and decide to reinstall later. 
 
-<br clear="both"/>
+<img src="/images/property-list-editor.png" style="width:400px;">
 
 A future version of the uninstaller will offer to remove the configuration keys. Right now you have to do it by hand. If you want to clean the TotalFinder trail completely, remove all TotalFinder prefixed keys from that file. You can use plist editor to do that:
 

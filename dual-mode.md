@@ -1,19 +1,10 @@
 ---
-layout: tf-doc
+layout: tf-doc-pref
 title: Dual Mode in TotalFinder
 subtitle: Dual Mode
+doc-image: /images/dual-mode.png
+pref-comment: The dual mode is an integral part of TotalFinder and cannot be turned off.
 ---
-
-<img src="/images/dual-mode.png" class="doc-image">
-
-<div class="doc-side">
-    <div class="doc-side-inner">
-        <h2>Preferences</h2>
-        <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-none.png" class="doc-pref">
-        <p>The dual mode is an integral part of TotalFinder and cannot be turned off.</p>
-    </div>
-</div>
 
 ## What is Dual Mode?
 
@@ -32,9 +23,9 @@ You may enter dual mode by double-clicking a tab or pressing ⌘U. The selected 
 ## Keyboard shortcuts
 
 <div class="keyboard-shortcuts">
-    <table border="0" cellspacing="0" cellpadding="0">
-        <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
-        <tr><td>Toggle dual mode</td><td>⌘U</td><td></td></tr>
-        <tr><td>Switch active panel</td><td>⌥⇥</td><td></td></tr>
-    </table>
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
+    <tr><td>Toggle dual mode</td><td>⌘U</td><td></td></tr>
+    <tr><td>Switch active panel</td><td>⌥⇥</td><td></td></tr>
+  </table>
 </div>

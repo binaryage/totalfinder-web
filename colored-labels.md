@@ -1,18 +1,10 @@
 ---
-layout: tf-doc
+layout: tf-doc-pref
 title: Colored Labels in TotalFinder
 subtitle: Colored Labels
+doc-image: /images/colored-labels-list-view.png
+pref-image: /images/pref-colored-labels.png
 ---
-
-<img src="/images/colored-labels-list-view.png" class="doc-image" style="margin-bottom: 0px">
-
-<div class="doc-side">
-    <div class="doc-side-inner">
-        <h2>Preferences</h2>
-        <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-colored-labels.png" width="700px" class="doc-pref">
-    </div>
-</div>
 
 ## Colored Labels like in the old times&trade;
 
