@@ -92,18 +92,18 @@ highlights: [{
 
 <div class="main-content">
   <div class="row">
-    <div class="col-md-12">
-      <div class="more-info">
-        <div class="manual-button-box">
-          <a href="/documentation" class="button product-button-doc wf">
-            <div><i class="fa fa-book"></i> Read more in manual pages</div>
-          </a>
-        </div>
-        <div class="teaser-button-box">
-          <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
-            <div><i class="fa fa-play-circle"></i> Watch video preview</div>
-          </a>
-        </div>
+    <div class="col-md-4 col-md-offset-1">
+      <div class="manual-button-box">
+        <a href="/documentation" class="button product-button-doc wf">
+          <div><i class="fa fa-book"></i> Read more in manual pages</div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="teaser-button-box">
+        <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
+          <div><i class="fa fa-play-circle"></i> Watch video preview</div>
+        </a>
       </div>
     </div>
   </div>
