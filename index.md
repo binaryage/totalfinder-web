@@ -5,6 +5,7 @@ downloadtitle: Download v1.5.22
 title: TotalFinder brings tabs to your native Finder and more!
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
+product_icon: /shared/img/icons/totalfinder-256.png
 subtitle: brings tabs to your native Finder and more!
 fbsdk: 1
 plusone: 1
@@ -26,60 +27,66 @@ ogmeta: {
   image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
-  title: "Dual Mode",
-  thumb: "/images/showcase/showcase-dual-mode.png",
-  full: "/images/showcase/desktop-showcase-dual-mode.png",
-  klass: "no-shadow"
+  title: "Folders on top",
+  thumb: "/images/showcase/full-fot.png",
+  full: "/images/showcase/full-fot.png",
+  klass: "tf-shadow"
 },  {
-  title: "Finder with tabs!",
-  thumb: "/images/showcase/showcase-tabs.png",
-  full: "/images/showcase/desktop-showcase-tabs.png",
-  klass: "no-shadow"
+  title: "Colored labels",
+  thumb: "/images/showcase/full-clabels.png",
+  full: "/images/showcase/full-clabels.png",
+  klass: "tf-shadow"
 },  {
-  title: "Folders on Top",
-  thumb: "/images/showcase/showcase-folders-on-top.png",
-  full: "/images/showcase/desktop-showcase-folders-on-top.png",
-  klass: "no-shadow"
+  title: "Chrome-style tabs",
+  thumb: "/images/showcase/full-tabs.png",
+  full: "/images/showcase/full-tabs.png",
+  klass: "tf-shadow"
 },  {
-  title: "Show System Files",
-  thumb: "/images/showcase/showcase-system-files.png",
-  full: "/images/showcase/desktop-showcase-system-files.png",
-  klass: "no-shadow"
-},  {
+  title: "Dual mode",
+  thumb: "/images/showcase/full-dual.png",
+  full: "/images/showcase/full-dual.png",
+  klass: "tf-shadow"
+},{
   title: "Visor Window",
-  thumb: "/images/showcase/showcase-visor.png",
-  full: "/images/showcase/desktop-showcase-visor.png",
-  klass: "no-shadow"
+  thumb: "/images/showcase/full-visor.png",
+  full: "/images/showcase/full-visor.png",
+  klass: "tf-shadow"
+},  {
+  title: "Cut & Paste",
+  thumb: "/images/showcase/full-cut.png",
+  full: "/images/showcase/full-cut.png",
+  klass: "tf-shadow"
 }]
 highlights: [{
-  title: "Tabbed Browsing",
-  description: "Add chrome-style tabs into Finder windows.",
-  klass: "thumb-tabs",
-  screenshot: 2
-},{
-  title: "Dual Mode",
-  description: "Display two Finder windows side-by-side in dual mode.",
-  klass: "thumb-dual",
+  title: "Folders on top",
+  description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
+  style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
   screenshot: 1
 },{
-  title: "Folders on Top",
-  description: "Don't make me think. Folders should always go first in list view.",
-  klass: "thumb-fot",
+  title: "Colored labels",
+  description: "Brings full colors back into Mavericks.",
+  style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -270px -100px / 650px 430px",
+  screenshot: 2
+},{
+  title: "Chrome tabs",
+  description: "Apple finally introduced tabs in Mavericks. TotalFinder added Chrome tabs in Snow Leopard.",
+  style: "background: transparent url('/images/showcase/full-tabs.png') no-repeat -352px -56px / 650px 430px",
   screenshot: 3
 },{
-  title: "Show System Files",
-  description: "Show me all files on the disk. I'm not afraid to see the cruft.",
-  klass: "thumb-ssf",
+  title: "Dual mode",
+  description: "Display two Finder windows side-by-side on hot-key.",
+  style: "background: transparent url('/images/showcase/full-dual.png') no-repeat -246px -0px / 1000px 621px",
   screenshot: 4
 },{
-  title: "Visor",
+  title: "Visor window",
   description: "The Finder is always one key-press away!",
-  klass: "thumb-visor",
+  style: "background: transparent url('/images/showcase/full-visor.png') no-repeat -0px -0px / 650px 430px",
   screenshot: 5
 },{
   title: "Cut &amp; Paste",
   description: "Use keyboard shortcuts to move files around. Faster than drag &amp; drop.",
-  klass: "thumb-cut"
+  style: "background: transparent url('/images/showcase/full-cut.png') no-repeat -330px -250px / 650px 430px",
+  screenshot: 6
 }]
 ---
 
@@ -94,7 +101,7 @@ highlights: [{
         </div>
         <div class="teaser-button-box">
           <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
-            <div><i class="fa fa-play-circle"></i> Watch Video</div>
+            <div><i class="fa fa-play-circle"></i> Watch video preview</div>
           </a>
         </div>
       </div>
