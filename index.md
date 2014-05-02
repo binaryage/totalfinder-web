@@ -116,8 +116,7 @@ highlights: [{
     </a>
     <div class="button-note">
       <i class="fa fa-laptop"></i> Compatible with OS X 10.8 and 10.9<br>
-      <a href="/free-licenses"><i class="fa fa-trash-o"></i> Looking for an older version?</a><br>
-      <a href="/free-licenses"><i class="fa fa-flask"></i> Looking for a beta version?</a>
+      <a href="/changes">Looking for a different version?</a><br>
     </div>
   </div>
   <div class="button-container">
@@ -125,9 +124,7 @@ highlights: [{
       <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span>
     </a>
     <div class="button-note">
-      <a href="http://blog.binaryage.com/trade-totalfinder-bitcoin"><i class="fa fa-btc"></i> Buy for bitcoin</a><br>
       <a href="/free-licenses"><i class="fa fa-gift"></i> Apply for a free license</a><br>
-      <a href="/reasons-to-buy"><i class="fa fa-smile-o"></i> Good reasons for buying</a>
     </div>
   </div>
 </div>
