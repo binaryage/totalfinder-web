@@ -1,8 +1,9 @@
 ---
-layout: tf-home
+layout: product-home
 download: http://downloads.binaryage.com/TotalFinder-1.5.22.dmg
 downloadtitle: Download v1.5.22
 title: TotalFinder brings tabs to your native Finder and more!
+product: totalfinder
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
 product_icon: /shared/img/icons/totalfinder-256.png
@@ -90,21 +91,103 @@ highlights: [{
 }]
 ---
 
-<div class="main-content">
-  <div class="row">
-    <div class="col-md-4 col-md-offset-1">
-      <div class="manual-button-box">
-        <a href="/documentation" class="button product-button-doc wf">
-          <div><i class="fa fa-book"></i> Read more in manual pages</div>
-        </a>
-      </div>
+<div class="row">
+  <div class="col-md-4 col-md-offset-1">
+    <div class="manual-button-box">
+      <a href="/documentation" class="button product-button-doc wf">
+        <div><i class="fa fa-book"></i> Read more in manual pages</div>
+      </a>
     </div>
-    <div class="col-md-7">
-      <div class="teaser-button-box">
-        <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
-          <div><i class="fa fa-play-circle"></i> Watch video preview</div>
-        </a>
-      </div>
+  </div>
+  <div class="col-md-7">
+    <div class="teaser-button-box">
+      <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
+        <div><i class="fa fa-play-circle"></i> Watch video preview</div>
+      </a>
     </div>
   </div>
 </div>
+
+{% contentfor product-buttons %}
+
+<div class="product-buttons">
+  <div class="button-container">
+    <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
+      <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
+    </a>
+    <div class="button-note">
+      <i class="fa fa-laptop"></i> Compatible with OS X 10.8 and 10.9<br>
+      <a href="/free-licenses"><i class="fa fa-trash-o"></i> Looking for an older version?</a><br>
+      <a href="/free-licenses"><i class="fa fa-flask"></i> Looking for a beta version?</a>
+    </div>
+  </div>
+  <div class="button-container">
+    <a id="o-buy" class="button product-button-buy">
+      <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span>
+    </a>
+    <div class="button-note">
+      <a href="http://blog.binaryage.com/trade-totalfinder-bitcoin"><i class="fa fa-btc"></i> Buy for bitcoin</a><br>
+      <a href="/free-licenses"><i class="fa fa-gift"></i> Apply for a free license</a><br>
+      <a href="/reasons-to-buy"><i class="fa fa-smile-o"></i> Good reasons for buying</a>
+    </div>
+  </div>
+</div>
+
+{% endcontentfor %}
+
+{% contentfor overlays %}
+
+<div id="totalfinder-teaser" class="overlay" style="display:none">
+  <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="375" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
+    <PARAM name="SRC" VALUE="http://cdn.binaryage.com/totalfinder-teaser.mov">
+    <PARAM name="AUTOPLAY" VALUE="true">
+    <EMBED SRC="http://cdn.binaryage.com/totalfinder-teaser.mov" width="640" height="375" AUTOPLAY="true" PLUGINSPAGE="http://www.apple.com/quicktime/download/"></EMBED>
+  </OBJECT>
+</div>
+
+<div id="totalfinder-buy" class="overlay" style="display:none">
+  <a href="https://sites.fastspring.com/binaryage/instant/totalfinder">
+    <div class="buy-single explanation-box">
+      <div class="title">Single License</div>
+      <div class="image"><img src="/shared/img2/single-license-icon.png"></div>
+      <div class="deal">Happy to pay the standard price?<br/>This is the way to go.</div>
+      <div class="button">
+        <span>Buy single</span><span class="price-tag">$18</span>
+      </div>
+    </div>
+  </a>
+  <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">
+    <div class="buy-pack explanation-box">
+      <div class="title">3-License Pack</div>
+      <div class="image"><img src="/shared/img2/tripple-license-icon.png"></div>
+      <div class="deal">Want a discount? Buy 3-pack for $36.<br/>
+      Keep one license for yourself, and give two links to your friends or family members.
+      Then all three of you can share in the savings of only $12 per license!
+      </div>
+      <div class="button">
+        <span>Buy 3-pack</span><span class="price-tag">$36</span>
+      </div>
+    </div>
+  </a>
+</div>
+
+{% endcontentfor %}
+
+<script type="text/javascript">
+  $(function() {
+    $("#o-teaser").fancybox({
+      href: "#totalfinder-teaser"
+    });
+    $("#o-buy").fancybox({
+      href: "#totalfinder-buy"
+    });
+    $("#o-download-button").bind('click', function(e) {
+      ga('send', 'pageview', '/overlays/o-download');
+    });
+    $('.screenshot').fancybox();
+    $('.screenshot-box').navigen({
+      target: $(".navi")
+    });
+    $('.highlight').showcase();
+  });
+</script>
