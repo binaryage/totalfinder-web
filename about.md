@@ -12,22 +12,26 @@ TotalFinder works like the original Finder but adds [tabs](/tabs), [dual panel m
 
 My goal is to improve the Finder in areas where it is lacking but keep the overall design, which is good.
 
-TotalFinder works in 10.7 (Lion) and 10.8 (Mountain Lion).  We will support 10.9 (Mavericks).
+TotalFinder works 10.8 (Mountain Lion) and 10.9 (Mavericks).
 
 ## TotalFinder is a plugin, not a replacement
 
-TotalFinder is an add-on which gets loaded into the Finder when you launch `TotalFinder.app`. It does not modify your Finder files on the disk. It only changes the current instance of Finder running in memory when you launch TotalFinder, which is itself a standalone application.
+TotalFinder is an add-on which gets loaded into the Finder when you launch `TotalFinder.app`. It does not modify your Finder files on the disk. TotalFinder is a standalone application. When launched it changes the current instance of Finder running in memory. We call this process injection.
 
 ## System updates from Apple
 
-Due to the nature of how TotalFinder works, there is a small risk that TotalFinder might break with future Finder updates. Our entire team uses TotalFinder  on a daily basis so we spot problems very quickly. So far, Finder updates have generally introduced minor cosmetic changes. I am also a member of Apple's Developer Program and have access to pre-release versions of system updates. I am committed to keeping TotalFinder compatible with Apple's updates. 
+Due to the nature of how TotalFinder works, there is a small risk that TotalFinder might break with future Finder updates. Our entire team uses TotalFinder on a daily basis so we spot problems very quickly. So far, Finder updates have generally introduced minor cosmetic changes. I am also a member of Apple's Developer Program and have access to pre-release versions of system updates. I am committed to keeping TotalFinder compatible with Apple's updates.
 
-Please remember that if you ever experience any problem whatsoever, please send us a [support email](mailto:support@binaryage.com).  In the worst case, it is extremely easy to [uninstall TotalFinder](/uninstallation) and return to the Apple's basic Finder.
+Please remember that if you ever experience any problem whatsoever, please send us a [support email](mailto:support@binaryage.com). In the worst case, it is easy to [uninstall TotalFinder](/uninstallation) and return to the Apple's basic Finder.
 
 ## How to restart the Finder
 
-You can go to the Terminal.app and type: 
+The easies way is probably via Force Quit menu (`CMD+OPT+ESC`):
+
+<img src="/images/force-quit-finder.png" class="doc-image-with-shadow" style="width: 400px">
+
+Alternatively you can go to the `Terminal.app` and type: 
    
-    killall Finder 
-    
-This will restart the Finder in an unaltered state, without TotalFinder. To open TotalFinder again, launch TotalFinder.app in /Applications.
+    killall Finder
+
+Killing Finder will restart the Finder without injecting TotalFinder again. To reopen TotalFinder, launch TotalFinder.app in /Applications.

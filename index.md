@@ -94,14 +94,14 @@ highlights: [{
 <div class="row">
   <div class="col-md-4 col-md-offset-1">
     <div class="manual-button-box">
-      <a href="/documentation" class="button product-button-doc wf">
+      <a href="/about" class="button product-button-doc">
         <div><i class="fa fa-book"></i> Read more in manual pages</div>
       </a>
     </div>
   </div>
   <div class="col-md-7">
     <div class="teaser-button-box">
-      <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser wf">
+      <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser">
         <div><i class="fa fa-play-circle"></i> Watch video preview</div>
       </a>
     </div>
@@ -109,7 +109,6 @@ highlights: [{
 </div>
 
 {% contentfor product-buttons %}
-
 <div class="product-buttons">
   <div class="button-container">
     <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
@@ -132,11 +131,9 @@ highlights: [{
     </div>
   </div>
 </div>
-
 {% endcontentfor %}
 
 {% contentfor overlays %}
-
 <div id="totalfinder-teaser" class="overlay" style="display:none">
   <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="375" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
     <PARAM name="SRC" VALUE="http://cdn.binaryage.com/totalfinder-teaser.mov">
@@ -170,10 +167,9 @@ highlights: [{
     </div>
   </a>
 </div>
-
 {% endcontentfor %}
 
-<script type="text/javascript">
+<script>
   $(function() {
     $("#o-teaser").fancybox({
       href: "#totalfinder-teaser"
