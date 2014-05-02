@@ -8,7 +8,7 @@ subtitle: About TotalFinder
 
 TotalFinder works like the original Finder but adds [tabs](/tabs), [dual panel mode](/dual-mode), [folders on top](/folders-on-top) and other [useful features](/tweaks).
 
-<img src="/images/showcase/full-fot.png" class="doc-image-add-shadow" style="width:500px">
+<img src="/images/showcase/full-fot.png" class="doc-image add-shadow" style="width:500px">
 
 My goal is to improve Finder in areas where it is lacking but keep the overall design, which is good.
 
@@ -28,7 +28,7 @@ Please remember that if you ever experience any problem whatsoever, first check 
 
 The easiest way is probably using Force Quit menu via `CMD+OPT+ESC`
 
-<img src="/images/force-quit-finder.png" class="doc-image-add-shadow" style="width:300px">
+<img src="/images/force-quit-finder.png" class="doc-image add-shadow" style="width:300px">
 
 Alternatively you can go to the `Terminal.app` and type: 
    

@@ -10,25 +10,23 @@ TotalFinder comes with a convenient uninstaller script which safely removes Tota
 
 Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
 
-<div>
-  <img src="/images/uninstall-menu.png" style="width:150px">
-  <img src="/images/really-uninstall.png" style="width:300px">
-  <img src="/images/uninstaller.png" style="width:300px">
-</div>
+<img src="/images/uninstall-menu.png" class="doc-image" style="width:400px">
+<img src="/images/really-uninstall.png" class="doc-image add-shadow" style="width:400px">
+<img src="/images/uninstaller.png" class="doc-image add-shadow" style="width:400px">
 
 If you have trouble running the menu command you may alternatively run the following in Terminal.app: 
-    
+
     open "/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app"
-    
-Or download and open the latest archive from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com) and launch TotalFinder Uninstaller.
+
+Or download and open the latest archive from [totalfinder.binaryage.com](http://totalfinder.binaryage.com) and launch TotalFinder Uninstaller from the DMG.
 
 ## Purging the configuration
 
-By default the uninstaller does not remove your configuration settings from `/Users/<user>/Library/Preferences/com.apple.finder.plist`. 
+By default the uninstaller does not remove your configuration settings from `/Users/<user>/Library/Preferences/com.apple.finder.plist`
 
 It is just a few extra bytes we leave in case you need to temporarily uninstall TotalFinder and decide to reinstall later. 
 
-<img src="/images/property-list-editor.png" style="width:400px;">
+<img src="/images/property-list-editor.png" class="doc-image add-shadow" style="width:400px;">
 
 A future version of the uninstaller will offer to remove the configuration keys. Right now you have to do it by hand. If you want to clean the TotalFinder trail completely, remove all TotalFinder prefixed keys from that file. You can use plist editor to do that:
 
