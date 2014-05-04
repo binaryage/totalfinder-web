@@ -7449,11 +7449,11 @@ p{font-size:13px;line-height:18px}
 #footer .footer-copyright{opacity:.6;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";filter:alpha(opacity=60);-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;}
 #footer .footer-copyright:hover{opacity:1;-ms-filter:none;filter:none}
 #footer .footer-links a{margin-left:10px}
-.social-box{-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;opacity:.2;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter:alpha(opacity=20);height:30px;margin-left:-10px;white-space:nowrap;}
+.social-box{-webkit-transition:opacity 0.5s ease 0s;-moz-transition:opacity 0.5s ease 0s;-o-transition:opacity 0.5s ease 0s;-ms-transition:opacity 0.5s ease 0s;transition:opacity 0.5s ease 0s;opacity:.2;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter:alpha(opacity=20);height:30px;margin-left:-10px;white-space:nowrap;}
+.social-box:hover{opacity:1;-ms-filter:none;filter:none}
+.social-box > div{min-width:80px;height:20px;margin:0 10px;display:inline-block}
 .social-box .twitter-wrapper{position:relative;top:3px;left:-10px;}
 .social-box .plusone-wrapper{position:relative;top:3px;left:-50px;}
-.social-box:hover{opacity:1;-ms-filter:none;filter:none}
-.social-box > div{margin:0 10px;display:inline-block}
 .main-dim{-moz-transition:all .5s ease;-webkit-transition:all .5s ease;-o-transition:all .5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;opacity:.2;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter:alpha(opacity=20);position:relative}
 .main-overlay{z-index:9;position:absolute;top:0;left:0;right:0;bottom:0}
 #tweets{position:absolute;font-family:arial,serif}
