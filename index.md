@@ -132,11 +132,11 @@ highlights: [{
 
 {% contentfor overlays %}
 <div id="totalfinder-teaser" class="overlay" style="display:none">
-  <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="375" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
-    <PARAM name="SRC" VALUE="http://cdn.binaryage.com/totalfinder-teaser.mov">
-    <PARAM name="AUTOPLAY" VALUE="true">
-    <EMBED SRC="http://cdn.binaryage.com/totalfinder-teaser.mov" width="640" height="375" AUTOPLAY="true" PLUGINSPAGE="http://www.apple.com/quicktime/download/"></EMBED>
-  </OBJECT>
+  <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="375" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
+    <param name="SRC" VALUE="http://cdn.binaryage.com/totalfinder-teaser.mov"/>
+    <param name="AUTOPLAY" VALUE="true"/>
+    <embed src="http://cdn.binaryage.com/totalfinder-teaser.mov" width="640" height="375" AUTOPLAY="true" pluginspage="http://www.apple.com/quicktime/download/"/>
+  </object>
 </div>
 
 <div id="totalfinder-buy" class="overlay" style="display:none">
