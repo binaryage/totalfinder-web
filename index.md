@@ -3,11 +3,11 @@ layout: product-home
 download: http://downloads.binaryage.com/TotalFinder-1.5.22.dmg
 downloadtitle: Download v1.5.22
 title: TotalFinder brings tabs to your native Finder and more!
+subtitle: brings tabs to your native Finder and more!
 product: totalfinder
 product_title: TotalFinder
 product_subtitle: brings tabs to your native Finder and more!
 product_icon: /shared/img/icons/totalfinder-256.png
-subtitle: brings tabs to your native Finder and more!
 fbsdk: 1
 plusone: 1
 product-fblike: 1
