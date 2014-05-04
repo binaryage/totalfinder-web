@@ -3,16 +3,15 @@ layout: tf-doc
 title: My reasons to buy TotalFinder
 subtitle: My reasons to buy TotalFinder
 ---
+
+<div>
 <a href="http://binaryage.com/about">
 <img width="20" height="20" src="http://www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=20" style="float: left; position: relative; top: -3px; margin-right: 10px; display:block; border: 1px solid #ccc" title="Who is Antonin?">
 </a>
 
-<div>
 Hello there, 
-I'm <a href="http://binaryage.com/about">Antonin</a>, the author of TotalFinder. Here are my three main reasons why you should buy TotalFinder.
+I'm <a href="http://binaryage.com/about">Antonin</a>, the developer of TotalFinder. Here are my three main reasons why you should buy TotalFinder.
 </div>
-
-<br class="clear"/>
 
 ## You get tabbed browsing in the Finder
 
@@ -38,6 +37,6 @@ Nothing is impossible!
 
 ---
 
-<div style="color: #666; font-size: 11px">
-    This is an opinionated article. Do you disagree? Do you have other opinions about Finder, TotalFinder or other file managers? Write your own article and I will possibly link it here.
+<div style="color: #999; font-size: 11px">
+  This is an opinionated article. Do you disagree? Do you have other opinions about Finder, TotalFinder or other file managers? <a href="http://discuss.binaryage.com">Discuss your thoughts on our forums</a>.
 </div>

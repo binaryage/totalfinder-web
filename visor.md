@@ -1,18 +1,10 @@
 ---
-layout: tf-doc
+layout: tf-doc-pref
 title: Visor in TotalFinder
 subtitle: Visor
+doc-image: /images/visor-fade.png
+pref-image: /images/pref-visor.png
 ---
-
-<img src="/images/visor-fade.png" class="doc-image" style="margin-bottom: 0px">
-
-<div class="doc-side">
-    <div class="doc-side-inner">
-        <h2>Preferences</h2>
-        <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-visor.png" class="doc-pref">
-    </div>
-</div>
 
 ## What is Visor?
 

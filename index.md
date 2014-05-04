@@ -1,138 +1,186 @@
 ---
-layout: tf-home
-title: TotalFinder brings tabs to your native Finder and more!
-product_title: TotalFinder
-product_subtitle: brings tabs to your native Finder and more!
-subtitle: brings tabs to your native Finder and more!
+layout: product-home
 download: http://downloads.binaryage.com/TotalFinder-1.5.22.dmg
 downloadtitle: Download v1.5.22
-facebook: 1
-retweet: 1
-buzz: 1
+title: TotalFinder brings tabs to your native Finder and more!
+product: totalfinder
+product_title: TotalFinder
+product_subtitle: brings tabs to your native Finder and more!
+product_icon: /shared/img/icons/totalfinder-256.png
+subtitle: brings tabs to your native Finder and more!
 fbsdk: 1
-usethis: totalfinder
+plusone: 1
+product-fblike: 1
+product-plusone: 1
+product-tweet: 1
 meta_title: TotalFinder brings tabs to your native Finder and more!
 meta_keywords: totalfinder,mac,finder,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,visor,totalcommander,binaryage
 meta_description: TotalFinder is a plugin for Finder.app which adds tabs like those in Google Chrome, dual panels similar to TotalCommander, and other improvements.
 meta_image: /shared/img/icons/totalfinder-128.png
 pray: finder tabs mac, total commander mac, better finder plugin
 ogmeta: {
-    site_name: "BinaryAge website",
-    description: "TotalFinder adds tabs to your native Finder and more!",
-    email: "support@binaryage.com",
-    type: "product",
-    title: "TotalFinder",
-    url: "http://totalfinder.binaryage.com",
-    image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
+  site_name: "BinaryAge website",
+  description: "TotalFinder adds tabs to your native Finder and more!",
+  email: "support@binaryage.com",
+  type: "product",
+  title: "TotalFinder",
+  url: "http://totalfinder.binaryage.com",
+  image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
-    title: "Dual Mode",
-    thumb: "/images/showcase/thumb-showcase-dual-mode.png",
-    full: "/images/showcase/desktop-showcase-dual-mode.png",
-    klass: "no-shadow"
-},    {
-    title: "Finder with tabs!",
-    thumb: "/images/showcase/thumb-showcase-tabs.png",
-    full: "/images/showcase/desktop-showcase-tabs.png",
-    klass: "no-shadow"
-},    {
-    title: "Folders on Top",
-    thumb: "/images/showcase/thumb-showcase-folders-on-top.png",
-    full: "/images/showcase/desktop-showcase-folders-on-top.png",
-    klass: "no-shadow"
-},    {
-    title: "Show System Files",
-    thumb: "/images/showcase/thumb-showcase-system-files.png",
-    full: "/images/showcase/desktop-showcase-system-files.png",
-    klass: "no-shadow"
-},    {
-    title: "Visor Window",
-    thumb: "/images/showcase/thumb-showcase-visor.png",
-    full: "/images/showcase/desktop-showcase-visor.png",
-    klass: "no-shadow"
+  title: "Folders on top",
+  thumb: "/images/showcase/full-fot.png",
+  full: "/images/showcase/full-fot.png",
+  klass: "tf-shadow"
+},  {
+  title: "Colored labels",
+  thumb: "/images/showcase/full-clabels.png",
+  full: "/images/showcase/full-clabels.png",
+  klass: "tf-shadow"
+},  {
+  title: "Chrome-style tabs",
+  thumb: "/images/showcase/full-tabs.png",
+  full: "/images/showcase/full-tabs.png",
+  klass: "tf-shadow"
+},  {
+  title: "Dual mode",
+  thumb: "/images/showcase/full-dual.png",
+  full: "/images/showcase/full-dual.png",
+  klass: "tf-shadow"
+},{
+  title: "Visor Window",
+  thumb: "/images/showcase/full-visor.png",
+  full: "/images/showcase/full-visor.png",
+  klass: "tf-shadow"
+},  {
+  title: "Cut & Paste",
+  thumb: "/images/showcase/full-cut.png",
+  full: "/images/showcase/full-cut.png",
+  klass: "tf-shadow"
+}]
+highlights: [{
+  title: "Folders on top",
+  description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
+  style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
+  screenshot: 1
+},{
+  title: "Colored labels",
+  description: "Brings full colors back into Mavericks.",
+  style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -270px -100px / 650px 430px",
+  screenshot: 2
+},{
+  title: "Chrome tabs",
+  description: "Apple finally introduced tabs in Mavericks. TotalFinder added Chrome tabs in Snow Leopard.",
+  style: "background: transparent url('/images/showcase/full-tabs.png') no-repeat -352px -56px / 650px 430px",
+  screenshot: 3
+},{
+  title: "Dual mode",
+  description: "Display two Finder windows side-by-side on hot-key.",
+  style: "background: transparent url('/images/showcase/full-dual.png') no-repeat -246px -0px / 1000px 621px",
+  screenshot: 4
+},{
+  title: "Visor window",
+  description: "The Finder is always one key-press away!",
+  style: "background: transparent url('/images/showcase/full-visor.png') no-repeat -0px -0px / 650px 430px",
+  screenshot: 5
+},{
+  title: "Cut &amp; Paste",
+  description: "Use keyboard shortcuts to move files around. Faster than drag &amp; drop.",
+  style: "background: transparent url('/images/showcase/full-cut.png') no-repeat -330px -250px / 650px 430px",
+  screenshot: 6
 }]
 ---
 
-<div class="main-content">
-    <div class="features-separator"></div>
-    <div class="highlights">
-        <div class="highlight" data-showcase="2">
-            <div class="highlight-icon hoverable" title="read more about Tabbed Browsing">
-                <a href="/tabs">
-                    <div class="thumb-tabs"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Tabbed Browsing</h3>
-                <p>Add tabs into Finder windows, similar to those seen in Google Chrome.</p>
-            </div>
-        </div>
-        <div class="highlight" data-showcase="1">
-            <div class="highlight-icon hoverable" title="read more about Dual Mode">
-                <a href="/dual-mode">
-                    <div class="thumb-dual"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Dual Mode</h3>
-                <p>Display two Finder windows side-by-side in dual mode.</p>
-            </div>
-        </div>
-        <div class="highlight last" data-showcase="3">
-            <div class="highlight-icon hoverable" title="read more about Folders on Top">
-                <a href="/folders-on-top">
-                    <div class="thumb-fot"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Folders on Top</h3>
-                <p>Don't make me think. Folders should always go first in list view.</p>
-            </div>
-        </div>
-        <div class="highlight-separator"></div>
-        <div class="highlight" data-showcase="4">
-            <div class="highlight-icon hoverable" title="read more about System Files">
-                <a href="/show-system-files">
-                    <div class="thumb-ssf"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Show System Files</h3>
-                <p>Show me all files on the disk. I'm not afraid to see the cruft.</p>
-            </div>
-        </div>
-        <div class="highlight" data-showcase="5">
-            <div class="highlight-icon hoverable" title="read more about Visor">
-                <a href="/visor">
-                    <div class="thumb-visor"></div>
-                </a>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Visor</h3>
-                <p>The Finder is always one key-press away!</p>
-            </div>
-        </div>
-        <div class="highlight last">
-            <div class="highlight-icon">
-                <div class="thumb-cut">
-
-                </div>
-            </div>
-            <div class="highlight-content wf">
-                <h3>Cut &amp; Paste</h3>
-                <p>Use keyboard shortcuts to move files around. Faster than drag &amp; drop.</p>
-            </div>
-        </div>
-        <br class="clear"/>
+<div class="row">
+  <div class="col-md-4 col-md-offset-1">
+    <div class="manual-button-box">
+      <a href="/about" class="button product-button-doc">
+        <div><i class="fa fa-book"></i> Read more in manual pages</div>
+      </a>
     </div>
-
-    <div class="generic-separator"></div>
-    <div class="more-info">
-        <a href="/documentation" class="button product-button-doc wf">
-            <div><div>Read the documentation</div></div>
-        </a>
-        <a href="/changes" class="button product-button-changes wf">
-            <div><div>View recent changes</div></div>
-        </a>
+  </div>
+  <div class="col-md-7">
+    <div class="teaser-button-box">
+      <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser">
+        <div><i class="fa fa-play-circle"></i> Watch video preview</div>
+      </a>
     </div>
+  </div>
 </div>
+
+{% contentfor product-buttons %}
+<div class="product-buttons">
+  <div class="button-container">
+    <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
+      <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
+    </a>
+    <div class="button-note">
+      <i class="fa fa-laptop"></i> Compatible with OS X 10.8 and 10.9<br>
+      <a href="/changes">Looking for a different version?</a><br>
+    </div>
+  </div>
+  <div class="button-container">
+    <a id="o-buy" class="button product-button-buy">
+      <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span>
+    </a>
+    <div class="button-note">
+      <a href="/free-licenses"><i class="fa fa-gift"></i> Apply for a free license</a><br>
+    </div>
+  </div>
+</div>
+{% endcontentfor %}
+
+{% contentfor overlays %}
+<div id="totalfinder-teaser" class="overlay" style="display:none">
+  <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="375" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
+    <PARAM name="SRC" VALUE="http://cdn.binaryage.com/totalfinder-teaser.mov">
+    <PARAM name="AUTOPLAY" VALUE="true">
+    <EMBED SRC="http://cdn.binaryage.com/totalfinder-teaser.mov" width="640" height="375" AUTOPLAY="true" PLUGINSPAGE="http://www.apple.com/quicktime/download/"></EMBED>
+  </OBJECT>
+</div>
+
+<div id="totalfinder-buy" class="overlay" style="display:none">
+  <a href="https://sites.fastspring.com/binaryage/instant/totalfinder">
+    <div class="buy-single explanation-box">
+      <div class="title">Single License</div>
+      <div class="image"><img src="/shared/img2/single-license-icon.png"></div>
+      <div class="deal">Happy to pay the standard price?<br/>This is the way to go.</div>
+      <div class="button">
+        <span>Buy single</span><span class="price-tag">$18</span>
+      </div>
+    </div>
+  </a>
+  <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">
+    <div class="buy-pack explanation-box">
+      <div class="title">3-License Pack</div>
+      <div class="image"><img src="/shared/img2/tripple-license-icon.png"></div>
+      <div class="deal">Want a discount? Buy 3-pack for $36.<br/>
+      Keep one license for yourself, and give two links to your friends or family members.
+      Then all three of you can share in the savings of only $12 per license!
+      </div>
+      <div class="button">
+        <span>Buy 3-pack</span><span class="price-tag">$36</span>
+      </div>
+    </div>
+  </a>
+</div>
+{% endcontentfor %}
+
+<script>
+  $(function() {
+    $("#o-teaser").fancybox({
+      href: "#totalfinder-teaser"
+    });
+    $("#o-buy").fancybox({
+      href: "#totalfinder-buy"
+    });
+    $("#o-download-button").bind('click', function(e) {
+      ga('send', 'pageview', '/overlays/o-download');
+    });
+    $('.screenshot').fancybox();
+    $('.screenshot-box').navigen({
+      target: $(".navi")
+    });
+    $('.highlight').showcase();
+  });
+</script>

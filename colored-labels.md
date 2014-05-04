@@ -1,18 +1,10 @@
 ---
-layout: tf-doc
+layout: tf-doc-pref
 title: Colored Labels in TotalFinder
 subtitle: Colored Labels
+doc-image: /images/colored-labels-list-view.png
+pref-image: /images/pref-colored-labels.png
 ---
-
-<img src="/images/colored-labels-list-view.png" class="doc-image" style="margin-bottom: 0px">
-
-<div class="doc-side">
-    <div class="doc-side-inner">
-        <h2>Preferences</h2>
-        <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-colored-labels.png" width="700px" class="doc-pref">
-    </div>
-</div>
 
 ## Colored Labels like in the old times&trade;
 
@@ -24,16 +16,16 @@ This feature is available only under Mavericks and later (10.9+) since [TotalFin
 
 ## Colored Labels in Icon View
 
-<a target="_blank" href="/images/colored-labels-icon-view.png"><img src="/images/colored-labels-icon-view.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-icon-view.png"><img src="/images/colored-labels-icon-view.png" style="margin-bottom: 0px; width: 100%"></a>
 
 ## Colored Labels in List View
 
-<a target="_blank" href="/images/colored-labels-list-view.png"><img src="/images/colored-labels-list-view.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-list-view.png"><img src="/images/colored-labels-list-view.png" style="margin-bottom: 0px; width: 100%"></a>
 
 ## Colored Labels in Column View
 
-<a target="_blank" href="/images/colored-labels-column-view.png"><img src="/images/colored-labels-column-view.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-column-view.png"><img src="/images/colored-labels-column-view.png" style="margin-bottom: 0px; width: 100%"></a>
 
 ## Colored Labels on Desktop
 
-<a target="_blank" href="/images/colored-labels-desktop.png"><img src="/images/colored-labels-desktop.png" style="margin-bottom: 0px; width: 380px;"></a>
+<a target="_blank" href="/images/colored-labels-desktop.png"><img src="/images/colored-labels-desktop.png" style="margin-bottom: 0px; width: 100%"></a>

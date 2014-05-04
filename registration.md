@@ -8,16 +8,18 @@ subtitle: Registration
 
 You may click on the window badge:
 
-<img src="/images/unregistered.png" class="doc-inline-image" style="left: 0px; margin-bottom: -20px">
+<img src="/images/unregistered.png" class="doc-image" style="width: 200px">
 
-Or you may go through TotalFinder Preferences / About / Register button.
-Please make sure you copy and paste the license information from the email exactly and without surrounding quotes.
+Alternatively you can go through TotalFinder Preferences / About / Register button:
 
-<img src="/images/totalfinder-registration.png"><br>
+<img src="/images/totalfinder-registration.png" class="doc-image no-shadow" style="width: 400px">
 
+Our licensing dialog is case sensitive. Please make sure you copy and paste the license information from the email exactly and without surrounding quotes.
 
-Click Register and you get this happy screen if you did it right:
+<img src="/images/licensing-dialog2.png" class="doc-image add-shadow" style="width: 400px">
 
-<img src="/images/totalfinder-good-license.png">
+Click `Register` and should see this happy screen if you did it right:
 
-Thank you for registering and enjoy using TotalFinder!
+<img src="/images/totalfinder-good-license.png" class="doc-image add-shadow" style="width: 400px">
+
+**Thank you for registering and enjoy using TotalFinder!** :-)

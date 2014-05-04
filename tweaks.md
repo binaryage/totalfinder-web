@@ -1,17 +1,9 @@
 ---
-layout: tf-doc
+layout: tf-doc-pref
 title: TotalFinder Tweaks
 subtitle: Tweaks
+pref-image: /images/pref-tweaks.png
 ---
-
-<div class="doc-side">
-    <div class="doc-side-inner">
-        <h2>Preferences</h2>
-        <img src="/images/preferences-menu.png" class="doc-pref-menu">
-        <img src="/images/pref-tweaks.png" class="doc-pref" style="margin-left:5px;">
-    </div>
-</div>
-
 
 ## Reset to defaults
 
