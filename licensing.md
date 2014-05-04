@@ -6,7 +6,7 @@ subtitle: Licensing TotalFinder
 
 ## The license agreement
 
-When you buy a TotalFinder license you get a permission to use the software.
+When you buy a TotalFinder license you receive a permission to use the software.
 
 <div class="license-desk">
   <p>You may use your license in either of two ways:</p>

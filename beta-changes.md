@@ -6,7 +6,7 @@ subtitle: Recent changes in pre-releases
 
 <script src="changelog.js" type="text/javascript" charset="utf-8"></script>
 
-<div class="betaswitch">
+<div class="changelog-info">
 <a href="javascript:showBetaHint(this);">How to switch to pre-releases in TotalFinder?</a>
 <div class="betahint" style="display:none">
   Please enable the "Include pre-releases" checkbox in the System->Updates section of the TotalFinder preferences tab:<br/>

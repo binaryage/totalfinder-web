@@ -4,7 +4,7 @@ title: Free licenses for TotalFinder
 subtitle: Free licenses for TotalFinder
 ---
 
-First, you may want to read why I think [TotalFinder is worth purchasing](/reasons-to-buy). But I feel generous with people who contributed or helper in any way.
+First, you might want to read why I think [TotalFinder is worth purchasing](/reasons-to-buy). Free licenses are for people who contributed or helped TotalFinder in some way.
 
 ## Free licenses for users
 
