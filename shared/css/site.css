@@ -2376,8 +2376,8 @@ input[type="button"].btn-block {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('http://static.binaryage.com/f3a9a3b6_fonts_glyphicons-halflings-regular_eot');
+  src: url('http://static.binaryage.com/f3a9a3b6_fonts_glyphicons-halflings-regular_eot') format('embedded-opentype'), url('http://static.binaryage.com/22037a34_fonts_glyphicons-halflings-regular_woff') format('woff'), url('http://static.binaryage.com/aafafdc0_fonts_glyphicons-halflings-regular_ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -5790,8 +5790,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.0.3');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  src: url('http://static.binaryage.com/7619748f_fonts_fontawesome-webfont_eot');
+  src: url('http://static.binaryage.com/7619748f_fonts_fontawesome-webfont_eot') format('embedded-opentype'), url('http://static.binaryage.com/04c3bf56_fonts_fontawesome-webfont_woff') format('woff'), url('http://static.binaryage.com/7f09c97f_fonts_fontawesome-webfont_ttf') format('truetype'), url('http://static.binaryage.com/46fcc019_fonts_fontawesome-webfont_svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -7198,7 +7198,7 @@ button.close {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('fancybox_sprite.png');
+	background-image: url('http://static.binaryage.com/17df19f9_fancybox_sprite_png');
 }
 
 #fancybox-loading {
@@ -7216,7 +7216,7 @@ button.close {
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('fancybox_loading.gif') center center no-repeat;
+	background: url('http://static.binaryage.com/1a755fb2_fancybox_loading_gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -7236,7 +7236,7 @@ button.close {
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url('blank.gif'); /* helps IE */
+	background: transparent url('http://static.binaryage.com/2daeaa8b_blank_gif'); /* helps IE */
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -7306,7 +7306,7 @@ button.close {
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('fancybox_overlay.png');
+	background: url('http://static.binaryage.com/b3a4ee64_fancybox_overlay_png');
 }
 
 .fancybox-overlay-fixed {
@@ -7385,12 +7385,12 @@ button.close {
 	   only screen and (min-device-pixel-ratio: 1.5){
 
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url('fancybox_sprite@2x.png');
+		background-image: url('http://static.binaryage.com/30c58913_fancybox_sprite@2x_png');
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 
 	#fancybox-loading div {
-		background-image: url('fancybox_loading@2x.gif');
+		background-image: url('http://static.binaryage.com/273b1234_fancybox_loading@2x_gif');
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
@@ -7401,7 +7401,7 @@ button.close {
 .right{float:right}
 .border-radius-top-right-only{-webkit-border-top-left-radius:0 !important;border-top-left-radius:0 !important;-webkit-border-bottom-left-radius:0 !important;border-bottom-left-radius:0 !important;-webkit-border-bottom-right-radius:0 !important;border-bottom-right-radius:0 !important;}
 html{height:101%}
-body{background:#f2f2f2 url("http://static.binaryage.com/6a7eac91_shared_img2_background.png") repeat top left;font:12px 'Play',arial,serif}
+body{background:#f2f2f2 url("http://static.binaryage.com/6a7eac91_shared_img2_background_png") repeat top left;font:12px 'Play',arial,serif}
 a{color:#4f6393;text-decoration:none;-webkit-transition:color 0.5s ease 0s;-moz-transition:color 0.5s ease 0s;-o-transition:color 0.5s ease 0s;-ms-transition:color 0.5s ease 0s;transition:color 0.5s ease 0s}
 a:hover,a:focus{color:#0f56b3 !important}
 .container{position:relative;}
@@ -7616,7 +7616,7 @@ ol.statuses .hentry a.fav{visibility:visible}
 .screenshot-box.tf-shadow .screenshot{-webkit-box-shadow:0 0 20px #666;box-shadow:0 0 20px #666;-webkit-border-radius:4px;border-radius:4px}
 .screenshot-box.no-shadow .screenshot{-webkit-box-shadow:none;box-shadow:none}
 .screenshot-box a img{width:100%;display:block}
-.screenshot-box .zoom-icon{cursor:pointer;background:transparent url("http://static.binaryage.com/e7706080_shared_img2_zoom.png") no-repeat 0 0 !important;width:74px;height:74px;display:block;position:absolute;position:absolute;top:40%;left:45%;-webkit-transition:opacity 0.5s ease 0s;-moz-transition:opacity 0.5s ease 0s;-o-transition:opacity 0.5s ease 0s;-ms-transition:opacity 0.5s ease 0s;transition:opacity 0.5s ease 0s;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
+.screenshot-box .zoom-icon{cursor:pointer;background:transparent url("http://static.binaryage.com/e7706080_shared_img2_zoom_png") no-repeat 0 0 !important;width:74px;height:74px;display:block;position:absolute;position:absolute;top:40%;left:45%;-webkit-transition:opacity 0.5s ease 0s;-moz-transition:opacity 0.5s ease 0s;-o-transition:opacity 0.5s ease 0s;-ms-transition:opacity 0.5s ease 0s;transition:opacity 0.5s ease 0s;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
 .screenshot-box:hover .zoom-icon{opacity:1;-ms-filter:none;filter:none}
 .screenshot-controls{position:absolute;left:404px;top:560px;}
 .screenshot-controls .navi a{cursor:pointer;display:block;background-color:#ccc;width:10px;height:10px;-webkit-border-radius:5px;border-radius:5px;float:left;margin:2px;outline:none}
@@ -7636,26 +7636,26 @@ ol.statuses .hentry a.fav{visibility:visible}
 .highlight-selectable:hover:after{border-left-color:#f5f5f5;border-width:36px;margin-top:-36px}
 .highlight-selectable.active:after,.highlight-selectable .active:before{left:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
 .highlight-selectable.active:after{border-left-color:#fff !important;border-width:36px;margin-top:-36px}
-}.image404{margin-top:-50px;display:block;width:950px;height:150px;background:transparent url("http://static.binaryage.com/30c5143a_shared_img_matrix404.png") no-repeat 0 0}
+}.image404{margin-top:-50px;display:block;width:950px;height:150px;background:transparent url("http://static.binaryage.com/30c5143a_shared_img_matrix404_png") no-repeat 0 0}
 .error404{font-weight:bold;margin-top:30px;font-size:28px;line-height:28px;text-shadow:#fff 0 1px 1px;text-align:center}
 .desc404{margin-top:0;font-size:20px;line-height:30px;text-align:center}
 .home404{font-weight:bold;margin-top:20px;font-size:20px;text-align:center}
 #main-offer{min-height:440px;}
-#main-offer .great-plugin{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat -374px -40px !important;width:190px;height:30px;display:block;position:absolute;position:absolute;top:64px;left:170px;}
+#main-offer .great-plugin{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat -374px -40px !important;width:190px;height:30px;display:block;position:absolute;position:absolute;top:64px;left:170px;}
 #main-offer .main-box-wrapper{position:relative;margin:auto;width:800px}
 #main-offer .main-box{position:relative;display:block;width:400px;text-align:center;float:left;}
 #main-offer .main-box .icon{height:324px;width:400px;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;position:relative;}
-#main-offer .main-box .icon .glow{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat 0 -662px !important;width:360px;height:360px;display:block;position:absolute;position:absolute;left:10px;top:16px;}
+#main-offer .main-box .icon .glow{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat 0 -662px !important;width:360px;height:360px;display:block;position:absolute;position:absolute;left:10px;top:16px;}
 #main-offer .main-box .icon .face{position:relative;top:50px;margin:auto}
-#main-offer .main-box .icon .star{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat -805px -220px !important;width:64px;height:64px;display:block;position:absolute;position:absolute;left:274px;top:70px;display:none}
+#main-offer .main-box .icon .star{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat -805px -220px !important;width:64px;height:64px;display:block;position:absolute;position:absolute;left:274px;top:70px;display:none}
 #main-offer .main-box .title{font:bold 48px 'Play',arial,serif;color:#4f6393;text-shadow:#fff 0 2px 1px;line-height:38px}
 #main-offer .main-box .subtitle{font:18px 'Play',arial,serif;color:#303137;text-shadow:#fff 0 2px 1px;line-height:20px}
 #main-offer .main-box:hover .title{color:#0f56b3 !important}
 #main-offer .main-box:hover .icon{-webkit-transform:scale(1.15);-moz-transform:scale(1.15);-o-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15)}
-#main-offer .totalfinder .face{background:transparent url("http://static.binaryage.com/f848bf09_shared_img_icons_totalfinder-256.png") no-repeat 0 0 !important;width:256px;height:256px;display:block;position:absolute;}
-#main-offer .totalspaces2 .face{background:transparent url("http://static.binaryage.com/28a715a3_shared_img_icons_totalspaces2-256.png") no-repeat 0 0 !important;width:256px;height:256px;display:block;position:absolute;}
-#free-software .top-divider{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat 0 -535px !important;width:950px;height:27px;display:block;position:absolute;position:relative;}
-#free-software .bottom-divider{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat 0 -576px !important;width:950px;height:22px;display:block;position:absolute;position:relative;}
+#main-offer .totalfinder .face{background:transparent url("http://static.binaryage.com/f848bf09_shared_img_icons_totalfinder-256_png") no-repeat 0 0 !important;width:256px;height:256px;display:block;position:absolute;}
+#main-offer .totalspaces2 .face{background:transparent url("http://static.binaryage.com/28a715a3_shared_img_icons_totalspaces2-256_png") no-repeat 0 0 !important;width:256px;height:256px;display:block;position:absolute;}
+#free-software .top-divider{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat 0 -535px !important;width:950px;height:27px;display:block;position:absolute;position:relative;}
+#free-software .bottom-divider{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat 0 -576px !important;width:950px;height:22px;display:block;position:absolute;position:relative;}
 #free-software .labs-button{display:block;margin:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;text-decoration:none;position:relative;cursor:pointer;font:bold 20px 'Play',arial,serif;color:#8d9198;border:1px solid #ccc;padding:2px 14px;text-shadow:#fff 0 1px 1px;text-align:left;-webkit-border-radius:8px;border-radius:8px;min-height:38px;line-height:38px;margin-bottom:12px;-webkit-box-shadow:0 1px 4px #ccc;box-shadow:0 1px 4px #ccc;background-color:#fff;background:-webkit-linear-gradient(top, #fff, #f4f4f4);background:-moz-linear-gradient(top, #fff, #f4f4f4);background:-o-linear-gradient(top, #fff, #f4f4f4);background:-ms-linear-gradient(top, #fff, #f4f4f4);background:linear-gradient(to bottom, #fff, #f4f4f4);white-space:nowrap;-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;font:bold 10px 'Play',arial,serif;color:#8d9198;line-height:22px;height:22px;min-height:22px;-webkit-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 2px #ccc;box-shadow:0 1px 2px #ccc;padding:0 4px;position:absolute;top:194px;left:416px;}
 #free-software .labs-button:hover{background-color:#f3f3f3;background:-webkit-linear-gradient(top, #fff, #f8f8f8);background:-moz-linear-gradient(top, #fff, #f8f8f8);background:-o-linear-gradient(top, #fff, #f8f8f8);background:-ms-linear-gradient(top, #fff, #f8f8f8);background:linear-gradient(to bottom, #fff, #f8f8f8);border-color:#0f56b3}
 #free-software .labs-button i{-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;margin-right:10px}
@@ -7687,9 +7687,9 @@ ol.statuses .hentry a.fav{visibility:visible}
 #blog #post .post-titlebar .post-title{border-bottom:1px solid #dee3e7}
 #blog{margin-top:30px;}
 #blog .blog-side{float:left;width:230px;padding:20px 0 20px 60px;position:relative;}
-#blog .blog-side .vseparator-top{position:absolute;top:0;left:10px;background:transparent url("http://static.binaryage.com/245bc90b_shared_img2_blog-vsep.png") no-repeat -27px 0;width:27px;height:20px}
-#blog .blog-side .vseparator-bottom{position:absolute;bottom:0;left:10px;background:transparent url("http://static.binaryage.com/245bc90b_shared_img2_blog-vsep.png") no-repeat 0 0;width:27px;height:20px}
-#blog .blog-side .vseparator-body{position:absolute;top:20px;bottom:20px;left:10px;background:transparent url("http://static.binaryage.com/245bc90b_shared_img2_blog-vsep.png") repeat-y -54px 0;width:27px}
+#blog .blog-side .vseparator-top{position:absolute;top:0;left:10px;background:transparent url("http://static.binaryage.com/245bc90b_shared_img2_blog-vsep_png") no-repeat -27px 0;width:27px;height:20px}
+#blog .blog-side .vseparator-bottom{position:absolute;bottom:0;left:10px;background:transparent url("http://static.binaryage.com/245bc90b_shared_img2_blog-vsep_png") no-repeat 0 0;width:27px;height:20px}
+#blog .blog-side .vseparator-body{position:absolute;top:20px;bottom:20px;left:10px;background:transparent url("http://static.binaryage.com/245bc90b_shared_img2_blog-vsep_png") repeat-y -54px 0;width:27px}
 #blog .blog-side .blog-side-box{clear:both;margin-bottom:40px}
 #blog .blog-side .blog-side-about{padding-top:6px;font-size:12px;line-height:12px;font-size:10px;color:#666;height:80px;}
 #blog .blog-side .blog-side-about .blog-side-about-left{float:left;width:92px;}
@@ -7697,18 +7697,18 @@ ol.statuses .hentry a.fav{visibility:visible}
 #blog .blog-side .blog-side-about .blog-side-about-right{float:left;width:120px;}
 #blog .blog-side .blog-side-about .blog-side-about-right h4{font-weight:bold;margin-top:2px;margin-bottom:2px}
 #blog .blog-side .blog-side-about .blog-side-about-right a{display:block;float:right;margin-top:2px}
-#blog .blog-side .blog-side-about .thats-me{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog.png") no-repeat -756px -8px !important;width:88px;height:52px;display:block;position:absolute;position:absolute;top:118px;left:92px;}
+#blog .blog-side .blog-side-about .thats-me{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog_png") no-repeat -756px -8px !important;width:88px;height:52px;display:block;position:absolute;position:absolute;top:118px;left:92px;}
 #blog .blog-side .blog-side-follow{background-color:#e9e9e9;border:1px solid #cdcdcd;-webkit-border-radius:4px;border-radius:4px;height:36px;line-height:48px;font-weight:bold;text-shadow:#fff 0 1px 1px;position:relative;margin-bottom:10px;}
 #blog .blog-side .blog-side-follow .twitter-follow-button{margin:0 10px}
 #blog .blog-side .blog-side-subscribe{background-color:#e9e9e9;border:1px solid #cdcdcd;-webkit-border-radius:4px;border-radius:4px;height:44px;line-height:44px;font-weight:bold;text-shadow:#fff 0 1px 1px;position:relative;}
 #blog .blog-side .blog-side-subscribe a{color:#444951}
 #blog .blog-side .blog-side-subscribe .blog-side-icon{float:left;height:28px;width:28px;margin:8px 10px}
-#blog .blog-side .blog-side-subscribe .blog-rss-icon{background:transparent url("http://static.binaryage.com/d9361586_shared_img_icons-blog.png") -29px 0 no-repeat}
+#blog .blog-side .blog-side-subscribe .blog-rss-icon{background:transparent url("http://static.binaryage.com/d9361586_shared_img_icons-blog_png") -29px 0 no-repeat}
 #blog .blog-side .blog-side-subscribe .subscribe-button{position:absolute;top:0;right:0;margin-right:8px;margin-top:8px}
 #blog .blog-side .blog-side-separator-top{display:none}
-#blog .blog-side .blog-side-separator-top.totalfinder{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog.png") no-repeat 0 -54px !important;width:235px;height:20px;display:block;position:absolute;position:static}
-#blog .blog-side .blog-side-separator-top.firequery{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog.png") no-repeat 0 -116px !important;width:235px;height:20px;display:block;position:absolute;position:static;margin-top:20px}
-#blog .blog-side .blog-side-separator-bottom{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog.png") no-repeat 0 -92px !important;width:235px;height:8px;display:block;position:absolute;position:static}
+#blog .blog-side .blog-side-separator-top.totalfinder{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog_png") no-repeat 0 -54px !important;width:235px;height:20px;display:block;position:absolute;position:static}
+#blog .blog-side .blog-side-separator-top.firequery{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog_png") no-repeat 0 -116px !important;width:235px;height:20px;display:block;position:absolute;position:static;margin-top:20px}
+#blog .blog-side .blog-side-separator-bottom{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog_png") no-repeat 0 -92px !important;width:235px;height:8px;display:block;position:absolute;position:static}
 #blog .blog-side .blog-side-products{line-height:16px;border-bottom:none;}
 #blog .blog-side .blog-side-products .blog-side-product{padding:8px 8px;}
 #blog .blog-side .blog-side-products .blog-side-product img{position:absolute;display:block;float:left;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease}
@@ -7717,7 +7717,7 @@ ol.statuses .hentry a.fav{visibility:visible}
 #blog .blog-side .blog-side-products .blog-side-product:hover .title{color:#0f56b3}
 #blog .blog-side .blog-side-products .blog-side-product:hover img{-webkit-transform:scale(1.2);-moz-transform:scale(1.2);-o-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2)}
 #blog .blog-content{width:660px;float:left;margin-top:20px;}
-#blog .blog-content .ideas-separator{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog.png") no-repeat 0 0 !important;width:660px;height:17px;display:block;position:absolute;position:static}
+#blog .blog-content .ideas-separator{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog_png") no-repeat 0 0 !important;width:660px;height:17px;display:block;position:absolute;position:static}
 #blog .blog-content .paging .older,#blog .blog-content .paging .newer{margin:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;text-decoration:none;position:relative;cursor:pointer;font:bold 20px 'Play',arial,serif;color:#8d9198;border:1px solid #ccc;padding:2px 14px;text-shadow:#fff 0 1px 1px;text-align:left;-webkit-border-radius:8px;border-radius:8px;min-height:38px;line-height:38px;margin-bottom:12px;-webkit-box-shadow:0 1px 4px #ccc;box-shadow:0 1px 4px #ccc;background-color:#fff;background:-webkit-linear-gradient(top, #fff, #f4f4f4);background:-moz-linear-gradient(top, #fff, #f4f4f4);background:-o-linear-gradient(top, #fff, #f4f4f4);background:-ms-linear-gradient(top, #fff, #f4f4f4);background:linear-gradient(to bottom, #fff, #f4f4f4);white-space:nowrap;-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;font:bold 16px 'Play',arial,serif;color:minor-button-color;line-height:30px;line-height:24px;min-height:16px;padding:4px 10px;margin:20px}
 #blog .blog-content .paging .older:hover,#blog .blog-content .paging .newer:hover{background-color:#f3f3f3;background:-webkit-linear-gradient(top, #fff, #f8f8f8);background:-moz-linear-gradient(top, #fff, #f8f8f8);background:-o-linear-gradient(top, #fff, #f8f8f8);background:-ms-linear-gradient(top, #fff, #f8f8f8);background:linear-gradient(to bottom, #fff, #f8f8f8);border-color:#0f56b3}
 #blog .blog-content .paging .older i,#blog .blog-content .paging .newer i{-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;margin-right:10px}
@@ -7726,7 +7726,7 @@ ol.statuses .hentry a.fav{visibility:visible}
 #blog .blog-content .paging .newer{float:right}
 #blog .blog-content .posts{padding:0;margin:0;list-style-type:none;}
 #blog .blog-content .posts li{position:relative;}
-#blog .blog-content .posts .post-separator{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog.png") no-repeat 0 -17px !important;width:660px;height:17px;display:block;position:absolute;position:static}
+#blog .blog-content .posts .post-separator{background:transparent url("http://static.binaryage.com/83f1afe2_shared_img2_assets-blog_png") no-repeat 0 -17px !important;width:660px;height:17px;display:block;position:absolute;position:static}
 .post-title{font:bold 20px 'Play',arial,serif;color:#444951;text-shadow:#fff 0 1px 1px;padding-top:16px;padding-bottom:3px;text-transform:none;line-height:20px;margin:15px 0 15px 44px;display:block}
 .ie6 .post-title,.ie7 .post-title,.ie8 .post-title,padding-top 0px{margin:0}
 .calendar{float:left;border:1px solid #d5d5d5;background-color:#fafafa;font-family:arial;width:30px;font-size:12px;line-height:12px;text-align:center;margin-right:18px;padding-bottom:2px;-webkit-border-radius:2px;border-radius:2px;}
@@ -7764,7 +7764,7 @@ ol.statuses .hentry a.fav{visibility:visible}
 .store-box{background-color:#fff;-webkit-border-radius:12px;border-radius:12px;border:1px solid #ddd7d7;-webkit-box-shadow:1px 1px 8px #ddd;box-shadow:1px 1px 8px #ddd;margin:auto;margin-top:58px;margin-bottom:10px;width:660px;text-align:left;position:relative;}
 .store-box .store-header{-webkit-border-top-left-radius:12px;border-top-left-radius:12px;-webkit-border-top-right-radius:12px;border-top-right-radius:12px;height:50px;border-bottom:1px solid #e9e9e9;background-color:#f7f7f7;background:-webkit-linear-gradient(top, #fff, #f7f7f7);background:-moz-linear-gradient(top, #fff, #f7f7f7);background:-o-linear-gradient(top, #fff, #f7f7f7);background:-ms-linear-gradient(top, #fff, #f7f7f7);background:linear-gradient(to bottom, #fff, #f7f7f7);position:relative;}
 .store-box .store-header .store-header-title{color:#b5b5b5;font:bold 20px 'Play',arial,serif;line-height:50px;margin-left:62px}
-.store-box .store-header .store-header-icon{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat -584px -119px !important;width:43px;height:30px;display:block;position:absolute;position:absolute;left:20px;top:10px;}
+.store-box .store-header .store-header-icon{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat -584px -119px !important;width:43px;height:30px;display:block;position:absolute;position:absolute;left:20px;top:10px;}
 .store-box .store-tools{position:absolute;top:4px;right:22px;}
 .store-box .core-window{padding:24px 20px 40px 20px;}
 .store-box .core-window .store-product-option-title table{width:300px}
@@ -7787,11 +7787,11 @@ ol.statuses .hentry a.fav{visibility:visible}
 .store-order-items{position:relative;}
 .store-order-item-group{padding-top:10px !important;padding-bottom:10px;padding-right:20px;padding-left:2px;margin:0 !important;margin-top:10px !important;border-top:none !important;border-bottom:1px dashed #e5e5e5;position:relative;}
 .store-order-item-group-action-list{position:absolute;top:-1px;right:114px;padding:0;margin:0;clear:both}
-.store-order-item-action-delete .store-action-title{overflow:hidden;max-width:0;background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat -598px -158px !important;width:18px;height:18px;display:block;position:absolute;position:absolute;top:9px;right:-122px;}
+.store-order-item-action-delete .store-action-title{overflow:hidden;max-width:0;background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat -598px -158px !important;width:18px;height:18px;display:block;position:absolute;position:absolute;top:9px;right:-122px;}
 .store-order-item-action-quantity .store-action-input{overflow:hidden;width:30px;position:absolute;top:1px;right:26px;}
 .store-order-item-action-quantity .store-action-title{overflow:hidden;max-width:0;position:absolute;top:10px;right:0;}
 .store-order-price{margin-top:4px}
-.core-section,.store-product-detail{background:transparent url("http://static.binaryage.com/656b9160_shared_img2_store-section-separator.png") no-repeat left bottom;padding-bottom:20px;clear:both;}
+.core-section,.store-product-detail{background:transparent url("http://static.binaryage.com/656b9160_shared_img2_store-section-separator_png") no-repeat left bottom;padding-bottom:20px;clear:both;}
 .core-section .core-section-header,.store-product-detail .core-section-header{display:none}
 .core-section .core-section-body,.store-product-detail .core-section-body{padding-left:0}
 .store-box code{font-size:12px !important}
@@ -7920,7 +7920,7 @@ ol.statuses .hentry a.fav{visibility:visible}
 .upgrade-submit{width:100px;font-size:24px}
 #content-totalspaces{margin-top:60px;position:relative;}
 #content-totalspaces .social-box{position:absolute;left:662px;top:260px;}
-#content-totalspaces .features-separator{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat 0 -430px !important;width:950px;height:30px;display:block;position:absolute;position:relative;}
+#content-totalspaces .features-separator{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat 0 -430px !important;width:950px;height:30px;display:block;position:absolute;position:relative;}
 #content-totalspaces .highlights{margin-top:0;}
 #content-totalspaces .highlights .highlight.last{margin-right:0}
 #content-totalspaces .highlights .highlight{background:none;float:left;width:290px;margin-right:40px;margin-top:0;}
@@ -7935,13 +7935,13 @@ ol.statuses .hentry a.fav{visibility:visible}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-swipe{background-image:url("/images/thumb-swipe.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-hotcorners{background-image:url("/images/thumb-hotcorners.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-app-assignments{background-image:url("/images/thumb-app-assignments.png")}
-#content-totalspaces .highlights .highlight .highlight-icon .thumb-stabs{background-image:url("http://static.binaryage.com/00316c81_images_thumb-stabs.png")}
-#content-totalspaces .highlights .highlight .highlight-icon .thumb-cut{background-image:url("http://static.binaryage.com/8adf69e8_images_thumb-cut.png")}
-#content-totalspaces .highlights .highlight .highlight-icon .thumb-term{background-image:url("http://static.binaryage.com/13770bbc_images_thumb-term.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-stabs{background-image:url("http://static.binaryage.com/00316c81_images_thumb-stabs_png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-cut{background-image:url("http://static.binaryage.com/8adf69e8_images_thumb-cut_png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-term{background-image:url("http://static.binaryage.com/13770bbc_images_thumb-term_png")}
 #content-totalspaces .highlights .highlight .highlight-content h3{margin:0;margin-top:6px;margin-bottom:6px;font:bold 14px 'Play',arial,serif;color:#393d44;text-shadow:#fff 0 1px 1px;line-height:15px}
 #content-totalspaces .highlights .highlight .highlight-content p{margin:0;font:12px 'Play',arial,serif;color:#8d9198;text-shadow:#fff 0 1px 1px;line-height:17px}
 #content-totalspaces .highlights .highlight-separator{clear:both;height:30px}
-#content-totalspaces .generic-separator{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat 0 -456px !important;width:950px;height:28px;display:block;position:absolute;position:relative;margin-top:26px}
+#content-totalspaces .generic-separator{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets_png") no-repeat 0 -456px !important;width:950px;height:28px;display:block;position:absolute;position:relative;margin-top:26px}
 #content-totalspaces .more-info{margin-top:12px;}
 #content-totalspaces .more-info .product-button-doc{margin:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;text-decoration:none;position:relative;cursor:pointer;font:bold 20px 'Play',arial,serif;color:#8d9198;border:1px solid #ccc;padding:2px 14px;text-shadow:#fff 0 1px 1px;text-align:left;-webkit-border-radius:8px;border-radius:8px;min-height:38px;line-height:38px;margin-bottom:12px;-webkit-box-shadow:0 1px 4px #ccc;box-shadow:0 1px 4px #ccc;background-color:#fff;background:-webkit-linear-gradient(top, #fff, #f4f4f4);background:-moz-linear-gradient(top, #fff, #f4f4f4);background:-o-linear-gradient(top, #fff, #f4f4f4);background:-ms-linear-gradient(top, #fff, #f4f4f4);background:linear-gradient(to bottom, #fff, #f4f4f4);white-space:nowrap;-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;font:bold 16px 'Play',arial,serif;color:minor-button-color;line-height:30px;width:290px;margin-right:34px}
 #content-totalspaces .more-info .product-button-doc:hover{background-color:#f3f3f3;background:-webkit-linear-gradient(top, #fff, #f8f8f8);background:-moz-linear-gradient(top, #fff, #f8f8f8);background:-o-linear-gradient(top, #fff, #f8f8f8);background:-ms-linear-gradient(top, #fff, #f8f8f8);background:linear-gradient(to bottom, #fff, #f8f8f8);border-color:#0f56b3}
