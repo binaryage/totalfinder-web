@@ -7451,7 +7451,7 @@ p{font-size:13px;line-height:18px}
 #footer .footer-links a{margin-left:10px}
 .social-box{-webkit-transition:opacity 0.5s ease 0s;-moz-transition:opacity 0.5s ease 0s;-o-transition:opacity 0.5s ease 0s;-ms-transition:opacity 0.5s ease 0s;transition:opacity 0.5s ease 0s;opacity:.2;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter:alpha(opacity=20);height:30px;margin-left:-10px;white-space:nowrap;}
 .social-box:hover{opacity:1;-ms-filter:none;filter:none}
-.social-box > div{min-width:80px;height:20px;margin:0 10px;display:inline-block}
+.social-box > div{min-width:80px;height:20px;margin:0 10px;display:inline-block;}
 .social-box .twitter-wrapper{position:relative;top:3px;}
 .social-box .plusone-wrapper{position:relative;top:3px;}
 .main-dim{-moz-transition:all .5s ease;-webkit-transition:all .5s ease;-o-transition:all .5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;opacity:.2;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter:alpha(opacity=20);position:relative}
@@ -7624,7 +7624,7 @@ ol.statuses .hentry a.fav{visibility:visible}
 .screenshot-controls .navi a.active{background-color:#666}
 .highlights{padding-top:20px}
 @media (min-width: 1200px){.highlights{position:relative;left:30px;}
-}.highlight{width:290px;height:75px;position:relative;-webkit-border-radius:3px;border-radius:3px;padding:5px;float:left;z-index:100;}
+}.highlight{width:290px;height:75px;position:relative;-webkit-border-radius:3px;border-radius:3px;padding:5px;float:left;}
 .highlight .highlight-icon{float:left;margin-right:10px;padding:2px;-webkit-border-radius:5px;border-radius:5px;background-color:#fff;display:block;-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;border:1px solid #ccc;opacity:.7;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";filter:alpha(opacity=70)}
 .highlight .highlight-icon div{width:60px;height:60px}
 .highlight .highlight-content h3{margin:2px 0;font:bold 14px 'Play',arial,serif;color:#393d44;text-shadow:#fff 0 1px 1px;line-height:15px}
