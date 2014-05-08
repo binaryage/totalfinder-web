@@ -21,6 +21,12 @@ function parsePlaintextChangelog(text) {
           text: line
         })
         break;
+      case '$':
+        release.changes.push({
+          kind: 'announce',
+          text: $.trim(line.substring(1))
+        })
+        break;
       case '*':
         release.changes.push({
           kind: 'improved',
@@ -80,6 +86,13 @@ function generateChangelogHTML(el, changelog, getDownloadLinkForVersion, getRele
         $changes.append(change.text);
         continue;
       }
+      if (change.kind=="announce") {
+        var $li = $('<li/>');
+        var $info = $('<span class="info announce"/>').html(change.text);
+        $li.append("<span class=\"sticker\">&nbsp;</span>", $info);
+        $changes.append($li);
+        continue;
+      }
       var $li = $('<li/>');
       
       change.text = change.text.replace(/\(.*?\)/, function(m) {
@@ -89,10 +102,10 @@ function generateChangelogHTML(el, changelog, getDownloadLinkForVersion, getRele
         return "<em>"+$1+"</em>";
       });
       
-      var $info = $('<span class="info"/>').html(change.text);
       var $b = $('<b/>').text(change.kind);
       var $sticker = $('<span class="sticker"/>').addClass(change.kind);
       $sticker.append($b);
+      var $info = $('<span class="info"/>').html(change.text);
       $li.append($sticker, $info);
       $changes.append($li);
     }

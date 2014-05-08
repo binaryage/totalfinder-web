@@ -1,3 +1,7 @@
+1.6 - May 08, 2014
+  $ Related blog post: <a href="http://blog.binaryage.com/totalfinder-with-colored-labels">TotalFinder 1.6 with Colored Labels</a>
+  - Removed support for OS X 10.7 [Lion]
+
 1.5.38 - May 03, 2014
   ! Fixed a rare case when some Desktop icons could be missing (ghost icons). [Mavericks]
   * Improved drawing of colored labels behind Desktop icons.
