@@ -1,7 +1,7 @@
 ---
 layout: product-home
-download: http://downloads.binaryage.com/TotalFinder-1.5.22.dmg
-downloadtitle: Download v1.5.22
+download: http://downloads.binaryage.com/TotalFinder-1.6.dmg
+downloadtitle: Download v1.6
 title: TotalFinder brings tabs to your native Finder and more!
 subtitle: brings tabs to your native Finder and more!
 product: totalfinder
