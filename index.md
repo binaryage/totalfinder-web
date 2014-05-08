@@ -28,14 +28,14 @@ ogmeta: {
   image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
-  title: "Folders on top",
-  thumb: "/images/showcase/full-fot.png",
-  full: "/images/showcase/full-fot.png",
-  klass: "tf-shadow"
-},  {
   title: "Colored labels",
   thumb: "/images/showcase/full-clabels.png",
   full: "/images/showcase/full-clabels.png",
+  klass: "tf-shadow"
+},{
+  title: "Folders on top",
+  thumb: "/images/showcase/full-fot.png",
+  full: "/images/showcase/full-fot.png",
   klass: "tf-shadow"
 },  {
   title: "Chrome-style tabs",
@@ -59,14 +59,14 @@ shots: [{
   klass: "tf-shadow"
 }]
 highlights: [{
-  title: "Folders on top",
-  description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
-  style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
-  screenshot: 1
-},{
   title: "Colored labels",
   description: "Brings full colors back into Mavericks.",
   style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -270px -100px / 650px 430px",
+  screenshot: 1
+},{
+  title: "Folders on top",
+  description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
+  style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
   screenshot: 2
 },{
   title: "Chrome tabs",
@@ -117,6 +117,7 @@ highlights: [{
     <div class="button-note">
       <i class="fa fa-laptop"></i> Compatible with OS X 10.8 and 10.9<br>
       <a href="/changes">Looking for a different version?</a><br>
+      <a href="/changes">What's new?</a><br>
     </div>
   </div>
   <div class="button-container">
