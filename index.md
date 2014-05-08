@@ -2,11 +2,11 @@
 layout: product-home
 download: http://downloads.binaryage.com/TotalFinder-1.6.dmg
 downloadtitle: Download v1.6
-title: TotalFinder brings tabs to your native Finder and more!
-subtitle: brings tabs to your native Finder and more!
+title: TotalFinder brings colored labels back to your Finder and more!
+subtitle: brings colored labels back to your Finder and more!
 product: totalfinder
 product_title: TotalFinder
-product_subtitle: brings tabs to your native Finder and more!
+product_subtitle: brings colored labels back to your Finder and more!
 product_icon: /shared/img/icons/totalfinder-256.png
 fbsdk: 1
 plusone: 1
