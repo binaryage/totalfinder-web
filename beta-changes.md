@@ -21,6 +21,7 @@ subtitle: Recent changes in pre-releases
 <script type="text/coffeescript" charset="utf-8">
   nonce = -> (Math.random() + "").substring(2)
   source = "changelog-beta.txt"
+  hashToSelector = (h) -> h.replace /\./g, "\\." # http://stackoverflow.com/a/9930611/84283
 
   $.get "#{source}?x=#{nonce()}", (data) ->
     changelog = parsePlaintextChangelog(data)
@@ -28,6 +29,12 @@ subtitle: Recent changes in pre-releases
     getDownloadLinkForVersion = (version) -> "http://downloads.binaryage.com/TotalFinder-#{version}.dmg"
     getReleaseDateText = (date) -> "released on " + date
     generateChangelogHTML "#page", changelog, getDownloadLinkForVersion, getReleaseDateText
-  
+
+    # http://stackoverflow.com/a/13952352/84283
+    if window.location.hash
+      $(document.body).animate
+        scrollTop: $(hashToSelector(window.location.hash)).offset().top
+      , 2000
+    
   @showBetaHint = -> $(".betahint").toggle()
 </script>
