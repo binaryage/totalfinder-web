@@ -139,7 +139,7 @@
                   <div class="changelogx">
                     <div id="page" class="changelog"></div>
                   </div>
-                  <script type="text/javascript" charset="utf-8">(function(){var n,t;n=function(){return(Math.random()+"").substring(2)};t="changelog.txt";$.get(""+t+"?x="+n(),function(n){var t,e,a;t=parsePlaintextChangelog(n);e=function(n){return"http://downloads.binaryage.com/TotalFinder-"+n+".dmg"};a=function(n){return"released on "+n};return generateChangelogHTML("#page",t,e,a)})}).call(this)</script>
+                  <script type="text/javascript" charset="utf-8">(function(){var n,t,o;t=function(){return(Math.random()+"").substring(2)};o="changelog.txt";n=function(n){return n.replace(/\./g,"\\.")};$.get(""+o+"?x="+t(),function(t){var o,e,a;o=parsePlaintextChangelog(t);e=function(n){return"http://downloads.binaryage.com/TotalFinder-"+n+".dmg"};a=function(n){return"released on "+n};generateChangelogHTML("#page",o,e,a);if(window.location.hash){return $(document.body).animate({scrollTop:$(n(window.location.hash)).offset().top},2e3)}})}).call(this)</script>
                   <script>$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})</script>
                 </div>
               </div>
