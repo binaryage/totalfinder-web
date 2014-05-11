@@ -18,19 +18,16 @@ subtitle: Recent changes in pre-releases
   <div id="page" class="changelog"></div>
 </div>
 
-<script type="text/javascript" charset="utf-8">
-  $.get('changelog-beta.txt?x='+((Math.random()+"").substring(2)), function(data) {
-    var changelog = parsePlaintextChangelog(data);
-    var getDownloadLinkForVersion = function(version) {
-      return "http://downloads.binaryage.com/TotalFinder-"+version+".dmg"
-    };
-    var getReleaseDateText = function(date) {
-      return "released on " + date;
-    };
-    generateChangelogHTML("#page", changelog, getDownloadLinkForVersion, getReleaseDateText);
-  });
+<script type="text/coffeescript" charset="utf-8">
+  nonce = -> (Math.random() + "").substring(2)
+  source = "changelog-beta.txt"
+
+  $.get "#{source}?x=#{nonce()}", (data) ->
+    changelog = parsePlaintextChangelog(data)
+
+    getDownloadLinkForVersion = (version) -> "http://downloads.binaryage.com/TotalFinder-#{version}.dmg"
+    getReleaseDateText = (date) -> "released on " + date
+    generateChangelogHTML "#page", changelog, getDownloadLinkForVersion, getReleaseDateText
   
-  function showBetaHint() {
-    $('.betahint').toggle();
-  }
+  @showBetaHint = -> $(".betahint").toggle()
 </script>
