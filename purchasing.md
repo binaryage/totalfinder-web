@@ -1,7 +1,7 @@
 ---
 layout: tf-doc
-title: Registering TotalFinder
-subtitle: Registration
+title: Purchasing TotalFinder
+subtitle: Purchasing
 ---
 
 ## Thanks for considering buying TotalFinder

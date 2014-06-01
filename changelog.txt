@@ -20,6 +20,10 @@
   * Background color does not flash after sliding visor up.
   - Removed support for OS X 10.7 [Lion]
 
+1.5.38 - May 03, 2014
+  ! Fixed a rare case when some Desktop icons could be missing (ghost icons). [Mavericks]
+  * Improved drawing of colored labels behind Desktop icons.
+
 1.5.22 - March 02, 2014
   * Added missing files for Hungarian and Croatian localizations.
   * Switching to full screen streches window to whole screen.

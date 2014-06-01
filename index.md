@@ -91,23 +91,6 @@ highlights: [{
 }]
 ---
 
-<div class="row">
-  <div class="col-md-4 col-md-offset-1">
-    <div class="manual-button-box">
-      <a href="/about" class="button product-button-doc">
-        <div><i class="fa fa-book"></i> Read more in manual pages</div>
-      </a>
-    </div>
-  </div>
-  <div class="col-md-7">
-    <div class="teaser-button-box">
-      <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser">
-        <div><i class="fa fa-play-circle"></i> Watch video preview</div>
-      </a>
-    </div>
-  </div>
-</div>
-
 {% contentfor product-buttons %}
 <div class="product-buttons">
   <div class="button-container">
@@ -166,6 +149,23 @@ highlights: [{
   </a>
 </div>
 {% endcontentfor %}
+
+<div class="row">
+  <div class="col-md-4 col-md-offset-1">
+    <div class="manual-button-box">
+      <a href="/about" class="button product-button-doc">
+        <div><i class="fa fa-book"></i> Read more in manual pages</div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <div class="teaser-button-box">
+      <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser">
+        <div><i class="fa fa-play-circle"></i> Watch video preview</div>
+      </a>
+    </div>
+  </div>
+</div>
 
 <script>
   $(function() {
