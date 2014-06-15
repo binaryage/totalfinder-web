@@ -99,7 +99,7 @@ highlights: [{
     </a>
     <div class="button-note">
       <i class="fa fa-laptop"></i> Compatible with OS X 10.8 and 10.9<br>
-      <a href="/changes">Looking for a different version?</a><br>
+      <a href="/compatibility">Looking for a different version?</a><br>
       <a href="/changes">What's new?</a><br>
     </div>
   </div>
