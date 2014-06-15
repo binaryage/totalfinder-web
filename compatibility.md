@@ -32,7 +32,8 @@ betas: [{
   label: "Yosemite",
   logo: "logo-yosemite.png",
   wiki: "OS_X_Yosemite",
-  note: "Use <a href=\"/beta-changes\">the latest beta version</a>"
+  note: "Use <a href=\"/beta-changes\">the latest beta version</a>",
+  more: "Please help us test TotalFinder under Yosemite. More details in <a href=\"http://discuss.binaryage.com/t/totalfinder-yosemite-status/2144\">this forum post</a>."
 }]
 ---
 
@@ -52,6 +53,7 @@ Here you can find latest TotalFinder releases compatible with individual OS vers
   <img src="/images/{{item.logo}}">
   <div class="title">OS X {{item.version}} - <a href="http://en.wikipedia.org/wiki/{{item.wiki}}">{{item.label}}</a></div>
   <div class="note">{{item.note}}</div>
+  {% if item.more %}<div class="more">{{item.more}}</div>{% endif %}
 </div>
 {% endfor %}
 {% if page.betas %}<div class="sep generic-separator"></div>{% endif %}
@@ -63,5 +65,6 @@ Using upcoming OS X (developer preview)?
   <img src="/images/{{item.logo}}">
   <div class="title">OS X {{item.version}} - <a href="http://en.wikipedia.org/wiki/{{item.wiki}}">{{item.label}}</a></div>
   <div class="note">{{item.note}}</div>
+  {% if item.more %}<div class="more">{{item.more}}</div>{% endif %}
 </div>
 {% endfor %}
