@@ -1,3 +1,10 @@
+1.6.1 - June 19, 2014
+  + Initial compatibility with OS X 10.10 (developer preview). [Yosemite]
+  ! Fixed crash in uninstaller when required font was missing in the system.
+  ! Fixed infinite redrawing loop eating 100% of CPU and <a href="http://discuss.binaryage.com/t/totalfinder-hangs-or-crashes-finder-at-startup/1986/23">affecting some users</a>.
+  ! Fixed scenario when cut selection <a href="http://discuss.binaryage.com/t/totalfinder-does-not-clear-selection-keyboard-shortcuts-dont-work/1611/12">stopped updating itself</a>.
+  * General improvement of stability (we started using weak pointers to keep track of Finder windows).
+
 1.6 - May 08, 2014
   $ Related blog post: <a href="http://blog.binaryage.com/totalfinder-with-colored-labels">TotalFinder 1.6 with Colored Labels</a>
   - Removed support for OS X 10.7 [Lion]
@@ -5,22 +12,22 @@
 1.5.38 - May 03, 2014
   ! Fixed a rare case when some Desktop icons could be missing (ghost icons). [Mavericks]
   * Improved drawing of colored labels behind Desktop icons.
-    
+
 1.5.37 - April 30, 2014
   ! Fixed missing Copy Path menu. [Lions]
   ! Fixed switching to Time Machine. [Mavericks]
   * Resolved possible crash when cut &amp; pasting item to Desktop. [Mavericks]
   * Resolved possible random crash when executing commands via menu or toolbar.
-    
+
 1.5.36 - April 24, 2014
   ! Right clicking a folder on Desktop and selecting paste applies operation on the folder (not on Desktop itself).
   * DMGs now open as separate standard Finder windows (this should resolve confusion about missing sidebars).
   * Colored Labels are slightly smaller on Desktop and in Icon View (selection bubble will cover them).
   * Fixed color bleeding when an item in List View is selected and has Colored Label.
-    
+
 1.5.35 - April 12, 2014
   ! Fixed <a href="http://discuss.binaryage.com/t/double-click-on-volume-opens-in-separate-window-not-in-tab-1-5-34/1741">issues introduced in previous beta release</a> (I had a bad day yesterday).
-    
+
 1.5.34 - April 11, 2014
   * Colored Labels are now flat and desaturated a bit (this improved readability and unified the style).
   * Finder's texts are properly anti-aliased when rendered over Colored Labels.
@@ -28,46 +35,46 @@
   * DMGs now open as separate standard Finder windows (this will hopefully resolve confusion about missing sidebars).
   * When you torn-off a native Finder tab it creates a native Finder window (originally it was adopted as a new TotalFinder tab which was pretty confusing).
   ! Resolved another <a href="http://discuss.binaryage.com/t/mavericks-totalfinder-window-moves-position-on-screen-by-itself/1687/10">background click-drag issue</a>.
-    
+
 1.5.33 - April 7, 2014
   ! Colored Labels work properly for <a href="http://discuss.binaryage.com/t/totalfinder-1-5-29-update-brings-back-true-labels/1672/9?u=darwin">symlinks and aliases</a>.
   * Improved rendering of Colored Labels <a href="http://discuss.binaryage.com/t/desktop-labels-colored-tabs-be-too-big/1713">under Desktop icons</a>.
   * Improved rendering of Colored Labels in Icon View to better match Dektop icons.
-    
+
 1.5.32 - April 6, 2014
   + Colored Labels work newly also with Desktop items
   ! Colored Labels <a href="http://discuss.binaryage.com/t/vote-on-new-maverick-finder-labels-gradient-or-flat/1680/10?u=darwin">render properly</a> regarless of System scrollbars setting.
   ! Finder <a href="http://discuss.binaryage.com/t/bug-selection-text-in-finder-selection-is-black-instead-of-white/1678">selection is rendered in white</a> in Column Mode again.
   ! Resolved <a href="http://discuss.binaryage.com/t/mavericks-totalfinder-window-moves-position-on-screen-by-itself/1687">occasional random window jumping</a> when click-dragging.
   ! Fixed a regression when system version detection code would cause TotalFinder to crash under Hungarian localized OS (and possibly under other localized OSes).
-    
+
 1.5.31 - April 3, 2014
   ! Fixed pretty serious crash scenario when closing tabs/windows.
   ! Finder <a href="http://discuss.binaryage.com/t/bug-selection-text-in-finder-selection-is-black-instead-of-white/1678">selection is rendered in white</a> in Column Mode again.
   * Improved rendering of Colored Labels in Column and List View as <a href="http://discuss.binaryage.com/t/vote-on-new-maverick-finder-labels-gradient-or-flat/1680">discussed here</a>.
-    
+
 1.5.30 - April 1, 2014
   ! Fixed startup crash on 10.9 systems (affected initial Mavericks release without any updates).
   ! Colored Labels were renderng in Icon View regardless of Preferences.
   * Improved rendering of Colored Labels in Icon View => rounded corners.
-    
+
 1.5.29 - March 31, 2014
   + <a href="http://discuss.binaryage.com/t/wish-return-finder-labels-to-mavericks/662/">Colored Labels</a> - pre-Mavericks style label colors (List View, Column View, Icon View) [Mavericks]
   ! Context menu buttons <a href="http://discuss.binaryage.com/t/mavericks-big-contextual-menu-window/441/10">adapt to width of localized strings</a>.
-    
+
 1.5.28 - March 29, 2014
   + <a href="http://discuss.binaryage.com/t/wish-return-finder-labels-to-mavericks/662/">Colored Labels</a> - pre-Mavericks style label colors (in List Mode only, working on Column Mode next) [Mavericks]
   ! <a href="http://discuss.binaryage.com/t/totalfinder-does-not-clear-selection-keyboard-shortcuts-dont-work/1611/10">Fixed broken cut command on Desktop</a> - a bug introduced in 1.5.26.
   ! Fixed <a href="http://discuss.binaryage.com/t/mavericks-big-contextual-menu-window/441">wide context menu</a> problem.
-    
+
 1.5.27 - March 23, 2014
   ! <a href="http://discuss.binaryage.com/t/totalfinder-does-not-clear-selection-keyboard-shortcuts-dont-work/1611/4">Broken Copy/Cut/Paste functionality</a> after closing righ-click context menu introduced in 1.5.26.
   * <a href="http://discuss.binaryage.com/t/cut-does-not-work-reliably-w-o-cutpaste-buttons/1060/7">Cut operation is more flexible</a>, possible resolution of failing cut operation.
-    
+
 1.5.25 - March 19, 2014
   ! Fixed fixed <a href="http://discuss.binaryage.com/t/weird-behavior-on-using-finder-folder-shotcuts/1571">graphical glitch</a> when changing paths via applescript.
   * Cut works in <a href="http://discuss.binaryage.com/t/tf-1-5-19-cant-cut-a-file-from-the-results-of-a-search/1487">search results</a>, possible resolution of failing cut operation.
-    
+
 1.5.24 - March 15, 2014
   ! Fixed toolbar flickering during window resizing in Column View.
   ! Fixed <a href="http://discuss.binaryage.com/t/minimize-animation-broken/1530">stuck animation</a> when minimizing windows.
@@ -75,7 +82,7 @@
   ! Expanding window to whole screen works now reliably when pressing green + button.
   ! Crash watcher could <a href="http://discuss.binaryage.com/t/totalfinder-attempts-to-re-report-crash-from-yesterday/1563">pop up with old crash log</a>.
   * Background color does not flash after sliding visor up.
-    
+
 1.5.22 - February 28, 2014
   * Added missing files for Hungarian and Croatian localizations.
   * Switching to full screen streches window to whole screen.
@@ -83,33 +90,33 @@
   ! Sometimes background color of windows could stay wrong.
   ! Prevented ghost Finder window when clicking Finder's Dock icon.
   ! Clicking "Add Tab" button on window without focus could operate on different browser window.
-    
+
 1.5.21 - February 27, 2014
   ! Colourful sidebar <a href="http://discuss.binaryage.com/t/no-coloured-icons-after-update-to-1-5-19/1469">shows all icons in colours</a>.
   ! Fixed <a href="http://discuss.binaryage.com/t/version-1-5-19-bug-unable-to-set-tags/1462">broken tags and other issues</a> in newly created Finder windows.
   ! Sorting of <a href="http://discuss.binaryage.com/t/folder-on-top-function/1079/16">file groups works under Chinese localization</a>.
-    
+
 1.5.20 - February 25, 2014
   ! Doing rename in the left-side panel of dual view <a href="http://discuss.binaryage.com/t/a-couple-of-bugs-using-latest-version-in-10-9-2/1456">could lock focus to the right side</a>.
   ! Fixed <a href="http://discuss.binaryage.com/t/a-couple-of-bugs-using-latest-version-in-10-9-2/1456">double-clicking tabs</a> when having enabled "Double click a window's title bar to minimize" in the Dock prefs.
   ! Fixed a rare (but dangerous) situation when highlighted tab selection did not match folder view displayed by Finder.
-    
+
 1.5.19 - February 25, 2014
   ! Fixed a crashing scenario when enabled auto-widths in Column View.
-    
+
 1.5.18 - February 24, 2014
   ! Fixed <a href="http://discuss.binaryage.com/t/totalfinder-grabs-space/1444">unwanted space switches</a> introduced in 1.5.14.
-    
+
 1.5.17 - February 24, 2014
   ! Fixed serious crashing introduced in 1.5.16 (when remebered folder does not exist after TotalFinder restart).
-    
+
 1.5.16 - February 24, 2014
   * Folders on Top: <a href="http://discuss.binaryage.com/t/folder-on-top-function/1079">Reliable sorting of groups</a> in all List View, Column View and CoverFlow View.
   ! Tabs properly resize when window frame is resized.
-    
+
 1.5.15 - February 20, 2014
   ! Fixed <a href="http://discuss.binaryage.com/t/tf-1-5-14-causes-endless-finder-growth-under-10-8-5/1440">infinite resizing loop</a> in 1.5.14 (I'm sorry for that).
-    
+
 1.5.14 - February 20, 2014
   + Introduced Bengali translation by <a href="https://github.com/binaryage/totalfinder-i18n/commit/ae2a85d477720dabecf193569bb69bf671bd7f21">Omi Azad</a>
   + When enabled Folders on Top feature in List View and arranged by Kind: <a href="http://discuss.binaryage.com/t/folder-on-top-function/1079">the "Folders" group is sorted first</a> under Mavericks
@@ -120,34 +127,34 @@
   ! Fixed situations when main window could be resized to too narrow width.
   * Internal optimizations to improve TotalFinder performance.
   * Improved dragging and dropping tabs - focus should stay with dropped tab.
-    
+
 1.5.12 - February 12, 2014
   ! Fixed <a href="http://discuss.binaryage.com/t/new-update-with-fullscreen-support/1398">glitches when transitioning to fullscreen</a> mode.
   ! Fullscreen mode is supported only under Mavericks.
   ! Items in List View turn gray when <a href="http://discuss.binaryage.com/t/cut-and-paste-glitches/1276">marking files for Cut operation</a> under Mavericks.
   - Removed 'Always Maximize' option - this is the standard behaviour under Mavericks.
-    
+
 1.5.11 - February 10, 2014
   + Implemented support for fullscreen mode (finally!)
-    
+
 1.5.10 - February 2, 2014
   + Compatibility with OS X 10.9.2 [Mavericks]
   + Visor can be shown on screen with mouse cursur (a new "Screen" option under visor preferences)
   * Cleanup of code implementing colored icons in sidebar.
-    
+
 1.5.9 - December 30, 2013
   + Introduced Hindi translation by <a href="https://github.com/ashishpandey">Ashish Pandey</a>
   * <a href="http://discuss.binaryage.com/t/appears-that-contextual-menus-appear-to-be-broken-in-the-new-10-9-2-devloper-preview-of-mavericks/1165">Compatibility with OS X 10.9.2 (beta)</a>.
   * Visor focus restoration is <a href="http://discuss.binaryage.com/t/tf-can-sometimes-force-an-unwanted-space-switch/175/18?u=darwin">respecting space boundaries</a>
-    
+
 1.5.6 - December 5, 2013
   ! Fixed missing app icon (the problem introduced in 1.5.5).
   * "Open in new tab" context-menu item opens TotalFinder's tab under Mavericks.
-    
+
 1.5.5 - November 16, 2013
   * <a href="http://discuss.binaryage.com/t/issues-with-mavericks-10-9-1-beta/919">Compatibility with OS X 10.9.1 (beta)</a>.
   ! Finally fixed <a href="http://discuss.binaryage.com/t/folder-on-top-with-sort-by-date-added-v-1-5/410">misbehaving folders on top</a>.
-    
+
 1.5.4 - November 16, 2013
   + Added a tweak to <a href="http://discuss.binaryage.com/t/totalfinder-tabs-in-mavericks/280">disable tabs completely</a> (in TotalFinder Preferences -&gt; Tabs).
   ! Fixed <a href="http://discuss.binaryage.com/t/folder-on-top-with-sort-by-date-added-v-1-5/410">misbehaving folders on top</a>.
@@ -158,56 +165,56 @@
   ! Sparkle updater was <a href="http://discuss.binaryage.com/t/the-update-asked-for-my-password-why/838">randomly asking for password</a> (in some rare cases).
   ! Fixed the installer on system with multiple users logged in concruently.
   * <a href="http://discuss.binaryage.com/t/cmd-click-on-sidebar-mavericks/376">CMD+click into sidebar</a> under Mavericks opens new TotalFinder tab instead of a native tab.
-    
+
 1.5.2 - October 18, 2013
   ! Prevented (potential) scenario when TotalFinder launcher could cause continuous Finder crashing.
   * Checking TotalFinder bundle signature to prevent running cracked version. Cracked version 1.5 caused 100% Finder crashes and pretty big headache under Mavericks. Anyway, if you are using a cracked version you are doing it wrong ;-)
-    
+
 1.5 - October 10, 2013
   <li><span class="sticker note"><b>NOTE</b></span> <span class="info">This is a major version to be stable channel. Thank you for helping to test all previous releases.
-    
+
 1.4.30 - October 9, 2013
   ! Under Mavericks, drag and drop would break after dragging file onto a tab.
   ! Sparkle updater shows TotalFinder icon and does not throw errors about missing update feed.
   * The "New tab" button should be visually identical to Chrome's
-    
+
 1.4.29 - October 1, 2013
   + Introduced new custom-built uninstaller app.
   ! Fixed several crash scenarios.
-    
+
 1.4.27 - September 19, 2013
   ! Fixed problem with <a href="http://discuss.binaryage.com/t/bug-totalfinder-looks-bad-on-airdrop">rendering AirDrop view</a>.
   ! Fixed rendering of path bar under Mavericks.
   * Under Mavericks, opening folder with CMD+click opens it in a new TotalFinder's tab (use CMD+OPT+click to open it in native Finder's tab).
-    
+
 1.4.26 - September 16, 2013
   ! Fixed broken crash reporter.
-    
+
 1.4.25 - September 15, 2013
   ! Fixed blinking of dual panel (especially under Lion).
   ! Fixed a crash in FoldersOnTop code.
-    
+
 1.4.24 - September 13, 2013
   ! Fixed some random crashes related to our crash reporting code.
   ! Fixed <a href="http://discuss.binaryage.com/t/status-bar-in-latest-update">missing status bar</a> when toolbar and sidebar are hidden.
   * Option+click on close (miniaturize) button will close (miniaturize) all windows.
   * Prevents <a href="http://discuss.binaryage.com/t/tf-can-sometimes-force-an-unwanted-space-switch">unwanted space switch</a> when using pinned visor.
-    
+
 1.4.23 - August 31, 2013
   ! Fixed crashes when entering Column View under Lion with enabled auto-columns-width feature.
   ! Fixed visual artefacts when using search or switching view mode (introduced in 1.4.19).
-    
+
 1.4.19 - August 30, 2013
   + Major Mavericks compatibility improvements: Tabs, Visor, CopyPathMenu, ColourfulSidebar and fixes in other plugins.
   ! Fixed some edge cases when TotalFinder <a href="http://discuss.binaryage.com/t/tf-wont-launch-at-system-startup-when-in-system-pref-login-items">wasn't launched during startup</a>.
   ! Fixed annoying <a href="http://discuss.binaryage.com/t/cant-get-rid-of-the-shortcut-a-for-folders-on-top">'A' shortcut bug</a>.
   ! Fixed issues when restoring files from TimeMachine.
   * Various improvements in automatic column resizing code.
-    
+
 1.4.18 - July 16, 2013
   + Crash logs include TotalFinder-specific info if available.
   ! Fixed more crashes with enabled column-view auto-width feature.
-    
+
 1.4.17 - July 10, 2013
   + Ported some plugins under Mavericks: FoldersOnTop, DockProgressBar, ColumnViewAutoWidth and SystemFiles.
   ! Fixed remaining installation issues.
@@ -216,35 +223,35 @@
   ! Fixed occasional problem with Cut menu item under Edit menu. It showed "Copy" and CMD+X keyboard shortcut did not work anymore.
   * Cut-Copy-Paste context menu buttons resize properly with localized names.
   * Updated French and Turkish localizations.
-    
+
 1.4.16 - June 28, 2013
   ! 1.4.15 was crashing on Lion systems :-(
-    
+
 1.4.15 - June 27, 2013
   * Internal improvements in the Tabs plugin.
-    
+
 1.4.14 - June 26, 2013
   * TotalFinder launches cleanly under OS X 10.9 (Mavericks). Most features are disabled under Mavericks. We will re-enable them one by one as we will progress porting the code to the new system.
-    
+
 1.4.13 - June 24, 2013
   ! Fixed installation issues introduced in 1.4.11 and 1.4.12 (bad day - I'm sorry for that).
-    
+
 1.4.12 - June 24, 2013
   ! Fixed installation issues introduced in 1.4.11.
-    
+
 1.4.11 - June 22, 2013
   + It is possible to set minimal width when enabling automatic column widths.
   * Added retina versions of menubar icons.
   * Automatic adjusting of columns in Column View works more reliably.
   * More robust TotalFinder launcher (some people had issues with applescript errors).
   * Dock icon progress bars are more similar to system progress bars.
-    
+
 1.4.10 - June 6, 2013
   + New preference to enable automatic adjusting of columns in Column View.
   + Compatibility with OS X update 10.8.4
   ! Fixed issues when leaving TimeMachine.
   * Various minor improvements.
-    
+
 1.4.9 - March 26, 2013
   + New preferences system (gives us more flexibility in exposing feature tweaks).
   + Added a feature to enable a progress bar over the Dock icon when copying files (<a href="https://getsatisfaction.com/binaryage/topics/copy_progress_bar_in_dock_icon">requested here</a>).
@@ -257,23 +264,23 @@
   ! Fixed an error where, on some systems, TotalFinder might fail during system startup with "Connection invalid -609" error.
   * Shortcut recording now uses <a href="https://github.com/shpakovski/MASShortcut">MASShortcut</a> component by Vadim Shpakovski.
   * General stability improvements.
-    
+
 1.4.8 - December 02, 2012
   ! Fixed broken paste command in context menus (<a href="https://getsatisfaction.com/binaryage/topics/cut_copy_paste-dqz4d#reply_10704003">issue</a>).
   ! Fixed redrawing issues under high CPU load (<a href="https://getsatisfaction.com/binaryage/topics/redraw_issues_mountain_lion_10_8_2">issue</a>).
   * Improved Visor sliding. Fading and sliding should be smoother. Removed random flickering in multi-display setups (<a href="https://getsatisfaction.com/binaryage/topics/total_finder_and_multiple_displays">issue</a>).
   - Switched new tabs rendering back to original code. It is not ready for primetime (<a href="https://getsatisfaction.com/binaryage/topics/tabs_graphics_in_v1_4_7_seem_corrupted">issue</a>).
-    
+
 1.4.7 - December 01, 2012
   + Compatibility with Finder 10.8.2 (which is included in OS X update 10.8.3)
   * Updated tabs rendering with the latest code from Chromium project.
   ! Fix disabled copy command in search results and some other places (a bug introduced in 1.4.5).
-    
+
 1.4.6 - November 22, 2012
   ! Fixed pinned Visor behavior broken in 1.4.5 (<a href="https://getsatisfaction.com/binaryage/topics/when_visor_is_pinned_and_not_frontmost_i_can_no_longer_bring_back_finder_with_my_hotkey_also_unpinned_loses">issue</a>).
   ! Focus Visor when clicking the Dock icon while having an opened unfocused pinned Visor (<a href="https://getsatisfaction.com/binaryage/topics/visor_minimizes_when_attempting_to_bring_it_to_front_with_dock_icon">issue</a>).
   * Improved window dragging via Finder's toolbar or status bar.
-    
+
 1.4.5 - November 20, 2012
   + Implemented "Reopen Closed Tab" (<a href="https://getsatisfaction.com/binaryage/topics/_reopen_closed_tab_command">idea</a>).
   + It is now possible to copy UNC-style paths from Copy Path submenu.
@@ -281,22 +288,22 @@
   ! Cut/Copy/Paste buttons appear in context menus also when clicking into Finder's background.
   ! Visor window is correctly repositioned after connecting or disconnecting external display.
   * Added TotalFinder menu into Finder main menu item (for people who remove TotalFinder's menubar icon).
-    
+
 1.4.4 - November 15, 2012
   ! Clicking Finder icon in the Dock brings back miniaturized window (<a href="https://getsatisfaction.com/binaryage/topics/minimized_windows_bug">issue</a>).
   ! CMD+W does not close whole window in case there is only one tab in dual mode.
   ! Escape key could stop working when closed last tab in Visor window.
-    
+
 1.4.3 - September 27, 2012
   ! Prevent redrawing issues and delay when minimizing TotalFinder window.
   ! New tabs were opening outside Visor (<a href="https://getsatisfaction.com/binaryage/topics/folders_opening_outside_visor">issue</a>).
   ! Clicking Dock icon could cause random switching of Spaces.
   ! Prevent rare crashes when dragging files over tabs.
   ! Always use English keyboard layout when dealing with keyboard shortcuts. This should fix issues when using exotic keyboard layouts.
-    
+
 1.4.2 - September 18, 2012
   ! Fixed "Folders On Top" bug introduced in 1.4.1 (<a href="https://getsatisfaction.com/binaryage/topics/desktop_icons_flashing_continuously_hidden_unhidden">issue</a>).
-    
+
 1.4.1 - September 17, 2012
   + Added Vietnamese translation by <a href="https://github.com/craigcosmo">Craig Nguyen</a>
   + Compatibility with Finder 10.8.1 (which is included in OS X update 10.8.2).
@@ -305,40 +312,40 @@
   ! Fixed issues with missing sidebar or toolbar in some scenarios (<a href="https://getsatisfaction.com/binaryage/topics/total_finder_opening_with_no_side_panel">issue</a>, <a href="https://getsatisfaction.com/binaryage/topics/sidebar_not_appearing_in_new_tabs">issue</a>).
   ! Fixed a minor memory leak.
   * New tabs get created in the last browser in the current space.
-    
+
 1.4 - July 31, 2012
   ! External Finder activation works reliably (<a href="https://getsatisfaction.com/binaryage/topics/opening_folder_that_already_has_a_non_active_tab_no_longer_brings_tab_to_front">issue</a>)
   ! Fixed toolbar customization panel issues and window sheets are placed properly under the toolbar.
   ! Close button on dual tab didn't work.
   ! Fixed Visor auto-hiding when Finder is losing focus (<a href="https://getsatisfaction.com/binaryage/topics/autohiding_visor_doent_work_reliably">issue</a>).
   * Prevents minor flicker during tab switching via keyboard.
-    
+
 1.3.13 - July 30, 2012
   ! TotalFinder renders nicely on Retina MacBooks (<a href="https://getsatisfaction.com/binaryage/topics/retina_support-347pw">issue</a>)
   ! Visor auto-slides down when Finder loses active status. This should fix unreliable sliding historically based on losing keyboard focus (<a href="https://getsatisfaction.com/binaryage/topics/autohiding_visor_doent_work_reliably">issue</a>).
   ! No ghost windows after restarting (when Visor was pinned and up before restart).
   * Prevents visual artifacts during Exposé.
-    
+
 1.3.12 - July 29, 2012
   * TotalFinder should feel much more responsive. I have optimized tab rendering, dragging and window layouting. Also some old windowing problems should be history.
   ! Visor stays up when you open a file via QuickLook.
-    
+
 1.3.11 - July 28, 2012
   ! Real fix preventing frozen Finder windows under Mountain Lion (<a href="https://getsatisfaction.com/binaryage/topics/issue_with_1_3_9">issue</a>).
-    
+
 1.3.10 - July 27, 2012
   ! Prevent frozen Finder windows under Mountain Lion (<a href="https://getsatisfaction.com/binaryage/topics/issue_with_1_3_9">issue</a>).
   ! Fixed a possible crash during TotalFinder shutdown.
-    
+
 1.3.9 - July 27, 2012
   ! Fixed misplaced Dropbox overlays in Icon View under Mountain Lion.
   ! Fixed a crash when releasing a dragged tab.
-    
+
 1.3.8 - July 26, 2012
   ! Prevent crashes when dragging tab icon out as a new tab (<a href="https://getsatisfaction.com/binaryage/topics/dragging_folder_icon_from_a_tabs_title_crashes_totalfinder_1_3_2">issue</a>).
   * New "Switch Active Panel" item under Window menu => allows remapping OPT+TAB shortcut (<a href="https://getsatisfaction.com/binaryage/topics/custom_keyboard_shortcut_for_switch_active_panel">issue</a>).
   * Prevent flicker when switching tabs via CTRL+TAB.
-    
+
 1.3.7 - July 25, 2012
   + Added Mongolian translation by <a href="https://github.com/gtulga">Tulga Gandavaa</a>.
   ! Fixed sidebar width syncing issues under Mountain Lion.
@@ -346,13 +353,13 @@
   ! Constrain Visor's height to available screen space (<a href="https://getsatisfaction.com/binaryage/topics/window_too_tall_on_11_inch_macbook_air_with_visor_on">issue</a>).
   ! Prevent bounce-back effect when hiding or minimizing windows.
   * Prevent flicker when closing windows.
-    
+
 1.3.6 - July 24, 2012
   ! Fixed CMD+W problem introduced in v1.3.5.
   ! Fixed stuck Visor window during sliding when the Dock is visible.
   ! Fixed localization issues introduced in v1.3.5.
   ! Fixed gray-ish toolbar context menu problem in v1.3.5.
-    
+
 1.3.5 - July 22, 2012
   + Fixed compatibility with Finder 10.8 under Mountain Lion (GM).
   + TotalFinder binaries are signed to make Gatekeeper happy.
@@ -364,59 +371,59 @@
   * Resolved some additional situations causing "ghost" windows.
   * Slightly improved visual style of tab rendering. A few Retina tweaks copied over from Google's Chrome sources. Waiting for my Retina MBP to really test it.
   * Paths in tabs are truncated from the left (again).
-    
+
 1.3.4 - April 25, 2012
   ! Fixed broken right pane of Dual Mode under 10.7.4 (<a href="https://getsatisfaction.com/binaryage/topics/split_screen_problems_on_osx_10_7_4">issue</a>).
-    
+
 1.3.3 - April 24, 2012
   + Compatibility with Finder 10.7.3 (which is included in OS X update 10.7.4).
-    
+
 1.3.2 - December 3, 2011
   + Compatibility with Finder 10.7.2 (which is included in OS X update 10.7.3).
   * Improved performance when Folders on Top is enabled.
   ! Do not resolve symlinks when doing Cut&amp;Paste (<a href="http://getsatisfaction.com/binaryage/topics/cuting_symbolic_link_also_cuts_original_directory">issue</a>).
-    
+
 1.3.1 - October 25, 2011
   ! Resolved an issue causing 100% CPU usage when opening "All Files" with enabled Folders on Top (<a href="http://getsatisfaction.com/binaryage/topics/99_finder_cpu_load">issue</a>).
   ! Fixed a bug causing missing sidebars after opening DMG files (<a href="http://getsatisfaction.com/binaryage/topics/sidebar_not_appearing_in_new_tabs">issue</a>).
   ! Fixed memory leaks reported by static analysis in Xcode 4.2.
-    
+
 1.3 - October 04, 2011
   + Compatibility with Finder 10.7.1 (which is included in OS X update 10.7.2).
   ! Symbolic links to folders sort as expected when "Folders on Top" is enabled.
   - Removed Asepsis feature and the kernel extension. Asepsis is now freely available as a <a href="http://asepsis.binaryage.com">standalone software</a>.
-    
+
 1.2.5 - August 11, 2011
   ! Finally fixed memory leaks in CrashWatcher (<a href="http://getsatisfaction.com/binaryage/topics/crashreporter_starts_excessive_memory_consumption">issue</a>).
-    
+
 1.2.4 - August 08, 2011
   ! Fixed AppleScript command for setting window bounds (<a href="http://getsatisfaction.com/binaryage/topics/lion_totalfinder_breaks_finder_window_tandem_scripts">issue</a>).
-    
+
 1.2.3 - August 08, 2011
   + New Tab command opens default window location as set in General Finder Preferences. Previously it was opening the same location as the current tab. This was causing a lot of support requests because novices can be stuck in DMG view without Sidebar (Lion does not have pill button anymore and CMD+OPT+T to show/hide toolbar with Sidebar is not a well-known keyboard shortcut).
   ! Resolved some rare crashes in Folder On Top feature.
   * The CrashWatcher was improved and <a href="https://github.com/binaryage/crashwatcher">open-sourced</a>. I've also resolved memory leaks.
   * TotalFinder.app can be freely relocated. Also optional ~/.totalfinder config is not used anymore.
-    
+
 1.2.2 - July 22, 2011
   * Ironed out more sidebar issues.
   ! Show/Hide Path Bar and Show/Hide Status Bar commands work reliably (even in dual mode).
-    
+
 1.2.1 - July 21, 2011
   ! I believe this is correct solution for <a href="http://getsatisfaction.com/binaryage/topics/problem_with_scrolling_in_dual_mode_tf_1_2_on_lion">Sidebar issues</a> under Lion.
   * Compatibility check does not complain that Lion has unsupported version of Finder.
-    
+
 1.2 - July 20, 2011
   ! Hopefully fixed some Sidebar issues. For example gray background when collapsing Sidebar view under Lion.
-    
+
 1.1.18 - July 18, 2011
   ! TotalFinderCrashWatcher: fixed improper path escaping when calling Ruby scripts - failed in 1.1.17 to upload crash logs.
-    
+
 1.1.17 - July 18, 2011
   ! Lion: New Asepsis was crashing under Lion (<a href="http://getsatisfaction.com/binaryage/topics/lion_gm_1_1_16_asepsis_totalfinder_kext_fails_total_finder">issue</a>).
   ! Lion: Fixed compatibility with Afloat and other SIMBL plugins which use <a href="https://github.com/rentzsch/jrswizzle">jrswizzle library</a>.
   * TotalFinderCrashWatcher: <a href="http://vgable.com/blog/2008/03/05/calling-the-command-line-from-cocoa/">more reliable way</a> of launching Ruby scripts and preventing multiple instances from running.
-    
+
 1.1.16 - July 17, 2011
   ! Improper placement of tab's popup menu (<a href="http://getsatisfaction.com/binaryage/topics/new_ui_bug_in_1_1_15">issue</a>).
   ! CrashWatcher didn't detect TotalFinder-related crashes reliably.
@@ -427,11 +434,11 @@
   ! Lion: Finder's file browser could freeze when opening folder with many files where Finder would display "More" icon.
   * Tab animations are faster to match current Chrome settings.
   * Prevent tab icon jumping when switching to and from dual mode. Also put 2px space between icon and tab title.
-    
+
 1.1.15 - June 22, 2011
   + It is possible to drag small tab icons (folder proxy icons) (<a href="http://getsatisfaction.com/binaryage/topics/re_enable_small_icon_dragging">issue</a>).
   * Fixed tab focus problem when creating tabs by dragging folders into tab bar.
-    
+
 1.1.14 - June 15, 2011
   + TotalFinderCrashWatcher - a new improved way for reporting TotalFinder crashes.
   + Applications and scripts may now ask Finder via AppleScript if TotalFinder has been loaded (<a href="https://github.com/binaryage/totalfinder-osax">more info</a>).
@@ -442,10 +449,10 @@
   ! Made reading and writing of DSDontWriteNetworkStores flag reliable (<a href="http://getsatisfaction.com/binaryage/topics/when_i_toggle_dont_write_ds_store_files_to_network_shares_it_resets_the_domain_default_pair_of_com_apple">issue</a>).
   * TotalFinder reports reasonable error message when fails launching.
   - TotalFinder is not using Spotlight anymore to locate TotalFinder.app if not found on standard location.
-    
+
 1.1.13 - June 1, 2011
   ! Fixed crash reporter - report upload failed because of gist API changes.
-    
+
 1.1.12 - May 31, 2011
   + Major progress on <a href="http://totalfinder.binaryage.com/lion">Lion compatibility</a>.
   ! Fixed uninstaller - TotalFinder.osax wasn't removed properly.
@@ -453,27 +460,27 @@
   * Visor Pin state is persistent between TotalFinder restarts.
   * Sparkle offers update options during first launch (after installation).
   * Implemented URL scheme: totalfinder://register/[name]/[key] for better registering experience in the future.
-    
+
 1.1.11 - March 29, 2011
   + Localized into Belorussian by <a href="https://github.com/maksar">Alexander Shestakov</a>.
   ! Fixed broken feature of dragging files to tabs (<a href="http://getsatisfaction.com/binaryage/topics/_move_file_from_and_to_a_tab">issue</a>).
   ! Fixed invalid version info reported at some places (<a href="http://getsatisfaction.com/binaryage/topics/newest_version_99eeac1_instead_of_1_8">issue</a>).
-    
+
 1.1.10 - March 22, 2011
   + Compatibility with Finder 10.6.8 (which is included in OS X update 10.6.7).
   ! Hopefully fixed installer's troubles updating TotalFinder binary.
-    
+
 1.1.9 - March 19, 2011
   + Initial compatibility with OS X 10.7 (Lion). Please read <a href="http://totalfinder.binaryage.com/lion">Lion Compatibility Page</a> to get more info.
   + Localized into Greek by <a href="https://github.com/evripidis">Evripidis Argyropoulos</a>.
   + Localized into Lithuanian by <a href="https://github.com/hemc">Nuno Salvador</a>.
-    
+
 1.1.8 - February 25, 2011
   ! Fixed broken installer in 1.1.6 and 1.1.7. This one is hopefully correct.
-    
+
 1.1.7 - February 25, 2011
   ! Fixed broken installer in 1.1.6 - I'm sorry again (<a href="https://github.com/binaryage/totalfinder-installer/commit/44b4ac54f54a3d3eec61fafee69376fa2d877032">mysterious issue</a>).
-    
+
 1.1.6 - February 25, 2011
   + Compatibility with Finder in the upcoming OS X update (10.6.7)
   + Localized into Danish by <a href="https://github.com/Tyilo">Asger Hatuop Drewsen</a>.
@@ -484,11 +491,11 @@
   * Moved traffic lights placement to match Chrome (<a href="http://getsatisfaction.com/binaryage/topics/copy_chromiums_new_traffic_light_placement">issue</a>).
   * You can now move TotalFinder.app outside /Applications folder. Launcher uses Spotlight to locate TotalFinder.app if not found in /Applications. (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_stops_working_if_totalfinder_app_is_moved">issue</a> and <a href="http://getsatisfaction.com/binaryage/topics/tf_will_not_launch_in_user_application_folder">issue</a>).
   * Asepsis checks presence of .DS_Store file, it does not do redirection when .DS_Store exists (see Console.app for affected folders). This fixes display of DMG backgrounds when Asepsis enabled.
-    
+
 1.1.5 - January 10, 2011
   + Added command-command, control-control and shift-shift activation options to Visor feature. To switch between them click the button image.
   ! Fixed broken option-option activation introduced in 1.1.4. (<a href="http://getsatisfaction.com/binaryage/topics/option_option_activation_broken">issue</a>).
-    
+
 1.1.4 - January 09, 2011
   + Added Copy Path menu item support (<a href="http://dl.dropbox.com/u/559047/Screenshots/copypath-menuitem-sample.png">see sample</a>). Must be enabled in Preferences > TotalFinder > Tweaks.
   + Localized into Bulgarian by <a href="https://github.com/ivaylodj">Ivaylo Djounov</a>.
@@ -500,11 +507,11 @@
   ! Fixed problem where Visor may get activated back again when in dual mode and ESC is pressed. (<a href="http://getsatisfaction.com/binaryage/topics/when_in_dual_pane_with_visor_up_esc_to_close_visor_does_not_work">issue</a>)
   * Prevented initial window flickering during TotalFinder startup.
   * Improved internal code structure.
-    
+
 1.1.3 - December 18, 2010
   ! Fixed crash when unplugging monitor (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_crashes_when_unplugging_monitor_from_macbook_pro">issue</a>).
   ! Fixed disjointed UI during Visor activation when clicking icons in the Dock and the Desktop (<a href="http://getsatisfaction.com/binaryage/topics/visor_bug_in_version_1_1_2">issue</a>).
-    
+
 1.1.2 - December 17, 2010
   + Localized into Finnish. Thanks to <a href="https://github.com/rantom">Tomi Rantalankila</a>!
   ! TotalFinder shows window titles in Expose (<a href="http://getsatisfaction.com/binaryage/topics/no_window_titles_in_snow_leopard_expose">issue</a>).
@@ -515,14 +522,14 @@
   * The cut-operation cooperates better with system clipboard (<a href="http://getsatisfaction.com/binaryage/topics/cutting_files_folders_and_finders_clipboard">issue</a>)
   * Tab switching should be a bit faster and window switching/dragging should not flicker.
   * Default menubar icon is black (it was previously gray).
-    
+
 1.1.1 - December 7, 2010
   + Compatibility with Finder 10.6.7 (in the upcoming OS X update)
   ! Fixed scrolling bug in icon view in dual mode (<a href="http://getsatisfaction.com/binaryage/topics/no_scroll_in_the_right_window_of_double_mode">issue</a>).
   ! Fixed icons disappearing after cut operation on the Desktop (<a href="http://getsatisfaction.com/binaryage/topics/cut_option_hides_desktop_icons">issue</a>).
-    
+
 1.1 - December 6, 2010
-    
+
 1.0.4 - December 4, 2010
   + Localized into Korean and Welsh. Thanks to <a href="https://github.com/lth1301">Taehwan Lee</a> and <a href="https://github.com/justinrjett">Justin Jett</a>!
   ! Fixed Visor sliding in dual mode (<a href="http://getsatisfaction.com/binaryage/topics/hiding_in_visor_and_dual_mode_only_hides_the_second_window">issue</a>).
@@ -534,11 +541,11 @@
   * Reimplemented sidebar tweaks in dual mode.
   * Toolbar switching is fast (for example via pill button or via keyboard shortcut).
   * Prevent frame flickering in various situations. Especially when sliding Visor.
-    
+
 1.0.3 - November 29, 2010
   ! Fixed broken Sparkle updater (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_1_0_2_issue_check_for_updates_is_broken">issue</a>).
   ! Fixed broken Visor tab selection and Pin Button (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_1_0_2_issue_broken_tab_selection">issue</a>).
-    
+
 1.0.2 - November 29, 2010
   + Cut&amp;Paste in Finder, finally! The feature implemented by <a href="https://github.com/akahan">Roman Yusufkhanov</a> (<a href="http://getsatisfaction.com/binaryage/topics/move_files_and_folders_with_cut_past">issue</a>).
   + New icon with slightly modern look + new Menu Bar icons. Nicely done by <a href="http://robinraszka.com">Robin Raszka</a>.
@@ -550,7 +557,7 @@
   * Visor sliding should be more smooth (will focus on Visor functionality more in the next release).
   * Pulling tabs in and out is much more smooth.
   * Many internal improvements in project structure.
-    
+
 1.0.1 - October 12, 2010
   + Localized into Polish and Portugal. Thanks to <a href="http://github.com/binaryage/totalfinder-i18n/contributors">translators</a>, you rock!
   + Introduced secret tweak TotalFinderDontTweakSidebar, to help folks having <a href="http://getsatisfaction.com/binaryage/topics/sidebar_not_appearing_in_new_tabs">this issue</a>.
@@ -559,11 +566,11 @@
   * Registration Dialog is immune to extraneous whitespace characters.
   * In trial mode the window badge shows remaining days.
   - Removed annoying dialog which popped after every 10 tab switches. It was a bad idea.
-    
+
 1.0 - September 27, 2010
   + Unlocked licensing subsystem.
   + Updated website for 1.0 and added <a href="http://totalfinder.binaryage.com/documentation">documentation</a>.
-    
+
 0.9.10 - September 15, 2010
   + Licensing subsystem (will be unlocked in 1.0).
   + "Folders On Top" feature works reliably in all views. Nice and clean code contributed by Russian hacker Roman Yusufkhanov. Big kudos!
@@ -576,7 +583,7 @@
   * Desktop does not show dot files even when you check "Show System Files".
   * Asepsis ignores .DS_Store file on Desktop to prevent unexpected desktop settings resets. (<a href="http://getsatisfaction.com/binaryage/topics/total_finder_0_9_3_asepsis_does_not_remember_desktop_icon_position">issue</a>).
   * Tab title is now truncated from the beginning, which makes sense for folks using _FXShowPosixPathInTitle tweak (<a href="http://getsatisfaction.com/binaryage/topics/unix_paths_in_title_should_truncate_start_not_end">issue</a>).
-    
+
 0.9.9 - August 31, 2010
   ! Fixed broken auto-updater (<a href="http://blog.binaryage.com/totalfinder-broken-updater">more info</a>)
   + Localized into Slovak and Slovenian. Thanks to <a href="http://github.com/binaryage/totalfinder-i18n/contributors">translators</a>, sweet!
@@ -584,4 +591,3 @@
   + Introduced BETA channel for updates (Preferences / TotalFinder / About)
   * Tab switching is fast again (<a href="http://getsatisfaction.com/binaryage/topics/slower_tabs_switching_with_0_9_8">issue</a>).
   ! Sidebar not appearing in new tabs (<a href="http://getsatisfaction.com/binaryage/topics/sidebar_not_appearing_in_new_tabs">issue</a>).
-      
