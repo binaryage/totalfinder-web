@@ -1,4 +1,4 @@
-1.6.2 - July 21, 2014
+1.6.2 - July 25, 2014
   + Introduced TotalFinderDockIconIgnoresVisor tweak <a href="http://discuss.binaryage.com/t/visor-window-shows-when-clicking-on-finder-dock-icon/2225">requested here</a>.
   ! Fixed misbehaving Visor's Show/Hide item under menubar status icon.
   ! Another attempt to fix <a href="http://discuss.binaryage.com/t/totalfinder-hangs-or-crashes-finder-at-startup/1986">Finder hanging during TotalFinder startup affecting some users</a>.
