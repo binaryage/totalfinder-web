@@ -1,3 +1,12 @@
+1.6.2 - July 21, 2014
+  + Initial compatibility with OS X 10.10 (public beta). [Yosemite]
+  + Introduced TotalFinderDockIconIgnoresVisor tweak <a href="http://discuss.binaryage.com/t/visor-window-shows-when-clicking-on-finder-dock-icon/2225">requested here</a>.
+  ! Fixed misbehaving Visor's Show/Hide item under menubar status icon.
+  ! Fixed crash in uninstaller when required font was missing in the system.
+  ! Fixed scenario when cut selection <a href="http://discuss.binaryage.com/t/totalfinder-does-not-clear-selection-keyboard-shortcuts-dont-work/1611/12">stopped updating itself</a>.
+  ! An attempt to fix <a href="http://discuss.binaryage.com/t/totalfinder-hangs-or-crashes-finder-at-startup/1986">Finder hanging during TotalFinder startup affecting some users</a>.
+  * General improvements of stability (we started using weak pointers to keep track of Finder windows).
+  
 1.6 - May 08, 2014
   $ Related blog post: <a href="http://blog.binaryage.com/totalfinder-with-colored-labels">TotalFinder 1.6 with Colored Labels</a>
   + <a href="http://totalfinder.binaryage.com/colored-labels">Colored Labels</a> - pre-Mavericks style label colors (as requested <a href="http://discuss.binaryage.com/t/wish-return-finder-labels-to-mavericks/662">here</a>).
