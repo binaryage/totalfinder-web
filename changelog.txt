@@ -1,4 +1,4 @@
-1.6.2 - July 21, 2014
+1.6.2 - July 25, 2014
   + Initial compatibility with OS X 10.10 (public beta). [Yosemite]
   + Introduced TotalFinderDockIconIgnoresVisor tweak <a href="http://discuss.binaryage.com/t/visor-window-shows-when-clicking-on-finder-dock-icon/2225">requested here</a>.
   ! Fixed misbehaving Visor's Show/Hide item under menubar status icon.
