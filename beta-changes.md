@@ -29,12 +29,6 @@ subtitle: Recent changes in pre-releases
     getDownloadLinkForVersion = (version) -> "http://downloads.binaryage.com/TotalFinder-#{version}.dmg"
     getReleaseDateText = (date) -> "released on " + date
     generateChangelogHTML "#page", changelog, getDownloadLinkForVersion, getReleaseDateText
-
-    # http://stackoverflow.com/a/13952352/84283
-    if window.location.hash
-      $(document.body).animate
-        scrollTop: $(hashToSelector(window.location.hash)).offset().top
-      , 1000
     
   @showBetaHint = -> $(".betahint").toggle()
 </script>
