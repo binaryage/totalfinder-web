@@ -30,6 +30,6 @@ subtitle: Recent changes
     if window.location.hash
       $(document.body).animate
         scrollTop: $(hashToSelector(window.location.hash)).offset().top
-      , 2000
+      , 1000
     
 </script>
