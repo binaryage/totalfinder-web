@@ -4,7 +4,7 @@ title: Recent changes in TotalFinder pre-releases
 subtitle: Recent changes in pre-releases
 ---
 
-<script src="changelog.js" type="text/javascript" charset="utf-8"></script>
+<script src="/shared/js/changelog.js" type="text/javascript" charset="utf-8"></script>
 
 <div class="changelog-info">
 <a href="javascript:showBetaHint(this);">How to switch to pre-releases in TotalFinder?</a>

@@ -4,7 +4,7 @@ title: Recent changes in TotalFinder
 subtitle: Recent changes
 ---
 
-<script src="changelog.js" type="text/javascript" charset="utf-8"></script>
+<script src="/shared/js/changelog.js" type="text/javascript" charset="utf-8"></script>
 
 <div class="changelog-info">
 <a href="/beta-changes">Interested in pre-releases?</a>
