@@ -7436,8 +7436,8 @@ blockquote{font-size:13px;margin-left:10px}
 #topbar .topbar-buttons div:hover{color:#ccc !important}
 #topbar .topbar-buttons div a:hover{color:#ccc !important;text-decoration:none}
 #topbar .topbar-buttons div i{margin-right:4px}
-#header{height:90px;background-color:#f7f7f7;background:-webkit-linear-gradient(top, #fff, #f7f7f7);background:-moz-linear-gradient(top, #fff, #f7f7f7);background:-o-linear-gradient(top, #fff, #f7f7f7);background:-ms-linear-gradient(top, #fff, #f7f7f7);background:linear-gradient(to bottom, #fff, #f7f7f7);border-bottom:1px solid #e1e1e1;-webkit-box-shadow:0 1px 5px #dadada;box-shadow:0 1px 5px #dadada;}
-#header .header-menu{position:absolute;right:0;margin-top:41px;list-style-type:none;white-space:nowrap;}
+#header{height:90px;background-color:#f7f7f7;background:-webkit-linear-gradient(top, #fff, #f7f7f7);background:-moz-linear-gradient(top, #fff, #f7f7f7);background:-o-linear-gradient(top, #fff, #f7f7f7);background:-ms-linear-gradient(top, #fff, #f7f7f7);background:linear-gradient(to bottom, #fff, #f7f7f7);border-bottom:1px solid #e1e1e1;-webkit-box-shadow:0 1px 3px #dadada;box-shadow:0 1px 3px #dadada;}
+#header .header-menu{padding:0;margin:0;position:absolute;right:0;margin-top:41px;margin-bottom:10px;list-style-type:none;white-space:nowrap;display:block;}
 #header .header-menu li{border:1px solid transparent;-webkit-border-radius:2px;border-radius:2px;margin:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;text-decoration:none;margin-left:20px;position:relative;top:10px;}
 #header .header-menu li a{text-shadow:0 1px 0 #fff;display:inline-block;padding:0 4px;cursor:pointer;font:bold 14px 'Play',arial,serif;line-height:20px !important;text-decoration:none}
 @media (min-width: 620px){#header .header-menu li{position:relative;top:0}
@@ -7635,7 +7635,9 @@ blockquote{font-size:13px;margin-left:10px}
 .more-wrapper{text-align:center;text-shadow:#fff 0 2px 1px;font-size:14px;}
 .more-wrapper .more-box{padding:0 40px;display:inline-block;}
 .more-wrapper .more-box .generic-separator{margin-bottom:10px}
-.more-wrapper .more-box .more-extension{padding:0 20px}
+.more-wrapper .more-box .more-extension{padding:2px 20px;}
+.more-wrapper .more-box .more-extension i{padding-right:6px}
+.more-wrapper .more-box .more-extension a{color:#999}
 #blog-welcome .page-icon{position:absolute}
 #blog{margin-top:30px;}
 #blog code{font-style:normal;background-color:#fcffdd;padding:0 2px;border:1px solid #ccc;color:#999;-webkit-border-radius:2px;border-radius:2px}

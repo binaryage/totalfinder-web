@@ -1,3 +1,8 @@
+1.6.3 - August 5, 2014
+  ! Fixed compatibility with OS X 10.10 (developer preview 5). [Yosemite]
+  - Dock progress functionality temporarily does not work under OS X 10.10 (developer preview 5). [Yosemite]
+  * Reimplemented old code for bringing Visor up by double-tapping a key
+
 1.6.2 - July 21, 2014
   + Introduced TotalFinderDockIconIgnoresVisor tweak <a href="http://discuss.binaryage.com/t/visor-window-shows-when-clicking-on-finder-dock-icon/2225">requested here</a>.
   ! Fixed misbehaving Visor's Show/Hide item under menubar status icon.
