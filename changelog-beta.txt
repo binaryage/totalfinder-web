@@ -1,3 +1,10 @@
+1.6.5 - August 10, 2014
+  ! Improved compatibility with OS X 10.10 (developer preview 5). [Yosemite]
+  + Dock progress functionality works again under OS X 10.10 (developer preview 5). [Yosemite]
+  * Improved dock progress when multiple operations are progressing concruently.
+  * Less intrusive way how to arrange Finder views to fit in TotalFinder window.
+  ! Fixed sidebar visual glitch and colors under OS X 10.10. [Yosemite]
+
 1.6.3 - August 5, 2014
   ! Fixed compatibility with OS X 10.10 (developer preview 5). [Yosemite]
   - Dock progress functionality temporarily does not work under OS X 10.10 (developer preview 5). [Yosemite]
