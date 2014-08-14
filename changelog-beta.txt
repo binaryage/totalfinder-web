@@ -1,7 +1,7 @@
 1.6.7 - August 14, 2014
-  ! TotalFinder<a href="http://discuss.binaryage.com/t/tf-1-6-6-on-10-9-4-doesn-t-launch">didn't launch after system reboot</a> (regression introduced in 1.6.6).
-  ! Colored icons in Sidebar work as expected under all systems (again).
-  * TotalFinder is not causing warnings in Console log under Yosemite. [Yosemite]
+  ! TotalFinder <a href="http://discuss.binaryage.com/t/tf-1-6-6-on-10-9-4-doesn-t-launch">didn't launch after system reboot</a> (regression introduced in 1.6.6).
+  ! Colored icons in Sidebar work again under all supported systems.
+  * TotalFinder is not causing warnings in Console log. [Yosemite]
   * Visor's pin button is properly styled under Yosemite. [Yosemite]
   
 1.6.6 - August 12, 2014
