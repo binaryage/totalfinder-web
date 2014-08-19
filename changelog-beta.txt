@@ -1,3 +1,6 @@
+1.6.9 - August 19, 2014
+  ! Hotfix release for compatibility with OS X 10.10 (developer preview 6). Note traffic-light buttons can be misplaced. Coloured labels have issues too. I'm working on a fix. [Yosemite]
+
 1.6.8 - August 18, 2014
   ! Fixed <a href="http://discuss.binaryage.com/t/tf-1-6-7-finder-minimize-button-yellow-not-working-10-9-4">broken minimize button</a> (regression introduced in 1.6.7).
   ! Removed potential focus ring around new tab button (regression introduced in 1.6.7).
