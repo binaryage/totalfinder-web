@@ -1,3 +1,9 @@
+1.6.10 - September 19, 2014
+  ! Compatibility with OS X 10.10 (DP7 and DP8). [Yosemite]
+  ! Fixed problems with <a href="http://discuss.binaryage.com/t/editing-filenames-bug/2271/12">stuck keyboard focus</a> (I found a better way how to implement sharing keyboard focus between Finder windows embedded under TotalFinder frame window. This is a huge improvement.)
+  ! Fixed fullscreen transition issues. [Mavericks]
+  * Added <a href="https://github.com/binaryage/totalfinder-i18n/commit/3a67f79acd9403500dc91942be54ca4f712d5e28">Malay localization</a>.
+  
 1.6.9 - August 19, 2014
   ! Hotfix release for compatibility with OS X 10.10 (developer preview 6). Note traffic-light buttons can be misplaced. Coloured labels have issues too. I'm working on a fix. [Yosemite]
 
