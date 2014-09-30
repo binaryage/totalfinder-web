@@ -7,19 +7,19 @@ oses: [{
   label: "Yosemite",
   logo: "logo-yosemite.png",
   wiki: "OS_X_Yosemite",
-  note: "<a href=\"/beta-changes\">install the latest beta version</a>",
+  note: "<a href=\"/beta-changes#latest\">install the latest beta version</a>",
 },{
   version: "10.9",
   label: "Mavericks",
   logo: "logo-mavericks.png",
   wiki: "OS_X_Mavericks",
-  note: "<a href=\"/beta-changes\">install the latest beta version</a>",
+  note: "<a href=\"/changes#latest\">install the latest version</a>",
 },{
   version: "10.8",
   label: "Mountain Lion",
   logo: "logo-mountain-lion.png",
   wiki: "OS_X_Mountain_Lion",
-  note: "<a href=\"/beta-changes\">install the latest beta version</a>",
+  note: "<a href=\"/changes#latest\">install the latest version</a>",
 },{
   version: "10.7",
   label: "Lion",
