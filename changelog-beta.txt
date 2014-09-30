@@ -1,3 +1,10 @@
+1.6.11 - September 30, 2014
+  ! Compatibility with OS X 10.10 (GM1). [Yosemite]
+  ! Fixed <a href="http://discuss.binaryage.com/t/problem-with-totalfinder-v1-6-10-viewing-folders-in-columns-with-side-by-side-view">dual mode problems</a> introduced in 1.6.10. [Mavericks]
+  ! Resolved unwanted window maximizations when double-clicking tabs. [Yosemite]
+  ! Clicking "new tab" button could add tab to a wrong TotalFinder window (focus-related issue).
+  ! Dragging files over tabs works reliably.
+  
 1.6.10 - September 19, 2014
   ! Compatibility with OS X 10.10 (DP7 and DP8). [Yosemite]
   ! Fixed problems with <a href="http://discuss.binaryage.com/t/editing-filenames-bug/2271/12">stuck keyboard focus</a> (I found a better way how to implement sharing keyboard focus between Finder windows embedded under TotalFinder frame window. This is a huge improvement.)
