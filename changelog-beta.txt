@@ -1,3 +1,6 @@
+1.6.12 - October 2, 2014
+  ! Reverted "unwanted window maximizations" fix from 1.6.11 - it seriously <a href="http://discuss.binaryage.com/t/bug-in-1-6-11-dragging-tab-to-create-new-window/2595">broke tabs code</a> under Mavericks. [Yosemite]
+  
 1.6.11 - September 30, 2014
   ! Compatibility with OS X 10.10 (GM1). [Yosemite]
   ! Fixed <a href="http://discuss.binaryage.com/t/problem-with-totalfinder-v1-6-10-viewing-folders-in-columns-with-side-by-side-view">dual mode problems</a> introduced in 1.6.10. [Mavericks]
