@@ -1,7 +1,7 @@
 ---
 layout: product-home
-download: http://downloads.binaryage.com/TotalFinder-1.6.2.dmg
-downloadtitle: Download v1.6.2
+download: http://downloads.binaryage.com/TotalFinder-1.6.12.dmg
+downloadtitle: Download v1.6.12
 title: TotalFinder brings colored labels back to your Finder and more!
 subtitle: brings colored labels back to your Finder and more!
 product: totalfinder
@@ -98,8 +98,8 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible with OS X 10.8 and 10.9<br>
-      <a href="/compatibility">Looking for Yosemite version?</a><br>
+      <i class="fa fa-laptop"></i> Compatible with OS X 10.8, 10.9 and 10.10<br>
+      <a href="/compatibility">Looking for a different version?</a><br>
       <a href="/changes">What's new?</a><br>
     </div>
   </div>
