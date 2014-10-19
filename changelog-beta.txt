@@ -1,3 +1,10 @@
+1.6.13 - October 19, 2014
+  * It is possible to set conflicting keyboard shortcuts in TotalFinder Preferences (User is warned but has an option to set the conflicting shortcut anyway).
+  ! Additionally global keyboard shortucs which are disabled <a href="https://github.com/shpakovski/MASShortcut/commit/0633545a4666d969dfbb860e540eb3b008893651">are no longer treated as conflicting shortcuts by TotalFinder</a>.
+  ! Under some circumstances <a href="http://discuss.binaryage.com/t/totalfinder-will-not-start-automaticly/2617">TotalFinder was not launched automatically</a> after system start. [Yosemite]
+  ! Toggling 'Show hidden files' and other TotalFinder view options did not refresh file lists.
+  ! Fixed a problem when TotalFinder maximized window after double-clicking a tab. [Yosemite]
+
 1.6.12 - October 2, 2014
   ! Reverted "unwanted window maximizations" fix from 1.6.11 - it seriously <a href="http://discuss.binaryage.com/t/bug-in-1-6-11-dragging-tab-to-create-new-window/2595">broke tabs code</a> under Mavericks. [Yosemite]
   
