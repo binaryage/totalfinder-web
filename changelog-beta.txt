@@ -1,3 +1,8 @@
+1.6.14 - October 30, 2014
+  ! Fixed broken <a href="http://discuss.binaryage.com/t/totalfinder-1-6-12-incompatibility-with-quicksilver">interoperability with AppleScript</a> (since 1.6.10)
+  ! Toolbar customization palette does not obscure toolbar items anymore [Yosemite]
+  ! Prevented toolbar flickering and bad layout when toggling it on and off again [Yosemite]
+
 1.6.13 - October 19, 2014
   * It is possible to set conflicting keyboard shortcuts in TotalFinder Preferences (User is warned but has an option to set the conflicting shortcut anyway).
   ! Additionally global keyboard shortucs which are disabled <a href="https://github.com/shpakovski/MASShortcut/commit/0633545a4666d969dfbb860e540eb3b008893651">are no longer treated as conflicting shortcuts by TotalFinder</a>.
