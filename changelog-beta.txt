@@ -1,3 +1,8 @@
+1.6.15 - November 3, 2014
+  * Reimplemented internal system of storing TotalFinder preferences (preferences are no longer shared with Finder in com.apple.finder.plist but are held separately in com.binaryage.totalfinder.plist). [Yosemite] [Mavericks]
+  ! Fixed the problem of <a href="http://discuss.binaryage.com/t/additional-visual-bug-in-list-view/2721">blank lines in List View</a> when colored labels feature was enabled. [Yosemite]
+  ! Implemented more code which should prevent <a href="http://discuss.binaryage.com/t/recurring-ghost-tf-windows-odd-sliding-spacetospace/2640">ghost Finder windows</a>. [Yosemite]
+  
 1.6.14 - October 30, 2014
   ! Fixed broken <a href="http://discuss.binaryage.com/t/totalfinder-1-6-12-incompatibility-with-quicksilver">interoperability with AppleScript</a> (since 1.6.10)
   ! Toolbar customization palette does not obscure toolbar items anymore [Yosemite]
