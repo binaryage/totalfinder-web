@@ -1,3 +1,7 @@
+1.6.16 - November 5, 2014
+  * Compatibility with <a href="http://www.macrumors.com/2014/11/03/first-yosemite-10-10-1-beta-now-available/">OS X 10.10.1 beta</a>. [Yosemite]
+  ! Finally fixed the annoying problem of <a href="http://discuss.binaryage.com/t/visor-problem-on-boot/2761">broken Visor hotkey after restart</a>.
+  
 1.6.15 - November 3, 2014
   * Reimplemented internal system of storing TotalFinder preferences (preferences are no longer shared with Finder in com.apple.finder.plist but are held separately in com.binaryage.totalfinder.plist). [Yosemite] [Mavericks]
   ! Fixed the problem of <a href="http://discuss.binaryage.com/t/additional-visual-bug-in-list-view/2721">blank lines in List View</a> when colored labels feature was enabled. [Yosemite]
