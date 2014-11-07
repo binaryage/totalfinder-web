@@ -1,7 +1,7 @@
 ---
 layout: product-home
-download: http://downloads.binaryage.com/TotalFinder-1.6.16.dmg
-downloadtitle: Download v1.6.16
+download: http://downloads.binaryage.com/TotalFinder-1.6.17.dmg
+downloadtitle: Download v1.6.17
 title: TotalFinder brings colored labels back to your Finder and more!
 subtitle: brings colored labels back to your Finder and more!
 product: totalfinder
