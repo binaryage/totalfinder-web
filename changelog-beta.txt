@@ -1,3 +1,6 @@
+1.6.17 - November 7, 2014
+  ! Fixed broken licensing dialog.
+
 1.6.16 - November 5, 2014
   * Compatibility with <a href="http://www.macrumors.com/2014/11/03/first-yosemite-10-10-1-beta-now-available/">OS X 10.10.1 beta</a>. [Yosemite]
   ! Finally fixed the annoying problem of <a href="http://discuss.binaryage.com/t/visor-problem-on-boot/2761">broken Visor hotkey after restart</a>.
