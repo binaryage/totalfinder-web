@@ -12,7 +12,7 @@ TotalFinder works like the original Finder but adds [tabs](/tabs), [dual panel m
 
 My goal is to improve Finder in areas where it is lacking but keep the overall design, which is good.
 
-TotalFinder is tested to work in OS X **10.8 (Mountain Lion)** and **10.9 (Mavericks)**.
+TotalFinder is tested to work in OS X **10.8 (Mountain Lion)**, **10.9 (Mavericks)** and **10.10 (Yosemite)**.
 
 ## TotalFinder is a plugin, not a replacement
 

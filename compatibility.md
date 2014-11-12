@@ -7,7 +7,7 @@ oses: [{
   label: "Yosemite",
   logo: "logo-yosemite.png",
   wiki: "OS_X_Yosemite",
-  note: "<a href=\"/beta-changes#latest\">install the latest beta version</a>",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>",
 },{
   version: "10.9",
   label: "Mavericks",
