@@ -60,8 +60,8 @@ shots: [{
 }]
 highlights: [{
   title: "Colored labels",
-  description: "Brings full colors back into Mavericks.",
-  style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -270px -100px / 650px 430px",
+  description: "Brings full colors back into Yosemite.",
+  style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -274px -100px / 650px 430px",
   screenshot: 1
 },{
   title: "Folders on top",
@@ -71,12 +71,12 @@ highlights: [{
 },{
   title: "Chrome tabs",
   description: "Apple finally introduced tabs in Mavericks. TotalFinder added Chrome tabs in Snow Leopard.",
-  style: "background: transparent url('/images/showcase/full-tabs.png') no-repeat -352px -56px / 650px 430px",
+  style: "background: transparent url('/images/showcase/full-tabs.png') no-repeat -350px -96px / 650px 430px",
   screenshot: 3
 },{
   title: "Dual mode",
   description: "Display two Finder windows side-by-side on hot-key.",
-  style: "background: transparent url('/images/showcase/full-dual.png') no-repeat -246px -0px / 1000px 621px",
+  style: "background: transparent url('/images/showcase/full-dual.png') no-repeat -244px -0px / 1000px 621px",
   screenshot: 4
 },{
   title: "Visor window",
@@ -86,7 +86,7 @@ highlights: [{
 },{
   title: "Cut &amp; Paste",
   description: "Use keyboard shortcuts to move files around. Faster than drag &amp; drop.",
-  style: "background: transparent url('/images/showcase/full-cut.png') no-repeat -330px -250px / 650px 430px",
+  style: "background: transparent url('/images/showcase/full-cut.png') no-repeat -320px -240px / 650px 430px",
   screenshot: 6
 }]
 ---
