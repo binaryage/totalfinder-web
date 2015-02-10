@@ -22,12 +22,12 @@ Or download and open the latest archive from [totalfinder.binaryage.com](http://
 
 ## Purging the configuration
 
-By default the uninstaller does not remove your configuration settings from `/Users/<user>/Library/Preferences/com.apple.finder.plist`
+By default the uninstaller does not remove your configuration settings from `/Users/<user>/Library/Preferences/com.binaryage.totalfinder.plist`
 
 It is just a few extra bytes we leave in case you need to temporarily uninstall TotalFinder and decide to reinstall later. 
 
 <img src="/images/property-list-editor.png" class="doc-image add-shadow" style="width:400px;">
 
-A future version of the uninstaller will offer to remove the configuration keys. Right now you have to do it by hand. If you want to clean the TotalFinder trail completely, remove all TotalFinder prefixed keys from that file. You can use plist editor to do that:
+If you want to clean the TotalFinder trail completely. Force quit Finder via CMD+OPT+ESC and then delete the plist from Terminal.app:
 
-    open ~/Library/Preferences/com.apple.finder.plist
+    rm ~/Library/Preferences/com.binaryage.totalfinder.plist

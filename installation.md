@@ -8,10 +8,15 @@ subtitle: Install TotalFinder
 
 TotalFinder has a convenient installer which guides you through the installation steps:
 
-1. Download and open the latest archive TotalFinder-X.Y.Z.dmg from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com)
-2. Launch `TotalFinder.pkg`
-3. Click through the installation process
-4. Finder will be relaunched with TotalFinder
+* Download and open the latest archive TotalFinder-X.Y.Z.dmg from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com)
+* Launch `TotalFinder.pkg`
+
+<img src="/images/installer-dmg.png" class="doc-image add-shadow" style="width:400px"><br>
+
+* Click through the installation process
+* Finder will be relaunched with TotalFinder
+
+<img src="/images/successful-install.png" class="doc-image add-shadow" style="width:400px">
 
 ## TotalFinder updates
 
@@ -36,6 +41,6 @@ For removal please read the [uninstallation page](/uninstallation).
 
 ## Configuration settings
 
-`/Users/<user>/Library/Preferences/com.apple.finder.plist` - all TotalFinder related keys are prefixed with `TotalFinder`
+`/Users/<user>/Library/Preferences/com.binaryage.totalfinder.plist`
 
-Note: You may safely remove any TotalFinder prefixed keys. TotalFinder will re-create them with default values when restarted. Deleting the whole `com.apple.finder.plist` file and restarting Finder will reset both Finder and TotalFinder into factory defaults.
+Note: You may safely remove the TotalFinder plist file or remove any values inside. TotalFinder will re-create it with default values when restarted.
