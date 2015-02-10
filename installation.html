@@ -5,7 +5,7 @@
     <link rel="canonical" href="http://totalfinder.binaryage.com/installation"/>
     <link rel="shortcut icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="http://static.binaryage.com/25652c08_shared_css_site.css" type="text/css"/>
+    <link rel="stylesheet" href="http://static.binaryage.com/bf7e3824_shared_css_site.css" type="text/css"/>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
@@ -114,18 +114,22 @@
                 <div class="page-content">
                   <h2>Installation is easy</h2>
                   <p>TotalFinder has a convenient installer which guides you through the installation steps:</p>
-                  <ol>
+                  <ul>
                     <li>Download and open the latest archive TotalFinder-X.Y.Z.dmg from <a href="http://totalfinder.binaryage.com">http://totalfinder.binaryage.com</a></li>
                     <li>Launch <code>TotalFinder.pkg</code></li>
+                  </ul>
+                  <p><img src="http://static.binaryage.com/cc53503b_images_installer-dmg.png" class="doc-image add-shadow" style="width:400px"/><br/></p>
+                  <ul>
                     <li>Click through the installation process</li>
                     <li>Finder will be relaunched with TotalFinder</li>
-                  </ol>
+                  </ul>
+                  <p><img src="http://static.binaryage.com/363ce141_images_successful-install.png" class="doc-image add-shadow" style="width:400px"/></p>
                   <h2>TotalFinder updates</h2>
                   <p>TotalFinder uses the <a href="http://sparkle.andymatuschak.org">Sparkle</a> updating system. By default it notifies you whenever there is a new version available. You may also check for new versions manually. Please keep TotalFinder updated. You may also participate in <a href="/beta-changes">testing new releases</a>.</p>
-                  <p><img src="http://static.binaryage.com/5ff200aa_images_update-dialog.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="http://static.binaryage.com/9db4a61e_images_update-dialog.png" class="doc-image add-shadow" style="width:400px"/></p>
                   <h2>TotalFinder in login startup items</h2>
                   <p>By default, the installer puts <code>TotalFinder.app</code> into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove <code>TotalFinder.app</code> from your login startup items to prevent TotalFinder from launching at startup.</p>
-                  <p><img src="http://static.binaryage.com/8730c73a_images_login-items.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="http://static.binaryage.com/618dea8b_images_login-items.png" class="doc-image add-shadow" style="width:400px"/></p>
                   <h2>Uninstallation</h2>
                   <p>For removal please read the <a href="/uninstallation">uninstallation page</a>.</p>
                   <h2>Installation locations</h2>
@@ -134,8 +138,8 @@
                     <li><code>/Library/ScriptingAdditions/TotalFinder.osax</code> - scripting extension responsible for injecting TotalFinder plugin into Finder</li>
                   </ul>
                   <h2>Configuration settings</h2>
-                  <p><code>/Users/&lt;user&gt;/Library/Preferences/com.apple.finder.plist</code> - all TotalFinder related keys are prefixed with <code>TotalFinder</code></p>
-                  <p>Note: You may safely remove any TotalFinder prefixed keys. TotalFinder will re-create them with default values when restarted. Deleting the whole <code>com.apple.finder.plist</code> file and restarting Finder will reset both Finder and TotalFinder into factory defaults.</p>
+                  <p><code>/Users/&lt;user&gt;/Library/Preferences/com.binaryage.totalfinder.plist</code></p>
+                  <p>Note: You may safely remove the TotalFinder plist file or remove any values inside. TotalFinder will re-create it with default values when restarted.</p>
                   <script>$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})</script>
                 </div>
               </div>
