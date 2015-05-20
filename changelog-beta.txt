@@ -1,3 +1,8 @@
+1.6.19 - May 20, 2015
+  ! Fixed sluggish navigation in column mode.
+  ! Fixed more cases of ghost windows without frames.
+  ! TotalFinder would not launch under some circumstances.
+
 1.6.18 - May 1, 2015
   * Yes, the developer is back from the wonderland of ClojureScript!
   * Compatibility with OS X 10.10.3 [Yosemite]
