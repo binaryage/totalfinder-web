@@ -1,3 +1,6 @@
+1.6.21 - May 24, 2015
+  ! Improved DMG detection from 1.6.20. Some users were reporting unexpected behaviour.
+
 1.6.20 - May 21, 2015
   ! Tabs were not resized properly to adapt changing window width (regression introduced in 1.6.19).
   ! TotalFinder was sometimes unexpectedly <a href="http://discuss.binaryage.com/t/totalfinder-open-in-new-tab-always-opens-a-new-window/1128">opening new tabs as new windows</a>.
