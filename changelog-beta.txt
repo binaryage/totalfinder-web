@@ -1,6 +1,6 @@
 1.6.22 - May 25, 2015
   ! Finally reliable DMG detection.
-  ! Adresses instability issues introduced in 1.6.19.
+  ! Adressed instability issues introduced in 1.6.19.
   
 1.6.21 - May 24, 2015
   ! Improved DMG detection from 1.6.20. Some users were reporting unexpected behaviour.
