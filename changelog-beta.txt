@@ -1,3 +1,8 @@
+1.6.23 - May 26, 2015
+  * TotalFinder newly checks if <a href="http://discuss.binaryage.com/t/totalfinder-license-info-lost-or-settings-got-unexpectedly-reset/3772">settings plist file is missing or corrupted</a>.
+  * TotalFinder stores a backup of licensing info in Finder's plist itself (To ease the pain of users who run MacKeeper or CleanMyMac to wipe all TotalFinder settings out and then wonder why their TotalFinder got suddenly unregistered).
+  ! Fixed a timing problem with <a href="http://discuss.binaryage.com/t/totalfinder-does-not-launch/3744">TotalFinder startup</a>. 
+
 1.6.22 - May 25, 2015
   ! Finally reliable DMG detection.
   ! Adressed instability issues introduced in 1.6.19.
