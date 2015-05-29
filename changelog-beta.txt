@@ -1,3 +1,6 @@
+1.6.24 - May 29, 2015
+  * Switching toolbar display mode from icons-only to something else does not look ugly anymore. [Yosemite]
+
 1.6.23 - May 26, 2015
   * TotalFinder newly checks if <a href="http://discuss.binaryage.com/t/totalfinder-license-info-lost-or-settings-got-unexpectedly-reset/3772">settings plist file is missing or corrupted</a>.
   * TotalFinder stores a backup of licensing info in Finder's plist itself (To ease the pain of users who run MacKeeper or CleanMyMac to wipe all TotalFinder settings out and then wonder why their TotalFinder got suddenly unregistered).
@@ -21,7 +24,7 @@
 
 1.6.18 - May 1, 2015
   * Yes, the developer is back from the wonderland of ClojureScript!
-  * Compatibility with OS X 10.10.3 [Yosemite]
+  * Compatibility with OS X 10.10.3. [Yosemite]
   ! Fixed revelaing windows when <a href="http://discuss.binaryage.com/t/clicking-finder-icon-in-dock-no-longer-works-as-expected">clicking the Dock icon</a> under 10.10.3.
   ! Fixed a bug which could potentially lead to a memory corruption and upredictable behaviour.
   ! TotalFinder <a href="http://discuss.binaryage.com/t/totalfinder-hangs-or-crashes-finder-at-startup/1986">should not crash on startup</a> when restoring original tabs state.
