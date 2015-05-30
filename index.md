@@ -130,8 +130,7 @@ highlights: [{
     <div class="buy-pack explanation-box">
       <div class="title">License Pack</div>
       <div class="image"><img src="/shared/img2/tripple-license-icon.png"  width="170" height="90"></div>
-      <div class="deal">Keep one license for yourself, and give two coupons to your friends or family members.
-      </div>
+      <div class="deal">Keep one license for yourself, and give two coupons to your friends or family members.</div>
       <div class="button">
         <span>Buy 3-pack</span><span class="price-tag">$36</span>
       </div>
