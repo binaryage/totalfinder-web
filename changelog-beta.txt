@@ -1,3 +1,7 @@
+1.6.25 - May 30, 2015
+  * Installer/uninstaller/packaging icons changed to Yosemite-style.
+  ! Double-keypress code does not read com.apple.mouse.doubleClickThreshold system preference anymore (this might cause OPT+OPT style Visor activation to not work for users who have some crazy high value set there).
+
 1.6.24 - May 29, 2015
   * Switching toolbar display mode from icons-only to something else does not look ugly anymore. [Yosemite]
 
