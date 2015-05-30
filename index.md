@@ -115,19 +115,11 @@ highlights: [{
 {% endcontentfor %}
 
 {% contentfor overlays %}
-<div id="totalfinder-teaser" class="overlay" style="display:none">
-  <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="375" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
-    <param name="SRC" VALUE="http://cdn.binaryage.com/totalfinder-teaser.mov"/>
-    <param name="AUTOPLAY" VALUE="true"/>
-    <embed src="http://cdn.binaryage.com/totalfinder-teaser.mov" width="640" height="375" AUTOPLAY="true" pluginspage="http://www.apple.com/quicktime/download/"/>
-  </object>
-</div>
-
 <div id="totalfinder-buy" class="overlay" style="display:none">
   <a href="https://sites.fastspring.com/binaryage/instant/totalfinder">
     <div class="buy-single explanation-box">
       <div class="title">Single License</div>
-      <div class="image"><img src="/shared/img2/single-license-icon.png"></div>
+      <div class="image"><img src="/shared/img2/single-license-icon.png" width="170" height="90"></div>
       <div class="deal">Happy to pay the standard price?<br/>This is the way to go.</div>
       <div class="button">
         <span>Buy single</span><span class="price-tag">$18</span>
@@ -136,11 +128,9 @@ highlights: [{
   </a>
   <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">
     <div class="buy-pack explanation-box">
-      <div class="title">3-License Pack</div>
-      <div class="image"><img src="/shared/img2/tripple-license-icon.png"></div>
-      <div class="deal">Want a discount? Buy 3-pack for $36.<br/>
-      Keep one license for yourself, and give two links to your friends or family members.
-      Then all three of you can share in the savings of only $12 per license!
+      <div class="title">License Pack</div>
+      <div class="image"><img src="/shared/img2/tripple-license-icon.png"  width="170" height="90"></div>
+      <div class="deal">Keep one license for yourself, and give two coupons to your friends or family members.
       </div>
       <div class="button">
         <span>Buy 3-pack</span><span class="price-tag">$36</span>
@@ -158,20 +148,10 @@ highlights: [{
       </a>
     </div>
   </div>
-  <div class="col-md-7">
-    <div class="teaser-button-box">
-      <a href="http://cdn.binaryage.com/totalfinder-teaser.mov" id="o-teaser" rel="#teaser" class="button product-button-teaser">
-        <div><i class="fa fa-play-circle"></i> Watch video preview</div>
-      </a>
-    </div>
-  </div>
 </div>
 
 <script>
   $(function() {
-    $("#o-teaser").fancybox({
-      href: "#totalfinder-teaser"
-    });
     $("#o-buy").fancybox({
       href: "#totalfinder-buy"
     });
