@@ -1,7 +1,7 @@
 1.6.26 - June 2, 2015
   ! Visor tabs didn't have <a href="http://discuss.binaryage.com/t/mouse-actions-in-tabs-work-only-on-very-top-pixels-and-not-the-full-button/3791">clickable close buttons</a> (regression introduced in 1.6.24).
   ! Visor activation didn't work via <a href="http://discuss.binaryage.com/t/totalfinder-double-opt-shortcut-doesnt-trigger-in-yosemite/3588">double-tapping on some machines</a>.
-  ! Respect "open new tabs with previous location" setting when <a href="http://discuss.binaryage.com/t/open-split-using-current-location/2531">creating tab for dual mode</a>.
+  ! Respect "open new tabs with previous location" setting when <a href="http://discuss.binaryage.com/t/open-split-using-current-location/2531">creating a new tab for dual mode</a>.
 
 1.6.25 - May 30, 2015
   * Installer/uninstaller/packaging icons changed to Yosemite-style.
