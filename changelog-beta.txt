@@ -1,6 +1,6 @@
 1.6.27 - June 5, 2015
-  ! Fixed <a href="http://discuss.binaryage.com/t/file-moving-copying-ui-bug-in-1-6-2x-betas-must-to-top-area-outside-of-tab/3810">dragging files to tabs</a> (regression introduced in 1.6.24).
-  ! Fixed a rare problem of <a href="http://discuss.binaryage.com/t/totalfinder-focussed-tab-unresponsive-until-tabs-switched/3804">unresponsive Finder window inside tab</a> [Yosemite]
+  ! Fixed a problem with <a href="http://discuss.binaryage.com/t/file-moving-copying-ui-bug-in-1-6-2x-betas-must-to-top-area-outside-of-tab/3810">dragging files to tabs</a> (regression introduced in 1.6.24).
+  ! Fixed a rare problem of <a href="http://discuss.binaryage.com/t/totalfinder-focussed-tab-unresponsive-until-tabs-switched/3804">unresponsive Finder windows</a> [Yosemite]
 
 1.6.26 - June 2, 2015
   ! Visor tabs didn't have <a href="http://discuss.binaryage.com/t/mouse-actions-in-tabs-work-only-on-very-top-pixels-and-not-the-full-button/3791">clickable close buttons</a> (regression introduced in 1.6.24).
