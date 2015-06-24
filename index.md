@@ -1,7 +1,7 @@
 ---
 layout: product-home
-download: http://downloads.binaryage.com/TotalFinder-1.6.17.dmg
-downloadtitle: Download v1.6.17
+download: http://downloads.binaryage.com/TotalFinder-1.6.27.dmg
+downloadtitle: Download v1.6.27
 title: TotalFinder is a better Finder
 subtitle: for Mac users who demand more from their Finder
 product: totalfinder
