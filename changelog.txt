@@ -1,3 +1,24 @@
+1.6.27 - June 24, 2015
+  * Compatibility with OS X 10.10.3. [Yosemite]
+  * Installer/uninstaller/packaging icons changed to Yosemite-style.
+  * Switching toolbar display mode from icons-only to something else does not look ugly anymore. [Yosemite]
+  * TotalFinder newly checks if <a href="http://discuss.binaryage.com/t/totalfinder-license-info-lost-or-settings-got-unexpectedly-reset/3772">settings plist file is missing or corrupted</a>.
+  * TotalFinder stores a backup of licensing info in Finder's plist itself (To ease the pain of users who run MacKeeper or CleanMyMac to wipe all TotalFinder settings out and then wonder why their TotalFinder got suddenly unregistered).
+  ! Fixed a rare problem of <a href="http://discuss.binaryage.com/t/totalfinder-focussed-tab-unresponsive-until-tabs-switched/3804">unresponsive Finder windows</a> [Yosemite]
+  ! Visor activation didn't work via <a href="http://discuss.binaryage.com/t/totalfinder-double-opt-shortcut-doesnt-trigger-in-yosemite/3588">double-tapping on some machines</a>.
+  ! Respect "open new tabs with previous location" setting when <a href="http://discuss.binaryage.com/t/open-split-using-current-location/2531">creating a new tab for dual mode</a>.
+  ! Double-keypress code does not read com.apple.mouse.doubleClickThreshold system preference anymore (this might cause OPT+OPT style Visor activation to not work for users who have some crazy high value set there).
+  ! Fixed a timing problem with <a href="http://discuss.binaryage.com/t/totalfinder-does-not-launch/3744">TotalFinder startup</a>. 
+  ! Finally reliable DMG detection.
+  ! TotalFinder was sometimes unexpectedly <a href="http://discuss.binaryage.com/t/totalfinder-open-in-new-tab-always-opens-a-new-window/1128">opening new tabs as new windows</a>.
+  ! Fixed sluggish navigation in column mode.
+  ! Fixed more cases of ghost windows without frames.
+  ! TotalFinder would not launch under some circumstances.
+  ! Fixed revelaing windows when <a href="http://discuss.binaryage.com/t/clicking-finder-icon-in-dock-no-longer-works-as-expected">clicking the Dock icon</a> under 10.10.3.
+  ! Fixed a bug which could potentially lead to a memory corruption and upredictable behaviour.
+  ! TotalFinder <a href="http://discuss.binaryage.com/t/totalfinder-hangs-or-crashes-finder-at-startup/1986">should not crash on startup</a> when restoring original tabs state.
+  ! Removed code signature check in TotalFinder launcher, it started causing troubles to some users.
+
 1.6.17 - Jan 8, 2015
   ! Fixed broken licensing dialog.
 
