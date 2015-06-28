@@ -8,7 +8,7 @@ plusone: 1
 ## How does it work?
 
 <div style="width:600px">
-You buy <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">TotalFinder Friends</a> for $36 and I will send you a classic license plus two free coupons as URLs. You may then send the coupon links to your Mac friends, either as a gift or they give you $12 back.
+You buy <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">TotalFinder Friends</a> for $18 and I will send you a classic license plus two free coupons as URLs. You may then send the coupon links to your Mac friends, either as a gift or they give you $6 back.
 </div>
 
 <br class="clear"/>
@@ -22,7 +22,7 @@ You buy <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-frie
 
     I've just found TotalFinder: http://totalfinder.binaryage.com
 
-    If you join me we can each buy it for $12 instead of standard price $18:
+    If you join me we can each buy it for $6 instead of standard price $9:
     http://blog.binaryage.com/totalfinder-discount-coupon-with-friends
 
     Let me know if you want me to grab one for you

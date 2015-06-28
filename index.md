@@ -122,7 +122,7 @@ highlights: [{
       <div class="image"><img src="/shared/img2/single-license-icon.png" width="170" height="90"></div>
       <div class="deal">Happy to pay the standard price?<br/>This is the way to go.</div>
       <div class="button">
-        <span>Buy single</span><span class="price-tag">$18</span>
+        <span>Buy single</span><span class="price-tag">$9</span>
       </div>
     </div>
   </a>
@@ -132,7 +132,7 @@ highlights: [{
       <div class="image"><img src="/shared/img2/tripple-license-icon.png"  width="170" height="90"></div>
       <div class="deal">Keep one license for yourself, and give two coupons to your friends or family members.</div>
       <div class="button">
-        <span>Buy 3-pack</span><span class="price-tag">$36</span>
+        <span>Buy 3-pack</span><span class="price-tag">$18</span>
       </div>
     </div>
   </a>
