@@ -1,3 +1,8 @@
+1.7.1 - August 11, 2015
+  * Initial partial compatibility with OS X 10.11. (<a href="http://discuss.binaryage.com/t/totalfinder-status-under-os-x-10-11-el-capitan/3858">discussion</a>) [Capitan]
+  ! Fixed problem with <a href="http://discuss.binaryage.com/t/totalfinder-license-info-lost-or-settings-got-unexpectedly-reset/3772>license resetting on some machines</a>.
+  ! Opening new tab with + button <a hred="http://discuss.binaryage.com/t/open-new-tabs-in-yosemite/3898">didn't respect setting to open in previous location</a>
+
 1.6.27 - June 5, 2015
   ! Fixed a problem with <a href="http://discuss.binaryage.com/t/file-moving-copying-ui-bug-in-1-6-2x-betas-must-to-top-area-outside-of-tab/3810">dragging files to tabs</a> (regression introduced in 1.6.24).
   ! Fixed a rare problem of <a href="http://discuss.binaryage.com/t/totalfinder-focussed-tab-unresponsive-until-tabs-switched/3804">unresponsive Finder windows</a> [Yosemite]
