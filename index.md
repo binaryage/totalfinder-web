@@ -98,8 +98,10 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible with OS X 10.8, 10.9 and 10.10<br>
-      <a href="/compatibility">Looking for a different version?</a><br>
+      <i class="fa fa-check-circle"></i> Compatible with OS X 10.8, 10.9 and 10.10<br>
+      <div class="exclamation"><i class="fa fa-exclamation-circle"></i> Non compatible with OS X 10.11: <a href="/system-integrity-protection">needs a tweak!</a></div><br>
+      <br>
+      <a href="/compatibility">Looking for an older version?</a><br>
       <a href="/changes">What's new?</a><br>
     </div>
   </div>

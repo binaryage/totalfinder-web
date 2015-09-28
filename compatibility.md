@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "10.11",
+  label: "El Capitan",
+  logo: "logo-el-capitan.png",
+  wiki: "OS_X_El_Capitan",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/system-integrity-protection\" class=\"red\">needs a system tweak</a>",
+},{
   version: "10.10",
   label: "Yosemite",
   logo: "logo-yosemite.png",
@@ -37,19 +43,20 @@ oses: [{
 
 Here you can find latest TotalFinder releases compatible with individual OS versions.
 
+---
+
 {% contentfor inline_styles %}
-.custom-os-box { margin-left:20px; font-size:16px; clear:both; margin-bottom:20px; line-height:32px; }
+.custom-os-box { margin-left:20px; font-size:14px; clear:both; margin-bottom:20px; line-height:32px; }
 .custom-os-box img { height:32px; float:left; margin-right:12px; }
-.custom-os-box .title { color:#999; font-weight:bold; display:inline-block; width: 220px }
-.custom-os-box .title a { color:#999; }
-.custom-os-box .note { color:#999; font-weight:bold; display:inline-block }
-.custom-os-box .more { margin-left: 42px; color:#999; font-size:13px; }
+.custom-os-box .title { color:#666; font-weight:bold; display:inline-block; width: 220px }
+.custom-os-box .title a { color:#666; }
+.custom-os-box .note { color:#666; display:inline-block }
+.custom-os-box a {font-weight: bold}
 {% endcontentfor %}
 
 {% for item in page.oses %}
 <div class="custom-os-box">
   <img src="shared/img/os/{{item.logo}}">
-  <div class="title"><a href="http://en.wikipedia.org/wiki/{{item.wiki}}">OS X {{item.version}} ({{item.label}})</a></div><div class="note"> =&gt; {{item.note}}</div>
-  {% if item.more %}<div class="more">{{item.more}}</div>{% endif %}
+  <div class="title"><a href="http://en.wikipedia.org/wiki/{{item.wiki}}">OS X {{item.version}} ({{item.label}})</a></div><div class="note"> {{item.note}}</div>
 </div>
 {% endfor %}
