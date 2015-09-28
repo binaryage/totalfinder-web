@@ -1,6 +1,14 @@
+1.7.2 - September 28, 2015
+  * Compatibility with OS X 10.11 (<a href="http://totalfinder.binaryage.com/system-integrity-protection">but you have to disable SIP</a>). [El Capitan]
+  + TotalFiner warns about <a href="http://totalfinder.binaryage.com/system-integrity-protection">System Integrity Protection</a> if active (and offers further actions). [El Capitan]
+  + Added labels support under 10.11. [El Capitan]
+  ! Fixed visual glitch when opening DMG files under 10.11. [El Capitan]
+  ! Do not change background color if TotalFinder window loses key status but stays main.
+  ! Labels: improved rendering of tag circles under some circumstances (they have a nice white bezel). [Yosemite]
+
 1.7.1 - August 11, 2015
-  * Initial partial compatibility with OS X 10.11. (<a href="http://discuss.binaryage.com/t/totalfinder-status-under-os-x-10-11-el-capitan/3858">discussion</a>) [Capitan]
-  ! Fixed problem with <a href="http://discuss.binaryage.com/t/totalfinder-license-info-lost-or-settings-got-unexpectedly-reset/3772">license resetting on some machines</a>.
+  * Initial partial compatibility with OS X 10.11. (<a href="http://discuss.binaryage.com/t/totalfinder-status-under-os-x-10-11-el-capitan/3858">discussion</a>) [El Capitan]
+  ! Fixed a problem with <a href="http://discuss.binaryage.com/t/totalfinder-license-info-lost-or-settings-got-unexpectedly-reset/3772">license resetting on some machines</a>.
   ! Opening new tab with + button <a hred="http://discuss.binaryage.com/t/open-new-tabs-in-yosemite/3898">didn't respect setting to open in previous location</a>
 
 1.6.27 - June 5, 2015
