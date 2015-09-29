@@ -1,8 +1,8 @@
 1.7.3 - September 29, 2015
-  * Compatibility with OS X 10.11 (<a href="http://totalfinder.binaryage.com/system-integrity-protection">but you have to disable SIP</a>). [El Capitan]
+  + Compatibility with OS X 10.11 (<a href="http://totalfinder.binaryage.com/system-integrity-protection">but you have to disable SIP</a>). [El Capitan]
   + TotalFiner warns about <a href="http://totalfinder.binaryage.com/system-integrity-protection">System Integrity Protection</a> if active (and offers further actions). [El Capitan]
-  ! Do not change background color if TotalFinder window loses key status but stays main.
   ! Labels: improved rendering of tag circles under some circumstances (they have a nice white bezel). [Yosemite]
+  ! Do not change background color if TotalFinder window loses key status but stays main.
   ! Fixed a problem with <a href="http://discuss.binaryage.com/t/totalfinder-license-info-lost-or-settings-got-unexpectedly-reset/3772">license resetting on some machines</a>.
   ! Opening new tab with + button <a hred="http://discuss.binaryage.com/t/open-new-tabs-in-yosemite/3898">didn't respect setting to open in previous location</a>
   - Dropped support for OS X 10.8 (Mountain Lion).
