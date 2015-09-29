@@ -25,7 +25,7 @@ oses: [{
   label: "Mountain Lion",
   logo: "logo-mountain-lion.png",
   wiki: "OS_X_Mountain_Lion",
-  note: "<a href=\"/changes#latest\">install the latest version</a>",
+  note: "<a href=\"/changes#1.6.27\">version 1.6.27</a>",
 },{
   version: "10.7",
   label: "Lion",
