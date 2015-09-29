@@ -7405,9 +7405,9 @@ button.close {
 .no-shadow{-webkit-box-shadow:none !important;box-shadow:none !important;text-shadow:none !important}
 html{height:101%}
 body{background:#f2f2f2 url("http://static.binaryage.com/6a7eac91_shared_img2_background.png") repeat top left;font:12px 'Play',arial,serif}
-a{color:#4f6393;text-decoration:none;-webkit-transition:color 0.5s ease 0s;-moz-transition:color 0.5s ease 0s;-o-transition:color 0.5s ease 0s;-ms-transition:color 0.5s ease 0s;transition:color 0.5s ease 0s}
+a,a:visited,a:active{color:#4f6393;text-decoration:none;-webkit-transition:color 0.5s ease 0s;-moz-transition:color 0.5s ease 0s;-o-transition:color 0.5s ease 0s;-ms-transition:color 0.5s ease 0s;transition:color 0.5s ease 0s}
 a:hover,a:focus{color:#0f56b3 !important}
-a.red{color:#c00;text-decoration:none;-webkit-transition:color 0.5s ease 0s;-moz-transition:color 0.5s ease 0s;-o-transition:color 0.5s ease 0s;-ms-transition:color 0.5s ease 0s;transition:color 0.5s ease 0s}
+a.red,a.red:visited,a.red:active{color:#c00;text-decoration:none;-webkit-transition:color 0.5s ease 0s;-moz-transition:color 0.5s ease 0s;-o-transition:color 0.5s ease 0s;-ms-transition:color 0.5s ease 0s;transition:color 0.5s ease 0s}
 a.red:hover,a.red:focus{color:#f00 !important}
 .container{position:relative;}
 li{line-height:18px}
@@ -7555,6 +7555,7 @@ hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #ddd}
 .product-header .product-buttons .button-container .button-note a{color:#888}
 .product-header .product-buttons .button-container .button-note .exclamation{display:inline-block;color:#fff;background-color:#f00;-webkit-border-radius:2px;border-radius:2px;padding:0 4px;text-shadow:none;}
 .product-header .product-buttons .button-container .button-note .exclamation a{color:#fff;text-decoration:underline;text-shadow:none;}
+.product-header .product-buttons .button-container .button-note .exclamation a:visited{color:#fff !important}
 .product-header .product-buttons .button-container .button-note .exclamation a:hover{color:#ff0 !important}
 .product-header .product-buttons .button-container .button{margin:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;text-decoration:none;position:relative;cursor:pointer;font:bold 20px 'Play',arial,serif;color:#8d9198;border:1px solid #ccc;padding:2px 14px;text-shadow:#fff 0 1px 1px;text-align:left;-webkit-border-radius:8px;border-radius:8px;min-height:38px;line-height:38px;margin-bottom:12px;-webkit-box-shadow:0 1px 4px #ccc;box-shadow:0 1px 4px #ccc;background-color:#fff;background:-webkit-linear-gradient(top, #fff, #f4f4f4);background:-moz-linear-gradient(top, #fff, #f4f4f4);background:-o-linear-gradient(top, #fff, #f4f4f4);background:-ms-linear-gradient(top, #fff, #f4f4f4);background:linear-gradient(to bottom, #fff, #f4f4f4);white-space:nowrap;-webkit-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-ms-transition:all 0.5s ease 0s;transition:all 0.5s ease 0s;}
 .product-header .product-buttons .button-container .button:hover{background-color:#f3f3f3;background:-webkit-linear-gradient(top, #fff, #f8f8f8);background:-moz-linear-gradient(top, #fff, #f8f8f8);background:-o-linear-gradient(top, #fff, #f8f8f8);background:-ms-linear-gradient(top, #fff, #f8f8f8);background:linear-gradient(to bottom, #fff, #f8f8f8);border-color:#0f56b3}
