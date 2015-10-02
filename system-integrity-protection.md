@@ -25,9 +25,9 @@ Anyways, if you decide to modify the setting under El Capitan, you will be able 
 I'm not encouraging you to turn System Integrity Protection off. Your machine may be less secure with it off. It is entirely your decision.
 </div>
 
-## How to modify System Integrity Protection
+## How to partially disable System Integrity Protection
 
-You must boot into the Recovery OS. You do this by restarting your machine, and holding `COMMAND + R` until the Apple logo appears.
+You must boot into the [Recovery OS](https://support.apple.com/en-us/HT201314). You do this by restarting your machine, and holding `COMMAND + R` until the Apple logo appears.
 
 Then select Terminal from the Utilities menu. It looks like this:
 
@@ -50,4 +50,10 @@ In order to add or change some features of Finder, we use a technique called _co
 However, in El Capitan new security measures disallow this kind of modification _even if you have administrator access_. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.
 
 You can find some further information [in our blog](http://blog.binaryage.com/el-capitan-update).
+
+## Need to enable System Integrity Protection again?
+
+Please follow [this article](/enable-sip).
+
+
 
