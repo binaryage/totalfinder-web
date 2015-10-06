@@ -1,3 +1,7 @@
+1.7.4 - October 6, 2015
+  + Returned option for HFS Path in Copy Path Menu.
+  ! Fixed problem with localizations. [El Capitan]
+
 1.7.3 - September 29, 2015
   ! Fixed problem with <a href="http://discuss.binaryage.com/t/total-finder-does-not-restore-tabs-locations-on-restart/4130">restoring tabs after Finder restart</a> (introduced in 1.7.2).
   - Dropped support for OS X 10.8 (Mountain Lion).
