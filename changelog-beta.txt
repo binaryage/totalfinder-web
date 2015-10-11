@@ -1,3 +1,8 @@
+1.7.5 - October 11, 2015
+  + New Folders on Top implementation for El Capitan (works in Column View Mode as well and fixes issues <a href="http://discuss.binaryage.com/t/bug-with-folder-on-top-feature/4239">described here</a>). [El Capitan]
+  + Colorful Sidebar updated for El Capitan. [El Capitan]
+  ! Fixed misplaced colored labels under El Capitan. [El Capitan]
+
 1.7.4 - October 6, 2015
   + Returned option for HFS Path in Copy Path Menu.
   ! Fixed problem with localizations. [El Capitan]
