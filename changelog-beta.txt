@@ -1,3 +1,6 @@
+1.7.6 - October 12, 2015
+  + Re-implementation of sidebar mirroring in dual mode for El Capitan. [El Capitan]
+
 1.7.5 - October 11, 2015
   + New Folders on Top implementation for El Capitan (works in Column View Mode as well and fixes issues <a href="http://discuss.binaryage.com/t/bug-with-folder-on-top-feature/4239">described here</a>). [El Capitan]
   + Colorful Sidebar updated for El Capitan. [El Capitan]
