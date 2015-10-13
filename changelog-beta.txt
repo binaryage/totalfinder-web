@@ -1,3 +1,7 @@
+1.7.7 - October 12, 2015
+  + Re-implementation of autosizing columns in Column View for El Capitan. [El Capitan]
+  ! Returned previous behaviour of Coloured Sidebar under Yosemite. [Yosemite]
+
 1.7.6 - October 12, 2015
   + Re-implementation of sidebar mirroring in dual mode for El Capitan. [El Capitan]
 
