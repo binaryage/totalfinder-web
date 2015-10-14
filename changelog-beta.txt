@@ -1,3 +1,8 @@
+1.7.8 - October 14, 2015
+  ! Fixed <a href="http://discuss.binaryage.com/t/1-7-7-is-broken/4263">broken copy&amp;paste</a> (regression introduced in 1.7.7).
+  ! Automatic column resizing is not applied on preview columns.
+  ! Fixed closing all windows (when clicking red close button while holding option).
+
 1.7.7 - October 13, 2015
   + Re-implementation of auto-sizing columns in Column View for El Capitan. [El Capitan]
   ! Returned previous behaviour of Coloured Sidebar under Yosemite. [Yosemite]
