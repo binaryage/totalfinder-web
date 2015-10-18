@@ -1,3 +1,10 @@
+1.7.9 - October 18, 2015
+  + 'Folders on Top' feature <a href="http://discuss.binaryage.com/t/folder-on-top-bug-in-icon-view/4276">works in Icon View</a> as well under El Capitan. [El Capitan]
+  ! Fixed <a href="http://discuss.binaryage.com/t/1-7-8-quick-look-problem-in-column-mode/4267">Quick Look problem</a> and <a href="http://discuss.binaryage.com/t/1-7-8-open-a-desktop-folder-and-spotlight-issues/4272">Show in Finder issues</a> when 'Folders on Top' was enabled. [El Capitan]
+  ! Auto-sizing of columns should be without observable delay in most cases. [El Capitan]
+  ! Fixed source of potential crashes when using 'Folders on Top'.
+  ! <a href="http://discuss.binaryage.com/t/persistent-name-column-width-in-list-view-mode/4274">Name column expands to available width</a> in List View mode. [El Capitan]
+
 1.7.8 - October 15, 2015
   + Re-implementation of auto-sizing columns in Column View for El Capitan. [El Capitan]
   + Re-implementation of sidebar mirroring in dual mode for El Capitan. [El Capitan]
