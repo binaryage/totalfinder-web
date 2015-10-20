@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/" class="ba">
   <head>
-    <title>System Integrity Protection</title>
-    <link rel="canonical" href="http://totalfinder.binaryage.com/system-integrity-protection"/>
+    <title>System OSAX</title>
+    <link rel="canonical" href="http://totalfinder.binaryage.com/system-osax"/>
     <link rel="shortcut icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="http://static.binaryage.com/419caa43_shared_css_site.css" type="text/css"/>
@@ -18,7 +18,7 @@
     <script type="text/javascript">window["ga"]=function(){}</script>
     <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
   </head>
-  <body id="page-totalfinder-system-integrity-protection">
+  <body id="page-totalfinder-system-osax">
     <div id="header">
       <div class="container">
         <div class="row">
@@ -109,44 +109,66 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">How to run TotalFinder under System Integrity Protection</h1>
+                  <h1 class="title">TotalFinder with System Integrity Protection fully enabled</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
                   <p>Under OS X 10.11 (El Capitan), TotalFinder cannot install itself on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a>.</p>
-                  <p>System Integrity Protection (SIP) is a new security feature introduced by Apple. That's good, but unfortunately it prevents TotalFinder from augmenting Finder. This article will tell you how to configure your machine, so that you can use TotalFinder. Before you do this, it is important to get informed about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">SIP review on Ars Technica</a>. Apple also provided <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
-                  <div class="license-desk">
-                    <a href="http://binaryage.com/about">
-                      <img width="20" height="20" src="http://www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=40" style="float: left; position: relative; top: 2px; margin-right: 6px; display:block; border: 1px solid #ccc" title="Who is Antonin?"/>
-                    </a>
-                    At this point I want you to pause and ask yourself a question. Do you really depend on TotalFinder workflows so much that you want to possibly lower your system security?
-                    Frankly, I'm going to stop active TotalFinder development because it is not economically viable to continue development for a small group of users who decide to disable SIP.
-                    Also it is likely that in the next OS release after El Capitan TotalFinder won't work at all. It is increasingly more difficult to reverse-engineer Finder
-                    as new parts are being written in Swift. Also operating system security hardening will probaly continue in future. Those are good things, but you will have to let TotalFinder go at some point anyway.
-                    Maybe for you the day is today. Bite the bullet and move on.<br/>
-                    <br/>
-                    I have prepared a list of <a href="http://discuss.binaryage.com/t/totalfinder-alternatives">possible TotalFinder alternatives on our forums</a>.
-                    Don't miss <b><a href="http://mac.eltima.com/file-manager.html">Commander One</a></b> from <a href="http://www.eltima.com/">Eltima Software</a>. They offer <a href="http://mac.eltima.com/totalfinder-promo.html">a 50% discount to TotalFinder users</a>.
-                  </div>
-                  <p>Anyways, if you decide to modify the setting under El Capitan, you will be able to install and run TotalFinder as before. Just to be clear...</p>
-                  <div class="license-desk exclamation">
-                    I'm not encouraging you to turn System Integrity Protection off. Your machine may be less secure with it off. It is entirely your decision.
-                  </div>
-                  <h2>How to partially disable System Integrity Protection</h2>
-                  <p>You must boot into the <a href="https://support.apple.com/en-us/HT201314">Recovery OS</a>. You do this by restarting your machine, and holding <code>COMMAND + R</code> until the Apple logo appears.</p>
-                  <p>Then select Terminal from the Utilities menu. It looks like this:</p>
-                  <p><img src="http://static.binaryage.com/d50fc915_images_recovery-1.png"/></p>
-                  <p>In the window that opens, type <code>csrutil enable --without debug</code> and press return.</p>
-                  <p><img src="http://static.binaryage.com/23fdcdaf_images_recovery-2.png"/></p>
-                  <p>This turns off the part of SIP that TotalFinder needs to run, and OS X complains that it is an unsupported configuration.</p>
-                  <p>Now type <code>reboot</code> and press return to restart your machine. After restart you may install the <a href="/beta-changes#latest">latest version of TotalFinder</a>.</p>
+                  <p><a href="/system-integrity-protection">This article describes how to partially disable System Integrity Protection</a> to install and run TotalFinder under El Capitan and higher.</p>
+                  <h2>What if I need to keep SIP fully enabled?</h2>
+                  <p>There is a way, but it has some major drawbacks. This article is for technical users who need to run TotalFinder with fully enabled SIP.</p>
+                  <p>This technique does not require you to disable SIP, but it requires you to modify system files in Recovery OS.</p>
+                  <ol>
+                    <li>It requires technical knowledge how to mount file-systems and manipulate files using command-line.</li>
+                    <li>With any TotalFinder update. You will have to repeat this installation.</li>
+                    <li>With any system update, TotalFinder files are likely to be removed from system folders. You would have to repeat this installation.</li>
+                  </ol>
                   <h2>Technical details</h2>
-                  <p>TotalFinder works by changing Finder.app. OS X does not provide any other way to achieve deep Finder modifications, we believe this is the only way the functionality of TotalFinder can be achieved.</p>
-                  <p>In order to add or change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code to the Finder program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of OS X on the disk. You only have to force quit Finder via <code>COMMAND+OPTION+ESC</code> to relaunch Finder.app cleanly and everything will be as if TotalFinder was never running.</p>
-                  <p>However, in El Capitan new security measures disallow this kind of modification <em>even if you have administrator access</em>. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.</p>
-                  <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update">in our blog</a>.</p>
-                  <h2>Need to enable System Integrity Protection again?</h2>
-                  <p>Please follow <a href="/enable-sip">this article</a>.</p>
+                  <p>TotalFinder needs to inject code into Finder.app. It uses mechanism called <a href="https://developer.apple.com/library/mac/technotes/tn1164">Scripting additions</a>. Scripting addition is a special code bundle which can be injected into running applications.</p>
+                  <p>Scripting additions have 'osax' file extension. Historically there are three places where scripting addtions can be placed:</p>
+                  <ol>
+                    <li><code>~/Library/ScriptingAdditions</code></li>
+                    <li><code>/Library/ScriptingAdditions</code></li>
+                    <li><code>/System/Library/ScriptingAdditions</code></li>
+                  </ol>
+                  <p>The original idea was to keep user-specific additions in the first location, system-wide admin-installed additions in the second one and Apple's own system additions in the third location.
+                    There are various restrictions what is considered a valid OSAX and those restrictions evolved over time between OS versions.
+                  El Capitan is the most strict and it does not allow scripting additions placed in <code>/Library/ScriptingAdditions</code> to inject into system processes (processes with Apple's code signature).</p>
+                  <p>However it is possible to put an addition into <code>/System/Library/ScriptingAdditions</code> and it can then freely inject into system processes.
+                    This technique was <a href="https://github.com/norio-nomura/EasySIMBL/issues/26#issuecomment-117028426">discovered and described by SIMBL developers</a>.
+                  The problem is that <code>/System/Library/ScriptingAdditions</code> is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.</p>
+                  <p>By default TotalFinder installs its scripting addition into <code>/Library/ScriptingAddtions</code>. Then you can manually move it to <code>/System/Library/ScriptingAdditions</code>. TotalFinder is aware of this setup since <a href="http://totalfinder.binaryage.com/beta-changes#1.7.10">version 1.7.10</a>.</p>
+                  <p>But you should be aware of the drawbacks:</p>
+                  <ol>
+                    <li><code>/System/Library/ScriptingAdditions</code> is owned by Apple, any system update can decide to remove non-Apple files from there.</li>
+                    <li><code>/System/Library/ScriptingAdditions</code> is under SIP protection, that means that TotalFinder update cannot modify TotalFinder.osax located there. TotalFinder update will place TotalFinder.osax as usual into <code>/Library/ScriptingAddtions</code> and you have to be aware of it and go into Recovery OS and move it again.</li>
+                  </ol>
+                  <h3>Installation steps</h3>
+                  <ol>
+                    <li>Install TotalFinder (or update TotalFinder)</li>
+                    <li>Reboot into <a href="https://support.apple.com/en-us/HT201314">Recovery OS</a></li>
+                    <li>Open Terminal from Utilities menu</li>
+                    <li>Mount your main system disk - this depends on your setup, see explanation below</li>
+                    <li>Move TotalFinder.osax from <code>/Library/ScriptingAdditions</code> to <code>/System/Library/ScriptingAdditions</code> on your system disk</li>
+                    <li>Fix rights on newly moved folder</li>
+                  </ol>
+                  <h3>STEP 4: mount your main system disk</h3>
+                  <p>This can get more complicated depending on your setup. If you don't use FileVault, you can use <code>Disk Utility</code> to mount your main system disk using GUI.
+                  Or use <code>diskutil mount</code> from command-line. In case of FileVault you have to use <code>disktutil corestorage unlockVolume</code> command.</p>
+                  <p>In either case you should end up with your main system disk mounted at <code>/Volumes/[NAME]</code> where <code>[NAME]</code> is some name you gave to your disk during formatting (potentially includes spaces).</p>
+                  <h3>STEPS 5-6: move and fix rights</h3>
+                  <p>My system disk was mounted as <code>/Volumes/Capitan</code>, here are commands relevant to my situation:</p>
+                  <pre><code>cd "/Volumes/Capitan/System/Library/ScriptingAdditions"
+mv "../../../Library/ScriptingAdditions/TotalFinder.osax" .
+chown -R root:wheel TotalFinder.osax
+</code></pre>
+                  <h2>Final words</h2>
+                  <p>As you can see. It is not that difficult if you know what you are doing. The main problem are TotalFinder and system updates. You have to repeat this installation over and over again.</p>
+                  <h3>A note on uninstallation</h3>
+                  <p>Again you have to go into Recovery OS, mount your main system disk and remove TotalFinder.osax from <code>/System/Library/ScriptingAdditions</code>. My uninstaller cannot do that because it is a SIP-protected location.</p>
+                  <pre><code>cd "/Volumes/Capitan/System/Library/ScriptingAdditions"
+rm -rf TotalFinder.osax
+</code></pre>
                   <script>$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})</script>
                 </div>
               </div>
