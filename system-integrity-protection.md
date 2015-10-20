@@ -4,7 +4,7 @@ title: System Integrity Protection
 subtitle: How to run TotalFinder under System Integrity Protection
 ---
 
-Under OS X 10.11 (El Capitan), TotalFinder cannot run on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection).
+Under OS X 10.11 (El Capitan), TotalFinder cannot install itself on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection).
 
 System Integrity Protection (SIP) is a new security feature introduced by Apple. That's good, but unfortunately it prevents TotalFinder from augmenting Finder. This article will tell you how to configure your machine, so that you can use TotalFinder. Before you do this, it is important to get informed about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [SIP review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provided [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html).
 
