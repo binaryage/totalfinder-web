@@ -19,7 +19,7 @@ as new parts are being written in Swift. Also operating system security hardenin
 Maybe for you the day is today. Bite the bullet and move on.<br>
 <br>
 I have prepared a list of <a href="http://discuss.binaryage.com/t/totalfinder-alternatives">possible TotalFinder alternatives on our forums</a>.
-Don't miss <b><a href="http://mac.eltima.com/file-manager.html">Commander One</a></b> from <a href="http://www.eltima.com/">Eltima Software</a>. They offer <a href="http://mac.eltima.com/totalfinder-promo.html">a 50% discount to TotalFinder users</a>.
+Don't miss <b><a href="http://mac.eltima.com/file-manager.html">Commander One</a></b> from <a href="http://www.eltima.com/">Eltima Software</a>. They offer <a href="http://mac.eltima.com/file-manager-discount.html">a 50% discount to TotalFinder users</a>.
 </div>
 
 Anyways, if you decide to modify the setting under El Capitan, you will be able to install and run TotalFinder as before. Just to be clear...
