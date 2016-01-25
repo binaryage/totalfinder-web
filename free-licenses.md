@@ -8,7 +8,7 @@ First, you might want to read why I think [TotalFinder is worth purchasing](/rea
 
 ## Free licenses for users
 
-I will grant a free license to you if you meet any of these criterias:
+I will grant a free license to you if:
 
 1. you **helped directly** in TotalFinder development (e.g. [translators](http://github.com/binaryage/totalfinder-i18n/contributors) -> [visit this page](http://github.com/binaryage/totalfinder-i18n) to help with translation)
 2. you created or significantly **contributed to an open-source project** I've used in TotalFinder
