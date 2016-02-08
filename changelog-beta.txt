@@ -1,5 +1,5 @@
 1.7.11 - February 08, 2016
-  * Compatibility with OS X 10.11.4. [El Capitan]
+  + Compatibility with OS X 10.11.4. [El Capitan]
   ! Fixed <a href="http://discuss.binaryage.com/t/sorting-issue/4341">a sorting issue when changing sorting order</a>. [El Capitan]
   * Updated <a href="https://sparkle-project.org/">Sparkle library</a> to latest version.
 
