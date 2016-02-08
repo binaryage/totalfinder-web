@@ -60,7 +60,7 @@ shots: [{
 }]
 highlights: [{
   title: "Colored labels",
-  description: "Brings full colors back into Yosemite.",
+  description: "Brings full colors back into El Capitan.",
   style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -274px -100px / 650px 430px",
   screenshot: 1
 },{
