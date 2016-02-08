@@ -1,3 +1,8 @@
+1.7.11 - February 08, 2016
+  * Compatibility with OS X 10.11.4. [El Capitan]
+  ! Fixed <a href="http://discuss.binaryage.com/t/sorting-issue/4341">an sorting issue when changing sorting order</a>. [El Capitan]
+  * Updated <a href="https://sparkle-project.org/">Sparkle library</a> to latest version.
+
 1.7.10 - October 20, 2015
   + Introduced Chinese (HK) translation by <a href="https://github.com/binaryage/totalfinder-i18n/commit/25fd5ae33d2da463c08cdbf67699bafdd923a6fa">Perry Lo</a>
   ! Fixed reseting selection <a href="http://discuss.binaryage.com/t/1-7-9-selection-bug/4300">described here</a>. [El Capitan]
