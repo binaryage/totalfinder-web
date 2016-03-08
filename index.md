@@ -106,38 +106,13 @@ highlights: [{
     </div>
   </div>
   <div class="button-container">
-    <a id="o-buy" class="button product-button-buy">
-      <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span>
+    <a id="o-buy" class="button product-button-buy" href="//sites.fastspring.com/binaryage-store/instant/totalfinder">
+      <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span><span class="price-note">$11.99</span>
     </a>
     <div class="button-note">
       <a href="/free-licenses"><i class="fa fa-gift"></i> Apply for a free license</a><br>
     </div>
   </div>
-</div>
-{% endcontentfor %}
-
-{% contentfor overlays %}
-<div id="totalfinder-buy" class="overlay" style="display:none">
-  <a href="https://sites.fastspring.com/binaryage/instant/totalfinder">
-    <div class="buy-single explanation-box">
-      <div class="title">Single License</div>
-      <div class="image"><img src="/shared/img2/single-license-icon.png" width="170" height="90"></div>
-      <div class="deal">Happy to pay the standard price?<br/>This is the way to go.</div>
-      <div class="button">
-        <span>Buy single</span><span class="price-tag">$9</span>
-      </div>
-    </div>
-  </a>
-  <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">
-    <div class="buy-pack explanation-box">
-      <div class="title">License Pack</div>
-      <div class="image"><img src="/shared/img2/tripple-license-icon.png"  width="170" height="90"></div>
-      <div class="deal">Keep one license for yourself, and give two coupons to your friends or family members.</div>
-      <div class="button">
-        <span>Buy 3-pack</span><span class="price-tag">$18</span>
-      </div>
-    </div>
-  </a>
 </div>
 {% endcontentfor %}
 
@@ -153,9 +128,6 @@ highlights: [{
 
 <script>
   $(function() {
-    $("#o-buy").fancybox({
-      href: "#totalfinder-buy"
-    });
     $("#o-download-button").bind('click', function(e) {
       ga('send', 'pageview', '/overlays/o-download');
     });

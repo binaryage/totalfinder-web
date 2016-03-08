@@ -8,7 +8,7 @@ subtitle: Purchasing
 
 The process is straight-forward and should take less than 5 minutes in 3 steps.
 
-## Step 1: Buy a license from [the web store](https://sites.fastspring.com/binaryage/instant/totalfinder)
+## Step 1: Buy a license from [the web store](https://sites.fastspring.com/binaryage-store/instant/totalfinder)
 
 Click on "Store" in the main menu of BinaryAge.com. Please note that if you're considering buying two licenses, you should buy three because the price for three is the same (TotalFinder with Friends option).
 

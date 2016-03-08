@@ -32,7 +32,7 @@ This allows you to evaluate TotalFinder's functionality and decide whether you w
 
 ## Buying a license
 
-Please **[visit our store](http://sites.fastspring.com/binaryage/product/store)** where you can purchase TotalFinder. It should be easy and safe (via [FastSpring](http://fastspring.com)).
+Please **[visit our store](http://sites.fastspring.com/binaryage-store/product/all)** where you can purchase TotalFinder. It should be easy and safe (via [FastSpring](http://fastspring.com)).
 
 ## TotalFinder updates
 
