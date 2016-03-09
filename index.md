@@ -8,11 +8,6 @@ product: totalfinder
 product_title: TotalFinder
 product_subtitle: for Mac users who demand more from their Finder
 product_icon: /shared/img/icons/totalfinder-256.png
-fbsdk: 1
-plusone: 1
-product-fblike: 1
-product-plusone: 1
-product-tweet: 1
 meta_title: TotalFinder brings tabs to your native Finder and more!
 meta_keywords: totalfinder,mac,finder,osx,software,plugin,apple,extension,utility,macosx,apps,tools,tabs,productivity,app,hacks,application,utilities,simbl,visor,totalcommander,binaryage
 meta_description: TotalFinder is a plugin for Finder.app which adds tabs like those in Google Chrome, dual panels similar to TotalCommander, and other improvements.
@@ -98,20 +93,14 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-check-circle"></i> Compatible with OS X 10.9 and 10.10<br>
-      <div class="exclamation"><i class="fa fa-exclamation-circle"></i> Not compatible with OS X 10.11: <a href="/system-integrity-protection">needs a tweak!</a></div><br>
-      <br>
+      <i class="fa fa-laptop"></i> Compatible with OS X 10.9, 10.10, &amp; <a href="/system-integrity-protection" target="_blank">10.11<br>
       <a href="/compatibility">Looking for an older version?</a><br>
-      <a href="/changes">What's new?</a><br>
     </div>
   </div>
   <div class="button-container">
     <a id="o-buy" class="button product-button-buy" href="//sites.fastspring.com/binaryage-store/instant/totalfinder">
       <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span><span class="price-note">$11.99</span>
     </a>
-    <div class="button-note">
-      <a href="/free-licenses"><i class="fa fa-gift"></i> Apply for a free license</a><br>
-    </div>
   </div>
 </div>
 {% endcontentfor %}
