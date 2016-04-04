@@ -4,16 +4,9 @@ title: About TotalFinder
 subtitle: About TotalFinder
 ---
 
-{% contentfor inline_styles %}
-.warn-sip { background-color: red; padding: 6px 10px; display: inline-block; font-size: 20px; color: white; border-radius: 2px;}
-.warn-sip a {color: white; text-decoration: underline;}
-.warn-sip a:hover {color:yellow !important; }
-{% endcontentfor %}
-
-<div class="warn-sip"><a class="red" href="/system-integrity-protection">See here</a> for information about running TotalFinder on OS X 10.11 (El Capitan)</div>
+<h2><mark><a href="/system-integrity-protection">See here</a> for information about running TotalFinder on OSX 10.11 El Capitan</mark></h2>
 
 ## TotalFinder is just a better Finder
-
 TotalFinder works like the original Finder but adds [tabs](/tabs), [dual panel mode](/dual-mode), [folders on top](/folders-on-top) and other [useful features](/tweaks).
 
 <img src="/images/showcase/full-fot.png" class="doc-image add-shadow" style="width:500px">

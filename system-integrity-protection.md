@@ -4,28 +4,16 @@ title: System Integrity Protection
 subtitle: How to run TotalFinder under System Integrity Protection
 ---
 
-Under OS X 10.11 (El Capitan), TotalFinder cannot install itself on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection).
+TotalFinder [versions 1.7.2 and above](/beta-changes) have support for OSX 10.11 El Capitan, but cannot run on a normally configured machine due to System Integrity Protection, a new security feature in El Capitan.
 
-System Integrity Protection (SIP) is a new security feature introduced by Apple. That's good, but unfortunately it prevents TotalFinder from augmenting Finder. This article will tell you how to configure your machine, so that you can use TotalFinder. Before you do this, it is important to get informed about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [SIP review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provided [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html).
+This article will tell you how to configure your machine by modifying the new setting, so that you can run TotalFinder.
 
-<div class="license-desk">
-<a href="http://binaryage.com/about">
-<img width="20" height="20" src="http://www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=40" style="float: left; position: relative; top: 2px; margin-right: 6px; display:block; border: 1px solid #ccc" title="Who is Antonin?">
-</a>
-At this point I want you to pause and ask yourself a question. Do you really depend on TotalFinder workflows so much that you want to possibly lower your system security?
-Frankly, I'm going to stop active TotalFinder development because it is not economically viable to continue development for a small group of users who decide to disable SIP.
-Also it is likely that in the next OS release after El Capitan TotalFinder won't work at all. It is increasingly more difficult to reverse-engineer Finder 
-as new parts are being written in Swift. Also operating system security hardening will probaly continue in future. Those are good things, but you will have to let TotalFinder go at some point anyway. 
-Maybe for you the day is today. Bite the bullet and move on.<br>
-<br>
-I have prepared a list of <a href="http://discuss.binaryage.com/t/totalfinder-alternatives">possible TotalFinder alternatives on our forums</a>.
-Don't miss <b><a href="http://mac.eltima.com/file-manager.html">Commander One</a></b> from <a href="http://www.eltima.com/">Eltima Software</a>. They offer <a href="http://mac.eltima.com/file-manager-discount.html">a 50% discount to TotalFinder users</a>.
-</div>
+Before you do this, it is important to get informed about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [the El Capitan review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provide [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). 
 
-Anyways, if you decide to modify the setting under El Capitan, you will be able to install and run TotalFinder as before. Just to be clear...
+Anyway, if you decide to modify the setting under El Capitan, you will be able to install and run TotalFinder as before. Just to be clear...
 
 <div class="license-desk exclamation">
-I'm not encouraging you to turn System Integrity Protection off. Your machine may be less secure with it off. It is entirely your decision.
+I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
 </div>
 
 ## How to partially disable System Integrity Protection
