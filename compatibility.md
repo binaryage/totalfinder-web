@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "10.12",
+  label: "Sierra",
+  logo: "logo-sierra.png",
+  wiki: "MacOS_Sierra",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/system-integrity-protection\" class=\"red\">needs a system tweak</a>",
+},{
   version: "10.11",
   label: "El Capitan",
   logo: "logo-el-capitan.png",
