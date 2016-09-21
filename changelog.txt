@@ -1,3 +1,6 @@
+1.8.0 - September 20, 2016
+  * Compatibility with MacOS 10.12 (<a href="http://totalfinder.binaryage.com/system-integrity-protection">you have to disable SIP</a>). [Sierra]
+
 1.7.12 - February 22, 2016
   + Compatibility with OS X 10.11.4. [El Capitan]
   ! Fixed <a href="http://discuss.binaryage.com/t/sorting-issue/4341">a sorting issue when changing sorting order</a>. [El Capitan]
