@@ -1,7 +1,7 @@
 ---
 layout: product-home
-download: http://downloads.binaryage.com/TotalFinder-1.7.12.dmg
-downloadtitle: Download v1.7.12
+download: http://downloads.binaryage.com/TotalFinder-1.8.0.dmg
+downloadtitle: Download v1.8
 title: TotalFinder is a better Finder
 subtitle: for Mac users who demand more from their Finder
 product: totalfinder
@@ -93,7 +93,7 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible with OS X 10.9, 10.10, &amp; <a href="/system-integrity-protection" target="_blank">10.11 <i class="fa fa-info-circle"></i></a><br>
+      <i class="fa fa-laptop"></i> Compatible OS X 10.9&ndash;10 &amp; <a href="/system-integrity-protection" target="_blank">10.11&ndash;12 <i class="fa fa-info-circle"></i></a><br>
       <a href="/compatibility">Looking for an older version?</a><br>
     </div>
   </div>
