@@ -4,7 +4,7 @@ title: System OSAX
 subtitle: TotalFinder with System Integrity Protection fully enabled
 ---
 
-Under OS X 10.11 (El Capitan), TotalFinder cannot install itself on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection).
+Under OS X 10.11 (El Capitan) and macOS 10.12 (Sierra), TotalFinder cannot install itself on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection).
 
 [This article describes how to partially disable System Integrity Protection](/system-integrity-protection) to install and run TotalFinder under El Capitan and higher.
 
@@ -29,8 +29,8 @@ Scripting additions have 'osax' file extension. Historically there are three pla
 3. `/System/Library/ScriptingAdditions`
 
 The original idea was to keep user-specific additions in the first location, system-wide admin-installed additions in the second one and Apple's own system additions in the third location.
-There are various restrictions what is considered a valid OSAX and those restrictions evolved over time between OS versions.
-El Capitan is the most strict and it does not allow scripting additions placed in `/Library/ScriptingAdditions` to inject into system processes (processes with Apple's code signature).
+There are various restrictions on what is considered a _valid_ OSAX and those restrictions evolved over successive OS versions.
+After El Capitan, scripting additions placed in `/Library/ScriptingAdditions` are no longer allowed to inject into system processes (processes with Apple's code signature) due to System Integrity Protection.
 
 However it is possible to put an addition into `/System/Library/ScriptingAdditions` and it can then freely inject into system processes.
 This technique was [discovered and described by SIMBL developers](https://github.com/norio-nomura/EasySIMBL/issues/26#issuecomment-117028426).

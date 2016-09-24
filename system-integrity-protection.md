@@ -38,7 +38,7 @@ TotalFinder works by changing Finder.app. OS X does not provide any other way to
 
 In order to add or change some features of Finder, we use a technique called _code injection_. This means we add some additional code to the Finder program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of OS X on the disk. You only have to force quit Finder via `COMMAND+OPTION+ESC` to relaunch Finder.app cleanly and everything will be as if TotalFinder was never running.
 
-However, in El Capitan new security measures disallow this kind of modification _even if you have administrator access_. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.
+However, after El Capitan, new security measures disallow this kind of modification _even if you have administrator access_. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.
 
 You can find some further information [in our blog](http://blog.binaryage.com/el-capitan-update).
 

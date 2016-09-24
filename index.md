@@ -1,7 +1,7 @@
 ---
 layout: product-home
-download: http://downloads.binaryage.com/TotalFinder-1.8.0.dmg
-downloadtitle: Download v1.8
+download: http://downloads.binaryage.com/TotalFinder-1.8.1.dmg
+downloadtitle: Download v1.8.1
 title: TotalFinder is a better Finder
 subtitle: for Mac users who demand more from their Finder
 product: totalfinder
@@ -59,7 +59,7 @@ highlights: [{
   style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -274px -100px / 650px 430px",
   screenshot: 1
 },{
-  title: "Folders on top",
+  title: "Folders on top*",
   description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
   style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
   screenshot: 2
