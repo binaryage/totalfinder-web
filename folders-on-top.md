@@ -6,6 +6,8 @@ doc-image: /images/folders-on-top-disabled.png
 pref-image: /images/pref-tweaks.png
 ---
 
+<h2><mark>Starting in macOS 10.12 Sierra, Finder now offers Folders on Top as an option in Finder's preferences, so TotalFinder no longer enables this feature for on macOS 10.12.  However, Finder's implementation only allows Folders on Top when sorting by Name, so we'll look to improve upon that in future versions of TotalFinder.</mark></h2>
+
 ## Folders on Top
 
 By default Finder does not separate folders and files and displays them mixed together as you can see on the left.
