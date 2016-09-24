@@ -1,5 +1,5 @@
 1.8.1 - September 24, 2016
-  * Disabled TotalFinder's Folders on Top feature on macOS 10.12, which now offers Folders on Top natively as an option in Finder's preferences.  However, Finder's implementation only allows Folders on Top when sorting by Name, so we'll look to improve upon that. [Sierra]
+  - Disabled TotalFinder's Folders on Top feature on macOS 10.12, which now offers Folders on Top natively as an option in Finder's preferences.  However, Finder's implementation only allows Folders on Top when sorting by Name, so we'll look to improve upon that. [Sierra]
 
 1.8.0 - September 20, 2016
   * Compatibility with MacOS 10.12 (<a href="http://totalfinder.binaryage.com/system-integrity-protection">you have to disable SIP</a>). [Sierra]
