@@ -113,7 +113,7 @@
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>Under OS X 10.11 (El Capitan), TotalFinder cannot install itself on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a>.</p>
+                  <p>Under OS X 10.11 (El Capitan) and macOS 10.12 (Sierra), TotalFinder cannot install itself on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a>.</p>
                   <p><a href="/system-integrity-protection">This article describes how to partially disable System Integrity Protection</a> to install and run TotalFinder under El Capitan and higher.</p>
                   <h2>What if I need to keep SIP fully enabled?</h2>
                   <p>There is a way, but it has some major drawbacks. This article is for technical users who need to run TotalFinder with fully enabled SIP.</p>
@@ -132,8 +132,8 @@
                     <li><code>/System/Library/ScriptingAdditions</code></li>
                   </ol>
                   <p>The original idea was to keep user-specific additions in the first location, system-wide admin-installed additions in the second one and Apple's own system additions in the third location.
-                    There are various restrictions what is considered a valid OSAX and those restrictions evolved over time between OS versions.
-                  El Capitan is the most strict and it does not allow scripting additions placed in <code>/Library/ScriptingAdditions</code> to inject into system processes (processes with Apple's code signature).</p>
+                    There are various restrictions on what is considered a <em>valid</em> OSAX and those restrictions evolved over successive OS versions.
+                  After El Capitan, scripting additions placed in <code>/Library/ScriptingAdditions</code> are no longer allowed to inject into system processes (processes with Apple's code signature) due to System Integrity Protection.</p>
                   <p>However it is possible to put an addition into <code>/System/Library/ScriptingAdditions</code> and it can then freely inject into system processes.
                     This technique was <a href="https://github.com/norio-nomura/EasySIMBL/issues/26#issuecomment-117028426">discovered and described by SIMBL developers</a>.
                   The problem is that <code>/System/Library/ScriptingAdditions</code> is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.</p>
