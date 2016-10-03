@@ -8,7 +8,7 @@ You must boot into the [Recovery OS](https://support.apple.com/en-us/HT201314). 
 
 Then select Terminal from the Utilities menu. It looks like this:
 
-<img src="/images/recovery-1.png">
+<img src="/shared/img/recovery-utilities-terminal.png">
 
 In the window that opens, type `csrutil clear` and press return. 
 
