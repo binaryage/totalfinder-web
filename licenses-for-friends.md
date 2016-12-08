@@ -33,7 +33,7 @@ You buy <a href="https://sites.fastspring.com/binaryage-store/instant/totalfinde
 ## Evangelize via Facebook
 
 <a name="fb_share" type="button_count" share_url="http://totalfinder.binaryage.com" href="http://www.facebook.com/sharer.php?t=title">Share</a>
-<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+<script src="//static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 <script type="text/javascript">$(function(){
     var x = $('a[type=button_count]');
     x.attr('href', x.attr('href')+'&t='+encodeURIComponent('Join me and let\'s buy TotalFinder for $12 (=$6 discount)'));
@@ -41,7 +41,7 @@ You buy <a href="https://sites.fastspring.com/binaryage-store/instant/totalfinde
 
 ## Or use Twitter!
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder for $12 (=$6 discount) " data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder for $12 (=$6 discount) " data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 
 ## And also Google!
 

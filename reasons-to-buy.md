@@ -6,7 +6,7 @@ subtitle: My reasons to buy TotalFinder
 
 <div>
 <a href="http://binaryage.com/about">
-<img width="20" height="20" src="http://www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=20" style="float: left; position: relative; top: -3px; margin-right: 10px; display:block; border: 1px solid #ccc" title="Who is Antonin?">
+<img width="20" height="20" src="//www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=20" style="float: left; position: relative; top: -3px; margin-right: 10px; display:block; border: 1px solid #ccc" title="Who is Antonin?">
 </a>
 
 Hello there, 
