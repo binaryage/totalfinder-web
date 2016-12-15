@@ -1,5 +1,5 @@
 ---
-layout: product-home
+layout: product
 download: http://downloads.binaryage.com/TotalFinder-1.8.1.dmg
 downloadtitle: Download v1.8.1
 title: TotalFinder is a better Finder
