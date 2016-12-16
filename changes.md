@@ -15,15 +15,16 @@ subtitle: Recent changes
 </div>
 
 <script type="text/coffeescript" charset="utf-8">
-  nonce = -> (Math.random() + "").substring(2)
-  source = "changelog.txt"
-  hashToSelector = (h) -> h.replace /\./g, "\\." # http://stackoverflow.com/a/9930611/84283
+  defer$ ->
+    nonce = -> (Math.random() + "").substring(2)
+    source = "changelog.txt"
+    hashToSelector = (h) -> h.replace /\./g, "\\." # http://stackoverflow.com/a/9930611/84283
+    
+    $.get "#{source}?x=#{nonce()}", (data) ->
+      changelog = parsePlaintextChangelog(data)
   
-  $.get "#{source}?x=#{nonce()}", (data) ->
-    changelog = parsePlaintextChangelog(data)
-
-    getDownloadLinkForVersion = (version) -> "http://downloads.binaryage.com/TotalFinder-#{version}.dmg"
-    getReleaseDateText = (date) -> "released on " + date
-    generateChangelogHTML "#page", changelog, getDownloadLinkForVersion, getReleaseDateText
-    $(window).trigger "changelog-rendered"
+      getDownloadLinkForVersion = (version) -> "http://downloads.binaryage.com/TotalFinder-#{version}.dmg"
+      getReleaseDateText = (date) -> "released on " + date
+      generateChangelogHTML "#page", changelog, getDownloadLinkForVersion, getReleaseDateText
+      $(window).trigger "changelog-rendered"
 </script>
