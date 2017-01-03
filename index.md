@@ -28,61 +28,61 @@ shots: [{
   thumb: "/images/showcase/full-clabels.png",
   full: "/images/showcase/full-clabels.png",
   klass: "tf-shadow"
-},{
-  title: "Folders on top",
-  thumb: "/images/showcase/full-fot.png",
-  full: "/images/showcase/full-fot.png",
-  klass: "tf-shadow"
-},  {
+}, {
   title: "Chrome-style tabs",
   thumb: "/images/showcase/full-tabs.png",
   full: "/images/showcase/full-tabs.png",
   klass: "tf-shadow"
-},  {
+}, {
   title: "Dual mode",
   thumb: "/images/showcase/full-dual.png",
   full: "/images/showcase/full-dual.png",
   klass: "tf-shadow"
-},{
+}, {
   title: "Visor Window",
   thumb: "/images/showcase/full-visor.png",
   full: "/images/showcase/full-visor.png",
   klass: "tf-shadow"
-},  {
+}, {
   title: "Cut & Paste",
   thumb: "/images/showcase/full-cut.png",
   full: "/images/showcase/full-cut.png",
   klass: "tf-shadow"
+}, {
+   title: "Folders on top",
+   thumb: "/images/showcase/full-fot.png",
+   full: "/images/showcase/full-fot.png",
+   klass: "tf-shadow"
 }]
 highlights: [{
   title: "Colored labels",
   description: "Brings full colors back into El Capitan.",
   style: "background: transparent url('/images/showcase/full-clabels.png') no-repeat -274px -100px / 650px 430px",
   screenshot: 1
-},{
-  title: "Folders on top*",
-  description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
-  style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
-  screenshot: 2
-},{
+}, {
   title: "Chrome tabs",
   description: "Apple finally introduced tabs in Mavericks. TotalFinder added Chrome tabs in Snow Leopard.",
   style: "background: transparent url('/images/showcase/full-tabs.png') no-repeat -350px -96px / 650px 430px",
-  screenshot: 3
-},{
+  screenshot: 2
+}, {
   title: "Dual mode",
   description: "Display two Finder windows side-by-side on hot-key.",
   style: "background: transparent url('/images/showcase/full-dual.png') no-repeat -244px -0px / 1000px 621px",
-  screenshot: 4
-},{
+  screenshot: 3
+}, {
   title: "Visor window",
   description: "The Finder is always one key-press away!",
   style: "background: transparent url('/images/showcase/full-visor.png') no-repeat -0px -0px / 650px 430px",
-  screenshot: 5
-},{
+  screenshot: 4
+}, {
   title: "Cut &amp; Paste",
   description: "Use keyboard shortcuts to move files around. Faster than drag &amp; drop.",
   style: "background: transparent url('/images/showcase/full-cut.png') no-repeat -320px -240px / 650px 430px",
+  screenshot: 5
+}, {
+  title: "Folders on top*",
+  description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
+  style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
   screenshot: 6
 }]
 ---
