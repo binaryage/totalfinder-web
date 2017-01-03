@@ -101,7 +101,7 @@ highlights: [{
   </div>
   <div class="button-container">
     <a id="o-buy" class="button product-button-buy" href="{{page.store_link}}">
-      <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span><span class="price-note">$11.99</span>
+      <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span><span class="price-note">$12</span>
     </a>
   </div>
 </div>
