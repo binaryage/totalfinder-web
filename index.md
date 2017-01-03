@@ -1,7 +1,8 @@
 ---
 layout: product
 download: http://downloads.binaryage.com/TotalFinder-1.8.1.dmg
-downloadtitle: Download v1.8.1
+download_title: Download v1.8.1
+store_link: //sites.fastspring.com/binaryage/instant/totalfinder
 title: TotalFinder is a better Finder
 subtitle: for Mac users who demand more from their Finder
 product: totalfinder
@@ -90,7 +91,7 @@ highlights: [{
 <div class="product-buttons">
   <div class="button-container">
     <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
-      <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span><span class="trial-note">14-day trial</span>
+      <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
       <i class="fa fa-laptop"></i> Compatible OS X 10.9&ndash;10 &amp; <a href="/system-integrity-protection" target="_blank">10.11&ndash;12 <i class="fa fa-info-circle"></i></a><br>
@@ -98,7 +99,7 @@ highlights: [{
     </div>
   </div>
   <div class="button-container">
-    <a id="o-buy" class="button product-button-buy" href="//sites.fastspring.com/binaryage-store/instant/totalfinder">
+    <a id="o-buy" class="button product-button-buy" href="{{page.store_link}}">
       <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span><span class="price-note">$11.99</span>
     </a>
   </div>
