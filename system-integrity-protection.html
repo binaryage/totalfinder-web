@@ -110,10 +110,12 @@
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>TotalFinder <a href="/beta-changes">versions 1.7.2 and above</a> have support for OSX 10.11 El Capitan, but cannot run on a normally configured machine due to System Integrity Protection, a new security feature in El Capitan.</p>
-                  <p>This article will tell you how to configure your machine by modifying the new setting, so that you can run TotalFinder.</p>
-                  <p>Before you do this, it is important to get informed about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>. Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>. Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
-                  <p>Anyway, if you decide to modify the setting under El Capitan, you will be able to install and run TotalFinder as before. Just to be clear...</p>
+                  <p>Starting with macOS 10.11 (El Capitan) Apple has introduced System Integrity Protection (SIP). This prevents TotalFinder to modify Finder.app.</p>
+                  <p>This article describes how to configure your machine by partially disabling the new setting, so that you can run TotalFinder.</p>
+                  <p>Before you do this, it is important to get informed about <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">what System Integrity Protection is, and what it means to turn it off</a>.
+                    Technical details are well covered in <a href="http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8">the El Capitan review on Ars Technica</a>.
+                  Apple also provide <a href="https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
+                  <p>Anyway, if you decide to partially disable SIP, you will be able to install and run TotalFinder as before. Just to be clear...</p>
                   <div class="license-desk exclamation">
                     I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
                   </div>
@@ -126,10 +128,11 @@
                   <p>This turns off the part of SIP that TotalFinder needs to run, and OS X complains that it is an unsupported configuration.</p>
                   <p>Now type <code>reboot</code> and press return to restart your machine. After restart you may install the <a href="/beta-changes#latest">latest version of TotalFinder</a>.</p>
                   <h2>Technical details</h2>
-                  <p>TotalFinder works by changing Finder.app. OS X does not provide any other way to achieve deep Finder modifications, we believe this is the only way the functionality of TotalFinder can be achieved.</p>
-                  <p>In order to add or change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code to the Finder program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of OS X on the disk. You only have to force quit Finder via <code>COMMAND+OPTION+ESC</code> to relaunch Finder.app cleanly and everything will be as if TotalFinder was never running.</p>
-                  <p>However, after El Capitan, new security measures disallow this kind of modification <em>even if you have administrator access</em>. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.</p>
-                  <p>You can find some further information <a href="http://blog.binaryage.com/el-capitan-update">in our blog</a>.</p>
+                  <p>TotalFinder works by modifying Finder.app. macOS does not provide any other way to achieve deep Finder modifications, we believe this is the only way the functionality of TotalFinder can be achieved.</p>
+                  <p>In order to add or change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code to the Finder program whilst it is running to do what we need.
+                  This is relatively safe - in fact we do not change any part of OS X on the disk. You only have to force quit Finder via <code>COMMAND+OPTION+ESC</code> to relaunch Finder.app cleanly and everything will be as if TotalFinder was never running.</p>
+                  <p>However, System Integrity Protection measures disallow this kind of modification <em>even if you have administrator access</em>. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.</p>
+                  <p>You can find some further information <a href="https://blog.binaryage.com/el-capitan-update">in our blog</a>.</p>
                   <h2>Need to enable System Integrity Protection again?</h2>
                   <p>Please follow <a href="/enable-sip">this article</a>.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
