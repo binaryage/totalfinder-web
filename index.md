@@ -20,8 +20,8 @@ ogmeta: {
   email: "support@binaryage.com",
   type: "product",
   title: "TotalFinder",
-  url: "http://totalfinder.binaryage.com",
-  image: "http://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
+  url: "https://totalfinder.binaryage.com",
+  image: "https://totalfinder.binaryage.com/shared/img/icons/totalfinder-256.png"
 }
 shots: [{
   title: "Colored labels",

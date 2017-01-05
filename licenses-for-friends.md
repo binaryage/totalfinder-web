@@ -20,10 +20,10 @@ You buy <a href="https://sites.fastspring.com/binaryage-store/instant/totalfinde
 <textarea class="hoverable-input" style="position: absolute; top:266px;left:167px;border:none; font-size: 10px; height:110px; width:516px;overflow:hidden">
     Hey guys,
 
-    I've just found TotalFinder: http://totalfinder.binaryage.com
+    I've just found TotalFinder: https://totalfinder.binaryage.com
 
     If you join me we can each buy it for $6 instead of standard price $9:
-    http://blog.binaryage.com/totalfinder-discount-coupon-with-friends
+    https://blog.binaryage.com/totalfinder-discount-coupon-with-friends
 
     Let me know if you want me to grab one for you
 </textarea>
@@ -32,7 +32,7 @@ You buy <a href="https://sites.fastspring.com/binaryage-store/instant/totalfinde
 
 ## Evangelize via Facebook
 
-<a name="fb_share" type="button_count" share_url="http://totalfinder.binaryage.com" href="http://www.facebook.com/sharer.php?t=title">Share</a>
+<a name="fb_share" type="button_count" share_url="https://totalfinder.binaryage.com" href="http://www.facebook.com/sharer.php?t=title">Share</a>
 <script src="//static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 <script type="text/javascript">$(function(){
     var x = $('a[type=button_count]');
@@ -41,8 +41,8 @@ You buy <a href="https://sites.fastspring.com/binaryage-store/instant/totalfinde
 
 ## Or use Twitter!
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder for $12 (=$6 discount) " data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://totalfinder.binaryage.com" data-text="Join me and let's buy TotalFinder for $12 (=$6 discount) " data-count="horizontal" data-via="binaryage">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 
 ## And also Google!
 
-<div><g:plusone size="medium" href="http://totalfinder.binaryage.com"></g:plusone></div>
+<div><g:plusone size="medium" href="https://totalfinder.binaryage.com"></g:plusone></div>

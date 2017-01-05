@@ -8,7 +8,7 @@ subtitle: Install TotalFinder
 
 TotalFinder has a convenient installer which guides you through the installation steps:
 
-* Download and open the latest archive TotalFinder-X.Y.Z.dmg from [http://totalfinder.binaryage.com](http://totalfinder.binaryage.com)
+* Download and open the latest archive TotalFinder-X.Y.Z.dmg from [https://totalfinder.binaryage.com](https://totalfinder.binaryage.com)
 * Launch `TotalFinder.pkg`
 
 <img src="/images/installer-dmg.png" class="doc-image add-shadow" style="width:400px"><br>

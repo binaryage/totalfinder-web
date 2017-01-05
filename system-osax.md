@@ -36,7 +36,7 @@ However it is possible to put an addition into `/System/Library/ScriptingAdditio
 This technique was [discovered and described by SIMBL developers](https://github.com/norio-nomura/EasySIMBL/issues/26#issuecomment-117028426).
 The problem is that `/System/Library/ScriptingAdditions` is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.
 
-By default TotalFinder installs its scripting addition into `/Library/ScriptingAddtions`. Then you can manually move it to `/System/Library/ScriptingAdditions`. TotalFinder is aware of this setup since [version 1.7.10](http://totalfinder.binaryage.com/beta-changes#1.7.10).
+By default TotalFinder installs its scripting addition into `/Library/ScriptingAddtions`. Then you can manually move it to `/System/Library/ScriptingAdditions`. TotalFinder is aware of this setup since [version 1.7.10](https://totalfinder.binaryage.com/beta-changes#1.7.10).
 
 But you should be aware of the drawbacks:
 

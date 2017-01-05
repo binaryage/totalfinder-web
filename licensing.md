@@ -48,7 +48,7 @@ TotalFinder does not communicate over the network. It works perfectly on a compu
 There are two cases in which TotalFinder optionally sends data over the network:
 
 * **[Sparkle Updating System](http://sparkle.andymatuschak.org/)** - when checking for and downloading a new version.
-* **[Crash Reporting Dialog](http://blog.binaryage.com/crash-reporting-in-binaryage)** - when you explicitly click "Send Report..." button.
+* **[Crash Reporting Dialog](https://blog.binaryage.com/crash-reporting-in-binaryage)** - when you explicitly click "Send Report..." button.
 
 ## TotalFinder reliability
 

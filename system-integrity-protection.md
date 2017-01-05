@@ -43,7 +43,7 @@ This is relatively safe - in fact we do not change any part of OS X on the disk.
 
 However, System Integrity Protection measures disallow this kind of modification _even if you have administrator access_. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.
 
-You can find some further information [in our blog](http://blog.binaryage.com/el-capitan-update).
+You can find some further information [in our blog](https://blog.binaryage.com/el-capitan-update).
 
 ## Need to enable System Integrity Protection again?
 

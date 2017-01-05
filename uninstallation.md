@@ -18,7 +18,7 @@ If you have trouble running the menu command you may alternatively run the follo
 
     open "/Library/ScriptingAdditions/TotalFinder.osax/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app"
 
-Or download and open the latest archive from [totalfinder.binaryage.com](http://totalfinder.binaryage.com) and launch TotalFinder Uninstaller from the DMG.
+Or download and open the latest archive from [totalfinder.binaryage.com](https://totalfinder.binaryage.com) and launch TotalFinder Uninstaller from the DMG.
 
 ## Purging the configuration
 

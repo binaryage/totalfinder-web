@@ -5,12 +5,12 @@ subtitle: My reasons to buy TotalFinder
 ---
 
 <div>
-<a href="http://binaryage.com/about">
+<a href="https://binaryage.com/about">
 <img width="20" height="20" src="//www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=20" style="float: left; position: relative; top: -3px; margin-right: 10px; display:block; border: 1px solid #ccc" title="Who is Antonin?">
 </a>
 
 Hello there, 
-I'm <a href="http://binaryage.com/about">Antonin</a>, the developer of TotalFinder. Here is my main reason why you should buy TotalFinder.
+I'm <a href="https://binaryage.com/about">Antonin</a>, the developer of TotalFinder. Here is my main reason why you should buy TotalFinder.
 </div>
 
 ## Yes, it's the Finder! You don't have to learn anything new
@@ -26,5 +26,5 @@ The Finder is not going away any time soon and it has some very unique features,
 ---
 
 <div style="color: #999; font-size: 11px">
-  This is an opinionated article. Do you disagree? Do you have other opinions about Finder, TotalFinder or other file managers? <a href="http://discuss.binaryage.com">Discuss your thoughts on our forums</a>.
+  This is an opinionated article. Do you disagree? Do you have other opinions about Finder, TotalFinder or other file managers? <a href="https://discuss.binaryage.com">Discuss your thoughts on our forums</a>.
 </div>
