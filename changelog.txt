@@ -1,3 +1,8 @@
+1.8.2 - January 6, 2017
+  + Compatibility with Finder 10.12.3. [Sierra]
+  ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-lauches-very-slowly-in-macos-sierra/4884">slow start after system reboot</a>. [Sierra]
+  ! Fixed wrong tab context menu position. [Sierra]
+
 1.8.1 - September 24, 2016
   - Disabled TotalFinder's Folders on Top feature on macOS 10.12, which now offers Folders on Top natively as an option in Finder's preferences.  However, Finder's implementation only allows Folders on Top when sorting by Name, so we'll look to improve upon that. [Sierra]
 
