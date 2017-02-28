@@ -27,7 +27,7 @@ subtitle: Recent changes in pre-releases
     $.get "#{source}?x=#{nonce()}", (data) ->
       changelog = parsePlaintextChangelog(data)
   
-      getDownloadLinkForVersion = (version) -> "http://downloads.binaryage.com/TotalFinder-#{version}.dmg"
+      getDownloadLinkForVersion = (version) -> "https://downloads.binaryage.com/TotalFinder-#{version}.dmg"
       getReleaseDateText = (date) -> "released on " + date
       generateChangelogHTML "#page", changelog, getDownloadLinkForVersion, getReleaseDateText
       $(window).trigger "changelog-rendered"
