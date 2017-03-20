@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>What's new in pre-release TotalFinder?</title>
+    <style type="text/css" media="screen">
+      body,h1,h2,h3,h4,p,table{padding:0;margin:0;}
+      a{text-decoration:none;font-variant:normal;color:#1e51be;}
+      a:hover{text-decoration:underline;}
+      body {
+        font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+        font-size: 12px;
+      }
+
+      .changelog .changes{margin:0;padding-left:30px;list-style-type:none;padding-right:10px;padding-top:6px;}
+      .changelog .changes li{margin-bottom:5px;}
+
+      .changelog .titlebox { background-color: #eee; border-bottom: 0px solid #aaa; margin-top: 20px; line-height: 20px;}
+      .changelog h4{float:left;font-size: 12px;padding:3px;line-height:16px;font-weight: bold; padding-left: 10px; padding-right:6px; width: 100px; white-space:nowrap; text-align:right;}
+      .changelog h5{margin:0;padding:0;padding:3px;margin-left:6px;font-size:10px;color:#666;line-height:16px;font-weight:normal;}
+
+      .changelog .sticker { float: left; width: 80px; margin-right: 6px; display: block; text-align: right; text-transform: uppercase; }
+      .changelog .sticker b { color: white; font-weight: bold; padding: 1px 6px 2px 6px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size: 10px; position: relative; top:-1px; }
+      .changelog .fixed b { background-color: #00A825; }
+      .changelog .new b { background-color: #BCB901; }
+      .changelog .removed b { background-color: #BC0E00; }
+      .changelog .improved b { background-color: #0486BC; }
+      .changelog .note b { background-color: #AEAEAE; }
+      .changelog .info {
+        display: table-cell;
+      }
+      
+      .changes i {
+        color: #999;
+        font-style: normal;
+        font-size: 10px;
+      }
+      
+      .changes em {
+        font-style: normal;
+        background-color: #FCFFDD;
+        padding: 0px 2px;
+        border: 1px solid #ccc;
+        color: #999;
+        border-radius: 2px;
+      }
+
+      #notice { 
+        padding: 4px 10px; 
+        background-color:#FCFFDD;
+        border: 1px solid #ccc;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+      
+      .announce {
+        padding: 2px 6px; 
+        background-color:#FCFFDD;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: inline-block;
+        margin-bottom: 8px;
+        margin-left: -11px;
+      }
+      
+      #stable-how-to {
+        margin: 8px 10px;
+      }
+
+      .switch-stable {
+        display: block;
+        max-width: 420px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 4px #999;
+      }
+      
+    </style>
+    <script src="//code.jquery.com/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/shared/js/changelog.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="notice">
+      Note: You are subscribed to TotalFinder pre-releases. Want to <a href="javascript:showStable()">switch to stable?</a>
+    </div>
+    <div id="stable-how-to" style="display:none">
+      <img src="/images/preferences-menu.png" style="max-width:300px">
+      <img src="/images/switch-stable.png" class="switch-stable">
+    </div>
+    <div id="page" class="changelog">
+    </div>
+    <script>
+      $.get('changelog-beta.txt?x='+((Math.random()+"").substring(2)), function(data) {
+        var changelog = parsePlaintextChangelog(data);
+        var getDownloadLinkForVersion = function(version) {
+          return "https://downloads.binaryage.com/TotalFinder-"+version+".dmg"
+        };
+        var getReleaseDateText = function(date) {
+          return "released on " + date;
+        };
+        generateChangelogHTML("#page", changelog, getDownloadLinkForVersion, getReleaseDateText);
+      });
+      
+      showStable = function() {
+        $('#stable-how-to').toggle();
+      }
+    </script>
+  </body>
+</html>
