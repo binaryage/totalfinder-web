@@ -1,3 +1,19 @@
+1.9.1 - March 31, 2017
+  + TotalFinder can be newly launched <a href="https://blog.binaryage.com/sip-and-installing-total-apps">with System Integrity Protection fully enabled</a>. [Sierra] [El Capitan]
+  + Compatibility with Finder 10.12.5. [Sierra]
+  + Performs periodic checks and auto-repairs if <a href="https://discuss.binaryage.com/t/rogue-finder-window-becomes-stuck-wont-move-cant-close-it-either/5221">frame window is missing</a>.
+  + New icons in Preferences.
+  + Dark menubar icon.
+  + Holding SHIFT during tab creation will open it in a new window.
+  * Improved <a href="https://discuss.binaryage.com/t/tf-1-9-0-opens-external-drives-in-new-window-no-tabs/5374">DMG detection</a>.
+  * Changed Visor Pin button to <a href="https://discuss.binaryage.com/t/tf-1-9-0-wont-launch-with-sip-fully-enabled/5368/2">blue color</a>.
+  ! Fixed <a href="https://discuss.binaryage.com/t/tf-1-9-0-keeps-prompting-me-to-install-sip-component/5376">an option to suppress some SIP installation dialogs</a>.
+  ! Fixed background color after tearing a tab off the main window. [Sierra]
+  ! Fixed a bug when tabs would not update after entering or leaving dual mode. [Sierra]
+  ! Fixed potential crash/lock when opening DMG files.
+  ! Fixed colored labels redrawing bug. [Sierra]
+  ! Fixed a case when Finder window could be misaligned with framing TotalFinder window.
+
 1.8.2 - January 6, 2017
   + Compatibility with Finder 10.12.3. [Sierra]
   ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-lauches-very-slowly-in-macos-sierra/4884">slow start after system reboot</a>. [Sierra]
