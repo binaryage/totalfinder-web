@@ -4,6 +4,12 @@ title: System OSAX
 subtitle: TotalFinder with System Integrity Protection fully enabled
 ---
 
+## This article is outdated
+
+TotalFinder supports this setup by default since [version 1.9.0](/changes#latest). Please read our [blog post](https://blog.binaryage.com/sip-and-installing-total-apps).
+
+---
+
 Under OS X 10.11 (El Capitan) and macOS 10.12 (Sierra), TotalFinder cannot install itself on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection).
 
 [This article describes how to partially disable System Integrity Protection](/system-integrity-protection) to install and run TotalFinder under El Capitan and higher.

@@ -18,4 +18,4 @@ Now type `reboot` and press return to restart your machine.
 
 ---
 
-More information about [TotalFinder and System Integrity Protection](/system-integrity-protection).
+More information about [TotalFinder and System Integrity Protection](/sip).

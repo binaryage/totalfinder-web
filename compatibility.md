@@ -7,13 +7,13 @@ oses: [{
   label: "Sierra",
   logo: "logo-sierra.png",
   wiki: "MacOS_Sierra",
-  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/system-integrity-protection\" class=\"red\">needs a system tweak</a>",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a system tweak</a>",
 },{
   version: "10.11",
   label: "El Capitan",
   logo: "logo-el-capitan.png",
   wiki: "OS_X_El_Capitan",
-  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/system-integrity-protection\" class=\"red\">needs a system tweak</a>",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a system tweak</a>",
 },{
   version: "10.10",
   label: "Yosemite",

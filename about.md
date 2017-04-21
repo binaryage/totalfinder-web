@@ -4,7 +4,7 @@ title: About TotalFinder
 subtitle: About TotalFinder
 ---
 
-<h4><mark><a href="/system-integrity-protection">Please read this information</a> about running TotalFinder on macOS 10.11 (El Capitan) and 10.12 (Sierra)</mark></h4>
+<h4><mark><a href="/sip">Please read this information</a> about running TotalFinder on macOS 10.11 (El Capitan) and 10.12 (Sierra)</mark></h4>
 
 ## TotalFinder is just a better Finder
 TotalFinder works like the original Finder but adds [tabs](/tabs), [dual panel mode](/dual-mode), [folders on top](/folders-on-top) and other [useful features](/tweaks).
