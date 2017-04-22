@@ -1,3 +1,8 @@
+1.9.2 - April 22, 2017
+  ! Fixed <a href="https://discuss.binaryage.com/tags/ghost">occasional "ghost" windows</a> when using Visor and opening folders from external apps.
+  ! Fixed font smoothing when using Colored Labels in Column view.
+  ! Fixed <a href="https://discuss.binaryage.com/t/tf-1-9-0-keeps-prompting-me-to-install-sip-component">a bug with suppression check-box in the dialog prompting installation of the SIP component<a/>.
+
 1.9.1 - March 25, 2017
   + Performs periodic checks and auto-repairs if <a href="https://discuss.binaryage.com/t/rogue-finder-window-becomes-stuck-wont-move-cant-close-it-either/5221">frame window is missing</a>.
   ! Fixed <a href="https://discuss.binaryage.com/t/tf-1-9-0-keeps-prompting-me-to-install-sip-component/5376">an option to suppress some SIP installation dialogs</a>.
