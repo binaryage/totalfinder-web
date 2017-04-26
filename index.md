@@ -79,11 +79,6 @@ highlights: [{
   description: "Use keyboard shortcuts to move files around. Faster than drag &amp; drop.",
   style: "background: transparent url('/images/showcase/full-cut.png') no-repeat -320px -240px / 650px 430px",
   screenshot: 5
-}, {
-  title: "Folders on top*",
-  description: "Folders should always go first in list view. You can also easily toggle display of hidden files.",
-  style: "background: transparent url('/images/showcase/full-fot.png') no-repeat -162px -162px / 650px 430px",
-  screenshot: 6
 }]
 ---
 
