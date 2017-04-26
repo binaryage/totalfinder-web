@@ -20,13 +20,13 @@ When you buy a TotalFinder license you receive a permission to use the software.
 
 You may install TotalFinder and use it in trial mode for 14 days. Then you have to buy it or uninstall it.
 
-The trial version displays an info badge in the top-right part of every window:
+The trial version displays an info badge in the top-right part of every TotalFinder window:
 
-<img src="/images/trial.png" class="doc-image add-shadow border-radius-top-right-only" style="width: 200px;">
+<img src="/images/trial.png" class="doc-image add-shadow" style="width: 400px;">
 
-After 14 days it starts showing the unregistered badge:
+After 14 days it starts showing the red "unregistered" badge:
 
-<img src="/images/unregistered.png" class="doc-image add-shadow border-radius-top-right-only" style="width: 200px;">
+<img src="/images/unregistered.png" class="doc-image add-shadow" style="width: 400px;">
 
 This allows you to evaluate TotalFinder's functionality and decide whether you want to buy it or not.
 
@@ -36,10 +36,13 @@ Please **[visit our store](http://sites.fastspring.com/binaryage-store/product/a
 
 ## TotalFinder updates
 
-When you buy a license you may freely update to all TotalFinder versions within one major OS release. 
-For example by buying TotalFinder today you will get free updates for all versions compatible with Mavericks (OS X 10.9). Please keep TotalFinder up-to-date to prevent compatibility issues with system updates.
+When you buy a license you may freely update to all TotalFinder versions within one major macOS release. 
+Please keep TotalFinder up-to-date to prevent any potential compatibility issues with system updates.
 
-A new major OS release (OS X 10.10?) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price. But historically I was able to reuse most of my work in new OS releases. All updates have been free of charge so far.
+A new major macOS release might require substantial rewrites and intensive testing.
+I might decide to charge existing users an upgrade fee. I expect it to be 50% of the full price. 
+But historically I was able to reuse most of my work in new OS releases. 
+All updates have been free of charge so far.
 
 ## TotalFinder and your privacy
 
@@ -47,19 +50,23 @@ TotalFinder does not communicate over the network. It works perfectly on a compu
 
 There are two cases in which TotalFinder optionally sends data over the network:
 
-* **[Sparkle Updating System](http://sparkle.andymatuschak.org/)** - when checking for and downloading a new version.
-* **[Crash Reporting Dialog](https://blog.binaryage.com/crash-reporting-in-binaryage)** - when you explicitly click "Send Report..." button.
+* **[Sparkle Updating System](https://sparkle-project.org)** - when checking for and downloading a new version.
+* **[Crash Reporting Dialog](https://blog.binaryage.com/crash-reporting-in-binaryage)** - when you explicitly click the "Send Report..." button.
 
 ## TotalFinder reliability
 
-I have tested TotalFinder with my system and I did my best to make it bug-free and stable. However it still may contain bugs or issues.
+I have tested TotalFinder with my system and I did my best to make it bug-free and reasonably stable. 
+However it still may contain undiscovered bugs or hard-to-fix issues. 
+Please report them on [our forums](https://discuss.binaryage.com) or privately via email at [support@binaryage.com](mailto:support@binaryage.com).
 
 <div class="license-desk exclamation">
 You are using TotalFinder at your own risk. I'm not responsible for anything bad which could possibly happen using this software.
 </div>
 
-Note: As far as I know no disasters have happened to anyone because of TotalFinder over last 5 years.
+But don't worry as far as I know no disasters have happened to anyone because of TotalFinder over last years.
 
 <div class="license-desk exclamation">
-I'm not in control of what Apple does with Finder in the future. Some future update might make it impossible for me to adapt TotalFinder or some of its functionality to a new Finder version. By using this software you accept this risk.
+I'm not in control of what Apple does with Finder in the future. 
+Some future system update might make it impossible for me to adapt TotalFinder or some of its functionality to a new Finder version. 
+By purchasing and using this software you simply accept this risk.
 </div>
