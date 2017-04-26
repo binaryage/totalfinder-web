@@ -110,21 +110,36 @@
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <h2>Installation is easy</h2>
+                  <h2>Installation is not that hard</h2>
                   <p>TotalFinder has a convenient installer which guides you through the installation steps:</p>
                   <ul>
                     <li>Download and open the latest archive TotalFinder-X.Y.Z.dmg from <a href="https://totalfinder.binaryage.com">https://totalfinder.binaryage.com</a></li>
                     <li>Launch <code>TotalFinder.pkg</code></li>
                   </ul>
-                  <p><img src="https://static.binaryage.com/cc53503b_images_installer-dmg.png" class="doc-image add-shadow" style="width:400px"/><br/></p>
+                  <p><img src="https://static.binaryage.com/12b6d386_images_installer-dmg.png" class="doc-image add-shadow" style="width:400px"/><br/></p>
                   <ul>
                     <li>Click through the installation process</li>
-                    <li>Finder will be relaunched with TotalFinder</li>
                   </ul>
-                  <p><img src="https://static.binaryage.com/363ce141_images_successful-install.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="https://static.binaryage.com/ab5f3d0d_images_successful-install.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <ul>
+                    <li>(one-time setup) In case <a href="/sip">System Integrity Protection</a> (SIP) is enabled and you don't have TotalFinder system component installed previously:</li>
+                  </ul>
+                  <p><img src="https://static.binaryage.com/7d02840e_images_sip-wizard-01.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="https://static.binaryage.com/a64fc166_images_sip-wizard-02.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <ul>
+                    <li>After disabling SIP in recoverOS and going back to your main OS:</li>
+                  </ul>
+                  <p><img src="https://static.binaryage.com/92f8fd52_images_sip-wizard-03.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <ul>
+                    <li>As your last step you should re-enable SIP. Please read <a href="/sip">detailed explanation here</a>.</li>
+                  </ul>
                   <h2>TotalFinder updates</h2>
-                  <p>TotalFinder uses the <a href="http://sparkle.andymatuschak.org">Sparkle</a> updating system. By default it notifies you whenever there is a new version available. You may also check for new versions manually. Please keep TotalFinder updated. You may also participate in <a href="/beta-changes">testing new releases</a>.</p>
-                  <p><img src="https://static.binaryage.com/9db4a61e_images_update-dialog.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p>TotalFinder uses the <a href="https://sparkle-project.org">Sparkle</a> updating system. After installation it asks you for permission to check for updates automatically:</p>
+                  <p><img src="https://static.binaryage.com/65641522_images_sparkle-setup.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p>If enabled it notifies you whenever there is a new version available. You may also check for new versions manually.</p>
+                  <p><img src="https://static.binaryage.com/9e3adb8e_images_update-dialog.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p>Please keep TotalFinder updated because it needs to follow potential changes in Apple's Finder.app closely.</p>
+                  <p>You might also help by participating in <a href="/beta-changes">testing beta releases</a>. Thank you.</p>
                   <h2>TotalFinder in login startup items</h2>
                   <p>By default, the installer puts <code>TotalFinder.app</code> into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove <code>TotalFinder.app</code> from your login startup items to prevent TotalFinder from launching at startup.</p>
                   <p><img src="https://static.binaryage.com/618dea8b_images_login-items.png" class="doc-image add-shadow" style="width:400px"/></p>
@@ -132,9 +147,11 @@
                   <p>For removal please read the <a href="/uninstallation">uninstallation page</a>.</p>
                   <h2>Installation locations</h2>
                   <ul>
-                    <li><code>/Application/TotalFinder.app</code> - application launcher and plugin bundle</li>
-                    <li><code>/Library/ScriptingAdditions/TotalFinder.osax</code> - scripting extension responsible for injecting TotalFinder plugin into Finder</li>
+                    <li><code>/Application/TotalFinder.app</code> - an application launcher and plugin bundle</li>
+                    <li><code>/Library/ScriptingAdditions/TotalFinder.osax</code> - a scripting extension responsible for injecting TotalFinder plugin into Finder</li>
+                    <li><code>/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code> - a scripting extension to work around <a href="/sip">System Integrity Protection</a></li>
                   </ul>
+                  <p>Please note that <code>TotalFinderSIP.osax</code> must be installed when System Integrity Protection is temporarily disabled. That is why TotalFinder requires additional installation steps and rebooting into recovery OS.</p>
                   <h2>Configuration settings</h2>
                   <p><code>/Users/&lt;user&gt;/Library/Preferences/com.binaryage.totalfinder.plist</code></p>
                   <p>Note: You may safely remove the TotalFinder plist file or remove any values inside. TotalFinder will re-create it with default values when restarted.</p>
