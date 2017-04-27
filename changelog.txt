@@ -1,3 +1,10 @@
+1.9.3 - April 27, 2017
+  ! Fixed <a href="https://discuss.binaryage.com/tags/ghost">occasional "ghost" windows</a> when using Visor and opening folders from external apps.
+  ! Fixed font smoothing when using Colored Labels in Column view.
+  ! Fixed <a href="https://discuss.binaryage.com/t/tf-1-9-0-keeps-prompting-me-to-install-sip-component">a bug with suppression check-box in the dialog prompting installation of the SIP component<a/>.
+  * <a href="https://discuss.binaryage.com/t/side-bar-icon-size/5448">Scale sidebar icons</a> when Colored Sidebar Icons feature is enabled.
+  * Allow <a href="https://discuss.binaryage.com/t/how-to-specify-custom-sidebar-icons/5461">custom specification of Colored Sidebar Icons<a>.
+
 1.9.1 - March 31, 2017
   + TotalFinder can be newly launched <a href="https://blog.binaryage.com/sip-and-installing-total-apps">with System Integrity Protection fully enabled</a>. [Sierra] [El Capitan]
   + Compatibility with Finder 10.12.5. [Sierra]
