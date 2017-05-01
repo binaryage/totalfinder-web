@@ -4,7 +4,7 @@ title: About TotalFinder
 subtitle: About TotalFinder
 ---
 
-<h4><mark><a href="/sip">Please read this information</a> about running TotalFinder on macOS 10.12 (Sierra) or 10.11 (El Capitan)</mark></h4>
+<div class="compatibility-note"><b><a href="/sip">Please read this information</a></b> about running TotalFinder on macOS 10.12 (Sierra) or 10.11 (El Capitan)</div>
 
 ## TotalFinder is just a better Finder
 
