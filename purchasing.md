@@ -8,9 +8,9 @@ subtitle: Purchasing
 
 The process is straight-forward and should take less than 5 minutes in 3 steps.
 
-## Step 1: Buy a license from [the web store](https://sites.fastspring.com/binaryage-store/instant/totalfinder)
+## Step 1: Buy a license from [the web store](https://www.binaryage.com/store)
 
-Go to the [store](https://binaryage.com/store) via the top menu of [www.binaryage.com](https://www.binaryage.com).
+Go to the [store](https://www.binaryage.com/store) via the top menu of [www.binaryage.com](https://www.binaryage.com).
 
 If you're considering buying also a [TotalSpaces](https://totalspaces.binaryage.com) license, you should buy the "BinaryAge Bundle" at a better price.
 
