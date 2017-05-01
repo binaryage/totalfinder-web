@@ -1,10 +1,10 @@
 ---
-layout: tf-doc-pref
+layout: tf-doc
 title: Dual Mode in TotalFinder
 subtitle: Dual Mode
-doc-image: /images/dual-mode.png
-pref-comment: The dual mode is an integral part of TotalFinder and cannot be turned off.
 ---
+
+<img src="/images/showcase/full-dual.png" class="doc-image add-shadow" style="width:600px">
 
 ## What is Dual Mode?
 
