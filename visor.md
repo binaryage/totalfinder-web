@@ -1,10 +1,10 @@
 ---
-layout: tf-doc-pref
+layout: tf-doc
 title: Visor in TotalFinder
 subtitle: Visor
-doc-image: /images/visor-fade.png
-pref-image: /images/pref-visor.png
 ---
+
+<img src="/images/showcase/full-visor.png" class="doc-image add-shadow" style="width:600px">
 
 ## What is Visor?
 
@@ -55,3 +55,7 @@ The Visor window slides on screen similar way to how the game console did in the
         <tr><td>Pin Visor</td><td>⇧⌘P</td><td></td></tr>
     </table>
 </div>
+
+## Preferences
+
+<img src="/images/pref-visor.png" class="doc-image add-shadow" style="width:600px">
