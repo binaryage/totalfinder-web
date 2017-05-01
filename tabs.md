@@ -49,7 +49,7 @@ Go to `System Preferences -> Keyboard -> Keyboard Shortcuts -> Application Short
 
 ## Preferences
 
-<img src="/images/prefs-tabs.png" class="doc-image" style="width:600px">
+<img src="/images/prefs-tabs.png" class="doc-image add-shadow" style="width:600px">
 
 ### Disable tabs completely
 
