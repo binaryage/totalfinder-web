@@ -1,10 +1,10 @@
 ---
-layout: tf-doc-pref
+layout: tf-doc
 title: Show System Files in TotalFinder
 subtitle: Show System Files
-doc-image: /images/system-files-enabled.png
-pref-image: /images/pref-tweaks.png
 ---
+
+<img src="/images/show-system-files.png" class="doc-image add-shadow" style="width:600px">
 
 ## Hidden files live there, too.
 
