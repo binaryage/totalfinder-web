@@ -1,8 +1,7 @@
 ---
-layout: tf-doc-pref
+layout: tf-doc
 title: TotalFinder Tweaks
 subtitle: Tweaks
-pref-image: /images/pref-tweaks.png
 ---
 
 ## Reset to defaults
