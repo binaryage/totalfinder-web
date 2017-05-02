@@ -6,7 +6,7 @@ subtitle: Folders on Top
 
 <img src="/images/showcase/full-fot.png" class="doc-image add-shadow" style="width:600px">
 
-<div class="compatibility-note">
+<div class="info-box compatibility">
 Starting in macOS 10.12 Sierra, Finder now offers "Keep folders on top when sorting by name" as an option in Finder's preferences, so TotalFinder no longer enables this feature for on macOS 10.12.
 However, Finder's implementation only allows Folders on Top when sorting by Name, so we'll look to improve upon that in future versions of TotalFinder.
 </div>
@@ -29,7 +29,7 @@ Also when you [display hidden files](/show-system-files.md) you may notice those
 
 <div class="keyboard-shortcuts">
     <table border="0" cellspacing="0" cellpadding="0">
-        <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
-        <tr><td>Folders on Top</td><td>⇧⌘;</td><td></td></tr>
+        <tr><th>Action</th><th>Shortcut</th></tr>
+        <tr><td>Folders on Top</td><td>⇧⌘;</td></tr>
     </table>
 </div>

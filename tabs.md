@@ -27,13 +27,13 @@ Similarly, in TotalFinder tabs display multiple directories within one window. T
 
 <div class="keyboard-shortcuts">
   <table border="0" cellspacing="0" cellpadding="0">
-    <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
-    <tr><td>Open a new tab</td><td>⌘T</td><td></td></tr>
-    <tr><td>Close selected tab</td><td>⌘W</td><td></td></tr>
-    <tr><td>Switch between tabs</td><td>⌘⇧[ and  ⌘⇧]<br> ⌘⇧← and  ⌘⇧→</td><td></td></tr>
-    <tr><td>Open a new window</td><td>⌘N</td><td></td></tr>
-    <tr><td>Close window</td><td>⌘⇧W</td><td></td></tr>
-    <tr><td>Close all windows</td><td>⌘⌥W</td><td></td></tr>
+    <tr><th>Action</th><th>Shortcut</th></tr>
+    <tr><td>Open a new tab</td><td>⌘T</td></tr>
+    <tr><td>Close selected tab</td><td>⌘W</td></tr>
+    <tr><td>Switch between tabs</td><td>⌘⇧[ and  ⌘⇧]<br> ⌘⇧← and  ⌘⇧→</td></tr>
+    <tr><td>Open a new window</td><td>⌘N</td></tr>
+    <tr><td>Close window</td><td>⌘⇧W</td></tr>
+    <tr><td>Close all windows</td><td>⌘⌥W</td></tr>
   </table>
 </div>
 

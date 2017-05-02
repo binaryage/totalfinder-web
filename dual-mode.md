@@ -24,8 +24,8 @@ You may enter dual mode by double-clicking a tab or pressing ⌘U. The selected 
 
 <div class="keyboard-shortcuts">
   <table border="0" cellspacing="0" cellpadding="0">
-    <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
-    <tr><td>Toggle dual mode</td><td>⌘U</td><td></td></tr>
-    <tr><td>Switch active panel</td><td>⌥⇥</td><td></td></tr>
+    <tr><th>Action</th><th>Shortcut</th></tr>
+    <tr><td>Toggle dual mode</td><td>⌘U</td></tr>
+    <tr><td>Switch active panel</td><td>⌥⇥</td></tr>
   </table>
 </div>

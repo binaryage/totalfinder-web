@@ -10,13 +10,13 @@ First, you might want to read why I think [TotalFinder is worth purchasing](/rea
 
 I will grant a free license to you if:
 
-1. you **helped directly** in TotalFinder development (e.g. [translators](http://github.com/binaryage/totalfinder-i18n/contributors) -> [visit this page](http://github.com/binaryage/totalfinder-i18n) to help with translation)
+1. you **helped directly** in TotalFinder development (e.g. [translators](http://github.com/binaryage/totalfinder-i18n/contributors) -> [visit this page](http://github.com/binaryage/totalfinder-i18n))
 2. you created or significantly **contributed to an open-source project** I've used in TotalFinder
-3. you are **a public speaker** and send me a link to your talk (must be recorded and publicly available on YouTube or a similar site)
+3. you are **a public speaker** and send me a link to your talk (must be recorded and publicly available)
 4. you are **a Google engineer** with a valid `someone@google.com` email address
 5. you are **an Apple employee** with a valid `someone@apple.com` email address
 6. you have **[bitcoins](https://arstechnica.com/tech-policy/news/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency.ars)** and want to [trade them for TotalFinder](https://blog.binaryage.com/trade-totalfinder-bitcoin)
-7. you feel that you deserve a free license for **some other reason** (being short on money is not a good reason)
+7. you feel that you deserve a free license for **some other reason**
 
 Please [drop me an email](mailto:support@binaryage.com?subject=Free%20TotalFinder%20license%20request) and I will send you a free license link back if you meet the criteria.
 

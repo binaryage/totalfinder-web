@@ -12,7 +12,7 @@ Here is some information about [what System Integrity Protection is, and what it
 
 If you decide to modify the setting under El Capitan/Sierra, you will be able to install TotalFinder. Just to be clear...
 
-<div class="license-desk exclamation">
+<div class="info-box exclamation">
 Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.
 </div>
 

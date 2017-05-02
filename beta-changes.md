@@ -6,12 +6,12 @@ subtitle: Recent changes in pre-releases
 
 <script src="/shared/js/changelog.js" type="text/javascript" charset="utf-8"></script>
 
-<div class="changelog-info">
-<a href="javascript:showBetaHint(this);">How to switch to pre-releases in TotalFinder?</a>
-<div class="betahint" style="display:none">
-  Please enable the "Include pre-releases" checkbox in the System->Updates section of the TotalFinder preferences tab:<br/>
-  <img src="/images/pref-include-preleases.png" style="width:600px" class="doc-image add-shadow">
-</div>
+<div class="changelog-info info-box">
+  <a href="javascript:showBetaHint(this);">How to switch to pre-releases in TotalFinder?</a>
+  <div class="betahint" style="display:none">
+    <p>Please enable the "Include pre-releases" checkbox in the System-&gt;Updates section of the TotalFinder preferences tab:</p>
+    <img src="/images/pref-include-preleases.png" style="width:600px" class="doc-image add-shadow">
+  </div>
 </div>
 
 <div class="changelogx">

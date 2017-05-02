@@ -6,7 +6,7 @@ subtitle: Colored Labels
 
 <img src="/images/showcase/full-clabels.png" class="doc-image add-shadow" style="width:600px">
 
-<div class="compatibility-note">
+<div class="info-box compatibility">
 This feature is available only under Mavericks and later (10.9+) since <a href="/changes#1.6">TotalFinder 1.6</a>.
 </div>
 

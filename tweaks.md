@@ -18,10 +18,10 @@ Color sidebar icons are now available.
 
 <div class="keyboard-shortcuts full">
     <table border="0" cellspacing="0" cellpadding="0">
-        <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
-        <tr><td>Show System Files</td><td>⇧⌘.</td><td></td></tr>
-        <tr><td>Folders on Top</td><td>⇧⌘;</td><td></td></tr>
-        <tr><td>Toggle Dual Mode</td><td>⌘U</td><td></td></tr>
-        <tr><td>Use narrow Tabs Bar</td><td>⇧⌘B</td><td></td></tr>
+        <tr><th>Action</th><th>Shortcut</th></tr>
+        <tr><td>Show System Files</td><td>⇧⌘.</td></tr>
+        <tr><td>Folders on Top</td><td>⇧⌘;</td></tr>
+        <tr><td>Toggle Dual Mode</td><td>⌘U</td></tr>
+        <tr><td>Use narrow Tabs Bar</td><td>⇧⌘B</td></tr>
     </table>
 </div>

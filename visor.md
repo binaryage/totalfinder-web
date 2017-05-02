@@ -47,12 +47,12 @@ The Visor window slides on screen similar way to how the game console did in the
 
 ## Keyboard Shortcuts
 
-<div class="keyboard-shortcuts full">
+<div class="keyboard-shortcuts">
     <table border="0" cellspacing="0" cellpadding="0">
-        <tr><th>Action</th><th>Shortcut</th><th>Comment</th></tr>
-        <tr><td>Show or hide Visor</td><td>⌥`</td><td>alternatively double tap ⌥+⌥</td></tr>
-        <tr><td>Hide Visor while opened</td><td>⎋</td><td>optional, disabled by default</td></tr>
-        <tr><td>Pin Visor</td><td>⇧⌘P</td><td></td></tr>
+        <tr><th>Action</th><th>Shortcut</th></tr>
+        <tr><td>Show or hide Visor</td><td>⌥` (alternatively double tap ⌥+⌥)</td></tr>
+        <tr><td>Hide Visor while opened</td><td>⎋ (optional, disabled by default)</td></tr>
+        <tr><td>Pin Visor</td><td>⇧⌘P</td></tr>
     </table>
 </div>
 

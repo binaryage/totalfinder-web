@@ -47,13 +47,11 @@ oses: [{
 }]
 ---
 
-Here you can find latest TotalFinder releases compatible with individual OS versions.
-
----
+Here you can find latest TotalFinder releases compatible with individual OS versions:
 
 {% contentfor inline_styles %}
 .custom-os-box { margin-left:20px; font-size:14px; clear:both; margin-bottom:20px; line-height:32px; }
-.custom-os-box img { height:32px; float:left; margin-right:12px; }
+.custom-os-box img { height:32px; float:left; margin-right:12px; background-color: transparent; }
 .custom-os-box .title { color:#666; font-weight:bold; display:inline-block; width: 220px }
 .custom-os-box .title a { color:#666; }
 .custom-os-box .note { color:#666; display:inline-block }
