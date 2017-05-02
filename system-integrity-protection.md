@@ -1,7 +1,7 @@
 ---
 layout: tf-doc
 title: System Integrity Protection
-subtitle: How to run TotalFinder under System Integrity Protection
+subtitle: TotalFinder with System Integrity Protection
 ---
 
 Starting with macOS 10.11 (El Capitan) Apple has introduced System Integrity Protection (SIP). This prevents TotalFinder to modify Finder.app.

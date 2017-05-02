@@ -1,7 +1,7 @@
 ---
 layout: tf-doc
 title: System Integrity Protection
-subtitle: How to run TotalFinder under System Integrity Protection
+subtitle: TotalFinder with System Integrity Protection
 ---
 
 TotalFinder has support for OSX 10.11 El Capitan and macOS 10.12 Sierra, but cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature in El Capitan.
