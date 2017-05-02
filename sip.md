@@ -4,41 +4,40 @@ title: System Integrity Protection
 subtitle: TotalFinder with System Integrity Protection
 ---
 
-TotalFinder has support for OSX 10.11 El Capitan and macOS 10.12 Sierra, but cannot be installed on a normally configured machine due to System Integrity Protection (SIP), a new security feature in El Capitan.
+TotalFinder has support for macOS 10.11 (El Capitan) and macOS 10.12 (Sierra), but cannot be installed on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection) (SIP).
 
-This article will tell you how to configure your machine to allow installation by modifying the SIP setting.
+This article will tell you how to configure your machine to allow installation by modifying the SIP setting temporarily.
 
-Here is some information about [what System Integrity Protection is, and what it means to turn it off](https://en.wikipedia.org/wiki/System_Integrity_Protection). Technical details are well covered in [the El Capitan review on Ars Technica](http://arstechnica.com/apple/2015/09/os-x-10-11-el-capitan-the-ars-technica-review/8). Apple also provide [some information here](https://developer.apple.com/library/prerelease/mac/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html). 
-
-If you decide to modify the setting under El Capitan/Sierra, you will be able to install TotalFinder. Just to be clear...
+If you decide to modify the settings, you will be able to install TotalFinder. Just to be clear...
 
 <div class="info-box exclamation">
-Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.
+Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify the settings.
 </div>
 
 ## How to install TotalFinder by turning off System Integrity Protection
 
 We now recommend turning off SIP to install TotalFinder, and to turn it back on again after it has been installed.
 
-You must boot into the Recovery OS. You do this by restarting your machine, and holding `Command+R` until the Apple logo appears.
+TotalFinder will guide you through the process via notification dialogs. 
+Please check the [TotalFinder installation page](/installation) for general installation steps. 
+This document explains SIP-specific steps.
 
+You must boot into the Recovery OS. You do this by restarting your machine, and holding `Command+R` until the Apple logo appears. 
 Then select Terminal from the Utilities menu. It looks like this:
 
-<img src="/shared/img/recovery-utilities-terminal.png">
+<img src="/shared/img/recovery-utilities-terminal.png" class="doc-image">
 
 In the window that opens, type
 <code>csrutil disable</code>
 and press return. This turns off System Integrity Protection so that TotalFinder can be installed.
 
-<img src="/images/csrutil-disable.jpg">
+<img src="/images/csrutil-disable.jpg" class="doc-image">
 
 Reboot your machine and you may install and run the [latest version of TotalFinder](/changes-beta).
 
 Once TotalFinder is installed and you have run it for the first time (so it has a chance to install its plugin component), then you may turn SIP back on.
 
-To do this, reboot and hold `Command+R` until the Apple logo appears once more. Go to Utilities->Terminal and type
-<code>csrutil enable</code>
-and press return. Reboot, and you are done.
+To do this, reboot and hold `Command+R` until the Apple logo appears once more. Go to Utilities-&gt;Terminal and type `csrutil enable` and press return. Reboot, and you are done.
 
 ## Technical details
 
