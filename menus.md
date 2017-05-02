@@ -1,7 +1,7 @@
 ---
 layout: tf-doc
-title: TotalFinder Menus
-subtitle: Menus
+title: TotalFinder Context Menus
+subtitle: Context Menus
 ---
 
 ## Hide icon in Menu Bar
@@ -19,10 +19,10 @@ TotalFinder makes it really easy to capture a variety of path formats for a sele
 5. HFS Path
 6. Terminal Path
 
-<img src="/images/context-menu-path.png" style="margin-bottom: 0px">
+<img src="/images/context-menu-path.png" class="doc-image">
 
 ## Show CutPaste buttons in Context Menus
 
 Although you can always use the keyboard shortcuts to cut, copy, or paste an object with TotalFinder installed, this menu option offers a button for each edit operation in the contextual menu.
 
-<img src="/images/context-menu-buttons.png" style="margin-bottom: 0px">
+<img src="/images/context-menu-buttons.png" class="doc-image">
