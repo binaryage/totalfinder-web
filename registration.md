@@ -8,7 +8,7 @@ subtitle: Registration
 
 You may click on the red badge in the top-right corner of a TotalFinder window:
 
-<img src="/images/unregistered.png" class="doc-image" style="width: 400px">
+<img src="/images/unregistered.png" class="doc-image add-shadow" style="width: 400px">
 
 Alternatively you can go through `TotalFinder Preferences` / `Registration` / `Register` button:
 
