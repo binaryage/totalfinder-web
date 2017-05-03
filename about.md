@@ -4,17 +4,18 @@ title: About TotalFinder
 subtitle: About TotalFinder
 ---
 
-<div class="info-box compatibility"><b><a href="/sip">Please read this information</a></b> about running TotalFinder on macOS 10.12 (Sierra) or 10.11 (El Capitan)</div>
+<div class="info-box compatibility">
+TotalFinder is tested to work in macOS 10.9 (Mavericks) and newer.<br>
+<b><a href="/sip">Please read this information</a></b> about running TotalFinder on macOS 10.12 (Sierra) or 10.11 (El Capitan)
+</div>
 
 ## TotalFinder is just a better Finder
 
-TotalFinder works like the original Finder but adds [tabs](/tabs), [dual panel mode](/dual-mode), [colored labels](/colored-labels) and other [useful features](/tweaks).
+TotalFinder works like the normal Finder but adds [tabs](/tabs), [dual panel](/dual-mode), [colored labels](/colored-labels) and other [features](/tweaks).
 
 <img src="/images/showcase/full-clabels.png" class="doc-image add-shadow" style="width:500px">
 
 My goal is to improve Finder in a few areas where it is lacking but keep the general design.
-
-TotalFinder is tested to work in OS X **10.9 (Mavericks)** and later.
 
 ## TotalFinder is a plugin, not a replacement
 
