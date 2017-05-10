@@ -1,8 +1,8 @@
 1.9.5 - May 10, 2017
-  * Fixed Cut&Paste issue <a href="https://discuss.binaryage.com/t/totalfinder-cmd-x-issues-w-desktop/5225">when pasting a file on Desktop</a>. [Sierra]
+  ! Fixed Cut&Paste issue <a href="https://discuss.binaryage.com/t/totalfinder-cmd-x-issues-w-desktop/5225">when pasting a file on Desktop</a>. [Sierra]
 
 1.9.4 - May 5, 2017
-  * Fixed an issue with <a href="https://discuss.binaryage.com/t/grey-screen-in-full-screen-mode/5488">grey window in full screen mode</a>.
+  ! Fixed an issue with <a href="https://discuss.binaryage.com/t/grey-screen-in-full-screen-mode/5488">grey window in full screen mode</a>.
 
 1.9.3 - April 26, 2017
   * <a href="https://discuss.binaryage.com/t/side-bar-icon-size/5448">Scale sidebar icons</a> when Colored Sidebar Icons feature is enabled.
