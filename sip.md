@@ -10,9 +10,9 @@ This article will tell you how to configure your machine to allow installation b
 
 If you decide to modify the settings, you will be able to install TotalFinder. Just to be clear...
 
-<div class="info-box exclamation">
+<p class="info-box exclamation">
 Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify the settings.
-</div>
+</p>
 
 ## How to install TotalFinder by turning off System Integrity Protection
 

@@ -14,9 +14,9 @@ Apple also provide [some information here](https://developer.apple.com/library/p
 
 Anyway, if you decide to partially disable SIP, you will be able to install and run TotalFinder as before. Just to be clear...
 
-<div class="info-box exclamation">
+<p class="info-box exclamation">
 I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
-</div>
+</p>
 
 ## How to partially disable System Integrity Protection
 

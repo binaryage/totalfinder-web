@@ -8,13 +8,15 @@ subtitle: Licensing TotalFinder
 
 When you buy a TotalFinder license you receive a permission to use the software.
 
-<div class="info-box">
-  <p>You may use your license in either of two ways:</p>
-  <div class="choice">1. <strong>single user on multiple computers</strong> <span class="note">(as long as you are the only user using TotalFinder)</span></div>
-  <div class="example">Example: a desktop computer and a personal laptop which are both used exclusively by you</div>
-  <div class="choice">2. <strong>multiple users on a single computer</strong></div>
-  <div class="example">Example: a home computer which is shared by all family members</div>
-</div>
+<p class="info-box">
+  <span>You may use your license in either of two ways:</span><br>
+  <br>
+  <span class="choice">1. <strong>a single user on multiple computers</strong> <span class="note">(as long as you are the only user using TotalFinder)</span></span><br>
+  <span class="example">Example: a desktop computer and a personal laptop which are both used exclusively by you</span><br>
+  <br>
+  <span class="choice">2. <strong>multiple users on a single computer</strong></span><br>
+  <span class="example">Example: a home computer which is shared by all family members</span><br>
+</p>
 
 ## Trial Version
 
@@ -59,14 +61,14 @@ I have tested TotalFinder with my system and I did my best to make it bug-free a
 However it still may contain undiscovered bugs or hard-to-fix issues. 
 Please report them on [our forums](https://discuss.binaryage.com) or privately via email at [support@binaryage.com](mailto:support@binaryage.com).
 
-<div class="info-box exclamation">
+<p class="info-box exclamation">
 You are using TotalFinder at your own risk. I'm not responsible for anything bad which could possibly happen using this software.
-</div>
+</p>
 
 But don't worry as far as I know no disasters have happened to anyone because of TotalFinder over last years.
 
-<div class="info-box exclamation">
+<p class="info-box exclamation">
 I'm not in control of what Apple does with Finder in the future. 
 Some future system update might make it impossible for me to adapt TotalFinder or some of its functionality to a new Finder version. 
 By purchasing and using this software you simply accept this risk.
-</div>
+</p>
