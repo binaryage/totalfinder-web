@@ -25,7 +25,7 @@ Similarly, in TotalFinder tabs display multiple directories within one window. T
 
 ## Keyboard Shortcuts
 
-<div class="keyboard-shortcuts">
+<div id="tabs-keyboard-shortcuts" class="keyboard-shortcuts anchorable">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr><th>Action</th><th>Shortcut</th></tr>
     <tr><td>Open a new tab</td><td>⌘T</td></tr>

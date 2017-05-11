@@ -22,7 +22,7 @@ You may enter dual mode by double-clicking a tab or pressing ⌘U. The selected 
 
 ## Keyboard shortcuts
 
-<div class="keyboard-shortcuts">
+<div id="dual-mode-keyboard-shortcuts" class="keyboard-shortcuts anchorable">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr><th>Action</th><th>Shortcut</th></tr>
     <tr><td>Toggle dual mode</td><td>⌘U</td></tr>

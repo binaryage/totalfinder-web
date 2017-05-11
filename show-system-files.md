@@ -14,7 +14,7 @@ TotalFinder adds a keyboard shortcut to toggle display of these files without th
 
 ## Keyboard Shortcuts
 
-<div class="keyboard-shortcuts">
+<div id="system-files-keyboard-shortcuts" class="keyboard-shortcuts anchorable">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr><th>Action</th><th>Shortcut</th></tr>
     <tr><td>Show System Files</td><td>⇧⌘.</td></tr>

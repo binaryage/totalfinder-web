@@ -27,9 +27,9 @@ Also when you [display hidden files](/show-system-files.md) you may notice those
 
 ## Keyboard Shortcuts
 
-<div class="keyboard-shortcuts">
-    <table border="0" cellspacing="0" cellpadding="0">
-        <tr><th>Action</th><th>Shortcut</th></tr>
-        <tr><td>Folders on Top</td><td>⇧⌘;</td></tr>
-    </table>
+<div id="folders-on-top-keyboard-shortcuts" class="keyboard-shortcuts anchorable">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr><th>Action</th><th>Shortcut</th></tr>
+    <tr><td>Folders on Top</td><td>⇧⌘;</td></tr>
+  </table>
 </div>
