@@ -10,8 +10,10 @@ TotalFinder comes with a convenient uninstaller script which safely removes Tota
 
 Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
 
-<img src="/images/uninstall-menu.png" class="doc-image" style="width:400px">
+<img src="/images/uninstall-menu.png" class="doc-image add-shadow" style="width:400px">
+
 <img src="/images/really-uninstall.png" class="doc-image add-shadow" style="width:400px">
+
 <img src="/images/uninstaller.png" class="doc-image add-shadow" style="width:400px">
 
 If you have trouble running the menu command you may alternatively run the following in Terminal.app: 
