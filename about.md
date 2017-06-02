@@ -19,7 +19,7 @@ My goal is to improve Finder in a few areas where it is lacking but keep the gen
 
 ## TotalFinder is a plugin, not a replacement
 
-Please keep in mind that TotalFinder is an add-on which gets loaded into the Finder when you launch `TotalFinder.app`. It does not modify your Finder files on the disk. TotalFinder is installed as a standalone application. But when launched it changes the current instance of Finder running in your computer memory. I call this process TotalFinder **injection** into Finder.
+Please keep in mind that TotalFinder is an add-on which gets loaded into the Finder when you launch `TotalFinder.app`. It does not modify your Finder files on the disk. TotalFinder is installed as a standalone application. But when launched it changes the current instance of Finder running in memory. I call this process TotalFinder **injection** into Finder.
 
 ## System updates from Apple
 
