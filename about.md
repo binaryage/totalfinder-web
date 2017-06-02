@@ -35,8 +35,6 @@ The easiest way is probably using **Force Quit** menu via <code title="command +
 
 Alternatively you can run this command: 
 
-<pre class="terminal">
-killall Finder
-</pre>
+<pre class="terminal">killall Finder</pre>
 
 Killing Finder will restart Finder without injecting TotalFinder again. To reopen TotalFinder, launch TotalFinder.app in `/Applications`.
