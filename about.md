@@ -29,7 +29,7 @@ Please remember that if you ever experience any problem whatsoever, first check 
 
 ## How to restart the Finder
 
-The easiest way is probably using Force Quit menu via `CMD+OPT+ESC`
+The easiest way is probably using **Force Quit** menu via <code title="command + option + esc">⌘+⌥+esc</code>:
 
 <img src="/images/force-quit-finder.png" class="doc-image add-shadow" style="width:300px">
 
