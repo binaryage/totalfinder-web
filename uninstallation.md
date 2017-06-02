@@ -18,7 +18,9 @@ Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
 
 If you have trouble running the menu command you may alternatively run the following in Terminal.app: 
 
-    open "/Applications/TotalFinder.app/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app"
+<pre class="terminal">
+open "/Applications/TotalFinder.app/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app"
+</pre>
 
 Or download and open the latest archive from [totalfinder.binaryage.com](https://totalfinder.binaryage.com) and launch TotalFinder Uninstaller from the DMG.
 
@@ -32,4 +34,6 @@ It is just a few extra bytes we leave in case you need to temporarily uninstall 
 
 If you want to clean the TotalFinder trail completely. Force quit Finder via CMD+OPT+ESC and then delete the plist from Terminal.app:
 
-    rm ~/Library/Preferences/com.binaryage.totalfinder.plist
+<pre class="terminal">
+rm ~/Library/Preferences/com.binaryage.totalfinder.plist
+</pre>
