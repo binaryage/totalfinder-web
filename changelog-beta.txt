@@ -1,3 +1,7 @@
+1.9.6 - June 15, 2017
+  + Initial compatibility with macOS 10.13. [High Sierra]
+  ! Fixed duplicate Visor window after tweaking Visor preferences.
+
 1.9.5 - May 10, 2017
   ! Fixed Cut&Paste issue <a href="https://discuss.binaryage.com/t/totalfinder-cmd-x-issues-w-desktop/5225">when pasting a file on Desktop</a>. [Sierra]
 
