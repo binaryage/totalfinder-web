@@ -1,3 +1,6 @@
+1.9.7 - June 27, 2017
+  * Improved compatibility with macOS 10.13. [High Sierra]
+
 1.9.6 - June 15, 2017
   + Initial compatibility with macOS 10.13. [High Sierra]
   ! Fixed duplicate Visor window after tweaking Visor preferences.
