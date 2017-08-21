@@ -4,7 +4,7 @@
   - Removed support for macOS 10.9. [Mavericks]
   - Removed support for macOS 10.10. [Yosemite]
   + Implemented <a href="https://totalfinder.binaryage.com/sip-versions">upgrade workflow</a> for SIP system component. [TotalFinderSIP]
-  * Major review and refactoring of whole codebase (with the help of IntelliJ AppCode)
+  * Major review and refactoring of whole codebase (with the help of AppCode from JetBrains)
 
 1.9.7 - June 27, 2017
   * Improved compatibility with macOS 10.13. [High Sierra]
