@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "10.13",
+  label: "High Sierra",
+  logo: "logo-sierra.png",
+  wiki: "MacOS_High_Sierra",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a system tweak</a>",
+},{
   version: "10.12",
   label: "Sierra",
   logo: "logo-sierra.png",
