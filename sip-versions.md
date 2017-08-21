@@ -15,24 +15,32 @@ We maintain this page as a resource with explanation of each upgrade.
 
 ### v1
 
-Initial version of the component installed with [TotalFinder 1.9.0][tf-190]. This [blog post][blog-post] introduced the 
+> **Released in [TotalFinder 1.9.0][tf-190] on March 20, 2017**
+
+> Initial version of the component installed with [TotalFinder 1.9.0][tf-190]. This [blog post][blog-post] introduced the 
 solution.
 
-### v2
+### v2 
 
-For security reasons `TotalFinderSIP.osax` checks code signature of the code located at `/Applications/TotalFinder.app` which 
+> **Released in [TotalFinder 1.10.0][tf-1100] on August 21, 2017**
+
+> For security reasons `TotalFinderSIP.osax` checks code signature of the code located at `/Applications/TotalFinder.app` which 
 it is going to inject into `Finder.app`. It must make sure that the code was produced by us (BinaryAge) and properly signed 
 with a valid developer certificate issued by Apple.
 
-The problem is that in `v1` implementation we were checking specific naming scheme of the developer certificate and Apple 
+> The problem is that in `v1` implementation we were checking specific naming scheme of the developer certificate and Apple 
 decided to change it. As our old certificate expired we were unable to sign new TotalFinder updates in a way which
 would be recognised by the `v1` component as a genuine code coming from us. That is why we had to [relax the check][v2-commit] 
 in `v2`.
 
-Unfortunately you have to do the [SIP dance][sip] again. Hopefully this will work well for foreseeable future. 
 
-[sip]: https://totalfinder.binaryage.com/sip
+<p class="info-box compatibility">
+Unfortunately to upgrade you have to do the <a href="https://totalfinder.binaryage.com/sip">SIP dance</a> again. 
+Hopefully this will work well for foreseeable future.
+</p> 
+
 [sip-explained]: https://totalfinder.binaryage.com/sip#mark-technical-details
 [blog-post]: https://blog.binaryage.com/sip-and-installing-total-apps
 [v2-commit]: https://github.com/binaryage/totalfinder-osax/commit/422dc57e2132e92ae30d099a7ca32bd93a2040a2
 [tf-190]: https://totalfinder.binaryage.com/beta-changes#1.9.0
+[tf-1100]: https://totalfinder.binaryage.com/beta-changes#1.10.0
