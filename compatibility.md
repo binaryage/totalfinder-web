@@ -25,13 +25,13 @@ oses: [{
   label: "Yosemite",
   logo: "logo-yosemite.png",
   wiki: "OS_X_Yosemite",
-  note: "<a href=\"/beta-changes#latest\">install the latest version</a>",
+  note: "install <a href=\"/changes#1.9.3\">version 1.9.3</a>",
 },{
   version: "10.9",
   label: "Mavericks",
   logo: "logo-mavericks.png",
   wiki: "OS_X_Mavericks",
-  note: "<a href=\"/changes#latest\">install the latest version</a>",
+  note: "install <a href=\"/changes#1.9.3\">version 1.9.3</a>",
 },{
   version: "10.8",
   label: "Mountain Lion",
