@@ -122,17 +122,23 @@
                   We maintain this page as a resource with explanation of each upgrade.</p>
                   <hr/>
                   <h3>v1</h3>
-                  <p>Initial version of the component installed with <a href="https://totalfinder.binaryage.com/beta-changes#1.9.0">TotalFinder 1.9.0</a>. This <a href="https://blog.binaryage.com/sip-and-installing-total-apps">blog post</a> introduced the
-                  solution.</p>
+                  <blockquote><p><strong>Released in <a href="https://totalfinder.binaryage.com/beta-changes#1.9.0">TotalFinder 1.9.0</a> on March 20, 2017</strong></p>
+                    <p>Initial version of the component installed with <a href="https://totalfinder.binaryage.com/beta-changes#1.9.0">TotalFinder 1.9.0</a>. This <a href="https://blog.binaryage.com/sip-and-installing-total-apps">blog post</a> introduced the
+                  solution.</p></blockquote>
                   <h3>v2</h3>
-                  <p>For security reasons <code>TotalFinderSIP.osax</code> checks code signature of the code located at <code>/Applications/TotalFinder.app</code> which
-                    it is going to inject into <code>Finder.app</code>. It must make sure that the code was produced by us (BinaryAge) and properly signed
-                  with a valid developer certificate issued by Apple.</p>
-                  <p>The problem is that in <code>v1</code> implementation we were checking specific naming scheme of the developer certificate and Apple
-                    decided to change it. As our old certificate expired we were unable to sign new TotalFinder updates in a way which
-                    would be recognised by the <code>v1</code> component as a genuine code coming from us. That is why we had to <a href="https://github.com/binaryage/totalfinder-osax/commit/422dc57e2132e92ae30d099a7ca32bd93a2040a2">relax the check</a>
-                  in <code>v2</code>.</p>
-                  <p>Unfortunately you have to do the <a href="https://totalfinder.binaryage.com/sip">SIP dance</a> again. Hopefully this will work well for foreseeable future.</p>
+                  <blockquote><p><strong>Released in <a href="https://totalfinder.binaryage.com/beta-changes#1.10.0">TotalFinder 1.10.0</a> on August 21, 2017</strong></p>
+                    <p>For security reasons <code>TotalFinderSIP.osax</code> checks code signature of the code located at <code>/Applications/TotalFinder.app</code> which
+                      it is going to inject into <code>Finder.app</code>. It must make sure that the code was produced by us (BinaryAge) and properly signed
+                    with a valid developer certificate issued by Apple.</p>
+                    <p>The problem is that in <code>v1</code> implementation we were checking specific naming scheme of the developer certificate and Apple
+                      decided to change it. As our old certificate expired we were unable to sign new TotalFinder updates in a way which
+                      would be recognised by the <code>v1</code> component as a genuine code coming from us. That is why we had to <a href="https://github.com/binaryage/totalfinder-osax/commit/422dc57e2132e92ae30d099a7ca32bd93a2040a2">relax the check</a>
+                  in <code>v2</code>.</p></blockquote>
+                  <p class="info-box compatibility">
+                    Unfortunately to upgrade you have to do the <a href="https://totalfinder.binaryage.com/sip">SIP dance</a> again.
+                    Hopefully this will work well for foreseeable future.
+                  </p>
+                  <p></p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
