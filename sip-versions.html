@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>TotalFinder Compatibility</title>
-    <link rel="canonical" href="https://totalfinder.binaryage.com/compatibility"/>
+    <title>TotalFinderSIP versions</title>
+    <link rel="canonical" href="https://totalfinder.binaryage.com/sip-versions"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/01546093_shared_css_site.css" type="text/css"/>
@@ -15,9 +15,8 @@
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
     <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
-    <style>.custom-os-box{margin-left:20px;font-size:14px;clear:both;margin-bottom:20px;line-height:32px}.custom-os-box img{height:32px;float:left;margin-right:12px;background-color:transparent}.custom-os-box .title{color:#666;font-weight:bold;display:inline-block;width:220px}.custom-os-box .title a{color:#666}.custom-os-box .note{color:#666;display:inline-block}.custom-os-box a{font-weight:bold}</style>
   </head>
-  <body id="page-totalfinder-compatibility" class="site-totalfinder">
+  <body id="page-totalfinder-sip-versions" class="site-totalfinder">
     <div id="header">
       <div class="container">
         <div class="row">
@@ -112,43 +111,28 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">Compatibility</h1>
+                  <h1 class="title">TotalFinderSIP versions</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>Here you can find latest TotalFinder releases compatible with individual OS versions:</p>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/753ea0a1_shared_img_os_logo-sierra.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/MacOS_High_Sierra">OS X 10.13 (High Sierra)</a></div><div class="note"> <a href="/beta-changes#latest">install the latest version</a>, but <a href="/sip" class="red">needs a system tweak</a></div>
-                  </div>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/753ea0a1_shared_img_os_logo-sierra.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/MacOS_Sierra">OS X 10.12 (Sierra)</a></div><div class="note"> <a href="/beta-changes#latest">install the latest version</a>, but <a href="/sip" class="red">needs a system tweak</a></div>
-                  </div>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/54b83946_shared_img_os_logo-el-capitan.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/OS_X_El_Capitan">OS X 10.11 (El Capitan)</a></div><div class="note"> <a href="/beta-changes#latest">install the latest version</a>, but <a href="/sip" class="red">needs a system tweak</a></div>
-                  </div>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/f7a1114c_shared_img_os_logo-yosemite.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/OS_X_Yosemite">OS X 10.10 (Yosemite)</a></div><div class="note"> install <a href="/changes#1.9.3">version 1.9.3</a></div>
-                  </div>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/c83798e9_shared_img_os_logo-mavericks.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/OS_X_Mavericks">OS X 10.9 (Mavericks)</a></div><div class="note"> install <a href="/changes#1.9.3">version 1.9.3</a></div>
-                  </div>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/46138fee_shared_img_os_logo-mountain-lion.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/OS_X_Mountain_Lion">OS X 10.8 (Mountain Lion)</a></div><div class="note"> install <a href="/changes#1.6.27">version 1.6.27</a></div>
-                  </div>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/0b1ee1b2_shared_img_os_logo-lion.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/OS_X_Lion">OS X 10.7 (Lion)</a></div><div class="note"> install <a href="/changes#1.5.38">version 1.5.38</a></div>
-                  </div>
-                  <div class="custom-os-box">
-                    <img src="https://static.binaryage.com/53850cde_shared_img_os_logo-snow-leopard.png"/>
-                    <div class="title"><a href="http://en.wikipedia.org/wiki/OS_X_Snow_Leopard">OS X 10.6 (Snow Leopard)</a></div><div class="note"> install <a href="/changes#1.3.4">version 1.3.4</a></div>
-                  </div>
+                  <p>TotalFinder needs to install a system component into protected disk area at
+                    <code>/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code> to circumvent the System Integrity Protection (SIP).
+                  You can <a href="https://totalfinder.binaryage.com/sip#mark-technical-details">read some technical details here</a>.</p>
+                  <p>Rarely we might need to upgrade this component. Unfortunately that requires turning SIP off and on again.
+                  We maintain this page as a resource with explanation of each upgrade.</p>
+                  <hr/>
+                  <h3>v1</h3>
+                  <p>Initial version of the component installed with <a href="https://totalfinder.binaryage.com/beta-changes#1.9.0">TotalFinder 1.9.0</a>. This <a href="https://blog.binaryage.com/sip-and-installing-total-apps">blog post</a> introduced the
+                  solution.</p>
+                  <h3>v2</h3>
+                  <p>For security reasons <code>TotalFinderSIP.osax</code> checks code signature of the code located at <code>/Applications/TotalFinder.app</code> which
+                    it is going to inject into <code>Finder.app</code>. It must make sure that the code was produced by us (BinaryAge) and properly signed
+                  with a valid developer certificate issued by Apple.</p>
+                  <p>The problem is that in <code>v1</code> implementation we were checking specific naming scheme of the developer certificate and Apple
+                    decided to change it. As our old certificate expired we were unable to sign new TotalFinder updates in a way which
+                    would be recognised by the <code>v1</code> component as a genuine code coming from us. That is why we had to <a href="https://github.com/binaryage/totalfinder-osax/commit/422dc57e2132e92ae30d099a7ca32bd93a2040a2">relax the check</a>
+                  in <code>v2</code>.</p>
+                  <p>Unfortunately you have to do the <a href="https://totalfinder.binaryage.com/sip">SIP dance</a> again. Hopefully this will work well for foreseeable future.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
