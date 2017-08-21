@@ -60,10 +60,10 @@ component the SIP must be temporarily disabled. When you disable SIP and run Tot
 system component in the location `/System/Library/ScriptingAdditions/TotalFinderSIP.osax`. When you turn SIP back on it will 
 allow TotalFinder to inject into Finder.app.
 
-This component usually does not change between TotalFinder versions. So it should not bother you to repeat these steps with 
-each TotalFinder update. When we need to update this component for some reason, TotalFinder will prompt you and guide through 
-the process. You can visit [this page][sip-versions] to see the list of historical versions of the component with reasons to
-replace it. 
+This should be one-time setup. This component usually does not change between TotalFinder versions. So it should not ask 
+you to repeat these steps with each TotalFinder update. When we need to update this component for some reason, TotalFinder 
+will prompt you and guide through the upgrade process. You can visit [this page][sip-versions] to see the list of historical 
+versions of the component with reasons to replace it.
 
 ## Uninstallation and SIP
 
