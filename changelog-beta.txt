@@ -1,3 +1,10 @@
+1.10.2 - September 11, 2017
+  ! Fixed scenarios when downgrading and TotalFinder installer would ingore it and keep the newer version.
+  ! Marking for cut operation <a href="https://discuss.binaryage.com/t/cut-doesnt-seem-to-lighten-the-icon/5750">didn't properly dim icons</a> in Icon View. [Sierra] [High Sierra]
+  ! Fixed iCloud-related crashes when enabled colored sidebar icons under High Sierra. [High Sierra]
+  ! Prevent losing focus from right-side of dual mode when sliding Visor.
+  ! Fixed unreliable Visor hotkey resetting bug introduced in v1.9.7.
+
 1.10.1 - August 22, 2017
   ! Fixed <a href="https://discuss.binaryage.com/t/total-finder-1-9-7-freezes-on-os-x-10-12-6">freezing under Sierra</a> with Colored Labels enabled browsing in Column View. [Sierra] [High Sierra]
   ! Fixed crash under El Capitan with Folders on Top enabled browsing in Column View. [El Capitan]
