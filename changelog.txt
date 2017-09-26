@@ -1,3 +1,19 @@
+1.10.2 - September 26, 2017
+  * Compatibility with macOS 10.13. [High Sierra]
+  * Major review and refactoring of whole codebase (with the help of AppCode from JetBrains)
+  + Made "Copy Path URL" feature <a href="https://discuss.binaryage.com/t/copy-path-as-url-from-network-location">aware of network mount points</a>.
+  + Implemented <a href="https://totalfinder.binaryage.com/sip-versions">upgrade workflow</a> for SIP system component. [TotalFinderSIP]
+  ! Fixed scenarios when downgrading and TotalFinder installer would ignore it and keep the newer version.
+  ! Marking for cut operation <a href="https://discuss.binaryage.com/t/cut-doesnt-seem-to-lighten-the-icon/5750">didn't properly dim icons</a> in Icon View. [Sierra] [High Sierra]
+  ! Fixed iCloud-related crashes when enabled colored sidebar icons under High Sierra. [High Sierra]
+  ! Fixed crash under El Capitan with Folders on Top enabled browsing in Column View. [El Capitan]
+  ! Fixed duplicate Visor window after tweaking Visor preferences.
+  ! Prevent losing focus from right-side of dual mode when sliding Visor.
+  ! Fixed Cut&Paste issue <a href="https://discuss.binaryage.com/t/totalfinder-cmd-x-issues-w-desktop/5225">when pasting a file on Desktop</a>. [Sierra]
+  ! Fixed an issue with <a href="https://discuss.binaryage.com/t/grey-screen-in-full-screen-mode/5488">grey window in full screen mode</a>.
+  - Removed support for macOS 10.9. [Mavericks]
+  - Removed support for macOS 10.10. [Yosemite]
+
 1.9.3 - April 27, 2017
   ! Fixed <a href="https://discuss.binaryage.com/tags/ghost">occasional "ghost" windows</a> when using Visor and opening folders from external apps.
   ! Fixed font smoothing when using Colored Labels in Column view.
@@ -30,7 +46,7 @@
   - Disabled TotalFinder's Folders on Top feature on macOS 10.12, which now offers Folders on Top natively as an option in Finder's preferences.  However, Finder's implementation only allows Folders on Top when sorting by Name, so we'll look to improve upon that. [Sierra]
 
 1.8.0 - September 20, 2016
-  * Compatibility with macOS 10.12 (<a href="https://totalfinder.binaryage.com/system-integrity-protection">you have to disable SIP</a>). [Sierra]
+  * Compatibility with macOS 10.12 (<a href="https://totalfinder.binaryage.com/system-integrity-protection">you have to disable SIP</a>). [sierra]
 
 1.7.12 - February 22, 2016
   + Compatibility with OS X 10.11.4. [El Capitan]
