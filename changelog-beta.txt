@@ -1,3 +1,6 @@
+1.10.4 - November 14, 2017
+  * Major code refactoring. Thanks for testing this version.
+
 1.10.3 - October 14, 2017
   ! Fixed crash when relaunching Finder from TotalFinder preferences after disabling/enabling Tabs feature. [High Sierra]
   ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-moving-finder-window/5889/2">TotalFinder window dragging</a> via Finder's toolbar background. [High Sierra]
