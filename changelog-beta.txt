@@ -1,3 +1,6 @@
+1.10.5 - November 30, 2017
+  ! Fixed <a href="https://discuss.binaryage.com/t/tf-1-10-2-fails-in-high-sierra-10-13-after-re-enabling-sip/5945/4?u=darwin">installer issue</a> with "TotalFinder is corrupted" message when upgrading directly from v1.9.3.
+
 1.10.4 - November 14, 2017
   * Major code refactoring. Thanks for testing this version.
 
