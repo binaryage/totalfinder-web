@@ -1,3 +1,10 @@
+1.10.7 - January 15, 2018
+  ! Fixed <a href="https://discuss.binaryage.com/t/total-finder-1-10-4-bug-with-seeing-files-listed-in-columns-view/6023/9">remaining problems with vertical window resizing</a>.
+  ! Colored tags are displayed properly when <a href="https://discuss.binaryage.com/t/bug-coloured-tags/6063/2">scrolling Finder view in list mode</a>.
+  ! Fixed <a href="https://discuss.binaryage.com/t/coloured-labels-on-desktop-items/5975">problems with displaying Colored Labels on Desktop</a>. [High Sierra]
+  ! Drives and other <a href="https://discuss.binaryage.com/t/coloured-labels-on-desktop-items/5975/2">virtual items have working Colored Labels on Desktop</a>.
+  ! Resizing TotalFinder window vertically could <a href="https://discuss.binaryage.com/t/total-finder-1-10-4-bug-with-seeing-files-listed-in-columns-view/6023/5">clip Finder's content unexpectedly</a>.
+
 1.10.5 - December 2, 2017
   ! Fixed <a href="https://discuss.binaryage.com/t/tf-1-10-2-fails-in-high-sierra-10-13-after-re-enabling-sip/5945/4?u=darwin">installer issue</a> with "TotalFinder is corrupted" message when upgrading directly from v1.9.3.
 
