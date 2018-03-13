@@ -72,3 +72,16 @@ After checking this option newly created windows start as new windows.
 ### Open new tabs with previous location
 
 Instead of opening into its own window, new tabs will open among the tabs of the last active window.
+
+## Troubleshooting tabs behavior
+
+> When I open new folders in Finder they open as Finder's native tabs. I would prefer TotalFinder's tabs.
+
+TotalFinder behaves like that. But there is a system-wide Dock option which interferes with this behavior.
+
+We've [recently discovered](https://discuss.binaryage.com/t/totalfinder-integration-problem-high-sierra/5997/11) that there is a toggle in `System Preferences` -> `Dock` -> `Prefer tabs when opening documents`.
+When you switch it to `Always` it will override default TotalFinder behavior and folders opened from external apps will open as Finder's native tabs.
+
+<img src="/images/prefer-tabs-dock-option.png" class="doc-image add-shadow" style="width:600px">
+
+Default option is `In Full Screen Only` but you might want to change it to `Manually` if you want to use TotalFinder in full screen mode.
