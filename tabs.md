@@ -79,7 +79,7 @@ Instead of opening into its own window, new tabs will open among the tabs of the
 
 TotalFinder behaves like that. But there is a system-wide Dock option which interferes with this behavior.
 
-We've [recently discovered](https://discuss.binaryage.com/t/totalfinder-integration-problem-high-sierra/5997/11) that there is a toggle in `System Preferences` -> `Dock` -> `Prefer tabs when opening documents`.
+As we've [recently discovered](https://discuss.binaryage.com/t/totalfinder-integration-problem-high-sierra/5997/11) the option toggle in `System Preferences` -> `Dock` -> `Prefer tabs when opening documents`.
 When you switch it to `Always` it will override default TotalFinder behavior and folders opened from external apps will open as Finder's native tabs.
 
 <img src="/images/prefer-tabs-dock-option.png" class="doc-image add-shadow" style="width:600px">
