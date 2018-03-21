@@ -1,3 +1,8 @@
+1.10.8 - March 21, 2018
+  ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-1-10-7-coloured-tags/6132">flaky redrawing of Colored Labels in List View mode</a>. [High Sierra]
+  ! Fixed <a href="https://discuss.binaryage.com/t/aliases-lose-coloring/3350">alias files losing Colored Labels</a>. [High Sierra]
+  ! Fixed <a href="https://discuss.binaryage.com/t/clicking-finder-icon-in-dock-no-longer-works-as-expected/3608">Visor refocus behavior</a>.
+
 1.10.7 - December 11, 2017
   ! Fixed <a href="https://discuss.binaryage.com/t/total-finder-1-10-4-bug-with-seeing-files-listed-in-columns-view/6023/9">remaining problems with vertical window resizing</a>.
   ! Colored tags are displayed properly when <a href="https://discuss.binaryage.com/t/bug-coloured-tags/6063/2">scrolling Finder view in list mode</a>.
