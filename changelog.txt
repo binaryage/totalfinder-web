@@ -1,3 +1,8 @@
+1.10.10 - April 05, 2018
+  ! Fixed <a href="https://discuss.binaryage.com/t/go-to-folder-feature-partly-broken/5473"> confused "Go To" dialog in dual mode</a>.
+  ! Fixed <a href="https://discuss.binaryage.com/t/draggable-window-contents/6335">ghost window dragging via bottom status bar</a>.
+  ! Fixed CrashWatcher issues introduced in previous version.
+
 1.10.9 - March 24, 2018
   ! Fixed and improved Crash Watcher app. Uploading crash reports stopped working.
   ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-1-10-7-coloured-tags/6132">flaky redrawing of Colored Labels in List View mode</a>. [High Sierra]
