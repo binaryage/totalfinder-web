@@ -4,6 +4,11 @@ title: System Integrity Protection
 subtitle: TotalFinder with System Integrity Protection
 ---
 
+<p class="info-box compatibility">
+This page describes specific information for macOS 10.11 (El Capitan) up to 10.13 (High Siera).<br>
+If you have more recent macOS version please refer to <b><a href="/sip-mojave">macOS 10.14 (Mojave) SIP instructions</a></b>.
+</p>
+
 TotalFinder has support for macOS 10.11 (El Capitan) up to macOS 10.13 (High Sierra), but cannot be installed on a normally 
 configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection) (SIP).
 
