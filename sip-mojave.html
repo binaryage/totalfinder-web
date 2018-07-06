@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" class="ba">
+  <head>
+    <title>System Integrity Protection under macOS 10.14 (Mojave)</title>
+    <link rel="canonical" href="https://totalfinder.binaryage.com/sip-mojave"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
+    <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
+    <meta property="fb:admins" content="antonin.hildebrand"/>
+    <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
+    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+  </head>
+  <body id="page-totalfinder-sip-mojave" class="site-totalfinder">
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="relativize">
+              <a href="//www.binaryage.com" title="BinaryAge Software">
+                <div class="binaryage-logo">
+                  <svg class="logo">
+                    <g class="logo-badge">
+                      <rect class="logo-badge-background" x="0" y="0" rx="4" ry="4" width="60" height="54"/>
+                      <path class="logo-letter-b" d=" M6,47 L6,17 12,17 12,25 29,25 29,47 Z M12,42 L12,30 23,30 23,42 Z"/>
+                      <path class="logo-letter-a" d=" M32,47 L32,34 49,34 49,30 32,30 32,25 54,25 54,47 Z M37,42 L37,39 49,39 49,42 Z"/>
+                    </g>
+                    <g class="logo-label" transform="translate(71, 22)">
+                      <g class="logo-word-binary">
+                        <path class="logo-label-letter-b" transform="translate(0, 0)" d=" M0,25 L0,0 5,0 5,7 20,7 20,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-i" transform="translate(22, 0)" d=" M0,25 L0,7 5,7 5,25 Z M0,3 L5,3 5,0 0,0 Z"/>
+                        <path class="logo-label-letter-n" transform="translate(29, 0)" d=" M0,25 L0,7 20,7 20,25 15,25 15,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-a" transform="translate(51, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-r" transform="translate(73, 0)" d=" M0,25 L0,7 20,7 20,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-y" transform="translate(95, 0)" d=" M0,25 L0,7 5,7 5,21 15,21 15,7 20,7 20,32 0,32 0,28 15,28 15,25 Z"/>
+                      </g>
+                      <g class="logo-word-age" transform="translate(118, 0)">
+                        <path class="logo-label-letter-a" transform="translate(0, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-g" transform="translate(22, 0)" d=" M0,25 L0,7 20,7 20,32 0,32 0,28 15,28 15,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-e" transform="translate(44, 0)" d=" M0,25 L0,7 20,7 20,18 5,18 5,21 20,21 20,25 Z M5,14 L5,11 15,11 15,14 Z"/>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <div class="relativize">
+              <ul class="header-menu menu-selected-products">
+                <li class="menu-item-store"><a href="https://sites.fastspring.com/binaryage/product/store"><i class="fa fa-shopping-cart"></i><span>store</span></a></li>
+                <li class="menu-item-products"><a href="//www.binaryage.com"><i class="fa fa-star"></i><span>products</span></a></li>
+                <li class="menu-item-blog"><a href="//blog.binaryage.com"><i class="fa fa-bullhorn"></i><span>blog</span></a></li>
+                <li class="menu-item-support"><a href="//discuss.binaryage.com"><i class="fa fa-comments"></i><span>support</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main" class="cf">
+      <div class="doc-content markdown-body markdown-tweaks">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 doc-header">
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png"/><span>TotalFinder homepage &uarr;</span></a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="sidebar">
+                <div class="content-sidebar">
+                  <h2>Change log</h2>
+                  <ul>
+                    <li><a href="/changes" data-alt="/beta-changes">Recent changes</a></li>
+                  </ul>
+                  <h2>Before installing</h2>
+                  <ul>
+                    <li><a href="/about">About TotalFinder</a></li>
+                    <li><a href="/installation">Installation</a></li>
+                    <li><a href="/uninstallation">Uninstallation</a></li>
+                    <li><a href="/licensing">Licensing</a></li>
+                    <li><a href="/purchasing">Purchasing</a></li>
+                    <li><a href="/registration">Registration</a></li>
+                  </ul>
+                  <h2>Features</h2>
+                  <ul>
+                    <li><a href="/tabs">Tabs</a></li>
+                    <li><a href="/dual-mode">Dual mode</a></li>
+                    <li><a href="/visor">Visor</a></li>
+                    <li><a href="/show-system-files">Show system files</a></li>
+                    <li><a href="/colored-labels">Colored Labels</a></li>
+                    <li><a href="/folders-on-top">Folders on top</a></li>
+                    <li><a href="/menus">Context Menus</a></li>
+                    <li><a href="/tweaks">Other Tweaks</a></li>
+                  </ul>
+                  <h2>More</h2>
+                  <ul>
+                    <li><a href="/compatibility">Compatibility</a></li>
+                    <li><a href="/sip">System Integrity Protection</a></li>
+                    <li><a href="/reasons-to-buy">Reasons to buy</a></li>
+                    <li><a href="/free-licenses">Free licenses</a></li>
+                    <li><a href="/credits">Credits</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="doc-page">
+                <div class="header-content">
+                  <h1 class="title">TotalFinder with System Integrity Protection</h1>
+                </div>
+                <div class="generic-separator"></div>
+                <div class="page-content">
+                  <p class="info-box compatibility">
+                    This page describes macOS 10.14 (Mojave) specific information.<br/>
+                    If you have previous macOS version please refer to <b><a href="/sip">previous macOS SIP instructions</a></b>.
+                  </p>
+                  <p>TotalFinder has support for macOS 10.14 (Mojave) run on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a> (SIP). This article can help you how to configure your machine to allow TotalFiner installation by modifying the SIP setting.</p>
+                  <p>If you decide to modify the settings, you will be able to install TotalFinder. Just to be clear...</p>
+                  <p class="info-box exclamation">
+                    Your machine may be less secure when System Integrity Protection is disabled. It is entirely your decision to modify the settings.
+                  </p>
+                  <h2>How to install TotalFinder by turning off System Integrity Protection</h2>
+                  <p>TotalFinder will guide you through the process via notification dialogs.
+                    Please check the <a href="/installation">TotalFinder installation page</a> for general installation steps.
+                  This document explains SIP-specific steps.</p>
+                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding <code>Command+R</code> until the Apple logo
+                  appears. Then select Terminal from the Utilities menu. It looks like this:</p>
+                  <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png" class="doc-image"/></p>
+                  <p>In the window that opens, type <code>csrutil disable</code> and press return. This turns off System Integrity Protection so
+                  that TotalFinder can be installed.</p>
+                  <p><img src="https://static.binaryage.com/b40de138_images_csrutil-disable.jpg" class="doc-image"/></p>
+                  <p>Reboot your machine and you may install and run the <a href="/changes-beta">latest version of TotalFinder</a>.</p>
+                  <p>Unfortunately you have to keep SIP disabled to allow TotalFinder. In earlier macOS versions it was possible to turn SIP off only to
+                    complete TotalFinder installation steps and enable it back again. That is no longer possible with macOS 10.14 (Mojave) due to hardened
+                  macOS security settings.</p>
+                  <h2>Technical details</h2>
+                  <p>TotalFinder works by altering the built-in system application Finder.app.</p>
+                  <p>In order to change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code
+                    to the Finder program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of
+                    macOS on the disk. You only have to quit Finder via <code>Command+Option+Esc</code>, and the Finder will restart and everything will be
+                  as if TotalFinder was never running.</p>
+                  <p>However, in macOS 10.11 (El Capitan) and later the macOS developers added a feature that disallows this kind of modification even if you
+                  have administrator access. It will also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
+                  <h2>Uninstallation and SIP</h2>
+                  <p>To remove TotalFinder from your system, run the uninstaller found on the <a href="/changes-beta">latest dmg download of TotalFinder</a>.</p>
+                  <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
+    <p></div></p>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box-right">
+              <div class="footer-copyright">
+                <div class="footer-license">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                </div>
+                <a href="https://www.binaryage.com/about">BinaryAge</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://static.binaryage.com/40cc8f55_shared_js_code.js"></script>
+    <script type="text/javascript">window["ga"]=function(){}</script>
+    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
+    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
+    <script type="text/javascript" charset="utf-8">defer$(function(){var a="p,pre,ul,ol,h2,h3,h4,h5,h6,.anchorable";$(a).addClass("add-anchor");var r='<svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></path> </svg>';var e=function(a){var r=a.split(",");var e=[];for(var i=0;i<r.length;i++){var t=r[i];e.push(t+" .add-anchor")}return e.join(",")};var i=".page-content";var t=e(i);var n=$(t);var c=n.not(n.children());c.each(function(){var a=$(this);var e;if(!e||e===""){e=a.attr("id")||a.attr("title")||a.attr("src")}if(!e||e===""){e=a.text()}if(!e||e===""){var i=a.find(".doc-image").attr("src");if(i){var t=i.split(/[\/_]/);if(t.length>0){var n=t[t.length-1];e=n.replace(/[\/.]/g," ")}}}if(!e||e===""){return}var c="mark-"+e.toLowerCase().replace(/[ _-]/g," ").replace(/^\s+/g,"").split(" ",10).join("D").replace(/\W/g,"").replace(/D+/g,"-").replace(/^-+/g,"").replace(/-+$/g,"");a.prepend('<a id="'+c+'" href="#'+c+'" class="anchor" aria-hidden="true">'+r+"</a>")});var h=function(a){$(".highlighted-section").removeClass("highlighted-section");var r="#"+a;if(r!="#"){$(r).parent().addClass("highlighted-section")}};var o=function(){return window.location.hash.slice(1)};$(window).on("hashchange",function(){h(o())});h(o())})</script>
+  </body>
+</html>
