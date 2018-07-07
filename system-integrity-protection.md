@@ -4,6 +4,11 @@ title: System Integrity Protection
 subtitle: TotalFinder with System Integrity Protection
 ---
 
+<p class="info-box compatibility">
+This page describes specific information for macOS 10.11 (El Capitan) only.<br>
+If you have more recent macOS version please refer to <b><a href="/sip">macOS 10.14 (Mojave) SIP instructions</a></b>.
+</p>
+
 Starting with macOS 10.11 (El Capitan) Apple has introduced System Integrity Protection (SIP). This prevents TotalFinder to modify Finder.app.
 
 This article describes how to configure your machine by partially disabling the new setting, so that you can run TotalFinder.
