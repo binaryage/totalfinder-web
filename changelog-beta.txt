@@ -1,3 +1,10 @@
+1.11.0 - July 7, 2018
+  + Initial compatibility with macOS 10.14 [Mojave]
+  + Due to hardened macOS security <a href="https://totalfinder.binaryage.com/sip">SIP must be disabled in Mojave</a>. [Mojave]
+  + Added support for Dark Mode in Mojave. [Mojave]
+  * Tabs colors might look slightly different than in previous TotalFinder versions. Tab colors might not perfectly match toolbar colors in Dark Mode. I will try to fix this in future releases.
+  - Normally TotalFinder prevents displaying dot files on Desktop when display of system files is enabled. This is not yet implemented under Mojave. [Mojave]
+
 1.10.10 - March 31, 2018
   ! Fixed <a href="https://discuss.binaryage.com/t/go-to-folder-feature-partly-broken/5473"> confused "Go To" dialog in dual mode</a>.
   ! Fixed <a href="https://discuss.binaryage.com/t/draggable-window-contents/6335">ghost window dragging via bottom status bar</a>.
