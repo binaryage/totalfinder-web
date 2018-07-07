@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>System Integrity Protection</title>
+    <title>System Integrity Protection under macOS 10.14 (Mojave)</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/sip"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
@@ -116,19 +116,15 @@
                 <div class="generic-separator"></div>
                 <div class="page-content">
                   <p class="info-box compatibility">
-                    This page describes specific information for macOS 10.11 (El Capitan) up to 10.13 (High Siera).<br/>
-                    If you have more recent macOS version please refer to <b><a href="/sip-mojave">macOS 10.14 (Mojave) SIP instructions</a></b>.
+                    This page describes macOS 10.14 (Mojave) specific information.<br/>
+                    If you have previous macOS version please refer to <b><a href="/sip">previous macOS SIP instructions</a></b>.
                   </p>
-                  <p>TotalFinder has support for macOS 10.11 (El Capitan) up to macOS 10.13 (High Sierra), but cannot be installed on a normally
-                  configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a> (SIP).</p>
-                  <p>This article can help you how to configure your machine to allow installation by modifying the SIP setting temporarily.</p>
+                  <p>TotalFinder has support for macOS 10.14 (Mojave) run on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a> (SIP). This article can help you how to configure your machine to allow TotalFiner installation by modifying the SIP setting.</p>
                   <p>If you decide to modify the settings, you will be able to install TotalFinder. Just to be clear...</p>
                   <p class="info-box exclamation">
-                    Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify the
-                    settings.
+                    Your machine may be less secure when System Integrity Protection is disabled. It is entirely your decision to modify the settings.
                   </p>
                   <h2>How to install TotalFinder by turning off System Integrity Protection</h2>
-                  <p>We now recommend turning off SIP to install TotalFinder, and to turn it back on again after it has been installed.</p>
                   <p>TotalFinder will guide you through the process via notification dialogs.
                     Please check the <a href="/installation">TotalFinder installation page</a> for general installation steps.
                   This document explains SIP-specific steps.</p>
@@ -139,34 +135,19 @@
                   that TotalFinder can be installed.</p>
                   <p><img src="https://static.binaryage.com/b40de138_images_csrutil-disable.jpg" class="doc-image"/></p>
                   <p>Reboot your machine and you may install and run the <a href="/changes-beta">latest version of TotalFinder</a>.</p>
-                  <p>Once TotalFinder is installed and you have run it for the first time (so it has a chance to install its system component),
-                  then you may turn SIP back on.</p>
-                  <p>To do this, reboot and hold <code>Command+R</code> until the Apple logo appears once more. Go to Utilities-&gt;Terminal and type
-                  <code>csrutil enable</code> and press return. Reboot, and you are done.</p>
+                  <p>Unfortunately you have to keep SIP disabled to allow TotalFinder. In earlier macOS versions it was possible to turn SIP off only to
+                    complete TotalFinder installation steps and enable it back again. That is no longer possible with macOS 10.14 (Mojave) due to hardened
+                  macOS security settings.</p>
                   <h2>Technical details</h2>
                   <p>TotalFinder works by altering the built-in system application Finder.app.</p>
                   <p>In order to change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code
                     to the Finder program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of
                     macOS on the disk. You only have to quit Finder via <code>Command+Option+Esc</code>, and the Finder will restart and everything will be
                   as if TotalFinder was never running.</p>
-                  <p>However, in El Capitan and later the macOS developers added a feature that disallows this kind of modification even if you
+                  <p>However, in macOS 10.11 (El Capitan) and later the macOS developers added a feature that disallows this kind of modification even if you
                   have administrator access. It will also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
-                  <p>In order for TotalFinder to be able to do code injection into Finder.app we need a help from the system. We need to install
-                    a special system component which allows circumventing SIP restrictions just in this special case. To install this system
-                    component the SIP must be temporarily disabled. When you disable SIP and run TotalFinder, it prompts you to install its
-                    system component in the location <code>/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code>. When you turn SIP back on it will
-                  allow TotalFinder to inject into Finder.app.</p>
-                  <p>This should be one-time setup. This component usually does not change between TotalFinder versions. So it should not ask
-                    you to repeat these steps with each TotalFinder update. When we need to update this component for some reason, TotalFinder
-                    will prompt you and guide through the upgrade process. You can visit <a href="https://totalfinder.binaryage.com/sip-versions">this page</a> to see the list of historical
-                  versions of the component with reasons to replace it.</p>
                   <h2>Uninstallation and SIP</h2>
                   <p>To remove TotalFinder from your system, run the uninstaller found on the <a href="/changes-beta">latest dmg download of TotalFinder</a>.</p>
-                  <p>Note that if you have SIP turned on, then the uninstaller will not be able to remove the<br/>
-                    <code>/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code>. This is not harmful (it won't ever be loaded if you do not run
-                  TotalFinder), but to be totally clean you should disable SIP and either manually remove it, or run the uninstaller again.</p>
-                  <h2>Further information</h2>
-                  <p>You can find some further information <a href="https://blog.binaryage.com/sip-and-installing-total-apps/">in our blog post</a>.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
