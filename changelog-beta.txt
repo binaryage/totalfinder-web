@@ -1,3 +1,8 @@
+1.11.1 - July 9, 2018
+  ! Fixed rare crashes of TotalFinderCrashWatcher.app, how ironic?
+  ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-1-11-0-darkens-finder-labels/6592">improper detection of Dark Mode</a> under pre-Mojave systems. [High Sierra] [Sierra] [El Capitan]
+  ! Fixed broken macOS version detection in TotalFinder agent. Sierra users <a href="https://discuss.binaryage.com/t/total-finder-1-11-0-doesnt-work-in-sierra/6595">were presented with Mojave installation workflow</a>. [High Sierra] [Sierra] [El Capitan]
+
 1.11.0 - July 7, 2018
   + Initial compatibility with macOS 10.14 [Mojave]
   + Due to hardened macOS security <a href="https://totalfinder.binaryage.com/sip">SIP must be disabled in Mojave</a>. [Mojave]
