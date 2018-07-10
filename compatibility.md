@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "10.14",
+  label: "Mojave",
+  logo: "logo-mojave.png",
+  wiki: "MacOS_Mojave",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a system tweak</a>",
+},{
   version: "10.13",
   label: "High Sierra",
   logo: "logo-sierra.png",
