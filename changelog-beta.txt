@@ -1,3 +1,8 @@
+1.11.2 - September 21, 2018
+  + Full support for Dark Mode under Mojave. [Mojave]
+  ! Properly update status menu when enabling/disabling Visor.
+  ! Prevent duplicate TotalFinder items in user's Login Items.
+
 1.11.1 - July 9, 2018
   ! Fixed rare crashes of TotalFinderCrashWatcher.app, how ironic?
   ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-1-11-0-darkens-finder-labels/6592">improper detection of Dark Mode</a> under pre-Mojave systems. [High Sierra] [Sierra] [El Capitan]
