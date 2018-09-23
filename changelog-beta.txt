@@ -1,5 +1,5 @@
 1.11.2 - September 21, 2018
-  + Full support for Dark Mode under Mojave. [Mojave]
+  + Full support for Dark Mode under macOS 10.14. [Mojave]
   ! Properly update status menu when enabling/disabling Visor.
   ! Prevent duplicate TotalFinder items in user's Login Items.
 
