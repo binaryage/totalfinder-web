@@ -6,7 +6,8 @@ subtitle: TotalFinder with System Integrity Protection
 
 <p class="info-box compatibility">
 This page describes macOS 10.14 (Mojave) specific information.<br>
-If you have previous macOS version please refer to <b><a href="/sip-sierra">previous macOS SIP instructions</a></b>.
+If you have previous macOS version please refer to <b><a href="/sip-sierra">previous macOS SIP instructions</a></b>.<br>
+You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this blog post</a> for historical context.
 </p>
 
 TotalFinder has support for macOS 10.14 (Mojave), but cannot run on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection) (SIP).

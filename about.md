@@ -5,8 +5,8 @@ subtitle: About TotalFinder
 ---
 
 <p class="info-box compatibility">
-TotalFinder is tested to work in macOS 10.9 (Mavericks) and later.<br>
-<b><a href="/sip">Please read this information</a></b> about running TotalFinder in macOS 10.12 (Sierra) or 10.11 (El Capitan).
+TotalFinder was tested to work in macOS 10.11 (El Capitan) and later.<br>
+Unfortunately it requires a deep system tweak. <b>Please read <a href="/sip">this document</a> to learn details</b>.
 </p>
 
 ## TotalFinder is just a better Finder

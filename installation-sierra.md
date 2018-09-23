@@ -5,8 +5,8 @@ subtitle: Install TotalFinder
 ---
 
 <p class="info-box compatibility">
-This page describes macOS 10.14 (Mojave) specific information.<br>
-If you have previous macOS version please refer to <b><a href="/installation-sierra">previous instructions</a></b>.
+This page describes outdated information.<br>
+If you have macOS 10.14 (Mojave) or later please refer to <b><a href="/installation">latest instructions</a></b>.
 </p>
 
 TotalFinder has a convenient installer which guides you through the installation steps:
@@ -20,15 +20,17 @@ TotalFinder has a convenient installer which guides you through the installation
 
 <img src="/images/successful-install.png" class="doc-image add-shadow" style="width:400px">
 
-* In case [System Integrity Protection](/sip) (SIP) is enabled you will be presented with this dialog:
+* (one-time setup) In case [System Integrity Protection](/sip) (SIP) is enabled and you don't have TotalFinder system component installed previously:
 
-<img src="/images/sip-wizard-mojave-01.png" class="doc-image add-shadow" style="width:400px">
+<img src="/images/sip-wizard-01.png" class="doc-image add-shadow" style="width:400px">
 
-<img src="/images/sip-wizard-mojave-02.png" class="doc-image add-shadow" style="width:400px">
+<img src="/images/sip-wizard-02.png" class="doc-image add-shadow" style="width:400px">
 
-<b>Please read [our article about SIP](/sip) before you decide to turn it off.</b>
+* After disabling SIP in recoverOS and going back to your main OS:
 
-* After disabling SIP in recoverOS and going back to your main OS, TotalFinder should start automatically.
+<img src="/images/sip-wizard-03.png" class="doc-image add-shadow" style="width:400px">
+
+* As your last step you should re-enable SIP. Please read [detailed explanation here](/sip).
 
 ## TotalFinder updates
 
@@ -58,6 +60,9 @@ For removal please read the [uninstallation page](/uninstallation).
 
 * `/Application/TotalFinder.app` - an application launcher and plugin bundle
 * `/Library/ScriptingAdditions/TotalFinder.osax` - a scripting extension responsible for injecting TotalFinder plugin into Finder
+* `/System/Library/ScriptingAdditions/TotalFinderSIP.osax` - a scripting extension to work around [System Integrity Protection](/sip)
+
+Please note that `TotalFinderSIP.osax` must be installed when System Integrity Protection is temporarily disabled. That is why TotalFinder requires additional installation steps and rebooting into recovery OS.
 
 ## Configuration settings
 

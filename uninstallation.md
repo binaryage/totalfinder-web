@@ -4,8 +4,6 @@ title: Uninstalling TotalFinder
 subtitle: Uninstall TotalFinder
 ---
 
-## Removal is just two clicks away
-
 TotalFinder comes with a convenient uninstaller script which safely removes TotalFinder from your computer.
 
 Under TotalFinder's Menu icon select `Uninstall TotalFinder`:
