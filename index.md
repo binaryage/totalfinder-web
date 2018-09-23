@@ -2,8 +2,8 @@
 layout: product
 title: TotalFinder is a better Finder
 subtitle: for Mac users who demand more from their Finder
-download: https://downloads.binaryage.com/TotalFinder-1.10.10.dmg
-download_title: Download v1.10.10
+download: https://downloads.binaryage.com/TotalFinder-1.11.2.dmg
+download_title: Download v1.11.2
 store_link: https://sites.fastspring.com/binaryage/instant/totalfinder
 product: totalfinder
 product_title: TotalFinder
@@ -89,9 +89,9 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible with macOS 10.11&dash;10.13<br>
+      <i class="fa fa-laptop"></i> Compatible with macOS 10.11&dash;10.14<br>
       <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/sip" target="_blank">but requires a system tweak</a></span><br>
-      <a href="/compatibility">Looking for an older version?</a><br>
+      <a href="/compatibility">Looking for a different version?</a><br>
     </div>
   </div>
   <div class="button-container">
