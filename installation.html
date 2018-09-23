@@ -115,7 +115,10 @@
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <h2>Installation is not that hard</h2>
+                  <p class="info-box compatibility">
+                    This page describes macOS 10.14 (Mojave) specific information.<br/>
+                    If you have previous macOS version please refer to <b><a href="/installation-sierra">previous instructions</a></b>.
+                  </p>
                   <p>TotalFinder has a convenient installer which guides you through the installation steps:</p>
                   <ul>
                     <li>Download and open the latest archive TotalFinder-X.Y.Z.dmg from <a href="https://totalfinder.binaryage.com">https://totalfinder.binaryage.com</a></li>
@@ -127,16 +130,13 @@
                   </ul>
                   <p><img src="https://static.binaryage.com/ab5f3d0d_images_successful-install.png" class="doc-image add-shadow" style="width:400px"/></p>
                   <ul>
-                    <li>(one-time setup) In case <a href="/sip">System Integrity Protection</a> (SIP) is enabled and you don't have TotalFinder system component installed previously:</li>
+                    <li>In case <a href="/sip">System Integrity Protection</a> (SIP) is enabled you will be presented with this dialog:</li>
                   </ul>
-                  <p><img src="https://static.binaryage.com/7d02840e_images_sip-wizard-01.png" class="doc-image add-shadow" style="width:400px"/></p>
-                  <p><img src="https://static.binaryage.com/a64fc166_images_sip-wizard-02.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="https://static.binaryage.com/fa1a7dd8_images_sip-wizard-mojave-01.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="https://static.binaryage.com/727cdf4f_images_sip-wizard-mojave-02.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><b>Please read <a href="/sip">our article about SIP</a> before you decide to turn it off.</b></p>
                   <ul>
-                    <li>After disabling SIP in recoverOS and going back to your main OS:</li>
-                  </ul>
-                  <p><img src="https://static.binaryage.com/92f8fd52_images_sip-wizard-03.png" class="doc-image add-shadow" style="width:400px"/></p>
-                  <ul>
-                    <li>As your last step you should re-enable SIP. Please read <a href="/sip">detailed explanation here</a>.</li>
+                    <li>After disabling SIP in recoverOS and going back to your main OS, TotalFinder should start automatically.</li>
                   </ul>
                   <h2>TotalFinder updates</h2>
                   <p>TotalFinder uses the <a href="https://sparkle-project.org">Sparkle</a> updating system. After installation it asks you for permission to check for updates automatically:</p>
@@ -154,9 +154,7 @@
                   <ul>
                     <li><code>/Application/TotalFinder.app</code> - an application launcher and plugin bundle</li>
                     <li><code>/Library/ScriptingAdditions/TotalFinder.osax</code> - a scripting extension responsible for injecting TotalFinder plugin into Finder</li>
-                    <li><code>/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code> - a scripting extension to work around <a href="/sip">System Integrity Protection</a></li>
                   </ul>
-                  <p>Please note that <code>TotalFinderSIP.osax</code> must be installed when System Integrity Protection is temporarily disabled. That is why TotalFinder requires additional installation steps and rebooting into recovery OS.</p>
                   <h2>Configuration settings</h2>
                   <p><code>/Users/&lt;user&gt;/Library/Preferences/com.binaryage.totalfinder.plist</code></p>
                   <p>Note: You may safely remove the TotalFinder plist file or remove any values inside. TotalFinder will re-create it with default values when restarted.</p>

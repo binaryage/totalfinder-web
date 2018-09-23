@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>Folders on Top in TotalFinder</title>
-    <link rel="canonical" href="https://totalfinder.binaryage.com/folders-on-top"/>
+    <title>Installing TotalFinder</title>
+    <link rel="canonical" href="https://totalfinder.binaryage.com/installation-sierra"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
@@ -16,7 +16,7 @@
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
     <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
   </head>
-  <body id="page-totalfinder-folders-on-top" class="site-totalfinder">
+  <body id="page-totalfinder-installation-sierra" class="site-totalfinder">
     <div id="header">
       <div class="container">
         <div class="row">
@@ -111,29 +111,58 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">Folders on Top</h1>
+                  <h1 class="title">Install TotalFinder</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p><img src="https://static.binaryage.com/815c386d_images_showcase_full-fot.png" class="doc-image add-shadow" style="width:600px"/></p>
                   <p class="info-box compatibility">
-                    Starting in macOS 10.12 (Sierra), Finder now offers "Keep folders on top when sorting by name" as an option in Finder's preferences, so TotalFinder no longer enables this feature for on macOS 10.12.
-                    However, Finder's implementation only allows Folders on Top when sorting by Name.
+                    This page describes outdated information.<br/>
+                    If you have macOS 10.14 (Mojave) or later please refer to <b><a href="/installation">latest instructions</a></b>.
                   </p>
-                  <h2>Folders on Top</h2>
-                  <p>By default Finder does not separate folders and files and displays them mixed together as you can see on the left.</p>
-                  <p>However, some users prefer to see folders first and then files regardless of the actual sorting options.</p>
-                  <p>TotalFinder enables this display by toggle of a keyboard shortcut.</p>
-                  <h2>What about sorting?</h2>
-                  <p>Sorting options work the same as they did in the original Finder. This mode just moves all folders before the first file while keeping their relative order.</p>
-                  <p>Also when you <a href="/show-system-files.md">display hidden files</a> you may notice those dot items are sorted before non-dot items. This is a convenient view consistent with command-line folder listing tools.</p>
-                  <h2>Keyboard Shortcuts</h2>
-                  <div id="folders-on-top-keyboard-shortcuts" class="keyboard-shortcuts anchorable">
-                    <table border="0" cellspacing="0" cellpadding="0">
-                      <tr><th>Action</th><th>Shortcut</th></tr>
-                      <tr><td>Folders on Top</td><td>⇧⌘;</td></tr>
-                    </table>
-                  </div>
+                  <p>TotalFinder has a convenient installer which guides you through the installation steps:</p>
+                  <ul>
+                    <li>Download and open the latest archive TotalFinder-X.Y.Z.dmg from <a href="https://totalfinder.binaryage.com">https://totalfinder.binaryage.com</a></li>
+                    <li>Launch <code>TotalFinder.pkg</code></li>
+                  </ul>
+                  <p><img src="https://static.binaryage.com/12b6d386_images_installer-dmg.png" class="doc-image add-shadow" style="width:400px"/><br/></p>
+                  <ul>
+                    <li>Click through the installation process</li>
+                  </ul>
+                  <p><img src="https://static.binaryage.com/ab5f3d0d_images_successful-install.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <ul>
+                    <li>(one-time setup) In case <a href="/sip">System Integrity Protection</a> (SIP) is enabled and you don't have TotalFinder system component installed previously:</li>
+                  </ul>
+                  <p><img src="https://static.binaryage.com/7d02840e_images_sip-wizard-01.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="https://static.binaryage.com/a64fc166_images_sip-wizard-02.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <ul>
+                    <li>After disabling SIP in recoverOS and going back to your main OS:</li>
+                  </ul>
+                  <p><img src="https://static.binaryage.com/92f8fd52_images_sip-wizard-03.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <ul>
+                    <li>As your last step you should re-enable SIP. Please read <a href="/sip">detailed explanation here</a>.</li>
+                  </ul>
+                  <h2>TotalFinder updates</h2>
+                  <p>TotalFinder uses the <a href="https://sparkle-project.org">Sparkle</a> updating system. After installation it asks you for permission to check for updates automatically:</p>
+                  <p><img src="https://static.binaryage.com/65641522_images_sparkle-setup.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p>If enabled it notifies you whenever there is a new version available. You may also check for new versions manually.</p>
+                  <p><img src="https://static.binaryage.com/9e3adb8e_images_update-dialog.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p>Please keep TotalFinder updated because it needs to follow potential changes in Apple's Finder.app closely.</p>
+                  <p>You might also help by participating in <a href="/beta-changes">testing beta releases</a>. Thank you.</p>
+                  <h2>TotalFinder in login startup items</h2>
+                  <p>By default, the installer puts <code>TotalFinder.app</code> into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove <code>TotalFinder.app</code> from your login startup items to prevent TotalFinder from launching at startup.</p>
+                  <p><img src="https://static.binaryage.com/618dea8b_images_login-items.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <h2>Uninstallation</h2>
+                  <p>For removal please read the <a href="/uninstallation">uninstallation page</a>.</p>
+                  <h2>Installation locations</h2>
+                  <ul>
+                    <li><code>/Application/TotalFinder.app</code> - an application launcher and plugin bundle</li>
+                    <li><code>/Library/ScriptingAdditions/TotalFinder.osax</code> - a scripting extension responsible for injecting TotalFinder plugin into Finder</li>
+                    <li><code>/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code> - a scripting extension to work around <a href="/sip">System Integrity Protection</a></li>
+                  </ul>
+                  <p>Please note that <code>TotalFinderSIP.osax</code> must be installed when System Integrity Protection is temporarily disabled. That is why TotalFinder requires additional installation steps and rebooting into recovery OS.</p>
+                  <h2>Configuration settings</h2>
+                  <p><code>/Users/&lt;user&gt;/Library/Preferences/com.binaryage.totalfinder.plist</code></p>
+                  <p>Note: You may safely remove the TotalFinder plist file or remove any values inside. TotalFinder will re-create it with default values when restarted.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>

@@ -115,6 +115,11 @@
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
+                  <p class="info-box compatibility">
+                    This page describes macOS 10.11 (El Capitan) - 10.13 (High Sierra) specific information.<br/>
+                    The system component is no longer used under macOS 10.14 (Mojave) and later.<br/>
+                    You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this blog post</a> with further explanation.
+                  </p>
                   <p>TotalFinder needs to install a system component into protected disk area at
                     <code>/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code> to circumvent the System Integrity Protection (SIP).
                   You can <a href="https://totalfinder.binaryage.com/sip#mark-technical-details">read some technical details here</a>.</p>
@@ -134,11 +139,6 @@
                       decided to change it. As our old certificate expired we were unable to sign new TotalFinder updates in a way which
                       would be recognised by the <code>v1</code> component as a genuine code coming from us. That is why we had to <a href="https://github.com/binaryage/totalfinder-osax/commit/422dc57e2132e92ae30d099a7ca32bd93a2040a2">relax the check</a>
                   in <code>v2</code>.</p></blockquote>
-                  <p class="info-box compatibility">
-                    Unfortunately to upgrade you have to do the <a href="https://totalfinder.binaryage.com/sip">SIP dance</a> again.
-                    Hopefully this will work well for foreseeable future.
-                  </p>
-                  <p></p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
