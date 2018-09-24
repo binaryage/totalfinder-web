@@ -1,6 +1,6 @@
 1.11.2 - September 23, 2018
-  + Compatibility with macOS 10.14 [Mojave]
-  + Due to hardened macOS security <a href="https://totalfinder.binaryage.com/sip">SIP must be disabled in Mojave</a>. [Mojave]
+  + Compatibility with macOS 10.14. [Mojave]
+  + Due to hardened macOS security <a href="https://totalfinder.binaryage.com/sip">SIP must be disabled in Mojave</a>. Please read our <a href="https://blog.binaryage.com/sip-and-mojave">blog post</a>. [Mojave]
   + Support for Dark Mode under macOS 10.14. [Mojave]
   ! Properly update status menu when enabling/disabling Visor.
   ! Prevent duplicate TotalFinder items in user's Login Items.
