@@ -1,3 +1,7 @@
+1.11.3 - October 03, 2018
+  ! Fixed several cases when label backgrounds were not properly updated after a change. [Mojave] [High Sierra]
+  ! Fixed a case when new dark mode related code would crash Finder under macOS 10.11. [El Capitan]
+
 1.11.2 - September 21, 2018
   + Full support for Dark Mode under macOS 10.14. [Mojave]
   ! Properly update status menu when enabling/disabling Visor.
