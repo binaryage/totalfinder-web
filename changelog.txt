@@ -1,3 +1,7 @@
+1.11.3 - October 08, 2018
+  ! Fixed several cases when label backgrounds were not properly updated after a change. [Mojave] [High Sierra]
+  ! Fixed a case when new dark mode related code would crash Finder under macOS 10.11. [El Capitan]
+
 1.11.2 - September 23, 2018
   + Compatibility with macOS 10.14. [Mojave]
   + Due to hardened macOS security <a href="https://totalfinder.binaryage.com/sip">SIP must be disabled in Mojave</a>. Please read our <a href="https://blog.binaryage.com/sip-and-mojave">blog post</a>. [Mojave]
