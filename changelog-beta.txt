@@ -1,3 +1,6 @@
+1.11.4 - November 05, 2018
+  ! Reimplemented visual indication of files marked for cut in Column View and Gallery View. [Mojave]
+
 1.11.3 - October 03, 2018
   ! Fixed several cases when label backgrounds were not properly updated after a change. [Mojave] [High Sierra]
   ! Fixed a case when new dark mode related code would crash Finder under macOS 10.11. [El Capitan]
