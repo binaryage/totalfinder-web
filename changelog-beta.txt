@@ -1,3 +1,6 @@
+1.11.5 - February 10, 2019
+  ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-mojave-native-tabs-not-working/7084">broken handling of native tabs</a> under macOS 10.14 [Mojave]
+
 1.11.4 - November 05, 2018
   ! Reimplemented visual indication of files marked for cut in Column View and Gallery View. [Mojave]
 
