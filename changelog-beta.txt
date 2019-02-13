@@ -1,3 +1,8 @@
+1.11.6 - February 13, 2019
+  ! Fixed a regression when <a href="https://discuss.binaryage.com/t/trash-window-becomes-grey/7106">some tabs could stay gray after external close</a> affecting macOS prior 10.14
+  ! Fixed some edge cases when TotalFinder tabs could stay gray when dragging last native tab out to another native tab bar [Mojave]
+  ! When enabling Column View auto-width and don't specifying lower bound. Columns weren't resized under some circumstances.
+
 1.11.5 - February 10, 2019
   ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-mojave-native-tabs-not-working/7084">broken handling of native tabs</a> under macOS 10.14 [Mojave]
 
