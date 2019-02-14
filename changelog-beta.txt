@@ -1,10 +1,15 @@
+1.11.7 - February 14, 2019
+  + Tab configuration gets <a href="https://discuss.binaryage.com/t/kill-all-tabs-relaunch-finder-relaunch-totalfinder-all-previously-killed-tabs-windows-relaunch-appear/7096">stored more often</a>.
+  + Newly TotalFinder <a href="https://discuss.binaryage.com/t/auto-close-for-tabs-showing-unreachable-locations/7110">does not restore tabs with invalid locations</a>.
+  ! Fixed <a href="https://discuss.binaryage.com/t/square-anchor-button-in-visor/7108">invalid pin button image in Visor</a>.
+
 1.11.6 - February 13, 2019
-  ! Fixed a regression when <a href="https://discuss.binaryage.com/t/trash-window-becomes-grey/7106">some tabs could stay gray after external close</a> affecting macOS prior 10.14
-  ! Fixed some edge cases when TotalFinder tabs could stay gray when dragging last native tab out to another native tab bar [Mojave]
+  ! Fixed a regression when <a href="https://discuss.binaryage.com/t/trash-window-becomes-grey/7106">some tabs could stay gray after external close</a> affecting macOS prior 10.14.
+  ! Fixed some edge cases when TotalFinder tabs could stay gray when dragging last native tab out to another native tab bar. [Mojave]
   ! When enabling Column View auto-width and don't specifying lower bound. Columns weren't resized under some circumstances.
 
 1.11.5 - February 10, 2019
-  ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-mojave-native-tabs-not-working/7084">broken handling of native tabs</a> under macOS 10.14 [Mojave]
+  ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-mojave-native-tabs-not-working/7084">broken handling of native tabs</a> under macOS 10.14. [Mojave]
 
 1.11.4 - November 05, 2018
   ! Reimplemented visual indication of files marked for cut in Column View and Gallery View. [Mojave]
