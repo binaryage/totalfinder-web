@@ -1,3 +1,8 @@
+1.11.8 - February 18, 2019
+  + When enabling Column View auto-width we newly override Finder's minimal column width to allow narrow columns (Finder didn't allow column width less than 160px).
+  ! Fixed a regression when <a href="https://discuss.binaryage.com/t/cmd-double-click-does-not-open-window-in-new-tab/7115">CMD + double click didn't open a new tab</a>.
+  ! CMD+N opens a new TotalFinder window as it should. [Mojave]
+
 1.11.7 - February 14, 2019
   + Tab configuration gets <a href="https://discuss.binaryage.com/t/kill-all-tabs-relaunch-finder-relaunch-totalfinder-all-previously-killed-tabs-windows-relaunch-appear/7096">stored more often</a>.
   + Newly TotalFinder <a href="https://discuss.binaryage.com/t/auto-close-for-tabs-showing-unreachable-locations/7110">does not restore tabs with invalid locations</a>.
