@@ -1,3 +1,12 @@
+1.11.8 - February 21, 2019
+  + When enabling Column View auto-width we newly override Finder's minimal column width to allow narrow columns (Finder didn't allow column width less than 160px).
+  + Tab configuration gets <a href="https://discuss.binaryage.com/t/kill-all-tabs-relaunch-finder-relaunch-totalfinder-all-previously-killed-tabs-windows-relaunch-appear/7096">stored more often</a>.
+  + Newly TotalFinder <a href="https://discuss.binaryage.com/t/auto-close-for-tabs-showing-unreachable-locations/7110">does not restore tabs with invalid locations</a>.
+  ! Reimplemented visual indication of files marked for cut in Column View and Gallery View. [Mojave]
+  ! CMD+N opens a new TotalFinder window as it should. [Mojave]
+  ! When enabling Column View auto-width and don't specifying lower bound. Columns weren't resized under some circumstances.
+  ! Fixed <a href="https://discuss.binaryage.com/t/totalfinder-mojave-native-tabs-not-working/7084">broken handling of native tabs</a> under macOS 10.14. [Mojave]
+
 1.11.3 - October 08, 2018
   ! Fixed several cases when label backgrounds were not properly updated after a change. [Mojave] [High Sierra]
   ! Fixed a case when new dark mode related code would crash Finder under macOS 10.11. [El Capitan]
