@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "10.15",
+  label: "Catalina",
+  logo: "logo-catalina.png",
+  wiki: "MacOS_Catalina",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a permanent system tweak</a>",
+},{
   version: "10.14",
   label: "Mojave",
   logo: "logo-mojave.png",
