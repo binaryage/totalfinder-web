@@ -59,7 +59,7 @@ oses: [{
 }]
 ---
 
-Here you can find latest TotalFinder releases compatible with individual OS versions:
+Here you can find latest TotalFinder releases compatible with individual macOS versions:
 
 {% contentfor inline_styles %}
 .custom-os-box { margin-left:20px; font-size:14px; clear:both; margin-bottom:20px; line-height:32px; }
@@ -73,6 +73,6 @@ Here you can find latest TotalFinder releases compatible with individual OS vers
 {% for item in page.oses %}
 <div class="custom-os-box">
   <img src="shared/img/os/{{item.logo}}">
-  <div class="title"><a href="http://en.wikipedia.org/wiki/{{item.wiki}}">OS X {{item.version}} ({{item.label}})</a></div><div class="note"> {{item.note}}</div>
+  <div class="title"><a href="http://en.wikipedia.org/wiki/{{item.wiki}}">macOS {{item.version}} ({{item.label}})</a></div><div class="note"> {{item.note}}</div>
 </div>
 {% endfor %}
