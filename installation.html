@@ -3,8 +3,8 @@
   <head>
     <title>Installing TotalFinder</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/installation"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 doc-header">
-              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png"/><span>TotalFinder homepage &uarr;</span></a></p>
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png"/><span>TotalFinder homepage ↑</span></a></p>
             </div>
           </div>
           <div class="row">
@@ -122,7 +122,7 @@
                   <p>TotalFinder has a convenient installer which guides you through the installation steps:</p>
                   <ul>
                     <li>Download and open the latest archive TotalFinder-X.Y.Z.dmg from <a href="https://totalfinder.binaryage.com">https://totalfinder.binaryage.com</a></li>
-                    <li>Launch <code>TotalFinder.pkg</code></li>
+                    <li>Launch <code class="highlighter-rouge">TotalFinder.pkg</code></li>
                   </ul>
                   <p><img src="https://static.binaryage.com/12b6d386_images_installer-dmg.png" class="doc-image add-shadow" style="width:400px"/><br/></p>
                   <ul>
@@ -138,25 +138,25 @@
                   <ul>
                     <li>After disabling SIP in recoverOS and going back to your main OS, TotalFinder should start automatically.</li>
                   </ul>
-                  <h2>TotalFinder updates</h2>
+                  <h2 id="totalfinder-updates">TotalFinder updates</h2>
                   <p>TotalFinder uses the <a href="https://sparkle-project.org">Sparkle</a> updating system. After installation it asks you for permission to check for updates automatically:</p>
                   <p><img src="https://static.binaryage.com/65641522_images_sparkle-setup.png" class="doc-image add-shadow" style="width:400px"/></p>
                   <p>If enabled it notifies you whenever there is a new version available. You may also check for new versions manually.</p>
                   <p><img src="https://static.binaryage.com/9e3adb8e_images_update-dialog.png" class="doc-image add-shadow" style="width:400px"/></p>
-                  <p>Please keep TotalFinder updated because it needs to follow potential changes in Apple's Finder.app closely.</p>
+                  <p>Please keep TotalFinder updated because it needs to follow potential changes in Apple’s Finder.app closely.</p>
                   <p>You might also help by participating in <a href="/beta-changes">testing beta releases</a>. Thank you.</p>
-                  <h2>TotalFinder in login startup items</h2>
-                  <p>By default, the installer puts <code>TotalFinder.app</code> into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove <code>TotalFinder.app</code> from your login startup items to prevent TotalFinder from launching at startup.</p>
+                  <h2 id="totalfinder-in-login-startup-items">TotalFinder in login startup items</h2>
+                  <p>By default, the installer puts <code class="highlighter-rouge">TotalFinder.app</code> into startup items to be launched during login. This ensures TotalFinder is loaded into Finder when you start the system. You may remove <code class="highlighter-rouge">TotalFinder.app</code> from your login startup items to prevent TotalFinder from launching at startup.</p>
                   <p><img src="https://static.binaryage.com/618dea8b_images_login-items.png" class="doc-image add-shadow" style="width:400px"/></p>
-                  <h2>Uninstallation</h2>
+                  <h2 id="uninstallation">Uninstallation</h2>
                   <p>For removal please read the <a href="/uninstallation">uninstallation page</a>.</p>
-                  <h2>Installation locations</h2>
+                  <h2 id="installation-locations">Installation locations</h2>
                   <ul>
-                    <li><code>/Application/TotalFinder.app</code> - an application launcher and plugin bundle</li>
-                    <li><code>/Library/ScriptingAdditions/TotalFinder.osax</code> - a scripting extension responsible for injecting TotalFinder plugin into Finder</li>
+                    <li><code class="highlighter-rouge">/Application/TotalFinder.app</code> - an application launcher and plugin bundle</li>
+                    <li><code class="highlighter-rouge">/Library/ScriptingAdditions/TotalFinder.osax</code> - a scripting extension responsible for injecting TotalFinder plugin into Finder</li>
                   </ul>
-                  <h2>Configuration settings</h2>
-                  <p><code>/Users/&lt;user&gt;/Library/Preferences/com.binaryage.totalfinder.plist</code></p>
+                  <h2 id="configuration-settings">Configuration settings</h2>
+                  <p><code class="highlighter-rouge">/Users/&lt;user&gt;/Library/Preferences/com.binaryage.totalfinder.plist</code></p>
                   <p>Note: You may safely remove the TotalFinder plist file or remove any values inside. TotalFinder will re-create it with default values when restarted.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
@@ -166,7 +166,7 @@
         </div>
       </div>
       <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
-    <p></div></p>
+    </div>
     <div id="footer">
       <div class="container">
         <div class="row">

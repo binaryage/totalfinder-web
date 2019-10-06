@@ -3,8 +3,8 @@
   <head>
     <title>Tabs in TotalFinder</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/tabs"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 doc-header">
-              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png"/><span>TotalFinder homepage &uarr;</span></a></p>
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png"/><span>TotalFinder homepage ↑</span></a></p>
             </div>
           </div>
           <div class="row">
@@ -116,10 +116,10 @@
                 <div class="generic-separator"></div>
                 <div class="page-content">
                   <p><img src="https://static.binaryage.com/96a07616_images_showcase_full-tabs.png" class="doc-image add-shadow" style="width:600px"/></p>
-                  <h2>What are tabs?</h2>
+                  <h2 id="what-are-tabs">What are tabs?</h2>
                   <p>You already know tabs from your web browser. For example, in Safari the tabs are sheets for displaying multiple web pages within one browser window.</p>
-                  <p>Similarly, in TotalFinder tabs display multiple directories within one window. TotalFinder uses the code from Google's Chrome web browser, which is why the tabs look and behave in a similar way.</p>
-                  <h2>What can I do with tabs?</h2>
+                  <p>Similarly, in TotalFinder tabs display multiple directories within one window. TotalFinder uses the code from Google’s Chrome web browser, which is why the tabs look and behave in a similar way.</p>
+                  <h2 id="what-can-i-do-with-tabs">What can I do with tabs?</h2>
                   <ol>
                     <li>You can <strong>switch between tabs</strong>.</li>
                     <li>You can <strong>reorder tabs</strong>.</li>
@@ -130,7 +130,7 @@
                     <li>You can <strong>drag file or folder onto a tab</strong> to move it.</li>
                     <li>You can <strong>drag folder in between tabs</strong> to open given folder as a new tab.</li>
                   </ol>
-                  <h2>Keyboard Shortcuts</h2>
+                  <h2 id="keyboard-shortcuts">Keyboard Shortcuts</h2>
                   <div id="tabs-keyboard-shortcuts" class="keyboard-shortcuts anchorable">
                     <table border="0" cellspacing="0" cellpadding="0">
                       <tr><th>Action</th><th>Shortcut</th></tr>
@@ -142,31 +142,33 @@
                       <tr><td>Close all windows</td><td>⌘⌥W</td></tr>
                     </table>
                   </div>
-                  <h2>Remapping Shortcuts</h2>
+                  <h2 id="remapping-shortcuts">Remapping Shortcuts</h2>
                   <p>Do you want additional shortcuts for switching tabs? For example ⌘⌥→ to match Google Chrome?<br/>You may want to use the standard OS X mechanism for mapping keyboard shortcuts to menu items.</p>
-                  <p>Go to <code>System Preferences -&gt; Keyboard -&gt; Keyboard Shortcuts -&gt; Application Shortcuts</code></p>
+                  <p>Go to <code class="highlighter-rouge">System Preferences -&gt; Keyboard -&gt; Keyboard Shortcuts -&gt; Application Shortcuts</code></p>
                   <p><img src="https://static.binaryage.com/b5a72c79_images_mapping-shortcuts.png" class="doc-image add-shadow" style="width:600px"/></p>
                   <div style="color: #888; font-size:10px;">Note that adding ⌘⌥← and ⌘⌥→ overrides standard Finder shortcuts for expanding items in the list view.</div>
-                  <h2>Preferences</h2>
+                  <h2 id="preferences">Preferences</h2>
                   <p><img src="https://static.binaryage.com/4aeb6d80_images_prefs-tabs.png" class="doc-image add-shadow" style="width:600px"/></p>
-                  <h3>Disable tabs completely</h3>
+                  <h3 id="disable-tabs-completely">Disable tabs completely</h3>
                   <p>Some people prefer to use native Finder tabs. Please note that this option will also disable the <a href="/visor">Visor</a> and <a href="/dual-mode">Dual Mode</a> features. TotalFinder will restart Finder.</p>
-                  <h3>Toggle Dual Mode</h3>
+                  <h3 id="toggle-dual-mode">Toggle Dual Mode</h3>
                   <p>Dual mode is covered in a separate article about <a href="/dual-mode">Dual Mode in TotalFinder</a>.</p>
-                  <h3>Use narrow Tabs Bar</h3>
-                  <p>For people who are running OSX on small notebooks with small displays. Checking this option makes TotalFinder's tab bar smaller and saves 14 pixels of precious vertical space.</p>
-                  <h3>Freelance Windows</h3>
+                  <h3 id="use-narrow-tabs-bar">Use narrow Tabs Bar</h3>
+                  <p>For people who are running OSX on small notebooks with small displays. Checking this option makes TotalFinder’s tab bar smaller and saves 14 pixels of precious vertical space.</p>
+                  <h3 id="freelance-windows">Freelance Windows</h3>
                   <p>By default TotalFinder forces all new Finder windows to be opened as new tabs of the last active TotalFinder window. Please note that new Finder windows can be opened as a result of some event. For example clicking on a DMG file opens a new Finder window.</p>
                   <p>After checking this option newly created windows start as new windows.</p>
-                  <h3>Open new tabs with previous location</h3>
+                  <h3 id="open-new-tabs-with-previous-location">Open new tabs with previous location</h3>
                   <p>Instead of opening into its own window, new tabs will open among the tabs of the last active window.</p>
-                  <h2>Troubleshooting tabs behavior</h2>
-                  <blockquote><p>When I open new folders in Finder they open as Finder's native tabs. I would prefer TotalFinder's tabs.</p></blockquote>
+                  <h2 id="troubleshooting-tabs-behavior">Troubleshooting tabs behavior</h2>
+                  <blockquote>
+                    <p>When I open new folders in Finder they open as Finder’s native tabs. I would prefer TotalFinder’s tabs.</p>
+                  </blockquote>
                   <p>TotalFinder behaves like that. But there is a system-wide Dock option which interferes with this behavior.</p>
-                  <p>As we've <a href="https://discuss.binaryage.com/t/totalfinder-integration-problem-high-sierra/5997/11">recently discovered</a> the option toggle in <code>System Preferences</code> -> <code>Dock</code> -> <code>Prefer tabs when opening documents</code>.
-                  When you switch it to <code>Always</code> it will override default TotalFinder behavior and folders opened from external apps will open as Finder's native tabs.</p>
+                  <p>As we’ve <a href="https://discuss.binaryage.com/t/totalfinder-integration-problem-high-sierra/5997/11">recently discovered</a> the option toggle in <code class="highlighter-rouge">System Preferences</code> -&gt; <code class="highlighter-rouge">Dock</code> -&gt; <code class="highlighter-rouge">Prefer tabs when opening documents</code>.
+                  When you switch it to <code class="highlighter-rouge">Always</code> it will override default TotalFinder behavior and folders opened from external apps will open as Finder’s native tabs.</p>
                   <p><img src="https://static.binaryage.com/9097d058_images_prefer-tabs-dock-option.png" class="doc-image add-shadow" style="width:600px"/></p>
-                  <p>Default option is <code>In Full Screen Only</code> but you might want to change it to <code>Manually</code> if you want to use TotalFinder in full screen mode.</p>
+                  <p>Default option is <code class="highlighter-rouge">In Full Screen Only</code> but you might want to change it to <code class="highlighter-rouge">Manually</code> if you want to use TotalFinder in full screen mode.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
@@ -175,7 +177,7 @@
         </div>
       </div>
       <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";var e=$('.sidebar a[href*="'+a+'"]');e.parent().addClass("selected");var e=$('.sidebar a[data-alt*="'+a+'"]');e.parent().addClass("selected")},100)})})</script>
-    <p></div></p>
+    </div>
     <div id="footer">
       <div class="container">
         <div class="row">
