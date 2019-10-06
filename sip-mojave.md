@@ -1,16 +1,16 @@
 ---
 layout: tf-doc
-title: System Integrity Protection under macOS 10.15 (Catalina)
+title: System Integrity Protection under macOS 10.14 (Mojave)
 subtitle: TotalFinder with System Integrity Protection
 ---
 
 <p class="info-box compatibility">
-This page describes macOS 10.15 (Catalina) specific information.<br>
-If you have previous macOS version please refer to <b><a href="/sip-mojave">previous macOS SIP instructions</a></b>.<br>
+This page describes macOS 10.14 (Mojave) specific information.<br>
+If you have previous macOS version please refer to <b><a href="/sip-sierra">previous macOS SIP instructions</a></b>.<br>
 You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this blog post</a> for historical context.
 </p>
 
-TotalFinder has support for macOS 10.15 (Catalina), but cannot run on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection) (SIP).
+TotalFinder has support for macOS 10.14 (Mojave), but cannot run on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection) (SIP).
 This article can help you how to configure your machine to allow TotalFiner installation by modifying the SIP setting.
 
 If you decide to modify the settings, you will be able to install TotalFinder. Just to be clear...
@@ -38,7 +38,7 @@ that TotalFinder can be installed.
 Reboot your machine and you may install and run the [latest version of TotalFinder](/changes-beta).
 
 Unfortunately you have to keep SIP disabled to allow TotalFinder. In earlier macOS versions it was possible to turn SIP off only to
-complete TotalFinder installation steps and enable it back again. That is no longer possible with macOS 10.15 (Catalina) due to hardened
+complete TotalFinder installation steps and enable it back again. That is no longer possible with macOS 10.14 (Mojave) due to hardened
 macOS security settings.
 
 ## Technical details
