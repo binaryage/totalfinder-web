@@ -1,3 +1,7 @@
+1.12.2 - November 21, 2019
+  ! Fixed <a href="https://discuss.binaryage.com/t/copy-past-on-right-click-not-working/7413">problems clicking cut/copy/paste menu buttons</a> [Catalina]
+  ! Fixed issues uploading crash reports due to non-english locales.
+
 1.12.0 - October 06, 2019
   + Compatibility with macOS 10.15 [Catalina]
 
