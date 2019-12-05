@@ -1,3 +1,8 @@
+1.12.3 - December 05, 2019
+  ! Fixed an issue when the <a href="https://discuss.binaryage.com/t/totalfinder-does-not-open-finder-on-catalina/7387/6">Dock icon stopped opening new TotalFinder windows</a> [Mojave] [Catalina]
+  ! Fixed a visual glitch with gray bands in context menus [Catalina]
+  - Removed "Freelance Windows" options from TotalFinder tabs settings.
+
 1.12.2 - November 16, 2019
   ! Fixed <a href="https://discuss.binaryage.com/t/copy-past-on-right-click-not-working/7413">problems clicking cut/copy/paste menu buttons</a> [Catalina]
   ! Fixed issues uploading crash reports due to non-english locales.
