@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "11.0",
+  label: "Big Sur",
+  logo: "logo-big-sur.png",
+  wiki: "MacOS_Big_Sur",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a permanent system tweak</a>",
+},{
   version: "10.15",
   label: "Catalina",
   logo: "logo-catalina.png",
@@ -13,25 +19,25 @@ oses: [{
   label: "Mojave",
   logo: "logo-mojave.png",
   wiki: "MacOS_Mojave",
-  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a permanent system tweak</a>",
+  note: "<a href=\"/changes#1.12.3\">install version 1.12.3</a>, but <a href=\"/sip\" class=\"red\">needs a permanent system tweak</a>",
 },{
   version: "10.13",
   label: "High Sierra",
   logo: "logo-sierra.png",
   wiki: "MacOS_High_Sierra",
-  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip-sierra\" class=\"red\">needs a temporary system tweak</a>",
+  note: "<a href=\"/changes#1.12.3\">install version 1.12.3</a>, but <a href=\"/sip-sierra\" class=\"red\">needs a temporary system tweak</a>",
 },{
   version: "10.12",
   label: "Sierra",
   logo: "logo-sierra.png",
   wiki: "MacOS_Sierra",
-  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip-sierra\" class=\"red\">needs a temporary system tweak</a>",
+  note: "<a href=\"/changes#1.12.3\">install version 1.12.3</a>, but <a href=\"/sip-sierra\" class=\"red\">needs a temporary system tweak</a>",
 },{
   version: "10.11",
   label: "El Capitan",
   logo: "logo-el-capitan.png",
   wiki: "OS_X_El_Capitan",
-  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip-sierra\" class=\"red\">needs a temporary system tweak</a>",
+  note: "<a href=\"/changes#1.12.3\">install version 1.12.3</a>, but <a href=\"/sip-sierra\" class=\"red\">needs a temporary system tweak</a>",
 },{
   version: "10.10",
   label: "Yosemite",
