@@ -5,7 +5,7 @@ subtitle: About TotalFinder
 ---
 
 <p class="info-box compatibility">
-TotalFinder was tested to work in macOS 10.11 (El Capitan) and later.<br>
+TotalFinder was tested to work in macOS 10.15 (Catalina) and later.<br>
 Unfortunately it requires a deep system tweak. <b>Please read <a href="/sip">this document</a> to learn details</b>.
 </p>
 
