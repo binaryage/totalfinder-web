@@ -3,8 +3,8 @@
   <head>
     <title>System Integrity Protection</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/system-integrity-protection"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -129,17 +129,17 @@
                     I'm not encouraging you to modify your System Integrity Protection settings. Your machine may be less secure if you do. It is entirely your decision.
                   </p>
                   <h2 id="how-to-partially-disable-system-integrity-protection">How to partially disable System Integrity Protection</h2>
-                  <p>You must boot into the <a href="https://support.apple.com/en-us/HT201314">Recovery OS</a>. You do this by restarting your machine, and holding <code class="highlighter-rouge">COMMAND + R</code> until the Apple logo appears.</p>
+                  <p>You must boot into the <a href="https://support.apple.com/en-us/HT201314">Recovery OS</a>. You do this by restarting your machine, and holding <code class="language-plaintext highlighter-rouge">COMMAND + R</code> until the Apple logo appears.</p>
                   <p>Then select Terminal from the Utilities menu. It looks like this:</p>
                   <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png"/></p>
-                  <p>In the window that opens, type <code class="highlighter-rouge">csrutil enable --without debug</code> and press return.</p>
+                  <p>In the window that opens, type <code class="language-plaintext highlighter-rouge">csrutil enable --without debug</code> and press return.</p>
                   <p><img src="https://static.binaryage.com/a96af7ca_shared_img_recovery-terminal-csrutil-enable-without-debug.png"/></p>
                   <p>This turns off the part of SIP that TotalFinder needs to run, and OS X complains that it is an unsupported configuration.</p>
-                  <p>Now type <code class="highlighter-rouge">reboot</code> and press return to restart your machine. After restart you may install the <a href="/beta-changes#latest">latest version of TotalFinder</a>.</p>
+                  <p>Now type <code class="language-plaintext highlighter-rouge">reboot</code> and press return to restart your machine. After restart you may install the <a href="/beta-changes#latest">latest version of TotalFinder</a>.</p>
                   <h2 id="technical-details">Technical details</h2>
                   <p>TotalFinder works by modifying Finder.app. macOS does not provide any other way to achieve deep Finder modifications, we believe this is the only way the functionality of TotalFinder can be achieved.</p>
                   <p>In order to add or change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code to the Finder program whilst it is running to do what we need.
-                  This is relatively safe - in fact we do not change any part of OS X on the disk. You only have to force quit Finder via <code class="highlighter-rouge">COMMAND+OPTION+ESC</code> to relaunch Finder.app cleanly and everything will be as if TotalFinder was never running.</p>
+                  This is relatively safe - in fact we do not change any part of OS X on the disk. You only have to force quit Finder via <code class="language-plaintext highlighter-rouge">COMMAND+OPTION+ESC</code> to relaunch Finder.app cleanly and everything will be as if TotalFinder was never running.</p>
                   <p>However, System Integrity Protection measures disallow this kind of modification <em>even if you have administrator access</em>. In order for TotalFinder to launch, part of System Integrity Protection must be disabled.</p>
                   <p>You can find some further information <a href="https://blog.binaryage.com/el-capitan-update">in our blog</a>.</p>
                   <h2 id="need-to-enable-system-integrity-protection-again">Need to enable System Integrity Protection again?</h2>

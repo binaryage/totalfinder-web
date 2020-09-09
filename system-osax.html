@@ -3,8 +3,8 @@
   <head>
     <title>System OSAX</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/system-osax"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -132,21 +132,21 @@
                   <p>TotalFinder needs to inject code into Finder.app. It uses mechanism called <a href="https://developer.apple.com/library/mac/technotes/tn1164">Scripting additions</a>. Scripting addition is a special code bundle which can be injected into running applications.</p>
                   <p>Scripting additions have ‘osax’ file extension. Historically there are three places where scripting addtions can be placed:</p>
                   <ol>
-                    <li><code class="highlighter-rouge">~/Library/ScriptingAdditions</code></li>
-                    <li><code class="highlighter-rouge">/Library/ScriptingAdditions</code></li>
-                    <li><code class="highlighter-rouge">/System/Library/ScriptingAdditions</code></li>
+                    <li><code class="language-plaintext highlighter-rouge">~/Library/ScriptingAdditions</code></li>
+                    <li><code class="language-plaintext highlighter-rouge">/Library/ScriptingAdditions</code></li>
+                    <li><code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code></li>
                   </ol>
                   <p>The original idea was to keep user-specific additions in the first location, system-wide admin-installed additions in the second one and Apple’s own system additions in the third location.
                     There are various restrictions on what is considered a <em>valid</em> OSAX and those restrictions evolved over successive OS versions.
-                  After El Capitan, scripting additions placed in <code class="highlighter-rouge">/Library/ScriptingAdditions</code> are no longer allowed to inject into system processes (processes with Apple’s code signature) due to System Integrity Protection.</p>
-                  <p>However it is possible to put an addition into <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> and it can then freely inject into system processes.
+                  After El Capitan, scripting additions placed in <code class="language-plaintext highlighter-rouge">/Library/ScriptingAdditions</code> are no longer allowed to inject into system processes (processes with Apple’s code signature) due to System Integrity Protection.</p>
+                  <p>However it is possible to put an addition into <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code> and it can then freely inject into system processes.
                     This technique was <a href="https://github.com/norio-nomura/EasySIMBL/issues/26#issuecomment-117028426">discovered and described by SIMBL developers</a>.
-                  The problem is that <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.</p>
-                  <p>By default TotalFinder installs its scripting addition into <code class="highlighter-rouge">/Library/ScriptingAddtions</code>. Then you can manually move it to <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code>. TotalFinder is aware of this setup since <a href="https://totalfinder.binaryage.com/beta-changes#1.7.10">version 1.7.10</a>.</p>
+                  The problem is that <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code> is a system folder protected by SIP. You can manipulate it only with SIP fully disabled or from within Recovery OS.</p>
+                  <p>By default TotalFinder installs its scripting addition into <code class="language-plaintext highlighter-rouge">/Library/ScriptingAddtions</code>. Then you can manually move it to <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code>. TotalFinder is aware of this setup since <a href="https://totalfinder.binaryage.com/beta-changes#1.7.10">version 1.7.10</a>.</p>
                   <p>But you should be aware of the drawbacks:</p>
                   <ol>
-                    <li><code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> is owned by Apple, any system update can decide to remove non-Apple files from there.</li>
-                    <li><code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> is under SIP protection, that means that TotalFinder update cannot modify TotalFinder.osax located there. TotalFinder update will place TotalFinder.osax as usual into <code class="highlighter-rouge">/Library/ScriptingAddtions</code> and you have to be aware of it and go into Recovery OS and move it again.</li>
+                    <li><code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code> is owned by Apple, any system update can decide to remove non-Apple files from there.</li>
+                    <li><code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code> is under SIP protection, that means that TotalFinder update cannot modify TotalFinder.osax located there. TotalFinder update will place TotalFinder.osax as usual into <code class="language-plaintext highlighter-rouge">/Library/ScriptingAddtions</code> and you have to be aware of it and go into Recovery OS and move it again.</li>
                   </ol>
                   <h3 id="installation-steps">Installation steps</h3>
                   <ol>
@@ -154,24 +154,24 @@
                     <li>Reboot into <a href="https://support.apple.com/en-us/HT201314">Recovery OS</a></li>
                     <li>Open Terminal from Utilities menu</li>
                     <li>Mount your main system disk - this depends on your setup, see explanation below</li>
-                    <li>Move TotalFinder.osax from <code class="highlighter-rouge">/Library/ScriptingAdditions</code> to <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code> on your system disk</li>
+                    <li>Move TotalFinder.osax from <code class="language-plaintext highlighter-rouge">/Library/ScriptingAdditions</code> to <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code> on your system disk</li>
                     <li>Fix rights on newly moved folder</li>
                   </ol>
                   <h3 id="step-4-mount-your-main-system-disk">STEP 4: mount your main system disk</h3>
-                  <p>This can get more complicated depending on your setup. If you don’t use FileVault, you can use <code class="highlighter-rouge">Disk Utility</code> to mount your main system disk using GUI.
-                  Or use <code class="highlighter-rouge">diskutil mount</code> from command-line. In case of FileVault you have to use <code class="highlighter-rouge">disktutil corestorage unlockVolume</code> command.</p>
-                  <p>In either case you should end up with your main system disk mounted at <code class="highlighter-rouge">/Volumes/[NAME]</code> where <code class="highlighter-rouge">[NAME]</code> is some name you gave to your disk during formatting (potentially includes spaces).</p>
+                  <p>This can get more complicated depending on your setup. If you don’t use FileVault, you can use <code class="language-plaintext highlighter-rouge">Disk Utility</code> to mount your main system disk using GUI.
+                  Or use <code class="language-plaintext highlighter-rouge">diskutil mount</code> from command-line. In case of FileVault you have to use <code class="language-plaintext highlighter-rouge">disktutil corestorage unlockVolume</code> command.</p>
+                  <p>In either case you should end up with your main system disk mounted at <code class="language-plaintext highlighter-rouge">/Volumes/[NAME]</code> where <code class="language-plaintext highlighter-rouge">[NAME]</code> is some name you gave to your disk during formatting (potentially includes spaces).</p>
                   <h3 id="steps-5-6-move-and-fix-rights">STEPS 5-6: move and fix rights</h3>
-                  <p>My system disk was mounted as <code class="highlighter-rouge">/Volumes/Capitan</code>, here are commands relevant to my situation:</p>
-                  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd "/Volumes/Capitan/System/Library/ScriptingAdditions"
+                  <p>My system disk was mounted as <code class="language-plaintext highlighter-rouge">/Volumes/Capitan</code>, here are commands relevant to my situation:</p>
+                  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd "/Volumes/Capitan/System/Library/ScriptingAdditions"
 mv "../../../Library/ScriptingAdditions/TotalFinder.osax" .
 chown -R root:wheel TotalFinder.osax
 </code></pre></div></div>
                   <h2 id="final-words">Final words</h2>
                   <p>As you can see. It is not that difficult if you know what you are doing. The main problem are TotalFinder and system updates. You have to repeat this installation over and over again.</p>
                   <h3 id="a-note-on-uninstallation">A note on uninstallation</h3>
-                  <p>Again you have to go into Recovery OS, mount your main system disk and remove TotalFinder.osax from <code class="highlighter-rouge">/System/Library/ScriptingAdditions</code>. My uninstaller cannot do that because it is a SIP-protected location.</p>
-                  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd "/Volumes/Capitan/System/Library/ScriptingAdditions"
+                  <p>Again you have to go into Recovery OS, mount your main system disk and remove TotalFinder.osax from <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions</code>. My uninstaller cannot do that because it is a SIP-protected location.</p>
+                  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd "/Volumes/Capitan/System/Library/ScriptingAdditions"
 rm -rf TotalFinder.osax
 </code></pre></div></div>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>

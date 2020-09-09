@@ -3,8 +3,8 @@
   <head>
     <title>System Integrity Protection under macOS 10.14 (Mojave)</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/sip-mojave"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -130,7 +130,7 @@
                   <p>TotalFinder will guide you through the process via notification dialogs.
                     Please check the <a href="/installation">TotalFinder installation page</a> for general installation steps.
                   This document explains SIP-specific steps.</p>
-                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding <code class="highlighter-rouge">Command+R</code> until the Apple logo
+                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding <code class="language-plaintext highlighter-rouge">Command+R</code> until the Apple logo
                   appears. Then select Terminal from the Utilities menu. It looks like this:</p>
                   <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png" class="doc-image"/></p>
                   <p>In the window that opens, type <code>csrutil disable</code> and press return. This turns off System Integrity Protection so
@@ -144,7 +144,7 @@
                   <p>TotalFinder works by altering the built-in system application Finder.app.</p>
                   <p>In order to change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code
                     to the Finder program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of
-                    macOS on the disk. You only have to quit Finder via <code class="highlighter-rouge">Command+Option+Esc</code>, and the Finder will restart and everything will be
+                    macOS on the disk. You only have to quit Finder via <code class="language-plaintext highlighter-rouge">Command+Option+Esc</code>, and the Finder will restart and everything will be
                   as if TotalFinder was never running.</p>
                   <p>However, in macOS 10.11 (El Capitan) and later the macOS developers added a feature that disallows this kind of modification even if you
                   have administrator access. It will also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>

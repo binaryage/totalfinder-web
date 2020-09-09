@@ -3,8 +3,8 @@
   <head>
     <title>System Integrity Protection</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/sip-sierra"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -132,7 +132,7 @@
                   <p>TotalFinder will guide you through the process via notification dialogs.
                     Please check the <a href="/installation">TotalFinder installation page</a> for general installation steps.
                   This document explains SIP-specific steps.</p>
-                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding <code class="highlighter-rouge">Command+R</code> until the Apple logo
+                  <p>You must boot into the Recovery OS. You do this by restarting your machine, and holding <code class="language-plaintext highlighter-rouge">Command+R</code> until the Apple logo
                   appears. Then select Terminal from the Utilities menu. It looks like this:</p>
                   <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png" class="doc-image"/></p>
                   <p>In the window that opens, type <code>csrutil disable</code> and press return. This turns off System Integrity Protection so
@@ -141,20 +141,20 @@
                   <p>Reboot your machine and you may install and run the <a href="/changes-beta">latest version of TotalFinder</a>.</p>
                   <p>Once TotalFinder is installed and you have run it for the first time (so it has a chance to install its system component),
                   then you may turn SIP back on.</p>
-                  <p>To do this, reboot and hold <code class="highlighter-rouge">Command+R</code> until the Apple logo appears once more. Go to Utilities-&gt;Terminal and type
-                  <code class="highlighter-rouge">csrutil enable</code> and press return. Reboot, and you are done.</p>
+                  <p>To do this, reboot and hold <code class="language-plaintext highlighter-rouge">Command+R</code> until the Apple logo appears once more. Go to Utilities-&gt;Terminal and type
+                  <code class="language-plaintext highlighter-rouge">csrutil enable</code> and press return. Reboot, and you are done.</p>
                   <h2 id="technical-details">Technical details</h2>
                   <p>TotalFinder works by altering the built-in system application Finder.app.</p>
                   <p>In order to change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code
                     to the Finder program whilst it is running to do what we need. This is relatively safe - in fact we do not change any part of
-                    macOS on the disk. You only have to quit Finder via <code class="highlighter-rouge">Command+Option+Esc</code>, and the Finder will restart and everything will be
+                    macOS on the disk. You only have to quit Finder via <code class="language-plaintext highlighter-rouge">Command+Option+Esc</code>, and the Finder will restart and everything will be
                   as if TotalFinder was never running.</p>
                   <p>However, in El Capitan and later the macOS developers added a feature that disallows this kind of modification even if you
                   have administrator access. It will also disallow other kinds of modifications (such as replacing parts of the system on disk).</p>
                   <p>In order for TotalFinder to be able to do code injection into Finder.app we need a help from the system. We need to install
                     a special system component which allows circumventing SIP restrictions just in this special case. To install this system
                     component the SIP must be temporarily disabled. When you disable SIP and run TotalFinder, it prompts you to install its
-                    system component in the location <code class="highlighter-rouge">/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code>. When you turn SIP back on it will
+                    system component in the location <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code>. When you turn SIP back on it will
                   allow TotalFinder to inject into Finder.app.</p>
                   <p>This should be one-time setup. This component usually does not change between TotalFinder versions. So it should not ask
                     you to repeat these steps with each TotalFinder update. When we need to update this component for some reason, TotalFinder
@@ -163,7 +163,7 @@
                   <h2 id="uninstallation-and-sip">Uninstallation and SIP</h2>
                   <p>To remove TotalFinder from your system, run the uninstaller found on the <a href="/changes-beta">latest dmg download of TotalFinder</a>.</p>
                   <p>Note that if you have SIP turned on, then the uninstaller will not be able to remove the<br/>
-                    <code class="highlighter-rouge">/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code>. This is not harmful (it won’t ever be loaded if you do not run
+                    <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code>. This is not harmful (it won’t ever be loaded if you do not run
                   TotalFinder), but to be totally clean you should disable SIP and either manually remove it, or run the uninstaller again.</p>
                   <h2 id="further-information">Further information</h2>
                   <p>You can find some further information <a href="https://blog.binaryage.com/sip-and-installing-total-apps/">in our blog post</a>.</p>

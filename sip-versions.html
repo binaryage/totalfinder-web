@@ -3,8 +3,8 @@
   <head>
     <title>TotalFinderSIP versions</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/sip-versions"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
     <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -121,7 +121,7 @@
                     You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this blog post</a> with further explanation.
                   </p>
                   <p>TotalFinder needs to install a system component into protected disk area at
-                    <code class="highlighter-rouge">/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code> to circumvent the System Integrity Protection (SIP).
+                    <code class="language-plaintext highlighter-rouge">/System/Library/ScriptingAdditions/TotalFinderSIP.osax</code> to circumvent the System Integrity Protection (SIP).
                   You can <a href="https://totalfinder.binaryage.com/sip#mark-technical-details">read some technical details here</a>.</p>
                   <p>Rarely we might need to upgrade this component. Unfortunately that requires turning SIP off and on again.
                   We maintain this page as a resource with explanation of each upgrade.</p>
@@ -139,15 +139,15 @@
                     <p><strong>Released in <a href="https://totalfinder.binaryage.com/beta-changes#1.10.0">TotalFinder 1.10.0</a> on August 21, 2017</strong></p>
                   </blockquote>
                   <blockquote>
-                    <p>For security reasons <code class="highlighter-rouge">TotalFinderSIP.osax</code> checks code signature of the code located at <code class="highlighter-rouge">/Applications/TotalFinder.app</code> which
-                      it is going to inject into <code class="highlighter-rouge">Finder.app</code>. It must make sure that the code was produced by us (BinaryAge) and properly signed
+                    <p>For security reasons <code class="language-plaintext highlighter-rouge">TotalFinderSIP.osax</code> checks code signature of the code located at <code class="language-plaintext highlighter-rouge">/Applications/TotalFinder.app</code> which
+                      it is going to inject into <code class="language-plaintext highlighter-rouge">Finder.app</code>. It must make sure that the code was produced by us (BinaryAge) and properly signed
                     with a valid developer certificate issued by Apple.</p>
                   </blockquote>
                   <blockquote>
-                    <p>The problem is that in <code class="highlighter-rouge">v1</code> implementation we were checking specific naming scheme of the developer certificate and Apple
+                    <p>The problem is that in <code class="language-plaintext highlighter-rouge">v1</code> implementation we were checking specific naming scheme of the developer certificate and Apple
                       decided to change it. As our old certificate expired we were unable to sign new TotalFinder updates in a way which
-                      would be recognised by the <code class="highlighter-rouge">v1</code> component as a genuine code coming from us. That is why we had to <a href="https://github.com/binaryage/totalfinder-osax/commit/422dc57e2132e92ae30d099a7ca32bd93a2040a2">relax the check</a>
-                    in <code class="highlighter-rouge">v2</code>.</p>
+                      would be recognised by the <code class="language-plaintext highlighter-rouge">v1</code> component as a genuine code coming from us. That is why we had to <a href="https://github.com/binaryage/totalfinder-osax/commit/422dc57e2132e92ae30d099a7ca32bd93a2040a2">relax the check</a>
+                    in <code class="language-plaintext highlighter-rouge">v2</code>.</p>
                   </blockquote>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
