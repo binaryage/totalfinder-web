@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>System Integrity Protection under macOS 11.0 (Big Sur)</title>
-    <link rel="canonical" href="https://totalfinder.binaryage.com/sip"/>
+    <title>System Integrity Protection under macOS 10.15 (Catalina)</title>
+    <link rel="canonical" href="https://totalfinder.binaryage.com/sip-catalina"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://static.binaryage.com/02945499_shared_css_site.css" type="text/css"/>
@@ -16,7 +16,7 @@
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
     <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
   </head>
-  <body id="page-totalfinder-sip" class="site-totalfinder">
+  <body id="page-totalfinder-sip-catalina" class="site-totalfinder">
     <div id="header">
       <div class="container">
         <div class="row">
@@ -116,26 +116,16 @@
                 <div class="generic-separator"></div>
                 <div class="page-content">
                   <p class="info-box compatibility">
-                    This page describes macOS 11.0 (Big Sur) specific information.<br/>
-                    If you have previous macOS version please refer to <b><a href="/sip-catalina">previous macOS SIP instructions</a></b>.<br/>
+                    This page describes macOS 10.15 (Catalina) specific information.<br/>
+                    If you have previous macOS version please refer to <b><a href="/sip-mojave">previous macOS SIP instructions</a></b>.<br/>
                     You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this blog post</a> for historical context.
                   </p>
-                  <p>TotalFinder has support for macOS 11.0 (Big Sur), but cannot run on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a> (SIP).
-                  This article can help you how to configure your machine to allow TotalFiner installation by modifying security setting.</p>
+                  <p>TotalFinder has support for macOS 10.15 (Catalina), but cannot run on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a> (SIP).
+                  This article can help you how to configure your machine to allow TotalFiner installation by modifying the SIP setting.</p>
                   <p>If you decide to modify the settings, you will be able to install TotalFinder. Just to be clear…</p>
                   <p class="info-box exclamation">
-                    Your machine may be less secure when you disable extra security features. It is entirely your decision to modify the settings.
+                    Your machine may be less secure when System Integrity Protection is disabled. It is entirely your decision to modify the settings.
                   </p>
-                  <h2 id="what-is-different-in-macos-110-big-sur">What is different in macOS 11.0 (Big Sur)?</h2>
-                  <p>The Finder binary is newly marked as a “platform binary”. That means that system prevents injecting or loading
-                    any code which is not signed by Apple developers. This feature is called “Library Validation” and was
-                  first introduced in macOS 10.10 (Yosemite). Finder didn’t participate in this prior macOS 11.0.</p>
-                  <p>Currently in beta macOS 11.0 users can disable Library Validation using this command in Terminal.app:</p>
-                  <pre class="terminal">
-                    sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
-                  </pre>
-                  <p>This will allow injection of TotalFinder code in Finder. But please note that Library Validation is disabled system-wide.
-                  So any app which relied on Library Validation might be less secure.</p>
                   <h2 id="how-to-install-totalfinder-by-turning-off-system-integrity-protection">How to install TotalFinder by turning off System Integrity Protection</h2>
                   <p>TotalFinder will guide you through the process via notification dialogs.
                     Please check the <a href="/installation">TotalFinder installation page</a> for general installation steps.
@@ -148,8 +138,8 @@
                   <p><img src="https://static.binaryage.com/b40de138_images_csrutil-disable.jpg" class="doc-image"/></p>
                   <p>Reboot your machine and you may install and run the <a href="/changes-beta">latest version of TotalFinder</a>.</p>
                   <p>Unfortunately you have to keep SIP disabled to allow TotalFinder. In earlier macOS versions it was possible to turn SIP off only to
-                    complete TotalFinder installation steps and enable it back again. That is no longer possible in recent macOS releases due to hardened
-                  security settings.</p>
+                    complete TotalFinder installation steps and enable it back again. That is no longer possible with macOS 10.15 (Catalina) due to hardened
+                  macOS security settings.</p>
                   <h2 id="technical-details">Technical details</h2>
                   <p>TotalFinder works by altering the built-in system application Finder.app.</p>
                   <p>In order to change some features of Finder, we use a technique called <em>code injection</em>. This means we add some additional code
