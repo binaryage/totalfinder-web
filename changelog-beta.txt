@@ -1,3 +1,6 @@
+1.13.1 - September 23, 2020
+  + Improved compatibility with macOS 11.0 [Big Sur]
+
 1.13.0 - September 09, 2020
   + Initial compatibility with macOS 11.0 [Big Sur]
 
