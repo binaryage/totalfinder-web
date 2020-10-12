@@ -117,18 +117,26 @@
                 <div class="page-content">
                   <p>TotalFinder comes with a convenient uninstaller script which safely removes TotalFinder from your computer.</p>
                   <p>Under TotalFinder’s Menu icon select <code class="language-plaintext highlighter-rouge">Uninstall TotalFinder</code>:</p>
-                  <p><img src="https://static.binaryage.com/c1c7f288_images_uninstall-menu.png" class="doc-image add-shadow" style="width:400px"/></p>
-                  <p><img src="https://static.binaryage.com/e1edbda8_images_really-uninstall.png" class="doc-image add-shadow" style="width:400px"/></p>
-                  <p><img src="https://static.binaryage.com/e7523c68_images_uninstaller.png" class="doc-image add-shadow" style="width:400px"/></p>
+                  <p><img src="https://static.binaryage.com/c1c7f288_images_uninstall-menu.png" class="doc-image add-shadow" style="width:400px" alt="uninstall menu"/></p>
+                  <p><img src="https://static.binaryage.com/e1edbda8_images_really-uninstall.png" class="doc-image add-shadow" style="width:400px" alt="uninstallation confirmation"/></p>
+                  <p><img src="https://static.binaryage.com/e7523c68_images_uninstaller.png" class="doc-image add-shadow" style="width:400px" alt="uninstaller"/></p>
                   <p>If you have trouble running the menu command you may alternatively run the following in Terminal.app:</p>
                   <pre class="terminal">open "/Applications/TotalFinder.app/Contents/Resources/TotalFinder.bundle/Contents/Resources/TotalFinder Uninstaller.app"</pre>
-                  <p>Or download and open the latest archive from <a href="https://totalfinder.binaryage.com">totalfinder.binaryage.com</a> and launch TotalFinder Uninstaller from the DMG.</p>
+                  <p>Or download and open the latest archive from <a href="https://totalfinder.binaryage.com">totalfinder.binaryage.com</a> and
+                  launch TotalFinder Uninstaller from the DMG.</p>
                   <h2 id="purging-the-configuration">Purging the configuration</h2>
-                  <p>By default the uninstaller does not remove your configuration settings from <code class="language-plaintext highlighter-rouge">/Users/&lt;user&gt;/Library/Preferences/com.binaryage.totalfinder.plist</code></p>
-                  <p>It is just a few extra bytes we leave in case you need to temporarily uninstall TotalFinder and decide to reinstall later.</p>
-                  <p><img src="https://static.binaryage.com/025a1a97_images_property-list-editor.png" class="doc-image add-shadow" style="width:400px;"/></p>
-                  <p>If you want to clean the TotalFinder trail completely. Force quit Finder via CMD+OPT+ESC and then delete the plist from Terminal.app:</p>
-                  <pre class="terminal">rm ~/Library/Preferences/com.binaryage.totalfinder.plist</pre>
+                  <p>By default the uninstaller does not remove your configuration settings from:</p>
+                  <pre>
+                    /Users/$USER/Library/Preferences/com.binaryage.totalfinder.plist
+                    /Users/$USER/Library/Preferences/com.binaryage.totalfinder.agent.plist
+                    /Users/$USER/Library/Preferences/com.binaryage.totalfinder.crashwatcher.plist
+                  </pre>
+                  <p>It is just a few bytes we leave in case you need to temporarily uninstall TotalFinder and decide to reinstall
+                  later.</p>
+                  <p><img src="https://static.binaryage.com/025a1a97_images_property-list-editor.png" class="doc-image add-shadow" style="width:400px;" alt="property list editor"/></p>
+                  <p>If you want to clean the TotalFinder trail completely. Please force quit Finder via CMD+OPT+ESC and then delete
+                  the plist from the Terminal.app:</p>
+                  <pre class="terminal">rm ~/Library/Preferences/com.binaryage.totalfinder*.plist</pre>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
