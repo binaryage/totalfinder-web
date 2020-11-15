@@ -89,7 +89,7 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible with macOS 10.11&dash;10.15<br>
+      <i class="fa fa-laptop"></i> Compatible with macOS 10.15&dash;11.0<br>
       <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/sip" target="_blank">but requires a system tweak</a></span><br>
       <a href="/compatibility">Looking for a different version?</a><br>
     </div>
