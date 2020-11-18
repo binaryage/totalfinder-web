@@ -1,3 +1,6 @@
+1.13.6 - November 18, 2020
+  + Compatibility with macOS 11.0 [Big Sur]
+
 1.12.3 - December 18, 2019
   ! Fixed an issue when the <a href="https://discuss.binaryage.com/t/totalfinder-does-not-open-finder-on-catalina/7387/6">Dock icon stopped opening new TotalFinder windows</a> [Mojave] [Catalina]
   ! Fixed a visual glitch with gray bands in context menus [Catalina]
