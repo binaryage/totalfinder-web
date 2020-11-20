@@ -17,7 +17,7 @@ In the old days when TotalFinder was first written macOS was pretty unrestricted
 It was flexible but potentially unsecure. Over time Apple devs started adding various ways how to harden the system.
 In recent macOS versions user has to grant permissions to TotalFinder to be able to talk to Finder using Apple Events.
 
-This plan to harden the OS sounds good in theory but how keep backward compatibility?
+This plan to harden the OS sounds good in theory but how to keep backward compatibility?
 
 1. obviously there are many apps doing various things in various ways 
    => Apple devs must cover all such cases including weird corner cases
@@ -26,11 +26,12 @@ This plan to harden the OS sounds good in theory but how keep backward compatibi
 3. this security system gets pretty complex
    => Apple devs are expected not to introduce bugs
 
-Unfortunately this wasn't executed perfectly. If you are interested in details Felix Schwarz wrote
-excellent articles about this topic:
+Unfortunately this wasn't executed perfectly. If you are interested in technical details here are some articles 
+about this topic:
 
+1. [https://eclecticlight.co/2018/08/07/running-apps-with-mojaves-privacy-protection/](https://eclecticlight.co/2018/08/07/running-apps-with-mojaves-privacy-protection/)
 1. [https://www.felix-schwarz.org/blog/2018/06/apple-event-sandboxing-in-macos-mojave](https://www.felix-schwarz.org/blog/2018/06/apple-event-sandboxing-in-macos-mojave)
-2. [https://www.felix-schwarz.org/blog/2018/08/new-apple-event-apis-in-macos-mojave](https://www.felix-schwarz.org/blog/2018/08/new-apple-event-apis-in-macos-mojave)
+1. [https://www.felix-schwarz.org/blog/2018/08/new-apple-event-apis-in-macos-mojave](https://www.felix-schwarz.org/blog/2018/08/new-apple-event-apis-in-macos-mojave)
 
 TotalFinder has also own [history of troubles](https://discuss.binaryage.com/t/totalfinder-does-not-launch) 
 trying to adapt to the changes Apple devs were introducing
