@@ -11,6 +11,25 @@ I guess you are visiting this page because you just saw this notification:
 TotalFinder needs to send Apple Events to inject own code into running Finder.app and then successfully take control 
 over it. Unfortunately this failed on your machine for some reason.
 
+## Have you tried it turning it off and on again?
+
+In Terminal.app, please reset privacy settings the system has remembered about TotalFinder:
+
+<pre class="terminal">tccutil reset AppleEvents com.binaryage.totalfinder.agent</pre>
+
+Then please:
+
+1. Force Quit Finder.app via CMD+OPT+ESC.
+2. Launch `/Applications/TotalFinder.app` again.
+
+This should trigger another attempt to inject TotalFinder into Finder. You should be presented with:
+
+<img src="/images/totalfinder-permission-prompt.png" class="no-background" style="width:400px" alt="TotalFinder permission prompt"><br>
+
+Press OK, to allow this. TotalFinder then should start working again.
+
+Didn't work? Ah, too bad...
+
 ## A bit of historical context
 
 In the old days when TotalFinder was first written macOS was pretty unrestricted. Apps could talk to each other freely.
@@ -48,14 +67,18 @@ Software is not perfect, let's troubleshoot it.
 
 ##### 3. what if there is no mention of TotalFinder?
 
-> Well, sometimes this privacy subsystem gets into an unfortunate state: It thinks that it should prompt user for permissions, 
-> and it also thinks it needs to prevent abuse, so it blocks permission prompts. That's pretty confusing if you asked me.
-> Usually this ban on permission prompts is time based. So it should expire after some time.
-
+> Well, sometimes this privacy subsystem gets into an unfortunate state. It thinks that it should prompt user for 
+> permissions, and it also thinks it needs to prevent abuse, so it blocks any permission prompts. It also does not 
+> offer any way how to tweak the permission from `Security & Privacy` UI.
+> Usually this ban on permission prompts is time-based. So it should expire after some time. Maybe?!
+> 
+> TotalFinder versions 1.13.0 up to 1.13.7 were affected by this. Later I found [the real cause of this issue](https://github.com/desktop/desktop/issues/9050#issue-560018947).
+> TotalFinder version 1.13.8 and up should not be affected. 
+>
 > Other possibility is that the permission database is somehow borked. I believe that macOS 10.15 (Mojave) [had issues with this](https://github.com/Hammerspoon/hammerspoon/issues/2031#issuecomment-478250239). 
 > I would recommend resetting it from command-line:
 
-<pre class="terminal">tccutil reset AppleEvents</pre>
+<pre class="terminal">tccutil reset AppleEvents com.binaryage.totalfinder.agent</pre>
 
 > If that does not help, you might consider resetting all privacy decisions:
 

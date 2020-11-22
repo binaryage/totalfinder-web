@@ -20,10 +20,10 @@ something like this:
 
 Either you or someone else unchecked it. Or TotalFinder lost the permission for some other reason. 
 Or TotalFinder was never given this permission in the first place. 
-In any way, please consider enabling it and then hit `Continue` on the "Automation Permissions" prompt.
+Anyway, please consider enabling it and then hit `Continue` on the "Automation Permissions" prompt.
 
 ### Don't see it?
 
-Ah, too bad. You might be experiencing a bug which causes this permission to be silently not offered. 
+Ah, too bad. You might be experiencing a bug which causes this permission to be silently not offered in UI. 
 
 Please [continue with this article](/injection-troubles).
