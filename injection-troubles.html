@@ -119,6 +119,18 @@
                   <p><img src="https://static.binaryage.com/8fbae4e8_images_totalfinder-injection-troubles-notification.png" class="no-background" style="width:400px" alt="Notification: Troubles launching TotalFinder - Apple Events cannot be delivered"/><br/></p>
                   <p>TotalFinder needs to send Apple Events to inject own code into running Finder.app and then successfully take control
                   over it. Unfortunately this failed on your machine for some reason.</p>
+                  <h2 id="have-you-tried-it-turning-it-off-and-on-again">Have you tried it turning it off and on again?</h2>
+                  <p>In Terminal.app, please reset privacy settings the system has remembered about TotalFinder:</p>
+                  <pre class="terminal">tccutil reset AppleEvents com.binaryage.totalfinder.agent</pre>
+                  <p>Then please:</p>
+                  <ol>
+                    <li>Force Quit Finder.app via CMD+OPT+ESC.</li>
+                    <li>Launch <code class="language-plaintext highlighter-rouge">/Applications/TotalFinder.app</code> again.</li>
+                  </ol>
+                  <p>This should trigger another attempt to inject TotalFinder into Finder. You should be presented with:</p>
+                  <p><img src="https://static.binaryage.com/bde4985e_images_totalfinder-permission-prompt.png" class="no-background" style="width:400px" alt="TotalFinder permission prompt"/><br/></p>
+                  <p>Press OK, to allow this. TotalFinder then should start working again.</p>
+                  <p>Didn’t work? Ah, too bad…</p>
                   <h2 id="a-bit-of-historical-context">A bit of historical context</h2>
                   <p>In the old days when TotalFinder was first written macOS was pretty unrestricted. Apps could talk to each other freely.
                     It was flexible but potentially unsecure. Over time Apple devs started adding various ways how to harden the system.
@@ -151,15 +163,16 @@
                   </blockquote>
                   <h5 id="3-what-if-there-is-no-mention-of-totalfinder">3. what if there is no mention of TotalFinder?</h5>
                   <blockquote>
-                    <p>Well, sometimes this privacy subsystem gets into an unfortunate state: It thinks that it should prompt user for permissions,
-                      and it also thinks it needs to prevent abuse, so it blocks permission prompts. That’s pretty confusing if you asked me.
-                    Usually this ban on permission prompts is time based. So it should expire after some time.</p>
-                  </blockquote>
-                  <blockquote>
+                    <p>Well, sometimes this privacy subsystem gets into an unfortunate state. It thinks that it should prompt user for
+                      permissions, and it also thinks it needs to prevent abuse, so it blocks any permission prompts. It also does not
+                      offer any way how to tweak the permission from <code class="language-plaintext highlighter-rouge">Security &amp; Privacy</code> UI.
+                    Usually this ban on permission prompts is time-based. So it should expire after some time. Maybe?!</p>
+                    <p>TotalFinder versions 1.13.0 up to 1.13.7 were affected by this. Later I found <a href="https://github.com/desktop/desktop/issues/9050#issue-560018947">the real cause of this issue</a>.
+                    TotalFinder version 1.13.8 and up should not be affected.</p>
                     <p>Other possibility is that the permission database is somehow borked. I believe that macOS 10.15 (Mojave) <a href="https://github.com/Hammerspoon/hammerspoon/issues/2031#issuecomment-478250239">had issues with this</a>.
                     I would recommend resetting it from command-line:</p>
                   </blockquote>
-                  <pre class="terminal">tccutil reset AppleEvents</pre>
+                  <pre class="terminal">tccutil reset AppleEvents com.binaryage.totalfinder.agent</pre>
                   <blockquote>
                     <p>If that does not help, you might consider resetting all privacy decisions:</p>
                   </blockquote>
