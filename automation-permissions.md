@@ -5,7 +5,6 @@ subtitle: TotalFinder Injection Troubles
 ---
 
 <p class="info-box compatibility">
-This page describes macOS 11.0 (Big Sur) specific information.<br>
 This feature is implemented since TotalFinder 1.13.7.
 </p>
 
@@ -22,8 +21,8 @@ Either you or someone else unchecked it. Or TotalFinder lost the permission for 
 Or TotalFinder was never given this permission in the first place. 
 Anyway, please consider enabling it and then hit `Continue` on the "Automation Permissions" prompt.
 
-### Don't see it?
+### Don't see it under Automation?
 
-Ah, too bad. You might be experiencing a bug which causes this permission to be silently not offered in UI. 
+Ah, too bad. You might be experiencing a bug which causes this permission to be missing in the UI. 
 
 Please [continue with this article](/injection-troubles).

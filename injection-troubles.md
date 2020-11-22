@@ -8,7 +8,7 @@ I guess you are visiting this page because you just saw this notification:
 
 <img src="/images/totalfinder-injection-troubles-notification.png" class="no-background" style="width:400px" alt="Notification: Troubles launching TotalFinder - Apple Events cannot be delivered"><br>
 
-TotalFinder needs to send Apple Events to inject own code into running Finder.app and then successfully take control 
+[TotalFinder needs to send Apple Events](/automation-permissions) to inject own code into running Finder.app and then successfully take control 
 over it. Unfortunately this failed on your machine for some reason.
 
 ## Have you tried it turning it off and on again?
@@ -26,9 +26,9 @@ This should trigger another attempt to inject TotalFinder into Finder. You shoul
 
 <img src="/images/totalfinder-permission-prompt.png" class="no-background" style="width:400px" alt="TotalFinder permission prompt"><br>
 
-Press OK, to allow this. TotalFinder then should start working again.
+Press OK, to allow this. TotalFinder then should start working. E.g. you should see TotalFinder's menubar icon.
 
-Didn't work? Ah, too bad...
+Didn't work? Ah, not good...
 
 ## A bit of historical context
 
