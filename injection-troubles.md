@@ -78,7 +78,7 @@ Software is not perfect, let's troubleshoot it.
 > Other possibility is that the permission database is somehow borked. I believe that macOS 10.15 (Mojave) [had issues with this](https://github.com/Hammerspoon/hammerspoon/issues/2031#issuecomment-478250239). 
 > I would recommend resetting it from command-line:
 
-<pre class="terminal">tccutil reset AppleEvents com.binaryage.totalfinder.agent</pre>
+<pre class="terminal">tccutil reset AppleEvents</pre>
 
 > If that does not help, you might consider resetting all privacy decisions:
 
