@@ -1,4 +1,4 @@
-1.13.8 - November 19, 2020
+1.13.8 - November 23, 2020
   ! Resolved <a href="https://totalfinder.binaryage.com/injection-troubles">injection troubles</a>.
 
 1.13.7 - November 19, 2020
