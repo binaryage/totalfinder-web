@@ -11,7 +11,7 @@ I guess you are visiting this page because you just saw this notification:
 [TotalFinder needs to send Apple Events](/automation-permissions) to inject own code into running Finder.app and then successfully take control 
 over it. Unfortunately this failed on your machine for some reason.
 
-## Have you tried it turning it off and on again?
+## Have you tried turning it off and on again?
 
 In Terminal.app, please reset privacy settings the system has remembered about TotalFinder:
 
