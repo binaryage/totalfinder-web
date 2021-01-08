@@ -10,6 +10,14 @@ If you have previous macOS version please refer to <b><a href="/sip-catalina">pr
 You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this blog post</a> for historical context.
 </p>
 
+<p class="info-box compatibility">
+TotalFinder is not compatible with Apple's latest computers with 
+<a href="https://en.wikipedia.org/wiki/Apple_M1">M1 chip</a>.
+It fails by reporting <a href="/injection-troubles">that Apple events cannot be delivered</a>. Unfortunately there is no known solution at this point.
+Please subscribe to <a href="https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879">this forum thread</a>
+for further updates.
+</p>
+
 TotalFinder has support for macOS 11.0 (Big Sur), but cannot run on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection) (SIP).
 This article can help you how to configure your machine to allow TotalFiner installation by modifying security setting.
 

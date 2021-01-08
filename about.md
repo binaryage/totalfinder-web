@@ -9,6 +9,14 @@ TotalFinder was tested to work in macOS 10.15 (Catalina) and later.<br>
 Unfortunately it requires a deep system tweak. <b>Please read <a href="/sip">this document</a> to learn details</b>.
 </p>
 
+<p class="info-box compatibility">
+TotalFinder is not compatible with Apple's latest computers with 
+<a href="https://en.wikipedia.org/wiki/Apple_M1">M1 chip</a>.
+It fails by reporting <a href="/injection-troubles">that Apple events cannot be delivered</a>. Unfortunately there is no known solution at this point.
+Please subscribe to <a href="https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879">this forum thread</a>
+for further updates.
+</p>
+
 ## TotalFinder is just a better Finder
 
 TotalFinder works like the normal Finder but adds [tabs](/tabs), [dual panel](/dual-mode), [colored labels](/colored-labels) and other [features](/tweaks).

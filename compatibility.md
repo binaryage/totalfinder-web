@@ -71,6 +71,14 @@ oses: [{
 }]
 ---
 
+<p class="info-box compatibility">
+TotalFinder is not compatible with Apple's latest computers with 
+<a href="https://en.wikipedia.org/wiki/Apple_M1">M1 chip</a>.
+It fails by reporting <a href="/injection-troubles">that Apple events cannot be delivered</a>. Unfortunately there is no known solution at this point.
+Please subscribe to <a href="https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879">this forum thread</a>
+for further updates.
+</p>
+
 Here you can find latest TotalFinder releases compatible with individual macOS versions:
 
 {% contentfor inline_styles %}

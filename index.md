@@ -91,6 +91,7 @@ highlights: [{
     <div class="button-note">
       <i class="fa fa-laptop"></i> Compatible with macOS 10.15&dash;11.0<br>
       <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/sip" target="_blank">but requires a system tweak</a></span><br>
+      <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/injection-troubles" target="_blank">not compatible with M1</a></span><br>
       <a href="/compatibility">Looking for a different version?</a><br>
     </div>
   </div>
