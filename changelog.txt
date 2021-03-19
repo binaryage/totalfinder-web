@@ -1,3 +1,8 @@
+1.13.10 - March 16, 2021
+  + On M1 chip, TotalFinder refuses to launch with explanation.
+  ! Fixed <a href="https://discuss.binaryage.com/t/macos-big-sur-and-totalfinder/7662/111">a crash when entering dual mode with DMG windows</a>
+  ! Fixed <a href="https://discuss.binaryage.com/t/macos-big-sur-and-totalfinder/7662/111">a glitch when entering dual mode</a> [Big Sur]
+
 1.13.8 - November 23, 2020
   ! Resolved <a href="https://totalfinder.binaryage.com/injection-troubles">injection troubles</a>.
 
