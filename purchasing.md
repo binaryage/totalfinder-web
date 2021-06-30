@@ -4,6 +4,10 @@ title: Purchasing TotalFinder
 subtitle: Purchasing
 ---
 
+<p class="info-box compatibility">
+TotalFinder was discontinued and is no longer offered for sale. Please read our blog post with announcement <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">here</a>.
+</p>
+
 ## Thanks for considering buying TotalFinder
 
 The process is straight-forward and should take less than 5 minutes in 3 steps.
