@@ -4,7 +4,6 @@ title: TotalFinder is a better Finder
 subtitle: for Mac users who demand more from their Finder
 download: https://downloads.binaryage.com/TotalFinder-1.13.10.dmg
 download_title: Download v1.13.10
-store_link: https://sites.fastspring.com/binaryage/instant/totalfinder
 product: totalfinder
 product_title: TotalFinder
 product_subtitle: for Mac users who demand more from their Finder
@@ -86,7 +85,7 @@ highlights: [{
 <div class="product-buttons">
   <div class="button-container">
     <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
-      <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span><span class="trial-note">14-day trial</span>
+      <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span>
     </a>
     <div class="button-note">
       <i class="fa fa-laptop"></i> Compatible with macOS 10.15&dash;11.0<br>
@@ -94,11 +93,6 @@ highlights: [{
       <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/injection-troubles" target="_blank">not compatible with M1</a></span><br>
       <a href="/compatibility">Looking for a different version?</a><br>
     </div>
-  </div>
-  <div class="button-container">
-    <a id="o-buy" class="button product-button-buy" href="{{page.store_link}}">
-      <span><i class="fa fa-heart fa-lg"></i>Buy TotalFinder</span><span class="price-note">$12</span>
-    </a>
   </div>
 </div>
 {% endcontentfor %}
