@@ -1,3 +1,3 @@
 ---
-redirect_to: https://sites.fastspring.com/binaryage/instant/totalfinder
+redirect_to: https://www.binaryage.com/store
 ---
