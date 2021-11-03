@@ -1,3 +1,8 @@
+1.14.0 - November 3, 2021
+  + Initial compatibility with macOS 12.0 [Monterey]
+  - Removed checking for a license. TotalFinder is provided as-is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">without support</a>.
+  ! Fixed dimming of icons in Icon View and on Desktop when they are marked for Cut (CMD+X).
+
 1.13.10 - March 14, 2021
   ! Fixed <a href="https://discuss.binaryage.com/t/macos-big-sur-and-totalfinder/7662/111">a crash when entering dual mode with DMG windows</a>
   ! Fixed <a href="https://discuss.binaryage.com/t/macos-big-sur-and-totalfinder/7662/111">a glitch when entering dual mode</a> [Big Sur]
