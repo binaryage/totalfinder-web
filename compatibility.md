@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "12.0",
+  label: "Monterey",
+  logo: "logo-monterey.png",
+  wiki: "MacOS_Monterey",
+  note: "<a href=\"/beta-changes#latest\">install the latest version</a>, but <a href=\"/sip\" class=\"red\">needs a permanent system tweak</a>",
+},{
   version: "11.0",
   label: "Big Sur",
   logo: "logo-big-sur.png",
