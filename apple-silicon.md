@@ -59,11 +59,11 @@ Then force-quit `TotalFinder.app` and launch it again from `Applications`, or us
 killall TotalFinder; open /Applications/TotalFinder.app
 </pre>
 
-**TotalFinder should now be fully operational!**
+## TotalFinder should now be fully operational!
 
 ---
 
-## How revert this setup?
+## How to revert this setup?
 
 First, in `Terminal.app`, run this command:
 <pre class="terminal">
@@ -71,7 +71,6 @@ rm ~/.totalfinder-dontcheckarchitecture
 </pre>
 
 Then reboot and enable full security mode. This should also fully enable SIP again. You can check it via:
-
 <pre class="terminal">
 csrutil status
 System Integrity Protection status: enabled.
