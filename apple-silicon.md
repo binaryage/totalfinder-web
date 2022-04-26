@@ -1,28 +1,28 @@
 ---
 layout: tf-doc
 title: TotalFinder on Apple Silicon
-subtitle: TotalFinder on Apple Silicon (ARM architecture)
+subtitle: TotalFinder on Apple Silicon (arm64 / AArch64 architecture)
 ---
 
-Good news! TotalFinder can still work on M1 Macs running macOS 12 (Monterey). 
+Good news! TotalFinder works on Apple Silicon! Not only that, but on macOS 12 Monterey, too!
 
-The bad news is that you have to disable
-even more security features on your machine. The trick is that you have to switch your system into "Reduced Security" mode
-before you disable System Integrity Protection (SIP) itself. Please see the instructions below. 
+… The bad news is that you'll have to disable even _more_ security features on your machine.
+
+The instructions below will guide you through switching your system into "Reduced Security" mode, and then disabling System Integrity Protection (SIP) afterwards.
 
 <p class="info-box compatibility">
-Please note that we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a> 
-that we stopped TotalFinder development and we are not going to support this setup.
-If you are looking for help, please kindly <a href="https://discuss.binaryage.com/">ask community members on the forums</a>.
+Please note that we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a> that we have stopped TotalFinder development. As a result, we are not going to officially support this setup. If you are looking for help, please kindly <a href="https://discuss.binaryage.com/">ask our community members on the forums</a>.
 </p>
 
 <p class="info-box exclamation">
-Your machine may be less secure when you disable extra security features. It is entirely your decision to modify the settings.
+Your machine may be less secure when you disable these security features. It is entirely your decision whether or not to modify these settings.
 </p>
 
-## 1. Switch your Apple Silicon Mac to "Reduced Security" mode
+## 1. Switching your Apple Silicon Mac to "Reduced Security" mode
 
-If you've already placed your Mac in "Reduced Security" mode before, simply skip this section.
+If you've _already_ placed your Mac in "Reduced Security" mode before, simply skip this section.
+
+※ If you use kernel extensions (kexts) on your system, you are already in "Reduced Security" mode.
 
 1. Shut down your Apple Silicon Mac.
 2. Press and hold down the power button until the text under the Apple logo says "Loading startup options…", then let go.
@@ -33,13 +33,17 @@ If you've already placed your Mac in "Reduced Security" mode before, simply skip
 7. Shut down your Apple Silicon Mac.
 
 <p class="info-box compatibility">
-TotalFinder does not actually use any kernel extensions for any part of its functionality. The only reason why this step is required is because it is required in order for SIP to be correctly disabled. The reason why this is required is not yet understood.
+TotalFinder does <i>not</i> actually use any kernel extensions for any part of its functionality. The only reason why we perform this step is because it is required in order for SIP to be correctly disabled. The reason why is not yet fully understood.
 </p>
 
-## 2. Disable SIP (System Integrity Protection)
+## 2. Disabling SIP (System Integrity Protection)
 
 <p class="info-box exclamation">
-Disabling SIP in any capacity, even partially, will also disable Apple Pay, as well as any iOS-on-macOS apps you may have downloaded from the App Store. This is a strange (and annoying) decision that Apple has decided to make specifically on Apple Silicon, as Apple Pay actually works fine even when SIP is disabled on x86_64 (Intel) Macs.
+Disabling SIP in <i>any</i> capacity, even partially, will also disable Apple Pay, as well as any iOS-on-macOS apps you may have downloaded from the App Store. This is a strange (and annoying) decision that Apple has decided to make specifically on Apple Silicon, as Apple Pay actually works fine even when SIP is disabled on x86_64 (Intel) Macs.
+</p>
+
+<p class="info-box compatibility">
+※ iOS-on-macOS apps that were installed through other non-App Store means, such as via sideloading, third-party wrappers, or your own developed apps from Xcode will continue to function. Basically, if the app binaries are encrypted with Apple's FairPlay DRM, it will stop working if SIP is disabled.
 </p>
 
 1. Follow steps 2〜4 from above.
@@ -47,14 +51,16 @@ Disabling SIP in any capacity, even partially, will also disable Apple Pay, as w
 3. Type in the following to fully disable SIP: `csrutil disable`
 4. Reboot your Apple Silicon Mac.
 
-## 3. Disable TotalFinder's architecture check
+## 3. Disabling TotalFinder's architecture check
 
-First, in `Terminal.app`, run this command:
+1. Run the following command in a Terminal session.
 <pre class="terminal">
 touch ~/.totalfinder-dontcheckarchitecture
 </pre>
 
-Then force-quit `TotalFinder.app` and launch it again from `Applications`, or use this code while in terminal:
+※ If you have multiple users on your Apple Silicon Mac that use TotalFinder, you will need to repeat just the `touch` command above for each user.
+
+2. Either run the following command in a Terminal session, or use Activity Monitor to force-quit `TotalFinder.app` and then open it again from `/Applications`.
 <pre class="terminal">
 killall TotalFinder; open /Applications/TotalFinder.app
 </pre>
@@ -63,15 +69,26 @@ killall TotalFinder; open /Applications/TotalFinder.app
 
 ---
 
-## How to revert this setup?
+## How do I revert these changes?
 
-First, in `Terminal.app`, run this command:
+1. Run the following command in a Terminal session.
 <pre class="terminal">
 rm ~/.totalfinder-dontcheckarchitecture
 </pre>
 
-Then reboot and enable full security mode. This should also fully enable SIP again. You can check it via:
+※ If you have multiple users on your Apple Silicon Mac that use TotalFinder, you will need to repeat just the `rm` command above for each user.
+
+2. Follow steps 2〜4 from [the first section above](#mark-1-switch-your-apple-silicon-mac-to-reduced-security-mode).
+
+3. If you switched your Apple Silicon Mac to "Reduced Security" mode solely just for TotalFinder, go ahead and enable "Full Security" mode. This will also re-enable SIP. **However,** if you use other applications on your Mac that require the use of kernel extensions (or "kexts"), run the following command in a Terminal session to re-enable SIP while keeping "Reduced Security" mode.
 <pre class="terminal">
-csrutil status
+csrutil enable
+</pre>
+
+4. Run `csrutil status` in a Terminal to verify that SIP has been re-enabled. The output should look something like what's shown below:
+<pre class="terminal">
+-bash-3.2# csrutil status
 System Integrity Protection status: enabled.
 </pre>
+
+5. Reboot your Apple Silicon Mac.
