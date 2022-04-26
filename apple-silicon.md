@@ -82,7 +82,9 @@ rm ~/.totalfinder-dontcheckarchitecture
 
 ② Follow steps 2〜4 from [the first section above](#mark-1-switch-your-apple-silicon-mac-to-reduced-security-mode).
 
-③ If you switched your Apple Silicon Mac to "Reduced Security" mode solely just for TotalFinder, go ahead and enable "Full Security" mode. This will also re-enable SIP. **However,** if you use other applications on your Mac that require the use of kernel extensions (or "kexts"), run the following command in a Terminal session to re-enable SIP while keeping "Reduced Security" mode.
+③ If you are certain that you switched your Apple Silicon Mac to "Reduced Security" mode solely just for TotalFinder, go ahead and enable "Full Security" mode. This will also re-enable SIP.
+
+**However,** if you use (or think you use) other applications on your Mac that use kernel extensions (kexts), run the following command in a Terminal session to re-enable SIP while keeping "Reduced Security" mode.
 <pre class="terminal">
 csrutil enable
 </pre>
