@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="ba">
+  <head>
+    <title>TotalFinder on Apple Silicon</title>
+    <link rel="canonical" href="https://totalfinder.binaryage.com/apple-silicon"/>
+    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://static.binaryage.com/493de12c_shared_css_site.css" type="text/css"/>
+    <link rel="stylesheet" href="https://static.binaryage.com/c97e55de_shared_css_github-markdown.css" type="text/css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
+    <meta property="fb:admins" content="antonin.hildebrand"/>
+    <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
+    <script>function defer$(e){window.jQuery?e():setTimeout(function(){defer$(e)},50)}</script>
+  </head>
+  <body id="page-totalfinder-apple-silicon" class="site-totalfinder">
+    <div id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="relativize">
+              <a href="//www.binaryage.com" title="BinaryAge Software">
+                <div class="binaryage-logo">
+                  <svg class="logo">
+                    <g class="logo-badge">
+                      <rect class="logo-badge-background" x="0" y="0" rx="4" ry="4" width="60" height="54"/>
+                      <path class="logo-letter-b" d=" M6,47 L6,17 12,17 12,25 29,25 29,47 Z M12,42 L12,30 23,30 23,42 Z"/>
+                      <path class="logo-letter-a" d=" M32,47 L32,34 49,34 49,30 32,30 32,25 54,25 54,47 Z M37,42 L37,39 49,39 49,42 Z"/>
+                    </g>
+                    <g class="logo-label" transform="translate(71, 22)">
+                      <g class="logo-word-binary">
+                        <path class="logo-label-letter-b" transform="translate(0, 0)" d=" M0,25 L0,0 5,0 5,7 20,7 20,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-i" transform="translate(22, 0)" d=" M0,25 L0,7 5,7 5,25 Z M0,3 L5,3 5,0 0,0 Z"/>
+                        <path class="logo-label-letter-n" transform="translate(29, 0)" d=" M0,25 L0,7 20,7 20,25 15,25 15,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-a" transform="translate(51, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-r" transform="translate(73, 0)" d=" M0,25 L0,7 20,7 20,11 5,11 5,25 Z"/>
+                        <path class="logo-label-letter-y" transform="translate(95, 0)" d=" M0,25 L0,7 5,7 5,21 15,21 15,7 20,7 20,32 0,32 0,28 15,28 15,25 Z"/>
+                      </g>
+                      <g class="logo-word-age" transform="translate(118, 0)">
+                        <path class="logo-label-letter-a" transform="translate(0, 0)" d=" M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z M5,21 L5,18 15,18 15,21 Z"/>
+                        <path class="logo-label-letter-g" transform="translate(22, 0)" d=" M0,25 L0,7 20,7 20,32 0,32 0,28 15,28 15,25 Z M5,21 L5,11 15,11 15,21 Z"/>
+                        <path class="logo-label-letter-e" transform="translate(44, 0)" d=" M0,25 L0,7 20,7 20,18 5,18 5,21 20,21 20,25 Z M5,14 L5,11 15,11 15,14 Z"/>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <div class="relativize">
+              <ul class="header-menu menu-selected-products">
+                <li class="menu-item-products"><a href="//www.binaryage.com"><i class="fa fa-star"></i><span>products</span></a></li>
+                <li class="menu-item-blog"><a href="//blog.binaryage.com"><i class="fa fa-bullhorn"></i><span>blog</span></a></li>
+                <li class="menu-item-support"><a href="//discuss.binaryage.com"><i class="fa fa-comments"></i><span>support</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main" class="cf">
+      <div class="doc-content markdown-body markdown-tweaks">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 doc-header">
+              <p><a href="/" class="doc-back-link"><img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png"/><span>TotalFinder homepage ↑</span></a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="sidebar">
+                <div class="content-sidebar">
+                  <h2>Change log</h2>
+                  <ul>
+                    <li><a href="/changes" data-alt="/beta-changes">Recent changes</a></li>
+                  </ul>
+                  <h2>Before installing</h2>
+                  <ul>
+                    <li><a href="/about">About TotalFinder</a></li>
+                    <li><a href="/installation">Installation</a></li>
+                    <li><a href="/uninstallation">Uninstallation</a></li>
+                    <li><a href="/licensing">Licensing</a></li>
+                    <li><a href="/purchasing">Purchasing</a></li>
+                    <li><a href="/registration">Registration</a></li>
+                  </ul>
+                  <h2>Features</h2>
+                  <ul>
+                    <li><a href="/tabs">Tabs</a></li>
+                    <li><a href="/dual-mode">Dual mode</a></li>
+                    <li><a href="/visor">Visor</a></li>
+                    <li><a href="/show-system-files">Show system files</a></li>
+                    <li><a href="/colored-labels">Colored Labels</a></li>
+                    <li><a href="/folders-on-top">Folders on top</a></li>
+                    <li><a href="/menus">Context Menus</a></li>
+                    <li><a href="/tweaks">Other Tweaks</a></li>
+                  </ul>
+                  <h2>More</h2>
+                  <ul>
+                    <li><a href="/compatibility">Compatibility</a></li>
+                    <li><a href="/sip">System Integrity Protection</a></li>
+                    <li><a href="/credits">Credits</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="doc-page">
+                <div class="header-content">
+                  <h1 class="title">TotalFinder on Apple Silicon (ARM architecture)</h1>
+                </div>
+                <div class="generic-separator"></div>
+                <div class="page-content">
+                  <p>Good news! TotalFinder can still work on M1 Macs running macOS 12 (Monterey).</p>
+                  <p>The bad news is that you have to disable
+                    even more security features on your machine. The trick is that you have to switch your system into “Reduced Security” mode
+                  before you disable System Integrity Protection (SIP) itself. Please see the instructions below.</p>
+                  <p class="info-box compatibility">
+                    Please note that we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a>
+                    that we stopped TotalFinder development and we are not going to support this setup.
+                    If you are looking for help, please kindly <a href="https://discuss.binaryage.com/">ask community members on the forums</a>.
+                  </p>
+                  <p class="info-box exclamation">
+                    Your machine may be less secure when you disable extra security features. It is entirely your decision to modify the settings.
+                  </p>
+                  <h2 id="1-switch-your-apple-silicon-mac-to-reduced-security-mode">1. Switch your Apple Silicon Mac to “Reduced Security” mode</h2>
+                  <p>If you’ve already placed your Mac in “Reduced Security” mode before, simply skip this section.</p>
+                  <ol>
+                    <li>Shut down your Apple Silicon Mac.</li>
+                    <li>Press and hold down the power button until the text under the Apple logo says “Loading startup options…”, then let go.</li>
+                    <li>Select “Options”.</li>
+                    <li>You are now in recoveryOS — enter your password if it asks.</li>
+                    <li>Go to Utilities → Startup Security Utility.</li>
+                    <li>Select “Reduced Security” and enable “Allow user management of kernel extensions from identified developers”.</li>
+                    <li>Shut down your Apple Silicon Mac.</li>
+                  </ol>
+                  <p class="info-box compatibility">
+                    TotalFinder does not actually use any kernel extensions for any part of its functionality. The only reason why this step is required is because it is required in order for SIP to be correctly disabled. The reason why this is required is not yet understood.
+                  </p>
+                  <h2 id="2-disable-sip-system-integrity-protection">2. Disable SIP (System Integrity Protection)</h2>
+                  <p class="info-box exclamation">
+                    Disabling SIP in any capacity, even partially, will also disable Apple Pay, as well as any iOS-on-macOS apps you may have downloaded from the App Store. This is a strange (and annoying) decision that Apple has decided to make specifically on Apple Silicon, as Apple Pay actually works fine even when SIP is disabled on x86_64 (Intel) Macs.
+                  </p>
+                  <ol>
+                    <li>Follow steps 2〜4 from above.</li>
+                    <li>Go to Utilities → Terminal.</li>
+                    <li>Type in the following to fully disable SIP: <code class="language-plaintext highlighter-rouge">csrutil disable</code></li>
+                    <li>Reboot your Apple Silicon Mac.</li>
+                  </ol>
+                  <h2 id="3-disable-totalfinders-architecture-check">3. Disable TotalFinder’s architecture check</h2>
+                  <p>First, in <code class="language-plaintext highlighter-rouge">Terminal.app</code>, run this command:</p>
+                  <pre class="terminal">
+touch ~/.totalfinder-dontcheckarchitecture
+                  </pre>
+                  <p>Then force-quit <code class="language-plaintext highlighter-rouge">TotalFinder.app</code> and launch it again from <code class="language-plaintext highlighter-rouge">Applications</code>, or use this code while in terminal:</p>
+                  <pre class="terminal">
+killall TotalFinder; open /Applications/TotalFinder.app
+                  </pre>
+                  <p><strong>TotalFinder should now be fully operational!</strong></p>
+                  <hr/>
+                  <h2 id="how-revert-this-setup">How revert this setup?</h2>
+                  <p>First, in <code class="language-plaintext highlighter-rouge">Terminal.app</code>, run this command:</p>
+                  <pre class="terminal">
+rm ~/.totalfinder-dontcheckarchitecture
+                  </pre>
+                  <p>Then reboot and enable full security mode. This should also fully enable SIP again. You can check it via:</p>
+                  <pre class="terminal">
+csrutil status
+System Integrity Protection status: enabled.
+                  </pre>
+                  <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-doc-image").fancybox()})})</script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>defer$(function(){$(function(){setTimeout(function(){var a=document.location.pathname+"";$('.sidebar a[href*="'+a+'"]').parent().addClass("selected"),$('.sidebar a[data-alt*="'+a+'"]').parent().addClass("selected")},100)})})</script>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+          </div>
+          <div class="col-md-4">
+            <div class="footer-box-right">
+              <div class="footer-copyright">
+                <div class="footer-license">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                </div>
+                <a href="https://www.binaryage.com/about">BinaryAge</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://static.binaryage.com/bb6250cd_shared_js_code.js"></script>
+    <script type="text/javascript">window.ga=function(){}</script>
+    <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
+    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
+    <script type="text/javascript" charset="utf-8">defer$(function(){$("p,pre,ul,ol,h2,h3,h4,h5,h6,.anchorable").addClass("add-anchor");var n='<svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></path> </svg>',e=function(e){for(var a=e.split(","),i=[],t=0;t<a.length;t++){var r=a[t];i.push(r+" .add-anchor")}return i.join(",")}(".page-content"),a=$(e);a.not(a.children()).each(function(){var e,a=$(this);if(e&&""!==e||(e=a.attr("id")||a.attr("title")||a.attr("src")),e&&""!==e||(e=a.text()),!e||""===e){var i=a.find(".doc-image").attr("src");if(i){var t=i.split(/[/_]/);if(0<t.length)e=t[t.length-1].replace(/[/.]/g," ")}}if(e&&""!==e){var r="mark-"+e.toLowerCase().replace(/[ _-]/g," ").replace(/^\s+/g,"").split(" ",10).join("D").replace(/\W/g,"").replace(/D+/g,"-").replace(/^-+/g,"").replace(/-+$/g,"");a.prepend('<a id="'+r+'" href="#'+r+'" class="anchor" aria-hidden="true">'+n+"</a>")}});var i=function(e){$(".highlighted-section").removeClass("highlighted-section");var a="#"+e;"#"!=a&&$(a).parent().addClass("highlighted-section")},t=function(){return window.location.hash.slice(1)};$(window).on("hashchange",function(){i(t())}),i(t())})</script>
+  </body>
+</html>
