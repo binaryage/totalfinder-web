@@ -108,24 +108,22 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">TotalFinder on Apple Silicon (ARM architecture)</h1>
+                  <h1 class="title">TotalFinder on Apple Silicon (arm64 / AArch64 architecture)</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>Good news! TotalFinder can still work on M1 Macs running macOS 12 (Monterey).</p>
-                  <p>The bad news is that you have to disable
-                    even more security features on your machine. The trick is that you have to switch your system into “Reduced Security” mode
-                  before you disable System Integrity Protection (SIP) itself. Please see the instructions below.</p>
+                  <p>Good news! TotalFinder works on Apple Silicon! Not only that, but on macOS 12 Monterey, too!</p>
+                  <p>… The bad news is that you’ll have to disable even <em>more</em> security features on your machine.</p>
+                  <p>The instructions below will guide you through switching your system into “Reduced Security” mode, and then disabling System Integrity Protection (SIP) afterwards.</p>
                   <p class="info-box compatibility">
-                    Please note that we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a>
-                    that we stopped TotalFinder development and we are not going to support this setup.
-                    If you are looking for help, please kindly <a href="https://discuss.binaryage.com/">ask community members on the forums</a>.
+                    Please note that we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a> that we have stopped TotalFinder development. As a result, we are not going to officially support this setup. If you are looking for help, please kindly <a href="https://discuss.binaryage.com/">ask our community members on the forums</a>.
                   </p>
                   <p class="info-box exclamation">
-                    Your machine may be less secure when you disable extra security features. It is entirely your decision to modify the settings.
+                    Your machine may be less secure when you disable these security features. It is entirely your decision whether or not to modify these settings.
                   </p>
-                  <h2 id="1-switch-your-apple-silicon-mac-to-reduced-security-mode">1. Switch your Apple Silicon Mac to “Reduced Security” mode</h2>
-                  <p>If you’ve already placed your Mac in “Reduced Security” mode before, simply skip this section.</p>
+                  <h2 id="1-switching-your-apple-silicon-mac-to-reduced-security-mode">1. Switching your Apple Silicon Mac to “Reduced Security” mode</h2>
+                  <p>If you’ve <em>already</em> placed your Mac in “Reduced Security” mode before, simply skip this section.</p>
+                  <p>※ If you use kernel extensions (kexts) on your system, you are already in “Reduced Security” mode.</p>
                   <ol>
                     <li>Shut down your Apple Silicon Mac.</li>
                     <li>Press and hold down the power button until the text under the Apple logo says “Loading startup options…”, then let go.</li>
@@ -136,11 +134,14 @@
                     <li>Shut down your Apple Silicon Mac.</li>
                   </ol>
                   <p class="info-box compatibility">
-                    TotalFinder does not actually use any kernel extensions for any part of its functionality. The only reason why this step is required is because it is required in order for SIP to be correctly disabled. The reason why this is required is not yet understood.
+                    TotalFinder does <i>not</i> actually use any kernel extensions for any part of its functionality. The only reason why we perform this step is because it is required in order for SIP to be correctly disabled. The reason why is not yet fully understood.
                   </p>
-                  <h2 id="2-disable-sip-system-integrity-protection">2. Disable SIP (System Integrity Protection)</h2>
+                  <h2 id="2-disabling-sip-system-integrity-protection">2. Disabling SIP (System Integrity Protection)</h2>
                   <p class="info-box exclamation">
-                    Disabling SIP in any capacity, even partially, will also disable Apple Pay, as well as any iOS-on-macOS apps you may have downloaded from the App Store. This is a strange (and annoying) decision that Apple has decided to make specifically on Apple Silicon, as Apple Pay actually works fine even when SIP is disabled on x86_64 (Intel) Macs.
+                    Disabling SIP in <i>any</i> capacity, even partially, will also disable Apple Pay, as well as any iOS-on-macOS apps you may have downloaded from the App Store. This is a strange (and annoying) decision that Apple has decided to make specifically on Apple Silicon, as Apple Pay actually works fine even when SIP is disabled on x86_64 (Intel) Macs.
+                  </p>
+                  <p class="info-box compatibility">
+                    ※ iOS-on-macOS apps that were installed through other non-App Store means, such as via sideloading, third-party wrappers, or your own developed apps from Xcode will continue to function. Basically, if the app binaries are encrypted with Apple's FairPlay DRM, it will stop working if SIP is disabled.
                   </p>
                   <ol>
                     <li>Follow steps 2〜4 from above.</li>
@@ -148,27 +149,51 @@
                     <li>Type in the following to fully disable SIP: <code class="language-plaintext highlighter-rouge">csrutil disable</code></li>
                     <li>Reboot your Apple Silicon Mac.</li>
                   </ol>
-                  <h2 id="3-disable-totalfinders-architecture-check">3. Disable TotalFinder’s architecture check</h2>
-                  <p>First, in <code class="language-plaintext highlighter-rouge">Terminal.app</code>, run this command:</p>
+                  <h2 id="3-disabling-totalfinders-architecture-check">3. Disabling TotalFinder’s architecture check</h2>
+                  <ol>
+                    <li>Run the following command in a Terminal session.</li>
+                  </ol>
                   <pre class="terminal">
 touch ~/.totalfinder-dontcheckarchitecture
                   </pre>
-                  <p>Then force-quit <code class="language-plaintext highlighter-rouge">TotalFinder.app</code> and launch it again from <code class="language-plaintext highlighter-rouge">Applications</code>, or use this code while in terminal:</p>
+                  <p>※ If you have multiple users on your Apple Silicon Mac that use TotalFinder, you will need to repeat just the <code class="language-plaintext highlighter-rouge">touch</code> command above for each user.</p>
+                  <ol>
+                    <li>Either run the following command in a Terminal session, or use Activity Monitor to force-quit <code class="language-plaintext highlighter-rouge">TotalFinder.app</code> and then open it again from <code class="language-plaintext highlighter-rouge">/Applications</code>.</li>
+                  </ol>
                   <pre class="terminal">
 killall TotalFinder; open /Applications/TotalFinder.app
                   </pre>
                   <h2 id="totalfinder-should-now-be-fully-operational">TotalFinder should now be fully operational!</h2>
                   <hr/>
-                  <h2 id="how-to-revert-this-setup">How to revert this setup?</h2>
-                  <p>First, in <code class="language-plaintext highlighter-rouge">Terminal.app</code>, run this command:</p>
+                  <h2 id="how-do-i-revert-these-changes">How do I revert these changes?</h2>
+                  <ol>
+                    <li>Run the following command in a Terminal session.</li>
+                  </ol>
                   <pre class="terminal">
 rm ~/.totalfinder-dontcheckarchitecture
                   </pre>
-                  <p>Then reboot and enable full security mode. This should also fully enable SIP again. You can check it via:</p>
+                  <p>※ If you have multiple users on your Apple Silicon Mac that use TotalFinder, you will need to repeat just the <code class="language-plaintext highlighter-rouge">rm</code> command above for each user.</p>
+                  <ol>
+                    <li>
+                      <p>Follow steps 2〜4 from <a href="#mark-1-switch-your-apple-silicon-mac-to-reduced-security-mode">the first section above</a>.</p>
+                    </li>
+                    <li>
+                      <p>If you switched your Apple Silicon Mac to “Reduced Security” mode solely just for TotalFinder, go ahead and enable “Full Security” mode. This will also re-enable SIP. <strong>However,</strong> if you use other applications on your Mac that require the use of kernel extensions (or “kexts”), run the following command in a Terminal session to re-enable SIP while keeping “Reduced Security” mode.</p>
+                    </li>
+                  </ol>
                   <pre class="terminal">
-csrutil status
+csrutil enable
+                  </pre>
+                  <ol>
+                    <li>Run <code class="language-plaintext highlighter-rouge">csrutil status</code> in a Terminal to verify that SIP has been re-enabled. The output should look something like what’s shown below:</li>
+                  </ol>
+                  <pre class="terminal">
+-bash-3.2# csrutil status
 System Integrity Protection status: enabled.
                   </pre>
+                  <ol>
+                    <li>Reboot your Apple Silicon Mac.</li>
+                  </ol>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
