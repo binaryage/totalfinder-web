@@ -1,3 +1,9 @@
+1.14.1 - April 27, 2021
+  + Added <a href="https://totalfinder.binaryage.com/apple-silicon">unofficial support</a> for Apple Silicon Macs to TotalFinder.
+  + Added Apple Silicon BootPolicy configuration state detection to TotalFinder diagnostics.
+  + Added more localisation support to TotalFinder. These new, previously-untranslated strings have been translated to Japanese, Traditional Chinese (Taiwan), Simplified Chinese (China), and Czech.
+  ! Fixed a crash to stock Finder that would occur on macOS 12 Monterey if the "Enter Time Machine" button found in the Time Machine menu bar item dropdown was pressed. [Monterey]
+
 1.14.0 - November 3, 2021
   + Initial compatibility with macOS 12.0 [Monterey]
   - Removed checking for a license. TotalFinder is provided as-is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">without support</a>.
