@@ -80,7 +80,7 @@ rm ~/.totalfinder-dontcheckarchitecture
 
 ※ If you have multiple users on your Apple Silicon Mac that use TotalFinder, you will need to repeat just the `rm` command above for each user.
 
-② Follow steps 2〜4 from [the first section above](#mark-1-switch-your-apple-silicon-mac-to-reduced-security-mode).
+② Follow steps 2〜4 from [the first section above](#mark-1-switching-your-apple-silicon-mac-to-reduced-security-mode).
 
 ③ If you are certain that you switched your Apple Silicon Mac to "Reduced Security" mode solely just for TotalFinder, go ahead and enable "Full Security" mode. This will also re-enable SIP.
 
