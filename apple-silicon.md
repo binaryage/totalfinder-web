@@ -1,10 +1,10 @@
 ---
 layout: tf-doc
 title: TotalFinder on Apple Silicon
-subtitle: TotalFinder on Apple Silicon (arm64 / AArch64 architecture)
+subtitle: TotalFinder on Apple Silicon (M1, etc.)
 ---
 
-Good news! TotalFinder is compatible with Apple Silicon as of version 1.14.1! Not only that, but it works with macOS 12 Monterey, too!
+Good news! TotalFinder is compatible with Apple Silicon (arm64 / AArch64 architecture) as of [version 1.14.1](https://totalfinder.binaryage.com/beta-changes#1.14.1)! Not only that, but it works with macOS 12 Monterey, too!
 
 … The bad news is that you'll have to disable even _more_ security features on your machine.
 
