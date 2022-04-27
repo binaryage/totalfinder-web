@@ -11,7 +11,7 @@ Good news! TotalFinder is compatible with [Apple Silicon](https://en.wikipedia.o
 The instructions below will guide you through switching your Apple Silicon system into "Reduced Security" mode, and then disabling System Integrity Protection (SIP) afterwards.
 
 <p class="info-box compatibility">
-Please note that while TotalFinder works on Apple Silicon, this is NOT officially supported by BinaryAge, as we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a> that we have stopped TotalFinder development. If you are looking for help, please kindly <a href="https://discuss.binaryage.com/">ask our community members on the forums</a>.
+Please note that while TotalFinder works on Apple Silicon, this is NOT officially supported by BinaryAge, as we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a> that we have stopped TotalFinder development. If you are looking for help, please kindly <a href="https://discuss.binaryage.com/t/8364">ask our community members on the forums</a>.
 </p>
 
 <p class="info-box exclamation">

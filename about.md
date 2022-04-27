@@ -5,15 +5,15 @@ subtitle: About TotalFinder
 ---
 
 <p class="info-box compatibility">
-TotalFinder was tested to work in macOS 10.15 (Catalina) and later.<br>
-Unfortunately it requires a deep system tweak. <b>Please read <a href="/sip">this document</a> to learn details</b>.
+TotalFinder was tested to work with macOS 10.15 (Catalina) and later.<br>
+Unfortunately it requires a deep system tweak. <b>Please read <a href="/sip">this page</a> to learn more</b>.
 </p>
 
 <p class="info-box compatibility">
-<b>Do you have a machine with M1 chip?</b><br>
-While TotalFinder works on <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, 
+<b>Do you have a machine with an Apple Silicon (M1, etc.) chip?</b><br>
+While TotalFinder is compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, 
 this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">NOT officially supported by BinaryAge</a>.<br>
-As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info <a href="/apple-silicon">in this article</a>.
+As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">in this page</a>.
 </p>
 
 ## TotalFinder is just a better Finder
