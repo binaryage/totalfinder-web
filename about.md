@@ -10,11 +10,10 @@ Unfortunately it requires a deep system tweak. <b>Please read <a href="/sip">thi
 </p>
 
 <p class="info-box compatibility">
-TotalFinder is not compatible with Apple's latest computers with 
-<a href="https://en.wikipedia.org/wiki/Apple_M1">M1 chip</a>.
-It fails by reporting <a href="/injection-troubles">that Apple events cannot be delivered</a>. Unfortunately there is no known solution at this point.
-Please subscribe to <a href="https://discuss.binaryage.com/t/totalfinder-on-m1-macbook-air/7879">this forum thread</a>
-for further updates.
+<b>Do you have a machine with M1 chip?</b><br>
+While TotalFinder works on <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, 
+this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">NOT officially supported by BinaryAge</a>.<br>
+As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info <a href="/apple-silicon">in this article</a>.
 </p>
 
 ## TotalFinder is just a better Finder
