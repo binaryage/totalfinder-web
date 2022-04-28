@@ -71,6 +71,31 @@ Enjoy TotalFinder on your Apple Silicon Mac!
 
 ---
 
+## Is there a way to only disable _just_ the parts of SIP that TotalFinder strictly needs? I want my system to be as secure as possible while still using TotalFinder!
+
+TotalFinder requires that you have at _least_ `CSR_ALLOW_TASK_FOR_PID` (`0x04`) and `CSR_ALLOW_UNRESTRICTED_FS` (`0x02`) disabled.
+
+All other SIP features do not affect TotalFinder's functionality and can be in any state you want.
+
+You can partially disable just the two SIP flags mentioned above for TotalFinder operation using this `csrutil` invocation in recoveryOS.
+<pre class="terminal">
+csrutil enable --without debug --without fs
+</pre>
+
+**※ Using unsigned or ad-hoc signed kexts?** If so, you will need to add `--without kext` to your `csrutil` invocation. (`CSR_ALLOW_UNAPPROVED_KEXTS` (`0x200`))
+
+**※ Need to modify restricted NVRAM variables (such as `boot-args`)?** If so, you will need to add `--without nvram` to your `csrutil` invocation. (`CSR_ALLOW_UNRESTRICTED_NVRAM` (`0x40`))
+
+**※ Do you use other software that requires SIP to be disabled?** The vast majority of software that requires SIP to be disabled only really require the same two features as TotalFinder to be disabled. However, in some uncommon cases, you may have to disable additional SIP features. If something you use starts asking you to "disable SIP" after running the above `csrutil` invocation, please refer to the documentation and/or support of the software in question for more information.
+
+<p class="info-box compatibility">
+<b>※ Note:</b> Please note that a partially-enabled SIP configuration is considered "unsupported" by Apple. Apple only supports an SIP-fully-disabled configuration.<br>
+<br>
+That being said, many people, including myself (Karen), have been running a partially-enabled SIP configuration for years, ever since macOS 10.11 El Capitan without any issues. The choice is entirely up to you.
+</p>
+
+---
+
 ## How do I revert these changes?
 
 ① Run the following command in a Terminal session.
