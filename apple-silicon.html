@@ -140,7 +140,7 @@
                     <b>IMPORTANT:</b> Disabling SIP in <i>any</i> capacity, even partially, will also disable Apple Pay, as well as iOS-on-macOS apps downloaded from the App Store (more on this below). This is a strange (and annoying) decision that Apple has decided to make specifically on Apple Silicon, as Apple Pay actually works fine even when SIP is disabled on x86_64 (Intel) Macs.
                   </p>
                   <p class="info-box compatibility">
-                    ※ iOS-on-macOS apps that were installed through other non-App Store means, such as via sideloading, third-party tools, or your own developed apps from Xcode will continue to function normally. The _only_ iOS apps that will stop working are ones encrypted with Apple's FairPlay DRM — in other words, just those downloaded from the App Store.
+                    ※ iOS-on-macOS apps that were installed through other non-App Store means, such as via sideloading, third-party tools, or your own developed apps from Xcode will continue to function normally. The <i>only</i> iOS apps that will stop working are ones encrypted with Apple's FairPlay DRM — in other words, just those downloaded from the App Store.
                   </p>
                   <p>① Follow steps 2〜4 from above.<br/>
                     ② Go to Utilities → Terminal.<br/>
@@ -158,6 +158,22 @@ killall TotalFinder; open /Applications/TotalFinder.app
                   </pre>
                   <h2 id="totalfinder-should-now-be-fully-operational">TotalFinder should now be fully operational!</h2>
                   <p>Enjoy TotalFinder on your Apple Silicon Mac!</p>
+                  <hr/>
+                  <h2 id="is-there-a-way-to-only-disable-just-the-parts-of-sip-that-totalfinder-strictly-needs-i-want-my-system-to-be-as-secure-as-possible-while-still-using-totalfinder">Is there a way to only disable <em>just</em> the parts of SIP that TotalFinder strictly needs? I want my system to be as secure as possible while still using TotalFinder!</h2>
+                  <p>TotalFinder requires that you have at <em>least</em> <code class="language-plaintext highlighter-rouge">CSR_ALLOW_TASK_FOR_PID</code> (<code class="language-plaintext highlighter-rouge">0x04</code>) and <code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNRESTRICTED_FS</code> (<code class="language-plaintext highlighter-rouge">0x02</code>) disabled.</p>
+                  <p>All other SIP features do not affect TotalFinder’s functionality and can be in any state you want.</p>
+                  <p>You can partially disable just the two SIP flags mentioned above for TotalFinder operation using this <code class="language-plaintext highlighter-rouge">csrutil</code> invocation in recoveryOS.</p>
+                  <pre class="terminal">
+csrutil enable --without debug --without fs
+                  </pre>
+                  <p><strong>※ Using unsigned or ad-hoc signed kexts?</strong> If so, you will need to add <code class="language-plaintext highlighter-rouge">--without kext</code> to your <code class="language-plaintext highlighter-rouge">csrutil</code> invocation. (<code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNAPPROVED_KEXTS</code> (<code class="language-plaintext highlighter-rouge">0x200</code>))</p>
+                  <p><strong>※ Need to modify restricted NVRAM variables (such as <code class="language-plaintext highlighter-rouge">boot-args</code>)?</strong> If so, you will need to add <code class="language-plaintext highlighter-rouge">--without nvram</code> to your <code class="language-plaintext highlighter-rouge">csrutil</code> invocation. (<code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNRESTRICTED_NVRAM</code> (<code class="language-plaintext highlighter-rouge">0x40</code>))</p>
+                  <p><strong>※ Do you use other software that requires SIP to be disabled?</strong> The vast majority of software that requires SIP to be disabled only really require the same two features as TotalFinder to be disabled. However, in some uncommon cases, you may have to disable additional SIP features. If something you use starts asking you to “disable SIP” after running the above <code class="language-plaintext highlighter-rouge">csrutil</code> invocation, please refer to the documentation and/or support of the software in question for more information.</p>
+                  <p class="info-box compatibility">
+                    <b>※ Note:</b> Please note that a partially-enabled SIP configuration is considered "unsupported" by Apple. Apple only supports an SIP-fully-disabled configuration.<br/>
+                    <br/>
+                    That being said, many people, including myself (Karen), have been running a partially-enabled SIP configuration for years, ever since macOS 10.11 El Capitan without any issues. The choice is entirely up to you.
+                  </p>
                   <hr/>
                   <h2 id="how-do-i-revert-these-changes">How do I revert these changes?</h2>
                   <p>① Run the following command in a Terminal session.</p>
