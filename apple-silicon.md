@@ -43,7 +43,7 @@ If you've _already_ placed your Mac in "Reduced Security" mode before, simply sk
 </p>
 
 <p class="info-box compatibility">
-※ iOS-on-macOS apps that were installed through other non-App Store means, such as via sideloading, third-party tools, or your own developed apps from Xcode will continue to function normally. The _only_ iOS apps that will stop working are ones encrypted with Apple's FairPlay DRM — in other words, just those downloaded from the App Store.
+※ iOS-on-macOS apps that were installed through other non-App Store means, such as via sideloading, third-party tools, or your own developed apps from Xcode will continue to function normally. The <i>only</i> iOS apps that will stop working are ones encrypted with Apple's FairPlay DRM — in other words, just those downloaded from the App Store.
 </p>
 
 ① Follow steps 2〜4 from above.  
