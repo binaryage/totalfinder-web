@@ -1,4 +1,4 @@
-1.14.1 - April 27, 2021
+1.14.1 - April 27, 2022
   + Added <a href="https://totalfinder.binaryage.com/apple-silicon">unofficial support</a> for Apple Silicon Macs to TotalFinder.
   + Added Apple Silicon BootPolicy configuration state detection to TotalFinder diagnostics.
   + Added more localisation support to TotalFinder. These new, previously-untranslated strings have been translated to Japanese, Traditional Chinese (Taiwan), Simplified Chinese (China), and Czech.
