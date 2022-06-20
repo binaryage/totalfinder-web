@@ -1,3 +1,9 @@
+1.14.2 - June 20, 2022
+  + Added a new user-configurable option to always use Finder icon rendering for the Colorful Sidebar feature. When enabled, this option will cause sidebar icons to display exactly how they would in Finder, which also disables the leftover skeuomorphic icons for the "Music", "Pictures", and "Movies" folders. (※ This option will also cause TotalFinder to ignore the user-custom ~/.totalfinder-sidebar-icons.plist file.)
+  ! Fixed an issue where the Colorful Sidebar feature would not display most sidebar icons correctly on macOS 12 Monterey, macOS 11 Big Sur, and macOS 10.15 Catalina. [Monterey] [Big Sur] [Catalina]
+  ! Fixed an issue where custom Finder icons applied using other macOS tweaks (such as IconChamp) would no longer display once TotalFinder was enabled. (※ To use custom Finder icons with TotalFinder enabled, please enable the "Use original Dock icon" option in the TotalFinder preferences.) [Monterey] [Big Sur] [Catalina]
+  ! Fixed a layout issue that caused the localised string for "Freelance Windows" in the TotalFinder preferences to be cut off for some languages, like Japanese. [Monterey] [Big Sur] [Catalina]
+
 1.14.1 - April 27, 2022
   + Added <a href="https://totalfinder.binaryage.com/apple-silicon">unofficial support</a> for Apple Silicon Macs to TotalFinder.
   + Added Apple Silicon BootPolicy configuration state detection to TotalFinder diagnostics.
