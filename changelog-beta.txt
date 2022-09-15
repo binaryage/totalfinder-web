@@ -1,3 +1,6 @@
+1.14.3 - September 15, 2022
+  ! Fixed an issue with Fider version check which <a href="https://discuss.binaryage.com/t/bigsur-total-finder-1-14-2-cut-and-paste-dont-work/8421">broke Cut&Paste</a> in last system update under macOS 11. [Big Sur]
+
 1.14.2 - June 20, 2022
   + Added a new user-configurable option to always use Finder icon rendering for the Colorful Sidebar feature. When enabled, this option will cause sidebar icons to display exactly how they would in Finder, which also disables the leftover skeuomorphic icons for the "Music", "Pictures", and "Movies" folders. (※ This option will also cause TotalFinder to ignore the user-custom ~/.totalfinder-sidebar-icons.plist file.)
   ! Fixed an issue where the Colorful Sidebar feature would not display most sidebar icons correctly on macOS 12 Monterey, macOS 11 Big Sur, and macOS 10.15 Catalina. [Monterey] [Big Sur] [Catalina]
