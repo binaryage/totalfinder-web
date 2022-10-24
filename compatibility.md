@@ -3,6 +3,12 @@ layout: tf-doc
 title: TotalFinder Compatibility
 subtitle: Compatibility
 oses: [{
+  version: "13.0",
+  label: "Ventura",
+  logo: "logo-ventura.png",
+  wiki: "MacOS_Ventura",
+  note: "not yet compatible, please <a href=\"https://discuss.binaryage.com\">follow our forums</a>",
+},{
   version: "12.0",
   label: "Monterey",
   logo: "logo-monterey.png",
