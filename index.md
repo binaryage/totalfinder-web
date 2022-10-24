@@ -88,10 +88,9 @@ highlights: [{
       <span><i class="fa fa-download fa-lg"></i>{{page.download_title}}</span>
     </a>
     <div class="button-note">
-      <i class="fa fa-laptop"></i> Compatible with macOS 10.15, 11, 12<br>
+      <a href="/compatibility"><i class="fa fa-laptop"></i> Compatible with macOS 12 (Monterey)</a><br>
       <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/sip" target="_blank">but requires a system tweak</a></span><br>
       <span class="sip-warning"><i class="fa fa-exclamation-triangle"></i> <a href="/apple-silicon" target="_blank">Apple Silicon compatibility must be manually enabled</a></span><br>
-      <a href="/compatibility">Looking for a different version?</a><br>
     </div>
   </div>
 </div>
