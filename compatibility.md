@@ -7,7 +7,7 @@ oses: [{
   label: "Ventura",
   logo: "logo-ventura.png",
   wiki: "MacOS_Ventura",
-  note: "not yet compatible, please <a href=\"https://discuss.binaryage.com\">follow our forums</a>",
+  note: "not compatible, please <a href=\"https://discuss.binaryage.com\">follow our forums for updates</a>",
 },{
   version: "12.0",
   label: "Monterey",
