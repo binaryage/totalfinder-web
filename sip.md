@@ -11,10 +11,11 @@ You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this 
 </p>
 
 <p class="info-box compatibility">
-<b>Do you have a machine with an Apple Silicon (M1, etc.) chip?</b><br>
-While TotalFinder is compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, 
-this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">NOT officially supported by BinaryAge</a>.<br>
-As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">in this page</a>.
+  <b>Are you using an Apple Silicon (M1, M2, etc.) machine?</b><br>
+
+  While TotalFinder <i>is</i> compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/"><i>not</i> officially supported by BinaryAge</a>.<br>
+
+  As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">on this page</a>.
 </p>
 
 TotalFinder has support for macOS 11.0 (Big Sur), but cannot run on a normally configured machine due to [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection) (SIP).
@@ -56,7 +57,7 @@ appears. Then select Terminal from the Utilities menu. It looks like this:
 In the window that opens, type <code>csrutil disable</code> and press return. This turns off System Integrity Protection so
 that TotalFinder can be installed.
 
-<img src="/images/csrutil-disable.jpg" class="doc-image">
+<img src="/images/csrutil-disable.png" class="doc-image">
 
 Reboot your machine and you may install and run the [latest version of TotalFinder](/changes-beta).
 

@@ -1,15 +1,15 @@
 ---
 layout: tf-doc
-title: Recent changes in TotalFinder pre-releases
-subtitle: Recent changes in pre-releases
+title: Recent changes in TotalFinder (pre-release)
+subtitle: Recent changes in TotalFinder (pre-release)
 ---
 
 <script src="/shared/js/changelog.js" type="text/javascript" charset="utf-8"></script>
 
 <div class="changelog-info info-box">
-  <a href="javascript:showBetaHint(this);">How to switch to pre-releases in TotalFinder?</a>
+  <a href="javascript:showBetaHint(this);">How do I opt into pre-release updates in TotalFinder?</a>
   <div class="betahint" style="display:none">
-    <p>Please enable the "Include pre-releases" checkbox in the System-&gt;Updates section of the TotalFinder preferences tab:</p>
+    <p>Simply enable the "Include pre-releases" option in the System → Updates section of the TotalFinder preferences tab, as shown below.</p>
     <img src="/images/pref-include-preleases.png" style="width:600px" class="doc-image add-shadow">
   </div>
 </div>

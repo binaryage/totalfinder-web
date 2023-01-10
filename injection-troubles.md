@@ -5,10 +5,11 @@ subtitle: Troubles launching TotalFinder
 ---
 
 <p class="info-box compatibility">
-<b>Do you have a machine with an Apple Silicon (M1, etc.) chip?</b><br>
-While TotalFinder is compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, 
-this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">NOT officially supported by BinaryAge</a>.<br>
-As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">in this page</a>.
+  <b>Are you using an Apple Silicon (M1, M2, etc.) machine?</b><br>
+
+  While TotalFinder <i>is</i> compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/"><i>not</i> officially supported by BinaryAge</a>.<br>
+
+  As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">on this page</a>.
 </p>
 
 I guess you are visiting this page because you just saw this notification:

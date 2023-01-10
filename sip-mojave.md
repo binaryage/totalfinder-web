@@ -33,7 +33,7 @@ appears. Then select Terminal from the Utilities menu. It looks like this:
 In the window that opens, type <code>csrutil disable</code> and press return. This turns off System Integrity Protection so
 that TotalFinder can be installed.
 
-<img src="/images/csrutil-disable.jpg" class="doc-image">
+<img src="/images/csrutil-disable.png" class="doc-image">
 
 Reboot your machine and you may install and run the [latest version of TotalFinder](/changes-beta).
 

@@ -1,13 +1,13 @@
 ---
 layout: tf-doc
 title: Recent changes in TotalFinder
-subtitle: Recent changes
+subtitle: Recent changes in TotalFinder
 ---
 
 <script src="/shared/js/changelog.js" type="text/javascript" charset="utf-8"></script>
 
 <div class="changelog-info">
-<a href="/beta-changes">Interested in pre-releases?</a>
+<a href="/beta-changes">Looking for pre-release versions?</a>
 </div>
 
 <div class="changelogx">
