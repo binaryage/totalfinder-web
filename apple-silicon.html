@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="ba">
   <head>
-    <title>TotalFinder on Apple Silicon</title>
+    <title>TotalFinder on Apple Silicon (M1, M2, etc.)</title>
     <link rel="canonical" href="https://totalfinder.binaryage.com/apple-silicon"/>
     <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
@@ -74,7 +74,8 @@
                 <div class="content-sidebar">
                   <h2>Change log</h2>
                   <ul>
-                    <li><a href="/changes" data-alt="/beta-changes">Recent changes</a></li>
+                    <li><a href="/changes">Recent changes</a></li>
+                    <li><a href="/beta-changes">Recent changes (pre-release)</a></li>
                   </ul>
                   <h2>Before installing</h2>
                   <ul>
@@ -109,35 +110,53 @@
             <div class="col-md-9">
               <div class="doc-page">
                 <div class="header-content">
-                  <h1 class="title">TotalFinder on Apple Silicon (M1, etc.)</h1>
+                  <h1 class="title">TotalFinder on Apple Silicon (M1, M2, etc.)</h1>
                 </div>
                 <div class="generic-separator"></div>
                 <div class="page-content">
-                  <p>Good news! TotalFinder is compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a> (arm64 / AArch64 architecture) as of <a href="https://totalfinder.binaryage.com/beta-changes#1.14.1">version 1.14.1</a>! Not only that, but it works with <a href="https://en.wikipedia.org/wiki/MacOS_Monterey">macOS 12 (Monterey)</a>, too!</p>
-                  <p>… The bad news is that you’ll have to disable even <em>more</em> security features on your machine.</p>
-                  <p>The instructions below will guide you through switching your Apple Silicon system into “Reduced Security” mode, and then disabling System Integrity Protection (SIP) afterwards.</p>
                   <p class="info-box compatibility">
-                    Please note that while TotalFinder works on Apple Silicon, this is NOT officially supported by BinaryAge, as we <a href="https://blog.binaryage.com/totalfinder-totalspaces-future">have officially announced</a> that we have stopped TotalFinder development. If you are looking for help, please kindly <a href="https://discuss.binaryage.com/t/8364">ask our community members on the forums</a>.
+                    While TotalFinder <i>is</i> compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/"><i>not</i> officially supported by BinaryAge</a>.<br/>
+                    If you are looking for help, please kindly <a href="https://discuss.binaryage.com/t/8364">refer to the discussion thread on the BinaryAge forums</a>.
                   </p>
+                  <p>The instructions below will guide you through the steps required to use TotalFinder on your Apple Silicon machine.</p>
+                  <hr/>
+                  <h2 id="0-checking-the-current-state-of-your-system">0. Checking the current state of your system</h2>
+                  <p>Run <code class="language-plaintext highlighter-rouge">csrutil status</code> in a Terminal to verify your system’s current SIP status.</p>
+                  <p>If you see the output <strong>below</strong> (SIP enabled), then begin from <strong>Part 1</strong>.</p>
+                  <pre class="terminal">
+System Integrity Protection status: enabled.
+                  </pre>
+                  <p>If you see the output <strong>below</strong> (SIP disabled), then begin from <strong>Part 3</strong>.</p>
+                  <pre class="terminal">
+System Integrity Protection status: disabled.
+                  </pre>
+                  <p>If you see the output <strong>below</strong> (SIP partially weakened), then begin from <strong>Part 3</strong>, and keep reading to find out what SIP flags TotalFinder requires you to set in recoveryOS.</p>
+                  <pre class="terminal">
+System Integrity Protection status: unknown (Custom Configuration).
+                  </pre>
+                  <hr/>
+                  <h2 id="1-switching-your-apple-silicon-machine-to-reduced-security-mode">1. Switching your Apple Silicon machine to “Reduced Security” mode</h2>
                   <p class="info-box exclamation">
                     Your machine may be less secure when you disable these security features. It is entirely your decision whether or not to modify these settings.
                   </p>
-                  <h2 id="1-switching-your-apple-silicon-mac-to-reduced-security-mode">1. Switching your Apple Silicon Mac to “Reduced Security” mode</h2>
                   <p>If you’ve <em>already</em> placed your Mac in “Reduced Security” mode before, simply skip this section.</p>
                   <p>※ If you use kernel extensions (kexts) on your system, you are already in “Reduced Security” mode.</p>
-                  <p>① Shut down your Apple Silicon Mac.<br/>
+                  <p>① Shut down your Apple Silicon machine.<br/>
                     ② Press and hold down the power button until the text under the Apple logo says “Loading startup options…”, then let go.<br/>
                     ③ Select “Options”.<br/>
                     ④ You are now in recoveryOS — enter your password if it asks.<br/>
                     ⑤ Go to Utilities → Startup Security Utility.<br/>
                     ⑥ Select “Reduced Security” and enable “Allow user management of kernel extensions from identified developers”.<br/>
-                  ⑦ Shut down your Apple Silicon Mac.</p>
+                  ⑦ Shut down your Apple Silicon machine.</p>
                   <p class="info-box compatibility">
                     ※ TotalFinder does <i>not</i> actually use any kernel extensions for any part of its functionality. The only reason why we perform this step is because it is required in order for SIP to be correctly disabled. The reason why is not yet fully understood.
                   </p>
+                  <hr/>
                   <h2 id="2-disabling-sip-system-integrity-protection">2. Disabling SIP (System Integrity Protection)</h2>
                   <p class="info-box exclamation">
-                    <b>IMPORTANT:</b> Disabling SIP in <i>any</i> capacity, even partially, will also disable Apple Pay, as well as iOS-on-macOS apps downloaded from the App Store (more on this below). This is a strange (and annoying) decision that Apple has decided to make specifically on Apple Silicon, as Apple Pay actually works fine even when SIP is disabled on x86_64 (Intel) Macs.
+                    <b>IMPORTANT:</b> Disabling SIP in <i>any</i> capacity, even partially, will also disable Apple Pay, as well as iOS-on-macOS apps downloaded from the App Store (※ more on this below).<br/>
+                    <br/>
+                    This is a strange (and annoying) decision that Apple has recently decided to make. It used to be the case that Apple Pay would actually work fine on T2 Mac hardware with SIP disabled… but that changed with the bridgeOS update shipped with macOS 13, which backported this previously Apple Silicon exclusive behaviour to T2 Macs, too.
                   </p>
                   <p class="info-box compatibility">
                     ※ iOS-on-macOS apps that were installed through other non-App Store means, such as via sideloading, third-party tools, or your own developed apps from Xcode will continue to function normally. The <i>only</i> iOS apps that will stop working are ones encrypted with Apple's FairPlay DRM — in other words, just those downloaded from the App Store.
@@ -145,44 +164,73 @@
                   <p>① Follow steps 2〜4 from above.<br/>
                     ② Go to Utilities → Terminal.<br/>
                     ③ Type in the following to fully disable SIP: <code class="language-plaintext highlighter-rouge">csrutil disable</code><br/>
-                  ④ Reboot your Apple Silicon Mac.</p>
+                  ④ Reboot your Apple Silicon machine.</p>
+                  <hr/>
                   <h2 id="3-disabling-totalfinders-architecture-check">3. Disabling TotalFinder’s architecture check</h2>
                   <p>① Run the following command in a Terminal session.</p>
                   <pre class="terminal">
 touch ~/.totalfinder-dontcheckarchitecture
                   </pre>
-                  <p>※ If you have multiple users on your Apple Silicon Mac that use TotalFinder, you will need to repeat just the <code class="language-plaintext highlighter-rouge">touch</code> command above for each user.</p>
+                  <p>※ If you have multiple users on your Apple Silicon machine that use TotalFinder, you will need to repeat just the <code class="language-plaintext highlighter-rouge">touch</code> command above for each user.</p>
                   <p>② Either run the following command in a Terminal session, or use Activity Monitor to force-quit <code class="language-plaintext highlighter-rouge">TotalFinder.app</code> and then open it again from <code class="language-plaintext highlighter-rouge">/Applications</code>.</p>
                   <pre class="terminal">
 killall TotalFinder; open /Applications/TotalFinder.app
                   </pre>
+                  <hr/>
                   <h2 id="totalfinder-should-now-be-fully-operational">TotalFinder should now be fully operational!</h2>
-                  <p>Enjoy TotalFinder on your Apple Silicon Mac!</p>
+                  <p>Enjoy TotalFinder on your Apple Silicon machine!</p>
+                  <p>(※ There may be a few on-screen dialogs from TotalFinder left for you to go through, but they should be relatively simple and straightforward.)</p>
                   <hr/>
                   <h2 id="is-there-a-way-to-only-disable-just-the-parts-of-sip-that-totalfinder-strictly-needs-i-want-my-system-to-be-as-secure-as-possible-while-still-using-totalfinder">Is there a way to only disable <em>just</em> the parts of SIP that TotalFinder strictly needs? I want my system to be as secure as possible while still using TotalFinder!</h2>
-                  <p>TotalFinder requires that you have at <em>least</em> <code class="language-plaintext highlighter-rouge">CSR_ALLOW_TASK_FOR_PID</code> (<code class="language-plaintext highlighter-rouge">0x04</code>) and <code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNRESTRICTED_FS</code> (<code class="language-plaintext highlighter-rouge">0x02</code>) disabled.</p>
+                  <p class="info-box compatibility">
+                    <b>※ Note:</b> If you were directed to this page by TotalFinder from the NVRAM dialog shown on macOS 13 Ventura or above, this is the section you're looking for.<br/>
+                  </p>
+                  <p>TotalFinder requires that you have at <em>least</em> <code class="language-plaintext highlighter-rouge">CSR_ALLOW_TASK_FOR_PID</code> (<code class="language-plaintext highlighter-rouge">0x04</code>, <code class="language-plaintext highlighter-rouge">--without debug</code>) and <code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNRESTRICTED_FS</code> (<code class="language-plaintext highlighter-rouge">0x02</code>, <code class="language-plaintext highlighter-rouge">--without fs</code>) disabled.</p>
+                  <p><code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNRESTRICTED_NVRAM</code> (<code class="language-plaintext highlighter-rouge">0x40</code>, <code class="language-plaintext highlighter-rouge">--without nvram</code>) is required only for Apple Silicon machines running macOS 13 Ventura or newer.</p>
                   <p>All other SIP features do not affect TotalFinder’s functionality and can be in any state you want.</p>
-                  <p>You can partially disable just the two SIP flags mentioned above for TotalFinder operation using this <code class="language-plaintext highlighter-rouge">csrutil</code> invocation in recoveryOS.</p>
+                  <p>You can partially disable just the SIP flags mentioned above for TotalFinder operation using one of these <code class="language-plaintext highlighter-rouge">csrutil</code> invocations in recoveryOS.</p>
+                  <h3 id="apple-silicon">Apple Silicon</h3>
+                  <pre class="terminal">
+csrutil enable --without debug --without fs --without nvram
+                  </pre>
+                  <p class="info-box compatibility">
+                    <b>※ Note:</b> For macOS 12 and below, <code>--without nvram</code> is not <i>actually</i> required. It's just included here for the sake of simplicity.<br/>
+                  </p>
+                  <!-- I know it's a little weird to include Intel/AMD in the Apple Silicon page, but this is because I kinda… link to it in the discussion thread as a general-purpose "how to partially weaken SIP" page. I'll properly fix this when I do a larger overhaul of the documentation, since right now everything is just kinda horribly disjointed, including the OTHER SIP-related page originally written by Antonin. -->
+                  <h3 id="intelamd">Intel/AMD</h3>
                   <pre class="terminal">
 csrutil enable --without debug --without fs
                   </pre>
                   <p><strong>※ Using unsigned or ad-hoc signed kexts?</strong> If so, you will need to add <code class="language-plaintext highlighter-rouge">--without kext</code> to your <code class="language-plaintext highlighter-rouge">csrutil</code> invocation. (<code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNAPPROVED_KEXTS</code> (<code class="language-plaintext highlighter-rouge">0x200</code>))</p>
-                  <p><strong>※ Need to modify restricted NVRAM variables (such as <code class="language-plaintext highlighter-rouge">boot-args</code>)?</strong> If so, you will need to add <code class="language-plaintext highlighter-rouge">--without nvram</code> to your <code class="language-plaintext highlighter-rouge">csrutil</code> invocation. (<code class="language-plaintext highlighter-rouge">CSR_ALLOW_UNRESTRICTED_NVRAM</code> (<code class="language-plaintext highlighter-rouge">0x40</code>))</p>
                   <p><strong>※ Do you use other software that requires SIP to be disabled?</strong> The vast majority of software that requires SIP to be disabled only really require the same two features as TotalFinder to be disabled. However, in some uncommon cases, you may have to disable additional SIP features. If something you use starts asking you to “disable SIP” after running the above <code class="language-plaintext highlighter-rouge">csrutil</code> invocation, please refer to the documentation and/or support of the software in question for more information.</p>
                   <p class="info-box compatibility">
                     <b>※ Note:</b> Please note that a partially-enabled SIP configuration is considered "unsupported" by Apple. Apple only supports an SIP-fully-disabled configuration.<br/>
                     <br/>
-                    That being said, many people, including myself (Karen), have been running a partially-enabled SIP configuration for years, ever since macOS 10.11 El Capitan without any issues. The choice is entirely up to you.
+                    That being said, many people including myself (Karen) have been running a partially-enabled SIP configuration for many years without any issues. The choice is entirely up to you.
                   </p>
+                  <hr/>
+                  <h2 id="manually-enabling-arm64e-abi-support-in-macos-13-ventura-and-above">Manually enabling arm64e ABI support in macOS 13 Ventura and above</h2>
+                  <p>TotalFinder supports automatically enabling arm64e ABI support for you with just one button press.</p>
+                  <p>However, if you would prefer to do it manually, here are the instructions on how to do so.</p>
+                  <p>① Run the following command in a Terminal session to see if you have any boot-args already set.</p>
+                  <pre class="terminal">
+nvram boot-args
+                  </pre>
+                  <p>② Run the following command to enable arm64e ABI support. Make sure that you add in your own pre-existing boot-args, if you have any set!</p>
+                  <p>It will ask you for your password — it is normal to not be able to see it as you type.</p>
+                  <pre class="terminal">
+sudo nvram boot-args="-arm64e_preview_abi"
+                  </pre>
+                  <p>③ Reboot your system for the changes to take effect.</p>
                   <hr/>
                   <h2 id="how-do-i-revert-these-changes">How do I revert these changes?</h2>
                   <p>① Run the following command in a Terminal session.</p>
                   <pre class="terminal">
 rm ~/.totalfinder-dontcheckarchitecture
                   </pre>
-                  <p>※ If you have multiple users on your Apple Silicon Mac that use TotalFinder, you will need to repeat just the <code class="language-plaintext highlighter-rouge">rm</code> command above for each user.</p>
+                  <p>※ If you have multiple users on your Apple Silicon machine that use TotalFinder, you will need to repeat just the <code class="language-plaintext highlighter-rouge">rm</code> command above for each user.</p>
                   <p>② Follow steps 2〜4 from <a href="#mark-1-switching-your-apple-silicon-mac-to-reduced-security-mode">the first section above</a>.</p>
-                  <p>③ If you are certain that you switched your Apple Silicon Mac to “Reduced Security” mode solely just for TotalFinder, go ahead and enable “Full Security” mode. This will also re-enable SIP.</p>
+                  <p>③ If you are certain that you switched your Apple Silicon machine to “Reduced Security” mode solely just for TotalFinder, go ahead and enable “Full Security” mode. This will also re-enable SIP.</p>
                   <p><strong>However,</strong> if you use (or think you use) other applications on your Mac that use kernel extensions (kexts), run the following command in a Terminal session to re-enable SIP while keeping “Reduced Security” mode.</p>
                   <pre class="terminal">
 csrutil enable
@@ -192,7 +240,7 @@ csrutil enable
 -bash-3.2# csrutil status
 System Integrity Protection status: enabled.
                   </pre>
-                  <p>⑤ Reboot your Apple Silicon Mac.</p>
+                  <p>⑤ Reboot your Apple Silicon machine.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
@@ -220,7 +268,7 @@ System Integrity Protection status: enabled.
         </div>
       </div>
     </div>
-    <script src="https://static.binaryage.com/bb6250cd_shared_js_code.js"></script>
+    <script src="https://static.binaryage.com/f2c2c0a5_shared_js_code.js"></script>
     <script type="text/javascript">window.ga=function(){}</script>
     <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
     <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>

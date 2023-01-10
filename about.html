@@ -74,7 +74,8 @@
                 <div class="content-sidebar">
                   <h2>Change log</h2>
                   <ul>
-                    <li><a href="/changes" data-alt="/beta-changes">Recent changes</a></li>
+                    <li><a href="/changes">Recent changes</a></li>
+                    <li><a href="/beta-changes">Recent changes (pre-release)</a></li>
                   </ul>
                   <h2>Before installing</h2>
                   <ul>
@@ -114,30 +115,26 @@
                 <div class="generic-separator"></div>
                 <div class="page-content">
                   <p class="info-box compatibility">
-                    TotalFinder was tested to work with macOS 10.15 (Catalina) and later.<br/>
-                    Unfortunately it requires a deep system tweak. <b>Please read <a href="/sip">this page</a> to learn more</b>.
-                  </p>
-                  <p class="info-box compatibility">
-                    <b>Do you have a machine with an Apple Silicon (M1, etc.) chip?</b><br/>
-                    While TotalFinder is compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>,
-                    this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">NOT officially supported by BinaryAge</a>.<br/>
-                    As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">in this page</a>.
+                    <b>Are you using an Apple Silicon (M1, M2, etc.) machine?</b><br/>
+                    While TotalFinder <i>is</i> compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/"><i>not</i> officially supported by BinaryAge</a>.<br/>
+                    As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">on this page</a>.
                   </p>
                   <h2 id="totalfinder-is-just-a-better-finder">TotalFinder is just a better Finder</h2>
-                  <p>TotalFinder works like the normal Finder but adds <a href="/tabs">tabs</a>, <a href="/dual-mode">dual panel</a>, <a href="/colored-labels">colored labels</a> and other <a href="/tweaks">features</a>.</p>
+                  <p>TotalFinder works just like the normal Finder, but adds <a href="/tabs">tabs</a>, <a href="/dual-mode">dual panel</a>, <a href="/colored-labels">colored labels</a> and many other <a href="/tweaks">features</a>.</p>
                   <p><img src="https://static.binaryage.com/5316853f_images_showcase_full-clabels.png" class="doc-image add-shadow" style="width:500px"/></p>
-                  <p>My goal is to improve Finder in a few areas where it is lacking but keep the general design.</p>
+                  <p>My goal is to improve Finder in a few areas where it is lacking, while keeping the same general design.</p>
                   <h2 id="totalfinder-is-a-plugin-not-a-replacement">TotalFinder is a plugin, not a replacement</h2>
-                  <p>Please keep in mind that TotalFinder is an add-on which gets loaded into the Finder when you launch <code class="language-plaintext highlighter-rouge">TotalFinder.app</code>. It does not modify your Finder files on the disk. TotalFinder is installed as a standalone application. But when launched it changes the current instance of Finder running in memory. I call this process TotalFinder <strong>injection</strong> into Finder.</p>
+                  <p>Please keep in mind that TotalFinder is an add-on which gets loaded into the Finder when you launch <code class="language-plaintext highlighter-rouge">TotalFinder.app</code>. It does <strong>not</strong> modify your Finder files on your disk.</p>
+                  <p>TotalFinder is installed as a standalone application. When launched, it changes the current instance of Finder running in memory. In other words, TotalFinder performs <strong>code injection</strong> into Finder.</p>
                   <h2 id="system-updates-from-apple">System updates from Apple</h2>
                   <p>Due to the nature of how TotalFinder works, there is always a minor risk that TotalFinder might break with future Finder updates. Our entire team uses TotalFinder on a daily basis so we spot problems very quickly. So far, Finder updates have generally introduced minor changes. I am also a member of Apple’s Developer Program and have access to pre-release versions of system updates. I am committed to keeping TotalFinder compatible with Apple’s updates.</p>
-                  <p>Please remember that if you ever experience any problem whatsoever, first check if you have running <a href="/beta-changes">the latest version available</a>. If yes, please report the issue on <a href="https://discuss.binaryage.com">the forums</a> or send us a <a href="mailto:support@binaryage.com">support email</a>. In the worst case, it is easy to <a href="/uninstallation">uninstall TotalFinder</a> and return to the Apple’s basic Finder.</p>
-                  <h2 id="how-to-restart-the-finder">How to restart the Finder</h2>
-                  <p>The easiest way is probably using <strong>Force Quit</strong> menu via <code title="command + option + esc">⌘+⌥+esc</code>:</p>
+                  <p>Please remember that if you ever experience any problem whatsoever, first check if you have running <a href="/beta-changes">the latest version available</a>. If yes, please report the issue on <a href="https://discuss.binaryage.com">the forums</a> or send us a <a href="mailto:support@binaryage.com">support email</a>. In the worst case, it is easy to <a href="/uninstallation">uninstall TotalFinder</a> and return to the stock, unmodified Finder.</p>
+                  <h2 id="how-to-restart-finder">How to restart Finder</h2>
+                  <p>The easiest way will probably be the <strong>Force Quit</strong> menu, which you can access via <code title="command + option + esc">⌘+⌥+esc</code>:</p>
                   <p><img src="https://static.binaryage.com/c50a97cd_images_force-quit-finder.png" class="doc-image add-shadow" style="width:300px"/></p>
-                  <p>Alternatively you can run this command:</p>
+                  <p>Alternatively, you can run this command in Terminal:</p>
                   <pre class="terminal">killall Finder</pre>
-                  <p>Killing Finder will restart Finder without injecting TotalFinder again. To reopen TotalFinder, launch TotalFinder.app in <code class="language-plaintext highlighter-rouge">/Applications</code>.</p>
+                  <p>Killing Finder will restart Finder without injecting TotalFinder again. To reopen TotalFinder, simply launch TotalFinder.app in <code class="language-plaintext highlighter-rouge">/Applications</code>.</p>
                   <script>defer$(function(){$(function(){$(".doc-image").wrap(function(){return $("<a class='wrapped-doc-image' data-fancybox-group='doc'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-doc-image").fancybox()})})</script>
                 </div>
               </div>
@@ -165,7 +162,7 @@
         </div>
       </div>
     </div>
-    <script src="https://static.binaryage.com/bb6250cd_shared_js_code.js"></script>
+    <script src="https://static.binaryage.com/f2c2c0a5_shared_js_code.js"></script>
     <script type="text/javascript">window.ga=function(){}</script>
     <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
     <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>

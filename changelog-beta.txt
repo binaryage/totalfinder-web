@@ -1,16 +1,31 @@
+1.15.0 - January 10, 2023
+  + Added full support for macOS 13 Ventura! [Ventura]
+  + Added detection and automatic handling for enabling arm64e ABI support, which is newly required as of macOS 13 for Apple Silicon machines only. （※ For more information, <a href="https://discuss.binaryage.com/t/8364/227">please read this post</a>.） [Ventura]
+  + Added detection and user guidance for disabling SIP NVRAM protections, which is newly required as of macOS 13 for Apple Silicon machines only. [Ventura]
+  + Added custom Finder icon handling specifically for IconChamp. （※ To use custom Finder icons with TotalFinder enabled, please enable the "Use original Dock icon" option in the TotalFinder preferences.） [Ventura] [Monterey] [Big Sur] [Catalina]
+  ! Restored full functionality of TotalFinder's Copy Path menu on macOS 13. [Ventura]
+  ! Restored full functionality of TotalFinder's Cut and Paste feature on macOS 13. [Ventura]
+  ! Restored full functionality of TotalFinder's Cut, Copy, and Paste buttons found in the right-click context menu on macOS 13. [Ventura]
+  ! Restored full functionality of TotalFinder's Coloured Labels feature on macOS 13. [Ventura]
+  * Completely rewrote large portions of Coloured Labels's label colour lookup functionality. [Ventura] [Monterey] [Big Sur] [Catalina]
+  ! Fixed a crash that would occur whenever Coloured Labels was enabled on macOS 13. [Ventura]
+  ! Fixed an issue on macOS 13 where right-click context menus in Finder would become prematurely truncated. [Ventura]
+  ! Fixed an issue on macOS 13 where right-click context menus in Finder would sometimes fail to appear at all. [Ventura]
+  ! Fixed translucent item rendering for items located on the Desktop and in Finder windows set to Icon view on macOS 13. [Ventura]
+
 1.14.3 - September 15, 2022
-  ! Fixed compatibility with macOS 11.6.8 20G730, which is the latest version of macOS Big Sur as of this writing. TotalFinder features that were broken with this update (most notably but not limited to Cut and Paste) now work correctly again! (macOS 11.6.7 and 11.6.6 were unaffected by the issue.) [Big Sur]
+  ! Fixed compatibility with macOS 11.6.8 20G730, which is the latest version of macOS Big Sur as of this writing. TotalFinder features that were broken with this update （most notably but not limited to Cut and Paste） now work correctly again! （※ macOS 11.6.7 and 11.6.6 were unaffected by the issue.） [Big Sur]
 
 1.14.2 - June 20, 2022
-  + Added a new user-configurable option to always use Finder icon rendering for the Colorful Sidebar feature. When enabled, this option will cause sidebar icons to display exactly how they would in Finder, which also disables the leftover skeuomorphic icons for the "Music", "Pictures", and "Movies" folders. (※ This option will also cause TotalFinder to ignore the user-custom ~/.totalfinder-sidebar-icons.plist file.)
+  + Added a new user-configurable option to always use Finder icon rendering for the Colorful Sidebar feature. When enabled, this option will cause sidebar icons to display exactly how they would in Finder, which also disables the leftover skeuomorphic icons for the "Music", "Pictures", and "Movies" folders. （※ This option will also cause TotalFinder to ignore the user-custom ~/.totalfinder-sidebar-icons.plist file.）
   ! Fixed an issue where the Colorful Sidebar feature would not display most sidebar icons correctly on macOS 12 Monterey, macOS 11 Big Sur, and macOS 10.15 Catalina. [Monterey] [Big Sur] [Catalina]
-  ! Fixed an issue where custom Finder icons applied using other macOS tweaks (such as IconChamp) would no longer display once TotalFinder was enabled. (※ To use custom Finder icons with TotalFinder enabled, please enable the "Use original Dock icon" option in the TotalFinder preferences.) [Monterey] [Big Sur] [Catalina]
+  ! Fixed an issue where custom Finder icons applied using other macOS tweaks （such as IconChamp） would no longer display once TotalFinder was enabled. （※ To use custom Finder icons with TotalFinder enabled, please enable the "Use original Dock icon" option in the TotalFinder preferences.） [Monterey] [Big Sur] [Catalina]
   ! Fixed a layout issue that caused the localised string for "Freelance Windows" in the TotalFinder preferences to be cut off for some languages, like Japanese. [Monterey] [Big Sur] [Catalina]
 
 1.14.1 - April 27, 2022
-  + Added <a href="https://totalfinder.binaryage.com/apple-silicon">unofficial support</a> for Apple Silicon Macs to TotalFinder.
+  + Added <a href="https://totalfinder.binaryage.com/apple-silicon">unofficial support</a> for Apple Silicon machines to TotalFinder.
   + Added Apple Silicon BootPolicy configuration state detection to TotalFinder diagnostics.
-  + Added more localisation support to TotalFinder. These new, previously-untranslated strings have been translated to Japanese, Traditional Chinese (Taiwan), Simplified Chinese (China), and Czech.
+  + Added more localisation support to TotalFinder. These new, previously-untranslated strings have been translated to Japanese, Traditional Chinese （Taiwan）, Simplified Chinese （China）, and Czech.
   ! Fixed a crash to stock Finder that would occur on macOS 12 Monterey if the "Enter Time Machine" button found in the Time Machine menu bar item dropdown was pressed. [Monterey]
 
 1.14.0 - November 3, 2021

@@ -74,7 +74,8 @@
                 <div class="content-sidebar">
                   <h2>Change log</h2>
                   <ul>
-                    <li><a href="/changes" data-alt="/beta-changes">Recent changes</a></li>
+                    <li><a href="/changes">Recent changes</a></li>
+                    <li><a href="/beta-changes">Recent changes (pre-release)</a></li>
                   </ul>
                   <h2>Before installing</h2>
                   <ul>
@@ -119,10 +120,9 @@
                     You might want to read <a href="https://blog.binaryage.com/sip-and-mojave">this blog post</a> for historical context.
                   </p>
                   <p class="info-box compatibility">
-                    <b>Do you have a machine with an Apple Silicon (M1, etc.) chip?</b><br/>
-                    While TotalFinder is compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>,
-                    this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/">NOT officially supported by BinaryAge</a>.<br/>
-                    As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">in this page</a>.
+                    <b>Are you using an Apple Silicon (M1, M2, etc.) machine?</b><br/>
+                    While TotalFinder <i>is</i> compatible with <a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple Silicon</a>, this is <a href="https://blog.binaryage.com/totalfinder-totalspaces-future/"><i>not</i> officially supported by BinaryAge</a>.<br/>
+                    As a result, Apple Silicon support in TotalFinder must be manually enabled. You can find more info on how to do so <a href="/apple-silicon">on this page</a>.
                   </p>
                   <p>TotalFinder has support for macOS 11.0 (Big Sur), but cannot run on a normally configured machine due to <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a> (SIP).
                   This article can help you how to configure your machine to allow TotalFiner installation by modifying security setting.</p>
@@ -149,7 +149,7 @@ sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.pl
                   <p><img src="https://static.binaryage.com/bdee89c2_shared_img_recovery-utilities-terminal.png" class="doc-image"/></p>
                   <p>In the window that opens, type <code>csrutil disable</code> and press return. This turns off System Integrity Protection so
                   that TotalFinder can be installed.</p>
-                  <p><img src="https://static.binaryage.com/b40de138_images_csrutil-disable.jpg" class="doc-image"/></p>
+                  <p><img src="https://static.binaryage.com/8aabb47a_images_csrutil-disable.png" class="doc-image"/></p>
                   <p>Reboot your machine and you may install and run the <a href="/changes-beta">latest version of TotalFinder</a>.</p>
                   <p>Unfortunately you have to keep SIP disabled to allow TotalFinder. In earlier macOS versions it was possible to turn SIP off only to
                     complete TotalFinder installation steps and enable it back again. That is no longer possible in recent macOS releases due to hardened
@@ -191,7 +191,7 @@ sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.pl
         </div>
       </div>
     </div>
-    <script src="https://static.binaryage.com/bb6250cd_shared_js_code.js"></script>
+    <script src="https://static.binaryage.com/f2c2c0a5_shared_js_code.js"></script>
     <script type="text/javascript">window.ga=function(){}</script>
     <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
     <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
