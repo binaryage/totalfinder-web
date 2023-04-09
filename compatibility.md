@@ -36,63 +36,63 @@ oses: [{
   label: "Mojave",
   logo: "logo-mojave.png",
   wiki: "MacOS_Mojave",
-  note: "<a href=\"/changes#v1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip\" class=\"red\">remain weakened</a>)",
+  note: "<a href=\"/changes#1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip\" class=\"red\">remain weakened</a>)",
 },{
   macos-branding: "macOS",
   version: "10.13",
   label: "High Sierra",
   logo: "logo-sierra.png",
   wiki: "MacOS_High_Sierra",
-  note: "<a href=\"/changes#v1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip-sierra\" class=\"red\">be temporarily disabled</a>)",
+  note: "<a href=\"/changes#1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip-sierra\" class=\"red\">be temporarily disabled</a>)",
 },{
   macos-branding: "macOS",
   version: "10.12",
   label: "Sierra",
   logo: "logo-sierra.png",
   wiki: "MacOS_Sierra",
-  note: "<a href=\"/changes#v1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip-sierra\" class=\"red\">be temporarily disabled</a>)",
+  note: "<a href=\"/changes#1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip-sierra\" class=\"red\">be temporarily disabled</a>)",
 },{
   macos-branding: "OS X",
   version: "10.11",
   label: "El Capitan",
   logo: "logo-el-capitan.png",
   wiki: "OS_X_El_Capitan",
-  note: "<a href=\"/changes#v1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip-sierra\" class=\"red\">be temporarily disabled</a>)",
+  note: "<a href=\"/changes#1.12.3\">TotalFinder 1.12.3</a> (※ SIP must <a href=\"/sip-sierra\" class=\"red\">be temporarily disabled</a>)",
 },{
   macos-branding: "OS X",
   version: "10.10",
   label: "Yosemite",
   logo: "logo-yosemite.png",
   wiki: "OS_X_Yosemite",
-  note: "<a href=\"/changes#v1.9.3\">TotalFinder 1.9.3</a>",
+  note: "<a href=\"/changes#1.9.3\">TotalFinder 1.9.3</a>",
 },{
   macos-branding: "OS X",
   version: "10.9",
   label: "Mavericks",
   logo: "logo-mavericks.png",
   wiki: "OS_X_Mavericks",
-  note: "<a href=\"/changes#v1.9.3\">TotalFinder 1.9.3</a>",
+  note: "<a href=\"/changes#1.9.3\">TotalFinder 1.9.3</a>",
 },{
   macos-branding: "OS X",
   version: "10.8",
   label: "Mountain Lion",
   logo: "logo-mountain-lion.png",
   wiki: "OS_X_Mountain_Lion",
-  note: "<a href=\"/changes#v1.6.27\">TotalFinder 1.6.27</a>",
+  note: "<a href=\"/changes#1.6.27\">TotalFinder 1.6.27</a>",
 },{
   macos-branding: "OS X",
   version: "10.7",
   label: "Lion",
   logo: "logo-lion.png",
   wiki: "OS_X_Lion",
-  note: "<a href=\"/changes#v1.5.38\">TotalFinder 1.5.38</a>"
+  note: "<a href=\"/changes#1.5.38\">TotalFinder 1.5.38</a>"
 },{
   macos-branding: "OS X",
   version: "10.6",
   label: "Snow Leopard",
   logo: "logo-snow-leopard.png",
   wiki: "OS_X_Snow_Leopard",
-  note: "<a href=\"/changes#v1.3.4\">TotalFinder 1.3.4</a>"
+  note: "<a href=\"/changes#1.3.4\">TotalFinder 1.3.4</a>"
 }]
 ---
 
