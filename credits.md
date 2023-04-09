@@ -8,7 +8,7 @@ subtitle: Credits
 
 ## People who contributed significantly
 
-* **[Karen/あけみ](https://akemi.ai)** - ported TotalFinder to [Apple Silicon](/apple-silicon) and [helped with recent releases](https://discuss.binaryage.com/t/8364). 
+* **[Karen/あけみ](https://akemi.ai)** - ported TotalFinder to [Apple Silicon](/apple-silicon) and maintains recent releases ([discussion thread](https://discuss.binaryage.com/t/8364))
 * **Roman Yusufkhanov** - contributed "Folders on Top" implementation and other code
 * **Lorenzo Orlandi** - providing tips and great [support to the users at forums](http://getsatisfaction.com/binaryage)
 * **[Petr Stastny](http://raist.cz)** - created TotalFinder icon, BinaryAge logo, helped on website design and other tasks
