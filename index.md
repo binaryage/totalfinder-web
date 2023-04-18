@@ -2,8 +2,8 @@
 layout: product
 title: TotalFinder is a better Finder
 subtitle: for Mac users who demand more from their Finder
-download: https://downloads.binaryage.com/TotalFinder-1.15.0.dmg
-download_title: Download v1.15.0
+download: https://downloads.binaryage.com/TotalFinder-1.15.1.dmg
+download_title: Download v1.15.1
 product: totalfinder
 product_title: TotalFinder
 product_subtitle: for Mac users who demand more from their Finder
