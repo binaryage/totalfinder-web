@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["test.scss","_constants.scss"],"names":[],"mappings":"AAGI;EACI,OCJK","sourcesContent":["@import \"constants\";\n\nbody {\n    p {\n        color: $test-color;\n    }\n}\n","$test-color: red;\n"],"file":"test.css"}
