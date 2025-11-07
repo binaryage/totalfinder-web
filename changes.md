@@ -14,17 +14,30 @@ subtitle: Recent changes in TotalFinder
   <div id="page" class="changelog"></div>
 </div>
 
-<script type="text/coffeescript" charset="utf-8">
-  defer$ ->
-    nonce = -> (Math.random() + "").substring(2)
-    source = "changelog.txt"
-    hashToSelector = (h) -> h.replace /\./g, "\\." # http://stackoverflow.com/a/9930611/84283
-    
-    $.get "#{source}?x=#{nonce()}", (data) ->
-      changelog = parsePlaintextChangelog(data)
-  
-      getDownloadLinkForVersion = (version) -> "https://downloads.binaryage.com/TotalFinder-#{version}.dmg"
-      getReleaseDateText = (date) -> "released on " + date
-      generateChangelogHTML "#page", changelog, getDownloadLinkForVersion, getReleaseDateText
-      $(window).trigger "changelog-rendered"
+<script type="text/javascript" charset="utf-8">
+  (function() {
+    defer$(function() {
+      var hashToSelector, nonce, source;
+      nonce = function() {
+        return (Math.random() + "").substring(2);
+      };
+      source = "changelog.txt";
+      hashToSelector = function(h) {
+        return h.replace(/\./g, "\\.");
+      };
+      return $.get(source + "?x=" + (nonce()), function(data) {
+        var changelog, getDownloadLinkForVersion, getReleaseDateText;
+        changelog = parsePlaintextChangelog(data);
+        getDownloadLinkForVersion = function(version) {
+          return "https://downloads.binaryage.com/TotalFinder-" + version + ".dmg";
+        };
+        getReleaseDateText = function(date) {
+          return "released on " + date;
+        };
+        generateChangelogHTML("#page", changelog, getDownloadLinkForVersion, getReleaseDateText);
+        return $(window).trigger("changelog-rendered");
+      });
+    });
+
+  }).call(this);
 </script>
