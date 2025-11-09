@@ -110,9 +110,6 @@ highlights: [{
 <script>
   defer$(function() {
     $(function() {
-      $("#o-download-button").bind('click', function(e) {
-        ga('send', 'pageview', '/overlays/o-download');
-      });
       $('.screenshot').fancybox();
       $('.screenshot-box').navigen({
         target: $(".navi")
